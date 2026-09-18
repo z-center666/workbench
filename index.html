@@ -1179,6 +1179,10 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator:hover {
 </style>
 </head>
 <body>
+<div id="static-banner" style="display:none;position:fixed;top:0;left:0;right:0;z-index:9999;background:linear-gradient(90deg,#4B3FE3,#27D2BF);color:#fff;text-align:center;padding:6px 16px;font-size:12px;font-weight:500;">
+  🚀 在线预览模式 — 日程/待办等动态功能需本地运行 server.py · <a href="https://github.com/z-center666/workbench" style="color:#fff;text-decoration:underline;">查看源码</a>
+</div>
+<script>if(window.location.hostname.indexOf('github.io')>-1){document.getElementById('static-banner').style.display='block';document.body.style.paddingTop='32px';}</script>
 <div class="app">
 
 <!-- ===== Header ===== -->
@@ -1593,8 +1597,31 @@ function setEventQuickTomorrow() {
 }
 
 // ========== API 调用 ==========
+var STATIC_MODE = (window.location.hostname.indexOf('github.io') > -1) ||
+                  (window.location.hostname.indexOf('githubusercontent') > -1);
+
+// 静态模式下的模拟数据
+var STATIC_MOCK = {
+  '/api/health': { ok: true, static: true },
+  '/api/calendars': { ok: true, calendars: [] },
+  '/api/agenda': { ok: true, agenda: [], date: new Date().toISOString().slice(0,10) },
+  '/api/tasks': { ok: true, tasks: [] },
+  '/api/tasks?completed=true': { ok: true, tasks: [] },
+  '/api/knowledge-inbox': { ok: true, items: [] }
+};
+
 function apiCall(url, options) {
   options = options || {};
+  if (STATIC_MODE) {
+    // 静态预览模式：返回模拟数据
+    var mock = STATIC_MOCK[url.split('?')[0]];
+    if (mock) return Promise.resolve(mock);
+    // 对于 POST 请求，返回成功
+    if (options.method === 'POST' || options.method === 'PUT' || options.method === 'DELETE') {
+      return Promise.resolve({ ok: true, static: true, message: '预览模式：操作不可用' });
+    }
+    return Promise.resolve({ ok: true, static: true, empty: true });
+  }
   return fetch(url, options).then(function(resp) {
     return resp.json();
   }).catch(function(err) {
@@ -2737,8 +2764,19 @@ function renderKiList(records) {
 // ========== 初始化 ==========
 // 检测服务器状态并自动加载日程/日历类型/待办
 function checkServerAndInit() {
+  if (STATIC_MODE) {
+    // 静态预览模式
+    document.getElementById('stat-events').textContent = '预览';
+    document.getElementById('stat-todos').textContent = '预览';
+    document.getElementById('agenda-list').innerHTML =
+      '<div class="cal-agenda-empty" style="color:var(--muted);">📅 在线预览模式<br><span style="font-size:11px;">日程功能需要本地运行 server.py</span><br><br><span style="font-size:11px;color:var(--accent);">git clone 后执行：<br>python3 server.py</span></div>';
+    document.getElementById('todo-list').innerHTML =
+      '<div class="todo-empty" style="color:var(--muted);">✅ 在线预览模式<br><span style="font-size:11px;">待办功能需要本地运行 server.py</span></div>';
+    loadKnowledgeInbox();
+    return;
+  }
   apiCall('/api/health').then(function(result) {
-    if (result.ok) {
+    if (result.ok && !result.static) {
       // 服务器可用，并行加载日程、日历类型、待办、知识收藏
       loadAgenda();
       loadCalendars();
