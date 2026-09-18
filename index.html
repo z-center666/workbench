@@ -1853,13 +1853,17 @@ function renderNews() {
 renderNews();
 
 function refreshNews() {
+  if (STATIC_MODE) {
+    showToast('预览模式不支持刷新新闻，请在本地运行 server.py', 'warn');
+    return;
+  }
   showToast('正在刷新新闻...', 'info');
   apiCall('/api/refresh-news', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: '{}'
   }).then(function(result) {
-    if (result.ok) {
+    if (result.ok && !result.static) {
       // 重新加载 news_data.js
       var scripts = document.getElementsByTagName('script');
       for (var i = 0; i < scripts.length; i++) {
