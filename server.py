@@ -22,7 +22,7 @@ from datetime import datetime
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs, quote
 
-PORT = 8765
+PORT = int(os.environ.get("PORT", 8765))
 WORK_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # 解析 lark-cli 可执行路径：优先 PATH，回退到插件目录
@@ -30,6 +30,9 @@ _PLUGIN_LARK = os.path.expanduser(
     "~/.trae-cn/plugins/trae-remote-official/lark/1.0.3/bin/lark-cli"
 )
 LARK_CLI = shutil.which("lark-cli") or (_PLUGIN_LARK if os.path.exists(_PLUGIN_LARK) else None) or os.path.expanduser("~/.local/node/bin/lark-cli")
+if not LARK_CLI or not os.path.exists(LARK_CLI):
+    LARK_CLI = None
+    sys.stderr.write("[WARN] lark-cli 未安装，飞书相关功能将不可用\n")
 
 # 绕过代理的环境变量
 ENV = {
@@ -1710,12 +1713,26 @@ class WorkbenchHandler(SimpleHTTPRequestHandler):
             sys.stderr.write(f"[静态] {msg}\n")
 
 
+
+# 启动时检查 news_data.js 是否存在，不存在则自动生成
+news_data_path = os.path.join(WORK_DIR, "news_data.js")
+if not os.path.exists(news_data_path):
+    print("news_data.js 不存在，自动生成中...")
+    try:
+        subprocess.run(
+            ["python3", os.path.join(WORK_DIR, "fetch_news.py")],
+            capture_output=True, text=True, timeout=60, env=ENV,
+        )
+        print("news_data.js 生成完成")
+    except Exception as e:
+        print(f"news_data.js 生成失败: {e}")
+
 def main():
     print(f"╔════════════════════════════════════════╗")
     print(f"║     个人工作台服务器 v1.0              ║")
     print(f"╚════════════════════════════════════════╝")
     print(f"")
-    print(f"  地址: http://localhost:{PORT}")
+    print(f"  地址: http://0.0.0.0:{PORT}")
     print(f"  目录: {WORK_DIR}")
     print(f"")
     print(f"  API 端点:")
@@ -1743,7 +1760,7 @@ def main():
     print(f"")
 
     try:
-        server = HTTPServer(("127.0.0.1", PORT), WorkbenchHandler)
+        server = HTTPServer(("0.0.0.0", PORT), WorkbenchHandler)
         server.serve_forever()
     except KeyboardInterrupt:
         print("\n服务器已停止")
