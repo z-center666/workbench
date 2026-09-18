@@ -1,12 +1,28 @@
-// 自动生成于 2026-09-18 15:34:34
+// 自动生成于 2026-09-18 20:19:11
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-18",
-  "time": "15:34",
+  "time": "20:19",
   "weekday": "周五",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, 智能体, Agent。",
   "items": [
+    {
+      "title": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
+      "link": "https://www.qbitai.com/2026/09/492426.html",
+      "description": "协同布局AI基础设施",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 18 Sep 2026 15:58:21 +0000"
+    },
+    {
+      "title": "达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布",
+      "link": "https://www.qbitai.com/2026/09/492421.html",
+      "description": "成果中唯一聚焦算电协同全链路运营的AI技术产品",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 18 Sep 2026 15:50:20 +0000"
+    },
     {
       "title": "具身智能技术路线尚未定型，基础设施却先收敛",
       "link": "https://www.qbitai.com/2026/09/492238.html",
@@ -30,22 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Fri, 18 Sep 2026 00:34:34 +0000"
-    },
-    {
-      "title": "从“会回答”到“会办事”，vivo如何解AI手机这道题？",
-      "link": "https://www.qbitai.com/2026/09/491649.html",
-      "description": "构建个体专属AI助理",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 17 Sep 2026 12:03:24 +0000"
-    },
-    {
-      "title": "Claude Code团队讲究啊，这都往外说",
-      "link": "https://www.qbitai.com/2026/09/491596.html",
-      "description": "工程师的核心永远是Problem Solving。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 17 Sep 2026 11:56:13 +0000"
     },
     {
       "title": "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
