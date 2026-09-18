@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>百度网盘音频播放器</title>
+<style>
+:root {
+  --bg-primary: #121212;
+  --bg-secondary: #181818;
+  --bg-elevated: #282828;
+  --bg-hover: #2a2a2a;
+  --bg-active: #333;
+  --text-primary: #fff;
+  --text-secondary: #b3b3b3;
+  --text-subdued: #6a6a6a;
+  --accent: #1db954;
+  --accent-hover: #1ed760;
+  --border: #333;
+  --player-bar: #181818;
+  --progress-bg: #4d4d4d;
+  --radius: 8px;
+  --transition: 0.2s ease;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── Header ── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.header-left { display: flex; align-items: center; gap: 16px; }
+.header-left h1 { font-size: 20px; font-weight: 700; letter-spacing: -0.5px; }
+.header-left .badge {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+}
+.badge.authorized { background: rgba(29,185,84,0.15); color: var(--accent); }
+.header-right { display: flex; align-items: center; gap: 12px; }
+.folder-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-elevated);
+  border-radius: var(--radius);
+  padding: 6px 12px;
+}
+.folder-input label { font-size: 12px; color: var(--text-secondary); white-space: nowrap; }
+.folder-input input {
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-size: 13px;
+  width: 180px;
+  outline: none;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.btn-primary { background: var(--accent); color: #000; }
+.btn-primary:hover { background: var(--accent-hover); transform: scale(1.04); }
+.btn-secondary { background: var(--bg-elevated); color: var(--text-primary); }
+.btn-secondary:hover { background: var(--bg-hover); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+/* ── Main content ── */
+.main {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0;
+}
+.playlist-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px 8px;
+  position: sticky;
+  top: 0;
+  background: var(--bg-primary);
+  z-index: 1;
+}
+.playlist-header h2 { font-size: 15px; font-weight: 600; color: var(--text-secondary); }
+.playlist-header .count { font-size: 12px; color: var(--text-subdued); }
+.playlist {
+  list-style: none;
+  padding: 0 8px 100px;
+}
+.playlist li {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background var(--transition);
+  gap: 12px;
+}
+.playlist li:hover { background: var(--bg-hover); }
+.playlist li.active { background: var(--bg-active); }
+.playlist li.active .track-name { color: var(--accent); }
+.track-num {
+  width: 24px;
+  text-align: right;
+  font-size: 13px;
+  color: var(--text-subdued);
+  flex-shrink: 0;
+}
+.playlist li.active .track-num { color: var(--accent); }
+.playlist li.active .track-num::after { content: ''; }
+.track-info { flex: 1; min-width: 0; }
+.track-name {
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.track-meta {
+  font-size: 12px;
+  color: var(--text-subdued);
+  margin-top: 2px;
+}
+.track-duration {
+  font-size: 12px;
+  color: var(--text-subdued);
+  flex-shrink: 0;
+  min-width: 40px;
+  text-align: right;
+}
+
+/* ── Empty / Loading states ── */
+.state-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px;
+  text-align: center;
+  gap: 16px;
+}
+.state-box .icon { font-size: 48px; opacity: 0.3; }
+.state-box .title { font-size: 18px; font-weight: 600; }
+.state-box .desc { font-size: 14px; color: var(--text-secondary); max-width: 400px; line-height: 1.6; }
+.state-box .desc code {
+  background: var(--bg-elevated);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* ── Player bar ── */
+.player-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--player-bar);
+  border-top: 1px solid var(--border);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  z-index: 100;
+  height: 80px;
+}
+.now-playing {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 240px;
+  min-width: 120px;
+  flex-shrink: 0;
+}
+.now-playing .cover {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  background: var(--bg-elevated);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  flex-shrink: 0;
+  color: var(--text-subdued);
+}
+.now-playing .info { min-width: 0; }
+.now-playing .np-name {
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.now-playing .np-status { font-size: 11px; color: var(--text-subdued); }
+
+.controls-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+.controls-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.ctrl-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 4px;
+  transition: color var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ctrl-btn:hover { color: var(--text-primary); }
+.ctrl-btn.active { color: var(--accent); }
+.ctrl-btn svg { width: 20px; height: 20px; fill: currentColor; }
+.ctrl-btn.play-btn {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  transition: transform var(--transition), background var(--transition);
+}
+.ctrl-btn.play-btn:hover { transform: scale(1.06); background: #fff; }
+.ctrl-btn.play-btn svg { width: 18px; height: 18px; }
+
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 600px;
+}
+.time-label { font-size: 11px; color: var(--text-subdued); min-width: 36px; text-align: center; }
+.progress-bar {
+  flex: 1;
+  height: 4px;
+  background: var(--progress-bg);
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  transition: height 0.1s;
+}
+.progress-bar:hover { height: 6px; }
+.progress-fill {
+  height: 100%;
+  background: var(--text-primary);
+  border-radius: 2px;
+  position: relative;
+  transition: width 0.1s linear;
+}
+.progress-bar:hover .progress-fill { background: var(--accent); }
+.progress-fill::after {
+  content: '';
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background: var(--text-primary);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+.progress-bar:hover .progress-fill::after { opacity: 1; }
+
+.controls-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 160px;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.volume-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.volume-slider {
+  -webkit-appearance: none;
+  width: 80px;
+  height: 4px;
+  background: var(--progress-bg);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  background: var(--text-primary);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.volume-slider::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  background: var(--text-primary);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+/* ── Spinner ── */
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Scrollbar ── */
+.main::-webkit-scrollbar { width: 8px; }
+.main::-webkit-scrollbar-track { background: transparent; }
+.main::-webkit-scrollbar-thumb { background: var(--bg-elevated); border-radius: 4px; }
+.main::-webkit-scrollbar-thumb:hover { background: var(--progress-bg); }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .header { flex-direction: column; gap: 12px; padding: 12px 16px; }
+  .header-right { flex-wrap: wrap; justify-content: center; }
+  .folder-input input { width: 140px; }
+  .now-playing { width: auto; min-width: 80px; }
+  .controls-right { width: auto; }
+  .volume-row { display: none; }
+  .player-bar { gap: 12px; padding: 10px 12px; }
+}
+
+/* ── Modal ── */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+.modal-overlay.active { display: flex; }
+.modal {
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  width: 480px;
+  max-width: 90vw;
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.modal-header h3 { font-size: 16px; font-weight: 600; }
+.modal-close {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+}
+.modal-close:hover { color: var(--text-primary); }
+.modal-breadcrumb {
+  padding: 10px 20px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+.modal-breadcrumb span { cursor: pointer; color: var(--accent); }
+.modal-breadcrumb span:hover { text-decoration: underline; }
+.modal-breadcrumb .sep { color: var(--text-subdued); cursor: default; }
+.modal-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+}
+.dir-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background var(--transition);
+  font-size: 14px;
+}
+.dir-item:hover { background: var(--bg-hover); }
+.dir-item .dir-icon { font-size: 18px; flex-shrink: 0; }
+.dir-item .dir-name { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dir-loading { text-align: center; padding: 40px; color: var(--text-subdued); }
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-top: 1px solid var(--border);
+}
+.modal-footer .current-path { font-size: 12px; color: var(--text-subdued); max-width: 280px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.btn-browse {
+  background: var(--bg-elevated);
+  border: none;
+  color: var(--text-primary);
+  padding: 6px 10px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 13px;
+  margin-left: 6px;
+}
+.btn-browse:hover { background: var(--bg-hover); }
+
+/* ── Favorites ── */
+.fav-section {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-secondary);
+}
+.fav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  cursor: pointer;
+  user-select: none;
+}
+.fav-header:hover { background: var(--bg-hover); }
+.fav-header-left { display: flex; align-items: center; gap: 8px; }
+.fav-header-left h3 { font-size: 14px; font-weight: 600; color: var(--text-secondary); }
+.fav-count { font-size: 11px; color: var(--text-subdued); background: var(--bg-elevated); padding: 2px 8px; border-radius: 10px; }
+.fav-toggle { font-size: 12px; color: var(--text-subdued); transition: transform var(--transition); display: inline-block; }
+.fav-toggle.collapsed { transform: rotate(-90deg); }
+.fav-body { overflow: hidden; transition: max-height 0.3s ease; }
+.fav-body.collapsed { max-height: 0 !important; }
+.fav-list { list-style: none; padding: 0 8px 8px; }
+.fav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background var(--transition);
+  font-size: 13px;
+}
+.fav-item:hover { background: var(--bg-hover); }
+.fav-item .fav-icon { font-size: 16px; flex-shrink: 0; }
+.fav-item .fav-name { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fav-item .fav-type { font-size: 11px; color: var(--text-subdued); flex-shrink: 0; }
+.fav-item .fav-remove {
+  background: none;
+  border: none;
+  color: var(--text-subdued);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity var(--transition), color var(--transition);
+}
+.fav-item:hover .fav-remove { opacity: 1; }
+.fav-item .fav-remove:hover { color: #e74c3c; }
+.star-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 2px 4px;
+  color: var(--text-subdued);
+  transition: color var(--transition);
+  flex-shrink: 0;
+}
+.star-btn:hover { color: #f1c40f; }
+.star-btn.active { color: #f1c40f; }
+.fav-empty { padding: 16px 24px; font-size: 13px; color: var(--text-subdued); text-align: center; }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-left">
+    <h1>音频播放器</h1>
+    <span id="authBadge" class="badge">未授权</span>
+  </div>
+  <div class="header-right">
+    <div class="folder-input">
+      <label>网盘目录</label>
+      <input id="folderPath" type="text" placeholder="/我的音乐">
+      <button class="btn-browse" onclick="openDirBrowser()" title="浏览网盘目录">📂</button>
+    </div>
+    <button id="btnAuth" class="btn btn-primary" onclick="startAuth()">授权登录</button>
+    <button id="btnRefresh" class="btn btn-secondary" onclick="loadFiles()">刷新列表</button>
+  </div>
+</div>
+
+<!-- 授权码输入区 -->
+<div id="codeInputArea" style="display:none;background:var(--bg-elevated);padding:16px 24px;border-bottom:1px solid var(--border);align-items:center;gap:12px;">
+  <span style="font-size:13px;color:var(--text-secondary);white-space:nowrap;">百度授权码：</span>
+  <input id="authCodeInput" type="text" placeholder="粘贴从百度页面获取的授权码" style="flex:1;max-width:400px;background:var(--bg-primary);border:1px solid var(--border);border-radius:var(--radius);padding:8px 12px;color:var(--text-primary);font-size:13px;outline:none;">
+  <button class="btn btn-primary" onclick="submitAuthCode()">确认授权</button>
+  <button class="btn btn-secondary" onclick="hideCodeArea()">取消</button>
+</div>
+
+<!-- Main content -->
+<div class="main" id="mainContent">
+
+  <!-- 收藏夹 -->
+  <div class="fav-section" id="favSection">
+    <div class="fav-header" onclick="toggleFavPanel()">
+      <div class="fav-header-left">
+        <span>&#9733;</span>
+        <h3>收藏夹</h3>
+        <span class="fav-count" id="favCount">0</span>
+      </div>
+      <span class="fav-toggle" id="favToggle">&#9660;</span>
+    </div>
+    <div class="fav-body" id="favBody">
+      <div id="favList" class="fav-empty">暂无收藏</div>
+    </div>
+  </div>
+
+  <div class="state-box" id="stateBox">
+    <div class="spinner"></div>
+    <div class="title">正在检查授权状态...</div>
+  </div>
+</div>
+
+<!-- Player bar -->
+<div class="player-bar">
+  <div class="now-playing">
+    <div class="cover" id="coverIcon">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55C7.79 13 6 14.79 6 17s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+    </div>
+    <div class="info">
+      <div class="np-name" id="npName">未选择曲目</div>
+      <div class="np-status" id="npStatus">--</div>
+    </div>
+  </div>
+
+  <div class="controls-center">
+    <div class="controls-buttons">
+      <button class="ctrl-btn" id="btnShuffle" title="随机播放" onclick="toggleMode('shuffle')">
+        <svg viewBox="0 0 24 24"><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"/></svg>
+      </button>
+      <button class="ctrl-btn" title="上一首" onclick="playPrev()">
+        <svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+      </button>
+      <button class="ctrl-btn play-btn" id="btnPlay" title="播放/暂停" onclick="togglePlay()">
+        <svg viewBox="0 0 24 24" id="playIcon"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+      <button class="ctrl-btn" title="下一首" onclick="playNext()">
+        <svg viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+      </button>
+      <button class="ctrl-btn" id="btnRepeat" title="播放模式" onclick="toggleMode('repeat')">
+        <svg viewBox="0 0 24 24"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"/></svg>
+      </button>
+    </div>
+    <div class="progress-row">
+      <span class="time-label" id="timeCurrent">0:00</span>
+      <div class="progress-bar" id="progressBar" onclick="seekTo(event)">
+        <div class="progress-fill" id="progressFill" style="width:0%"></div>
+      </div>
+      <span class="time-label" id="timeTotal">0:00</span>
+    </div>
+  </div>
+
+  <div class="controls-right">
+    <div class="volume-row">
+      <button class="ctrl-btn" id="btnMute" title="静音" onclick="toggleMute()">
+        <svg viewBox="0 0 24 24" id="volumeIcon"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+      </button>
+      <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="80" oninput="setVolume(this.value)">
+    </div>
+  </div>
+</div>
+
+<!-- Directory browser modal -->
+<div class="modal-overlay" id="dirModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3>选择网盘目录</h3>
+      <button class="modal-close" onclick="closeDirBrowser()">&times;</button>
+    </div>
+    <div class="modal-breadcrumb" id="dirBreadcrumb"></div>
+    <div class="modal-body" id="dirBody">
+      <div class="dir-loading">加载中...</div>
+    </div>
+    <div class="modal-footer">
+      <span class="current-path" id="dirCurrentPath">/</span>
+      <div style="display:flex;gap:8px;">
+        <button class="btn btn-secondary" onclick="closeDirBrowser()">取消</button>
+        <button class="btn btn-primary" onclick="selectCurrentDir()">选择此目录</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Audio element -->
+<audio id="audio" preload="auto"></audio>
+
+<script>
+// ── State ──
+const state = {
+  files: [],
+  currentIndex: -1,
+  isPlaying: false,
+  playMode: 'sequential', // sequential | repeat | shuffle
+  volume: 80,
+  isMuted: false,
+  authorized: false,
+};
+
+const audio = document.getElementById('audio');
+const DOM = {
+  authBadge: document.getElementById('authBadge'),
+  folderPath: document.getElementById('folderPath'),
+  btnAuth: document.getElementById('btnAuth'),
+  btnRefresh: document.getElementById('btnRefresh'),
+  mainContent: document.getElementById('mainContent'),
+  stateBox: document.getElementById('stateBox'),
+  npName: document.getElementById('npName'),
+  npStatus: document.getElementById('npStatus'),
+  btnPlay: document.getElementById('btnPlay'),
+  playIcon: document.getElementById('playIcon'),
+  btnShuffle: document.getElementById('btnShuffle'),
+  btnRepeat: document.getElementById('btnRepeat'),
+  btnMute: document.getElementById('btnMute'),
+  volumeSlider: document.getElementById('volumeSlider'),
+  volumeIcon: document.getElementById('volumeIcon'),
+  progressBar: document.getElementById('progressBar'),
+  progressFill: document.getElementById('progressFill'),
+  timeCurrent: document.getElementById('timeCurrent'),
+  timeTotal: document.getElementById('timeTotal'),
+};
+
+// ── Init ──
+document.addEventListener('DOMContentLoaded', () => {
+  audio.volume = state.volume / 100;
+  checkAuth();
+  bindAudioEvents();
+});
+
+// ── Auth ──
+async function checkAuth() {
+  try {
+    const res = await fetch('/api/baidu/status');
+    const data = await res.json();
+    if (data.ok) {
+      state.authorized = data.authorized;
+      DOM.folderPath.value = data.folder_path || '/我的音乐';
+      if (data.has_credentials) {
+        if (data.authorized) {
+          DOM.authBadge.textContent = '已授权';
+          DOM.authBadge.className = 'badge authorized';
+          DOM.btnAuth.textContent = '重新授权';
+          loadFiles();
+        } else {
+          DOM.authBadge.textContent = '未授权';
+          DOM.authBadge.className = 'badge';
+          DOM.btnAuth.textContent = '授权登录';
+          showState('lock', '需要授权', '点击"授权登录"按钮，在弹出的百度页面中登录并授权。');
+        }
+      } else {
+        DOM.authBadge.textContent = '未配置';
+        showState('settings', '未配置 API 凭据',
+          '请先在 <code>config.json</code> 中填写 <code>baidu_pan.app_key</code> 和 <code>baidu_pan.secret_key</code>，然后重启服务器。' +
+          '<br><br>注册地址：<a href="https://openapi.baidu.com/" target="_blank" style="color:var(--accent)">openapi.baidu.com</a>');
+        DOM.btnAuth.disabled = true;
+        DOM.btnRefresh.disabled = true;
+      }
+    }
+  } catch (e) {
+    showState('error', '连接失败', '无法连接服务器，请确认 server.py 正在运行。');
+  }
+}
+
+function startAuth() {
+  window.open('/api/baidu/auth', '_blank', 'width=600,height=700');
+  // 显示授权码输入区域
+  document.getElementById('codeInputArea').style.display = 'flex';
+  document.getElementById('authCodeInput').value = '';
+  document.getElementById('authCodeInput').focus();
+}
+
+function hideCodeArea() {
+  document.getElementById('codeInputArea').style.display = 'none';
+}
+
+async function submitAuthCode() {
+  const code = document.getElementById('authCodeInput').value.trim();
+  if (!code) { alert('请输入授权码'); return; }
+
+  const btn = document.querySelector('#codeInputArea .btn-primary');
+  btn.disabled = true;
+  btn.textContent = '授权中...';
+
+  try {
+    const res = await fetch('/api/baidu/exchange-code', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({code: code}),
+    });
+    const data = await res.json();
+    if (data.ok) {
+      hideCodeArea();
+      checkAuth();
+    } else {
+      alert('授权失败: ' + (data.error || '未知错误'));
+    }
+  } catch (e) {
+    alert('请求异常: ' + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = '确认授权';
+  }
+}
+
+// ── Files ──
+async function loadFiles() {
+  const dir = DOM.folderPath.value.trim() || '/我的音乐';
+  showState('spinner', '加载中...', '');
+  try {
+    const res = await fetch(`/api/baidu/files?dir=${encodeURIComponent(dir)}`);
+    const data = await res.json();
+    if (data.ok) {
+      state.files = data.files;
+      if (data.files.length === 0) {
+        showState('empty', '暂无音频文件', `目录 <code>${dir}</code> 下没有找到音频文件。<br>请检查目录路径或上传音频文件到百度网盘。`);
+      } else {
+        renderPlaylist();
+      }
+    } else {
+      showState('error', '加载失败', data.error || '未知错误');
+    }
+  } catch (e) {
+    showState('error', '请求异常', e.message);
+  }
+}
+
+function renderPlaylist() {
+  const total = state.files.length;
+  const totalSize = state.files.reduce((s, f) => s + (f.size || 0), 0);
+  let html = `
+    <div class="playlist-header">
+      <h2>播放列表</h2>
+      <span class="count">${total} 首曲目 &middot; ${formatSize(totalSize)}</span>
+    </div>
+    <ul class="playlist">
+  `;
+  state.files.forEach((f, i) => {
+    const active = i === state.currentIndex ? ' active' : '';
+    const starred = isFavorited('file', f.path);
+    html += `
+      <li class="${active}" data-index="${i}" onclick="playTrack(${i})">
+        <span class="track-num">${i === state.currentIndex ? '&#9654;' : i + 1}</span>
+        <div class="track-info">
+          <div class="track-name">${escapeHtml(f.filename)}</div>
+          <div class="track-meta">${formatSize(f.size)}</div>
+        </div>
+        <button class="star-btn ${starred ? 'active' : ''}" data-type="file" data-path="${escapeHtml(f.path)}"
+          onclick="event.stopPropagation();toggleFavorite('file','${escapeHtml(f.filename)}','${escapeHtml(f.path)}',${f.fs_id},${f.size})"
+          title="${starred ? '取消收藏' : '收藏'}">${starred ? '★' : '☆'}</button>
+        <span class="track-duration" id="dur-${i}">--</span>
+      </li>
+    `;
+  });
+  html += '</ul>';
+  DOM.mainContent.innerHTML = html;
+}
+
+// ── Playback ──
+function playTrack(index) {
+  if (index < 0 || index >= state.files.length) return;
+  state.currentIndex = index;
+  const file = state.files[index];
+  const src = `/api/baidu/stream?fs_id=${file.fs_id}&filename=${encodeURIComponent(file.filename)}`;
+  audio.src = src;
+  audio.play().catch(e => console.warn('播放失败:', e));
+  state.isPlaying = true;
+  updatePlayButton();
+  DOM.npName.textContent = file.filename;
+  DOM.npStatus.textContent = `${formatSize(file.size)} - 加载中...`;
+  renderPlaylist();
+}
+
+function togglePlay() {
+  if (state.currentIndex < 0 && state.files.length > 0) {
+    playTrack(0);
+    return;
+  }
+  if (audio.paused) {
+    audio.play().catch(() => {});
+  } else {
+    audio.pause();
+  }
+}
+
+function playPrev() {
+  if (state.files.length === 0) return;
+  let idx = state.currentIndex - 1;
+  if (idx < 0) idx = state.files.length - 1;
+  playTrack(idx);
+}
+
+function playNext() {
+  if (state.files.length === 0) return;
+  if (state.playMode === 'shuffle') {
+    let idx = Math.floor(Math.random() * state.files.length);
+    if (state.files.length > 1 && idx === state.currentIndex) idx = (idx + 1) % state.files.length;
+    playTrack(idx);
+  } else {
+    let idx = state.currentIndex + 1;
+    if (idx >= state.files.length) idx = 0;
+    playTrack(idx);
+  }
+}
+
+function toggleMode(mode) {
+  if (mode === 'shuffle') {
+    state.playMode = state.playMode === 'shuffle' ? 'sequential' : 'shuffle';
+    DOM.btnShuffle.classList.toggle('active', state.playMode === 'shuffle');
+    DOM.btnRepeat.classList.remove('active');
+  } else {
+    state.playMode = state.playMode === 'repeat' ? 'sequential' : 'repeat';
+    DOM.btnRepeat.classList.toggle('active', state.playMode === 'repeat');
+    DOM.btnShuffle.classList.remove('active');
+  }
+}
+
+// ── Audio events ──
+function bindAudioEvents() {
+  audio.addEventListener('play', () => { state.isPlaying = true; updatePlayButton(); });
+  audio.addEventListener('pause', () => { state.isPlaying = false; updatePlayButton(); });
+  audio.addEventListener('ended', () => {
+    if (state.playMode === 'repeat') {
+      audio.currentTime = 0;
+      audio.play();
+    } else {
+      playNext();
+    }
+  });
+  audio.addEventListener('timeupdate', () => {
+    if (!audio.duration) return;
+    const pct = (audio.currentTime / audio.duration) * 100;
+    DOM.progressFill.style.width = pct + '%';
+    DOM.timeCurrent.textContent = formatTime(audio.currentTime);
+    DOM.timeTotal.textContent = formatTime(audio.duration);
+    DOM.npStatus.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+  });
+  audio.addEventListener('loadedmetadata', () => {
+    if (state.currentIndex >= 0) {
+      const el = document.getElementById(`dur-${state.currentIndex}`);
+      if (el && audio.duration) el.textContent = formatTime(audio.duration);
+    }
+  });
+  audio.addEventListener('error', (e) => {
+    console.error('Audio error:', e);
+    DOM.npStatus.textContent = '播放出错';
+  });
+
+  // 拖拽进度条
+  let dragging = false;
+  DOM.progressBar.addEventListener('mousedown', (e) => { dragging = true; seekTo(e); });
+  document.addEventListener('mousemove', (e) => { if (dragging) seekTo(e); });
+  document.addEventListener('mouseup', () => { dragging = false; });
+}
+
+function seekTo(e) {
+  if (!audio.duration) return;
+  const rect = DOM.progressBar.getBoundingClientRect();
+  const pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+  audio.currentTime = pct * audio.duration;
+}
+
+// ── Volume ──
+function setVolume(val) {
+  state.volume = parseInt(val);
+  audio.volume = state.isMuted ? 0 : state.volume / 100;
+  updateVolumeIcon();
+}
+
+function toggleMute() {
+  state.isMuted = !state.isMuted;
+  audio.volume = state.isMuted ? 0 : state.volume / 100;
+  updateVolumeIcon();
+}
+
+function updateVolumeIcon() {
+  const vol = state.isMuted ? 0 : state.volume;
+  let path;
+  if (vol === 0) {
+    path = 'M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z';
+  } else if (vol < 50) {
+    path = 'M18.5 12c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM5 9v6h4l5 5V4L9 9H5z';
+  } else {
+    path = 'M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z';
+  }
+  DOM.volumeIcon.innerHTML = `<path d="${path}"/>`;
+}
+
+// ── UI helpers ──
+function updatePlayButton() {
+  if (state.isPlaying) {
+    DOM.playIcon.innerHTML = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
+  } else {
+    DOM.playIcon.innerHTML = '<path d="M8 5v14l11-7z"/>';
+  }
+}
+
+function showState(icon, title, desc) {
+  const icons = {
+    spinner: '<div class="spinner"></div>',
+    lock: '<div class="icon">&#128274;</div>',
+    empty: '<div class="icon">&#128269;</div>',
+    error: '<div class="icon">&#9888;</div>',
+    settings: '<div class="icon">&#9881;</div>',
+  };
+  DOM.mainContent.innerHTML = `
+    <div class="state-box">
+      ${icons[icon] || icons.error}
+      <div class="title">${title}</div>
+      <div class="desc">${desc}</div>
+    </div>
+  `;
+}
+
+function formatTime(sec) {
+  if (!sec || isNaN(sec)) return '0:00';
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return m + ':' + (s < 10 ? '0' : '') + s;
+}
+
+function formatSize(bytes) {
+  if (!bytes) return '--';
+  if (bytes < 1024) return bytes + ' B';
+  if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
+  return (bytes / 1048576).toFixed(1) + ' MB';
+}
+
+function escapeHtml(str) {
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+
+// ── Keyboard shortcuts ──
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT') return;
+  switch(e.code) {
+    case 'Space': e.preventDefault(); togglePlay(); break;
+    case 'ArrowRight': if (e.metaKey || e.ctrlKey) { playNext(); } else { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 10); } break;
+    case 'ArrowLeft': if (e.metaKey || e.ctrlKey) { playPrev(); } else { audio.currentTime = Math.max(0, audio.currentTime - 10); } break;
+    case 'ArrowUp': e.preventDefault(); setVolume(Math.min(100, state.volume + 5)); DOM.volumeSlider.value = state.volume; break;
+    case 'ArrowDown': e.preventDefault(); setVolume(Math.max(0, state.volume - 5)); DOM.volumeSlider.value = state.volume; break;
+  }
+});
+
+// ── Directory browser ──
+let browserPath = '/';
+
+function openDirBrowser() {
+  document.getElementById('dirModal').classList.add('active');
+  browserPath = DOM.folderPath.value.trim() || '/';
+  loadDir(browserPath);
+}
+
+function closeDirBrowser() {
+  document.getElementById('dirModal').classList.remove('active');
+}
+
+function selectCurrentDir() {
+  DOM.folderPath.value = browserPath;
+  closeDirBrowser();
+  loadFiles();
+}
+
+async function loadDir(path) {
+  browserPath = path;
+  const body = document.getElementById('dirBody');
+  const breadcrumb = document.getElementById('dirBreadcrumb');
+  const currentPath = document.getElementById('dirCurrentPath');
+
+  body.innerHTML = '<div class="dir-loading">加载中...</div>';
+  currentPath.textContent = path;
+
+  // 构建面包屑
+  const parts = path.split('/').filter(Boolean);
+  let breadcrumbHtml = `<span onclick="loadDir('/')">根目录</span>`;
+  let accumulated = '';
+  for (const part of parts) {
+    accumulated += '/' + part;
+    const p = accumulated;
+    breadcrumbHtml += `<span class="sep">/</span><span onclick="loadDir('${p}')">${escapeHtml(part)}</span>`;
+  }
+  breadcrumb.innerHTML = breadcrumbHtml;
+
+  try {
+    const res = await fetch(`/api/baidu/dirs?dir=${encodeURIComponent(path)}`);
+    const data = await res.json();
+
+    if (!data.ok) {
+      body.innerHTML = `<div class="dir-loading">${data.error || '加载失败'}</div>`;
+      return;
+    }
+
+    if (data.dirs.length === 0) {
+      body.innerHTML = '<div class="dir-loading">此目录下没有子文件夹</div>';
+      return;
+    }
+
+    let html = '';
+    // 返回上级目录
+    if (path !== '/') {
+      const parent = path.substring(0, path.lastIndexOf('/')) || '/';
+      html += `<div class="dir-item" onclick="loadDir('${parent}')">
+        <span class="dir-icon">⬆️</span>
+        <span class="dir-name" style="color:var(--text-secondary)">返回上级</span>
+      </div>`;
+    }
+    for (const dir of data.dirs) {
+      const starred = isFavorited('dir', dir.path);
+      html += `<div class="dir-item" onclick="loadDir('${dir.path}')">
+        <span class="dir-icon">📁</span>
+        <span class="dir-name">${escapeHtml(dir.name)}</span>
+        <button class="star-btn ${starred ? 'active' : ''}" data-type="dir" data-path="${escapeHtml(dir.path)}"
+          onclick="event.stopPropagation();toggleFavorite('dir','${escapeHtml(dir.name)}','${escapeHtml(dir.path)}')"
+          title="${starred ? '取消收藏' : '收藏文件夹'}">${starred ? '★' : '☆'}</button>
+      </div>`;
+    }
+    body.innerHTML = html;
+  } catch (e) {
+    body.innerHTML = `<div class="dir-loading">请求失败: ${e.message}</div>`;
+  }
+}
+
+// 点击弹窗外部关闭
+document.getElementById('dirModal').addEventListener('click', (e) => {
+  if (e.target === e.currentTarget) closeDirBrowser();
+});
+
+// ── Favorites ──
+let favorites = [];
+let favCollapsed = false;
+
+async function loadFavorites() {
+  try {
+    const res = await fetch('/api/baidu/favorites');
+    const data = await res.json();
+    if (data.ok) {
+      favorites = data.favorites || [];
+      renderFavorites();
+    }
+  } catch (e) {
+    console.warn('加载收藏夹失败:', e);
+  }
+}
+
+function renderFavorites() {
+  const container = document.getElementById('favList');
+  document.getElementById('favCount').textContent = favorites.length;
+
+  if (favorites.length === 0) {
+    container.innerHTML = '<div class="fav-empty">暂无收藏，在播放列表或目录浏览中点击 ☆ 添加</div>';
+    return;
+  }
+
+  // 先显示文件夹，再显示文件
+  const sorted = [...favorites].sort((a, b) => {
+    if (a.type !== b.type) return a.type === 'dir' ? -1 : 1;
+    return (a.name || '').localeCompare(b.name || '');
+  });
+
+  let html = '<ul class="fav-list">';
+  for (const fav of sorted) {
+    const icon = fav.type === 'dir' ? '📁' : '🎵';
+    const typeLabel = fav.type === 'dir' ? '文件夹' : '文件';
+    const clickAction = fav.type === 'dir'
+      ? `onclick="DOM.folderPath.value='${fav.path}';loadFiles()"`
+      : `onclick="playFavoriteFile(${fav.fs_id},'${escapeHtml(fav.name)}')"`;
+    html += `
+      <li class="fav-item" ${clickAction}>
+        <span class="fav-icon">${icon}</span>
+        <span class="fav-name">${escapeHtml(fav.name)}</span>
+        <span class="fav-type">${typeLabel}</span>
+        <button class="fav-remove" onclick="event.stopPropagation();removeFavorite('${fav.type}','${fav.path}')" title="取消收藏">&times;</button>
+      </li>`;
+  }
+  html += '</ul>';
+  container.innerHTML = html;
+}
+
+function toggleFavPanel() {
+  favCollapsed = !favCollapsed;
+  const body = document.getElementById('favBody');
+  const toggle = document.getElementById('favToggle');
+  if (favCollapsed) {
+    body.classList.add('collapsed');
+    toggle.classList.add('collapsed');
+  } else {
+    body.classList.remove('collapsed');
+    toggle.classList.remove('collapsed');
+  }
+}
+
+async function toggleFavorite(type, name, path, fsId, size) {
+  const isFav = favorites.some(f => f.type === type && f.path === path);
+  try {
+    const res = await fetch('/api/baidu/favorite', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        action: isFav ? 'remove' : 'add',
+        item: { type, name, path, fs_id: fsId, size: size || 0 },
+      }),
+    });
+    const data = await res.json();
+    if (data.ok) {
+      favorites = data.favorites || [];
+      renderFavorites();
+      // 更新播放列表中的星标状态
+      updatePlaylistStars();
+    }
+  } catch (e) {
+    console.warn('收藏操作失败:', e);
+  }
+}
+
+async function removeFavorite(type, path) {
+  try {
+    const res = await fetch('/api/baidu/favorite', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        action: 'remove',
+        item: { type, path },
+      }),
+    });
+    const data = await res.json();
+    if (data.ok) {
+      favorites = data.favorites || [];
+      renderFavorites();
+      updatePlaylistStars();
+    }
+  } catch (e) {
+    console.warn('移除收藏失败:', e);
+  }
+}
+
+function isFavorited(type, path) {
+  return favorites.some(f => f.type === type && f.path === path);
+}
+
+function updatePlaylistStars() {
+  document.querySelectorAll('.star-btn[data-path]').forEach(btn => {
+    const type = btn.dataset.type;
+    const path = btn.dataset.path;
+    btn.classList.toggle('active', isFavorited(type, path));
+    btn.textContent = isFavorited(type, path) ? '★' : '☆';
+  });
+}
+
+function playFavoriteFile(fsId, filename) {
+  // 在播放列表中查找对应文件并播放
+  const idx = state.files.findIndex(f => f.fs_id === fsId);
+  if (idx >= 0) {
+    playTrack(idx);
+  } else {
+    // 文件不在当前列表中，直接通过 stream API 播放
+    state.currentIndex = -1;
+    const src = `/api/baidu/stream?fs_id=${fsId}&filename=${encodeURIComponent(filename)}`;
+    audio.src = src;
+    audio.play().catch(() => {});
+    state.isPlaying = true;
+    updatePlayButton();
+    DOM.npName.textContent = filename;
+    DOM.npStatus.textContent = '播放收藏文件...';
+  }
+}
+
+// 初始化加载收藏夹
+document.addEventListener('DOMContentLoaded', loadFavorites);
+</script>
+</body>
+</html>

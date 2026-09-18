@@ -1,0 +1,35 @@
+# 敏感配置（含 API Key）
+config.json
+baidu_token.json
+baidu_favorites.json
+.inbox_state.json
+
+# PID 和日志
+*.pid
+*.log
+.server.log
+.knowledge_inbox.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# 截图和临时文件
+screenshot_*.png
+feishu_auth_qr.png
+auth_qr.png
+
+# 构建产物（可重新生成）
+工作台.app/
+
+# 本地数据目录
+百度网盘/
+电脑助手/
+技能备份/
+skills/
+.qoder/
+.trae-html-share-packages/
