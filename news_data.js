@@ -1,12 +1,44 @@
-// 自动生成于 2026-09-19 02:53:29
+// 自动生成于 2026-09-19 10:13:12
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-19",
-  "time": "02:53",
+  "time": "10:13",
   "weekday": "周六",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, 智能体, Agent。",
   "items": [
+    {
+      "title": "千万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你",
+      "link": "https://www.qbitai.com/2026/09/492501.html",
+      "description": "1000万，把才华送上真正的大舞台",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 19 Sep 2026 08:34:35 +0000"
+    },
+    {
+      "title": "华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
+      "link": "https://www.qbitai.com/2026/09/492476.html",
+      "description": "CANN跨过拐点，华为补上软件生态",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 19 Sep 2026 08:28:51 +0000"
+    },
+    {
+      "title": "陶哲轩代表SAIR Foundation宣布正式启动“开放数学模型计划”",
+      "link": "https://www.qbitai.com/2026/09/492467.html",
+      "description": "让开放模型与可负担的算力成为数学研究的共享基石",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 19 Sep 2026 06:44:02 +0000"
+    },
+    {
+      "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+      "link": "https://www.qbitai.com/2026/09/492429.html",
+      "description": "同一预测核心，跨七类系统验证",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 19 Sep 2026 06:39:32 +0000"
+    },
     {
       "title": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
       "link": "https://www.qbitai.com/2026/09/492426.html",
@@ -16,36 +48,28 @@ var NEWS_DATA = {
       "pub_date": "Fri, 18 Sep 2026 15:58:21 +0000"
     },
     {
-      "title": "达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布",
-      "link": "https://www.qbitai.com/2026/09/492421.html",
-      "description": "成果中唯一聚焦算电协同全链路运营的AI技术产品",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 18 Sep 2026 15:50:20 +0000"
+      "title": "当企业 AI 从演示走向真实业务， 十几位科技领导者看到了什么？",
+      "link": "https://www.infoq.cn/article/zFIHHoq5Tsj4ybQzpjq3?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 19 Sep 2026 17:20:08 GMT"
     },
     {
-      "title": "具身智能技术路线尚未定型，基础设施却先收敛",
-      "link": "https://www.qbitai.com/2026/09/492238.html",
-      "description": "从一次成功到一万次稳定执行，具身智能还缺什么？",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 18 Sep 2026 13:16:33 +0000"
+      "title": "从技术深潜到动手实战，Snowflake World Tour 技术专场让 AI 走进真实业务",
+      "link": "https://www.infoq.cn/article/mrl45Fq31U7JORZsV5re?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 19 Sep 2026 17:02:13 GMT"
     },
     {
-      "title": "AGI最难一战，竟在医院！中国AI登上Science，医生不怕失业还催着上线",
-      "link": "https://www.qbitai.com/2026/09/491875.html",
-      "description": "用通用AI去啃最硬的骨头，这条路走得通",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 18 Sep 2026 06:11:06 +0000"
-    },
-    {
-      "title": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
-      "link": "https://www.qbitai.com/2026/09/491711.html",
-      "description": "Git白学了？？？",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 18 Sep 2026 00:34:34 +0000"
+      "title": "单个机柜到底能跑多少个 Agent？答案不在 GPU 身上",
+      "link": "https://www.infoq.cn/article/brH7TRcHB9evl32KQJkY?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 19 Sep 2026 10:55:19 GMT"
     },
     {
       "title": "从算子调优到推理自治：构建 MaaS 场景下的 AI Inference 自动优化闭环｜QCon上海",
@@ -62,30 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Fri, 18 Sep 2026 18:00:00 GMT"
-    },
-    {
-      "title": "Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部AI公司的RSI路线正在分化",
-      "link": "https://www.infoq.cn/article/CEphwKjzAe7LzbOriLcq?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 18 Sep 2026 17:00:25 GMT"
-    },
-    {
-      "title": "唐杰、GLM团队长文披露智谱RSI最新进展：GLM-5.3已摸到门槛，“正一步步走向取代我们”",
-      "link": "https://www.infoq.cn/article/O1uIfJx3CF5SZz3ayuaI?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 18 Sep 2026 16:48:30 GMT"
-    },
-    {
-      "title": "ColorOS 17 发布，OPPO 开始把手机 OS 推向 AgentOS",
-      "link": "https://www.infoq.cn/article/gDSf7xBmd08H0eB0GG11?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 18 Sep 2026 15:53:51 GMT"
     },
     {
       "title": "传折叠屏 iPhone 维修费 8000 元，苹果：价格未公布；腾讯 Chatterfly 输入法开启内测；软高管：AI 训练是「人类历史上最大规模的劳动盗窃」｜极客早知道",
