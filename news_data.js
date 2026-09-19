@@ -1,12 +1,28 @@
-// 自动生成于 2026-09-19 10:13:12
+// 自动生成于 2026-09-19 15:15:31
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-19",
-  "time": "10:13",
+  "time": "15:15",
   "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, 智能体, Agent。",
   "items": [
+    {
+      "title": "“留给人类阻止AI的时间不多了”",
+      "link": "https://www.qbitai.com/2026/09/492755.html",
+      "description": "AI有可能终结我们所有人",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 19 Sep 2026 11:53:12 +0000"
+    },
+    {
+      "title": "Nature：AI重生到1900，这一世抢先爱因斯坦提出光量子",
+      "link": "https://www.qbitai.com/2026/09/492550.html",
+      "description": "AI能否提出相对论？",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 19 Sep 2026 11:36:11 +0000"
+    },
     {
       "title": "千万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你",
       "link": "https://www.qbitai.com/2026/09/492501.html",
@@ -30,22 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Sat, 19 Sep 2026 06:44:02 +0000"
-    },
-    {
-      "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
-      "link": "https://www.qbitai.com/2026/09/492429.html",
-      "description": "同一预测核心，跨七类系统验证",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 19 Sep 2026 06:39:32 +0000"
-    },
-    {
-      "title": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
-      "link": "https://www.qbitai.com/2026/09/492426.html",
-      "description": "协同布局AI基础设施",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 18 Sep 2026 15:58:21 +0000"
     },
     {
       "title": "当企业 AI 从演示走向真实业务， 十几位科技领导者看到了什么？",
