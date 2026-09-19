@@ -1,9 +1,9 @@
-// 自动生成于 2026-09-18 20:19:11
+// 自动生成于 2026-09-19 02:53:29
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-18",
-  "time": "20:19",
-  "weekday": "周五",
+  "date": "2026-09-19",
+  "time": "02:53",
+  "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, 智能体, Agent。",
   "items": [
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Fri, 18 Sep 2026 00:34:34 +0000"
     },
     {
+      "title": "从算子调优到推理自治：构建 MaaS 场景下的 AI Inference 自动优化闭环｜QCon上海",
+      "link": "https://www.infoq.cn/article/G4tlQvg2IsabE0v1RDOE?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 19 Sep 2026 10:00:00 GMT"
+    },
+    {
       "title": "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
       "link": "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 18 Sep 2026 15:53:51 GMT"
     },
     {
-      "title": "微软借助 AI 单月修补超千个安全漏洞",
-      "link": "https://www.infoq.cn/article/eluArohETBhwjjYZRoMG?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 18 Sep 2026 14:48:00 GMT"
+      "title": "传折叠屏 iPhone 维修费 8000 元，苹果：价格未公布；腾讯 Chatterfly 输入法开启内测；软高管：AI 训练是「人类历史上最大规模的劳动盗窃」｜极客早知道",
+      "link": "http://www.geekpark.net/news/370608",
+      "description": "谷歌最新旗舰模型 Gemini 4 Pro 疑似「偷跑」，多项指标领先 Astra 和 Fable 5.1\n9 月 18 日，Google 下一代旗舰模型 Gemini 4 Pro 疑似正以「gemini-3.8-flash」名称「偷跑」上线。据反馈，谷歌在 Arena 等基准平台上测试了其最强 Gemini 4 Pro 模型，内部开发代号为 Argon。\n\n网上流传的一张测试",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sat, 19 Sep 2026 08:01:42 +0800"
     },
     {
       "title": "AI 硬件创业者，疯狂涌入手机的背面",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Thu, 17 Sep 2026 15:51:53 +0800"
-    },
-    {
-      "title": "马斯克再暗示合并特斯拉和 SpaceX；传 iPhone 18 Pro 系列卖爆；大疆 Pocket 4P「珠光白」3799 开售｜极客早知道",
-      "link": "http://www.geekpark.net/news/370472",
-      "description": "全球首款 AI 智能体手机努比亚 NaviX Ultra 上市：5999 元起，首销销售额「一秒破亿」\n9 月 16 日，中兴旗下努比亚今日下午正式发布 NaviX Ultra，官方称其为「全球首款 AI 智能体手机」，也被外界称为「第二代豆包手机」，标志着 AI 智能体手机从工程样机迈入规模化量产商用阶段。发布前该机京东单平台预约量已突破 37 万台，它是第一台搭载豆包手机助",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 17 Sep 2026 07:57:21 +0800"
     }
   ]
 };
