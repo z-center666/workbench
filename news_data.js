@@ -1,12 +1,20 @@
-// 自动生成于 2026-09-20 10:31:35
+// 自动生成于 2026-09-20 15:20:13
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-20",
-  "time": "10:31",
+  "time": "15:20",
   "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。",
   "items": [
+    {
+      "title": "一张3090就能跑！全栈国产模型，把AI办公搬到企业本地",
+      "link": "https://www.qbitai.com/2026/09/492946.html",
+      "description": "AI办公这块蛋糕，中国电信可能要先切走一块了。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 20 Sep 2026 12:22:41 +0000"
+    },
     {
       "title": "APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策",
       "link": "https://www.qbitai.com/2026/09/492939.html",
@@ -40,12 +48,36 @@ var NEWS_DATA = {
       "pub_date": "Sat, 19 Sep 2026 11:53:12 +0000"
     },
     {
-      "title": "Nature：AI重生到1900，这一世抢先爱因斯坦提出光量子",
-      "link": "https://www.qbitai.com/2026/09/492550.html",
-      "description": "AI能否提出相对论？",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 19 Sep 2026 11:36:11 +0000"
+      "title": "瞄准 AI 编程、金融等场景，单次成本仅为Opus 5 的1/8！这款国产旗舰模型跻身 AA 榜单全球前三",
+      "link": "https://www.infoq.cn/article/9jw1St7ULZijG8XNCWkW?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 20 Sep 2026 19:52:32 GMT"
+    },
+    {
+      "title": "比 Grok、Cursor 都狠？智谱ZCode“偷传代码”风波升级，企业发函追责",
+      "link": "https://www.infoq.cn/article/huOiZyyH32MpRwTFkoNe?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 20 Sep 2026 19:46:24 GMT"
+    },
+    {
+      "title": "从“看见文字”到“读懂画面”：AI MediaKit 如何实现视频字幕无痕擦除",
+      "link": "https://www.infoq.cn/article/Vqhz90IcQjPlqNXIbfAk?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 20 Sep 2026 19:23:38 GMT"
+    },
+    {
+      "title": "70强会师杭州，世界人工智能开源大赛（GOAI）总决赛即将启幕",
+      "link": "https://www.infoq.cn/article/MaOcETZFPCvAuFRQJps2?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 20 Sep 2026 18:47:49 GMT"
     },
     {
       "title": "全球AI Builders，9月杭州见｜GOAI开源周即将启幕",
@@ -54,38 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Sun, 20 Sep 2026 18:28:50 GMT"
-    },
-    {
-      "title": "世界人工智能开源大赛（GOAI）总决赛70强名单公布",
-      "link": "https://www.infoq.cn/article/7zz2HLNXEl0guawQCyJj?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 18:15:44 GMT"
-    },
-    {
-      "title": "微软开源 TauGrid，简化 Kubernetes AI 工作负载管理",
-      "link": "https://www.infoq.cn/article/3FdzSfrzlb3vMDwsC1Ny?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 15:46:00 GMT"
-    },
-    {
-      "title": "最新桌面 Agent，AI 工作流解码办公效率提升",
-      "link": "https://www.infoq.cn/article/EBIZhgc8pLujPiIum6Yt?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 15:00:59 GMT"
-    },
-    {
-      "title": "Dropbox 分享如何通过提升现有基础设施能效为 AI 腾出算力余量",
-      "link": "https://www.infoq.cn/article/zVZhvQIW9BvrWd3SU7st?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 14:06:00 GMT"
     },
     {
       "title": "机器人如何自进化，乐享科技走了一条新路",
