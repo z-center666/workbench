@@ -1,12 +1,36 @@
-// 自动生成于 2026-09-20 03:06:00
+// 自动生成于 2026-09-20 10:31:35
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-20",
-  "time": "03:06",
+  "time": "10:31",
   "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Agent。",
   "items": [
+    {
+      "title": "APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策",
+      "link": "https://www.qbitai.com/2026/09/492939.html",
+      "description": "9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 20 Sep 2026 08:30:32 +0000"
+    },
+    {
+      "title": "谷歌AI首次“越狱”：竟然自己破解密码入侵三家公司！",
+      "link": "https://www.qbitai.com/2026/09/492912.html",
+      "description": "亚马逊云科技给企业安全用Agent打了个样",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 20 Sep 2026 08:01:13 +0000"
+    },
+    {
+      "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+      "link": "https://www.qbitai.com/2026/09/492849.html",
+      "description": "9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 20 Sep 2026 02:48:18 +0000"
+    },
     {
       "title": "“留给人类阻止AI的时间不多了”",
       "link": "https://www.qbitai.com/2026/09/492755.html",
@@ -24,68 +48,60 @@ var NEWS_DATA = {
       "pub_date": "Sat, 19 Sep 2026 11:36:11 +0000"
     },
     {
-      "title": "千万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你",
-      "link": "https://www.qbitai.com/2026/09/492501.html",
-      "description": "1000万，把才华送上真正的大舞台",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 19 Sep 2026 08:34:35 +0000"
-    },
-    {
-      "title": "华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
-      "link": "https://www.qbitai.com/2026/09/492476.html",
-      "description": "CANN跨过拐点，华为补上软件生态",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 19 Sep 2026 08:28:51 +0000"
-    },
-    {
-      "title": "陶哲轩代表SAIR Foundation宣布正式启动“开放数学模型计划”",
-      "link": "https://www.qbitai.com/2026/09/492467.html",
-      "description": "让开放模型与可负担的算力成为数学研究的共享基石",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 19 Sep 2026 06:44:02 +0000"
-    },
-    {
-      "title": "AI 时代架构往哪走？快手 AI 时代的架构演进思路｜QCon上海",
-      "link": "https://www.infoq.cn/article/YoUBefokMC6MFP0otviQ?utm_source=rss&utm_medium=article",
+      "title": "全球AI Builders，9月杭州见｜GOAI开源周即将启幕",
+      "link": "https://www.infoq.cn/article/r8605s0h2Lv8OwmyW9s1?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 10:00:00 GMT"
+      "pub_date": "Sun, 20 Sep 2026 18:28:50 GMT"
     },
     {
-      "title": "九问 ScienceDiscovery：从纳米抗体到大飞机，AI 如何从“给答案”走向“做研究”",
-      "link": "https://www.infoq.cn/article/7V4eTBr4WwyJbQp7RTOK?utm_source=rss&utm_medium=article",
+      "title": "世界人工智能开源大赛（GOAI）总决赛70强名单公布",
+      "link": "https://www.infoq.cn/article/7zz2HLNXEl0guawQCyJj?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 09:59:20 GMT"
+      "pub_date": "Sun, 20 Sep 2026 18:15:44 GMT"
     },
     {
-      "title": "当企业 AI 从演示走向真实业务， 十几位科技领导者看到了什么？",
-      "link": "https://www.infoq.cn/article/zFIHHoq5Tsj4ybQzpjq3?utm_source=rss&utm_medium=article",
+      "title": "微软开源 TauGrid，简化 Kubernetes AI 工作负载管理",
+      "link": "https://www.infoq.cn/article/3FdzSfrzlb3vMDwsC1Ny?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sat, 19 Sep 2026 17:20:08 GMT"
+      "pub_date": "Sun, 20 Sep 2026 15:46:00 GMT"
     },
     {
-      "title": "从技术深潜到动手实战，Snowflake World Tour 技术专场让 AI 走进真实业务",
-      "link": "https://www.infoq.cn/article/mrl45Fq31U7JORZsV5re?utm_source=rss&utm_medium=article",
+      "title": "最新桌面 Agent，AI 工作流解码办公效率提升",
+      "link": "https://www.infoq.cn/article/EBIZhgc8pLujPiIum6Yt?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sat, 19 Sep 2026 17:02:13 GMT"
+      "pub_date": "Sun, 20 Sep 2026 15:00:59 GMT"
     },
     {
-      "title": "单个机柜到底能跑多少个 Agent？答案不在 GPU 身上",
-      "link": "https://www.infoq.cn/article/brH7TRcHB9evl32KQJkY?utm_source=rss&utm_medium=article",
+      "title": "Dropbox 分享如何通过提升现有基础设施能效为 AI 腾出算力余量",
+      "link": "https://www.infoq.cn/article/zVZhvQIW9BvrWd3SU7st?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sat, 19 Sep 2026 10:55:19 GMT"
+      "pub_date": "Sun, 20 Sep 2026 14:06:00 GMT"
+    },
+    {
+      "title": "机器人如何自进化，乐享科技走了一条新路",
+      "link": "http://www.geekpark.net/news/370665",
+      "description": "作者｜Li Yuan\n编辑｜郑玄\n\n最近，乐享科技因为一个颇大胆的 claim，引发了不少关注：它提出，其具身智能模型以太大模型能够在部署和执行过程中持续更新，并将这种能力概括为「自进化」，是全球首个能自进化的具身智能模型。\n自进化是一个容易引起争议的说法。「进化」究竟是模型参数发生了变化，还是进行了任务的临时调整？在多大程度上这样的调整能够变成可迁移的新能力？一个模型能",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 20 Sep 2026 15:15:14 +0800"
+    },
+    {
+      "title": "不可逆的人类衰老，快被 AI 破解了",
+      "link": "http://www.geekpark.net/news/370664",
+      "description": "作者｜Li Yuan\n编辑｜郑玄\n&nbsp;\n\n\n2026 年 9 月，42 个平均 67 岁的人，在六只不同的时钟上同时变年轻了。\n这些时钟不在墙上，而在他们的血液里。\n服用一种名叫 rentosertib 的药物四周后，患者体内近 3000 种蛋白被检测，其中 326 种发生显著变化。六套由不同团队开发的模型都认为，他们的身体正在朝更年轻的方向移动。\n多数时钟倒退了 3",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 20 Sep 2026 15:08:22 +0800"
     },
     {
       "title": "Meta 个人助手登顶美国 App Store；张雪机车发 5 款新车，最贵 13.8 万；淘宝闪购「制服」获法国设计最高奖，马云深度参与",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 18 Sep 2026 22:07:09 +0800"
-    },
-    {
-      "title": "那个教 ChatGPT 说话的人，做了一个「哑巴」模型",
-      "link": "http://www.geekpark.net/news/370603",
-      "description": "作者｜桦林舞王\n编辑｜靖宇\n&nbsp;\nAI 圈子里最懂怎么让模型「开口聊天」的人，现在决定剥夺大模型的语言能力。\n这位前 OpenAI 研究员、ChatGPT 的共同发明者 Diogo Almeida，在潜行两年后带着他的新公司 TypeSafe AI 和 4000 万美元融资回到牌桌。他们发布的全新模型 Jev， 既不能写打工人的周报，也不能陪用户深夜长聊。它甚至连一个标点",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 18 Sep 2026 17:36:47 +0800"
-    },
-    {
-      "title": "影视飓风 Tim 称 iPhone Duo「烫到握不住」；赛力斯否认「问界撤出华为门店」；黄仁勋：英伟达 2027 年芯片销量将翻倍",
-      "link": "http://www.geekpark.net/news/370539",
-      "description": "传 Manus 即将完成 5 亿美元融资，估值 40 亿美元\n据彭博社 9 月 17 日报道，AI 智能体公司 Manus 即将完成 5 亿美元融资。这是该公司撤销 Meta 收购交易后的首轮融资。\n报道表示：在新一轮融资中，Manus 的估值将提高一倍，至 40 亿美元。这家 AI 智能体公司也将成为该领域中国估值最高的创业公司。\n知情人士称，谈判仍在进行中，交易条款仍可能变",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 18 Sep 2026 08:17:15 +0800"
     }
   ]
 };
