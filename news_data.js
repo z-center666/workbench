@@ -1,11 +1,11 @@
-// 自动生成于 2026-09-19 19:57:53
+// 自动生成于 2026-09-20 03:06:00
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-19",
-  "time": "19:57",
-  "weekday": "周六",
+  "date": "2026-09-20",
+  "time": "03:06",
+  "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Agent。",
   "items": [
     {
       "title": "“留给人类阻止AI的时间不多了”",
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Sat, 19 Sep 2026 06:44:02 +0000"
     },
     {
+      "title": "AI 时代架构往哪走？快手 AI 时代的架构演进思路｜QCon上海",
+      "link": "https://www.infoq.cn/article/YoUBefokMC6MFP0otviQ?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 20 Sep 2026 10:00:00 GMT"
+    },
+    {
+      "title": "九问 ScienceDiscovery：从纳米抗体到大飞机，AI 如何从“给答案”走向“做研究”",
+      "link": "https://www.infoq.cn/article/7V4eTBr4WwyJbQp7RTOK?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 20 Sep 2026 09:59:20 GMT"
+    },
+    {
       "title": "当企业 AI 从演示走向真实业务， 十几位科技领导者看到了什么？",
       "link": "https://www.infoq.cn/article/zFIHHoq5Tsj4ybQzpjq3?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Sat, 19 Sep 2026 10:55:19 GMT"
     },
     {
-      "title": "从算子调优到推理自治：构建 MaaS 场景下的 AI Inference 自动优化闭环｜QCon上海",
-      "link": "https://www.infoq.cn/article/G4tlQvg2IsabE0v1RDOE?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 19 Sep 2026 10:00:00 GMT"
-    },
-    {
-      "title": "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
-      "link": "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 18 Sep 2026 18:00:00 GMT"
+      "title": "Meta 个人助手登顶美国 App Store；张雪机车发 5 款新车，最贵 13.8 万；淘宝闪购「制服」获法国设计最高奖，马云深度参与",
+      "link": "http://www.geekpark.net/news/370615",
+      "description": "传 Anthropic 计划在 IPO 前夕推出新一代 AI 模型助力资本市场信心\n据路透社援引多名知情人士消息透露，全球顶尖人工智能初创企业 Anthropic 正考虑在公开首次募股（IPO）之前，正式发布其最新的旗舰级人工智能模型。这一战略举措旨在进一步巩固其在生成式 AI 领域的市场领先地位，同时在关键的资本市场亮相节点前，向潜在投资者展示其强劲的技术迭代能力与商业化前景",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 20 Sep 2026 08:36:42 +0800"
     },
     {
       "title": "传折叠屏 iPhone 维修费 8000 元，苹果：价格未公布；腾讯 Chatterfly 输入法开启内测；软高管：AI 训练是「人类历史上最大规模的劳动盗窃」｜极客早知道",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 18 Sep 2026 08:17:15 +0800"
-    },
-    {
-      "title": "京东押注物理 AI，冲在前面的是一群 95 后",
-      "link": "http://www.geekpark.net/news/370519",
-      "description": "去年，AI 行业最热闹的是模型榜单、推理能力和多模态生成。所有人都在问：这个模型有多强？\n但到了 2026 年，问题变了。人们开始追问：它到底能干什么？\n这个问题，京东在今年的 JDD 大会上，给出了自己的答案。\n京东把这届大会的主题定为「JoyAI &middot; 跃迁物理世界」。它想传达的是，AI 的下一站不只是能说会道、更聪明，而是要进入仓库、货架、家庭、配送路线和售后服",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 17 Sep 2026 15:51:53 +0800"
     }
   ]
 };
