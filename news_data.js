@@ -1,12 +1,28 @@
-// 自动生成于 2026-09-20 15:20:13
+// 自动生成于 2026-09-20 20:13:36
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-20",
-  "time": "15:20",
+  "time": "20:13",
   "weekday": "周日",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。",
   "items": [
+    {
+      "title": "刚刚，剪映发了个大的：AI生视频和AI剪辑的壁，被打破了！",
+      "link": "https://www.qbitai.com/2026/09/492973.html",
+      "description": "剪映Hub+剪映助手，好用",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 20 Sep 2026 14:30:26 +0000"
+    },
+    {
+      "title": "华为首发企业AI白皮书：AI让员工更快了，怎样让整个企业受益？",
+      "link": "https://www.qbitai.com/2026/09/493068.html",
+      "description": "AI越来越能干，企业该怎么用",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 20 Sep 2026 14:23:52 +0000"
+    },
     {
       "title": "一张3090就能跑！全栈国产模型，把AI办公搬到企业本地",
       "link": "https://www.qbitai.com/2026/09/492946.html",
@@ -30,22 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Sun, 20 Sep 2026 08:01:13 +0000"
-    },
-    {
-      "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
-      "link": "https://www.qbitai.com/2026/09/492849.html",
-      "description": "9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sun, 20 Sep 2026 02:48:18 +0000"
-    },
-    {
-      "title": "“留给人类阻止AI的时间不多了”",
-      "link": "https://www.qbitai.com/2026/09/492755.html",
-      "description": "AI有可能终结我们所有人",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 19 Sep 2026 11:53:12 +0000"
     },
     {
       "title": "瞄准 AI 编程、金融等场景，单次成本仅为Opus 5 的1/8！这款国产旗舰模型跻身 AA 榜单全球前三",
