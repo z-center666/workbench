@@ -1,8 +1,8 @@
-// 自动生成于 2026-09-21 11:50:33
+// 自动生成于 2026-09-21 17:45:21
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-21",
-  "time": "11:50",
+  "time": "17:45",
   "weekday": "周一",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, 智能体, Agent。",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Mon, 21 Sep 2026 02:28:46 +0000"
     },
     {
+      "title": "MiniMax H3 开源后，本地 AIGC 走到了哪里？",
+      "link": "https://www.infoq.cn/video/fJe6qRKX70UqqCEDMRTK?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 21 Sep 2026 21:31:00 GMT"
+    },
+    {
       "title": "70强项目观察之前沿探索：AI进入科学发现，答案之外还要验证什么",
       "link": "https://www.infoq.cn/article/ihH1ltOG7d2YCelYKJYe?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -78,14 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Mon, 21 Sep 2026 17:07:01 GMT"
-    },
-    {
-      "title": "黄仁勋把矛头对准 AI 实验室：别先谈末日，先为已经发生的事故负责",
-      "link": "https://www.infoq.cn/article/xlQFjzl2mGPSYJq1RDod?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 21 Sep 2026 15:45:47 GMT"
     },
     {
       "title": "把未来做成基础设施｜亚马逊 CTO Dr.Werner Vogels 与云计算 20 年",
