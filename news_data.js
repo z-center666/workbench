@@ -1,91 +1,115 @@
-// 自动生成于 2026-09-21 03:02:56
+// 自动生成于 2026-09-21 11:50:33
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-21",
-  "time": "03:02",
+  "time": "11:50",
   "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: 大模型, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, 智能体, Agent。",
   "items": [
     {
-      "title": "汽车行业首个AI超级智能体「迪迪虾」来了！腾势多款车型即将OTA",
-      "link": "https://www.qbitai.com/2026/09/493091.html",
-      "description": "近日，比亚迪重磅发布了AI超级智能体「迪迪虾」，首搭腾势N8L纯电车型上",
+      "title": "啊啊啊GPT-6 Astra这么不安全！这次马斯克都瘫坐了",
+      "link": "https://www.qbitai.com/2026/09/493241.html",
+      "description": "97%尝试危险行为",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 21 Sep 2026 01:48:50 +0000"
+      "pub_date": "Mon, 21 Sep 2026 08:21:55 +0000"
     },
     {
-      "title": "刚刚，剪映发了个大的：AI生视频和AI剪辑的壁，被打破了！",
-      "link": "https://www.qbitai.com/2026/09/492973.html",
-      "description": "剪映Hub+剪映助手，好用",
+      "title": "长三角安全人工智能安徽省实验室发布星界、星驭、星鉴三大AI安全解决方案",
+      "link": "https://www.qbitai.com/2026/09/493235.html",
+      "description": "9月19日，第一届中国网络空间安全大会（CCSC 2026）的高水平专题论坛在安徽合肥正式举办。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sun, 20 Sep 2026 14:30:26 +0000"
+      "pub_date": "Mon, 21 Sep 2026 07:52:46 +0000"
     },
     {
-      "title": "华为首发企业AI白皮书：AI让员工更快了，怎样让整个企业受益？",
-      "link": "https://www.qbitai.com/2026/09/493068.html",
-      "description": "AI越来越能干，企业该怎么用",
+      "title": "国产数据库跑出AI新能力！OceanBase登顶国际Data Agent榜单",
+      "link": "https://www.qbitai.com/2026/09/493231.html",
+      "description": "OceanBase团队提交的Data Agent方案登顶国际数据智能体基准Data Agent Benchmark",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sun, 20 Sep 2026 14:23:52 +0000"
+      "pub_date": "Mon, 21 Sep 2026 07:31:26 +0000"
     },
     {
-      "title": "一张3090就能跑！全栈国产模型，把AI办公搬到企业本地",
-      "link": "https://www.qbitai.com/2026/09/492946.html",
-      "description": "AI办公这块蛋糕，中国电信可能要先切走一块了。",
+      "title": "GPT-6 Astra开进机器人身体！清华联手无问芯穹等开源RPent",
+      "link": "https://www.qbitai.com/2026/09/493218.html",
+      "description": "在物理世界真正干活的具身智能体",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sun, 20 Sep 2026 12:22:41 +0000"
+      "pub_date": "Mon, 21 Sep 2026 06:22:37 +0000"
     },
     {
-      "title": "APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策",
-      "link": "https://www.qbitai.com/2026/09/492939.html",
-      "description": "9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果",
+      "title": "百曜科技发起，《AI虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告》正式发布",
+      "link": "https://www.qbitai.com/2026/09/493114.html",
+      "description": "《AI 虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告——AI 时代生命科学的新型基础设施》正式发布。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sun, 20 Sep 2026 08:30:32 +0000"
+      "pub_date": "Mon, 21 Sep 2026 02:28:46 +0000"
     },
     {
-      "title": "AI4S走出实验室：材料研发开始跨越“中试鸿沟”",
-      "link": "https://www.infoq.cn/article/rSTAidV81IITt3lgMROZ?utm_source=rss&utm_medium=article",
+      "title": "70强项目观察之前沿探索：AI进入科学发现，答案之外还要验证什么",
+      "link": "https://www.infoq.cn/article/ihH1ltOG7d2YCelYKJYe?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 21 Sep 2026 10:22:16 GMT"
+      "pub_date": "Mon, 21 Sep 2026 18:21:03 GMT"
     },
     {
-      "title": "Altum：蚂蚁集团新一代大模型训练数据处理系统设计与实践｜QCon上海",
-      "link": "https://www.infoq.cn/article/AGIRRRtM1lBDFIvwWuRX?utm_source=rss&utm_medium=article",
+      "title": "70强项目观察之无界应用：AI应用正在从“有功能”走向“能完成任务”",
+      "link": "https://www.infoq.cn/article/te2qjg2J6Ausgc6vAeNy?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 21 Sep 2026 10:00:00 GMT"
+      "pub_date": "Mon, 21 Sep 2026 18:18:29 GMT"
     },
     {
-      "title": "人工智能时代的代码正在变为只写且可丢弃的",
-      "link": "https://www.infoq.cn/article/Z3RA77AHmLro8zmY7Sl3?utm_source=rss&utm_medium=article",
+      "title": "70强项目观察之新智基座：Agent正在从“会聊”走向“会干活”",
+      "link": "https://www.infoq.cn/article/G58AHJw8gT8CQuiq5sap?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 21 Sep 2026 09:06:00 GMT"
+      "pub_date": "Mon, 21 Sep 2026 18:15:51 GMT"
     },
     {
-      "title": "瞄准 AI 编程、金融等场景，单次成本仅为Opus 5 的1/8！这款国产旗舰模型跻身 AA 榜单全球前三",
-      "link": "https://www.infoq.cn/article/9jw1St7ULZijG8XNCWkW?utm_source=rss&utm_medium=article",
+      "title": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9%",
+      "link": "https://www.infoq.cn/article/vA7opkWL5WYlwYcPIdds?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 19:52:32 GMT"
+      "pub_date": "Mon, 21 Sep 2026 17:07:01 GMT"
     },
     {
-      "title": "比 Grok、Cursor 都狠？智谱ZCode“偷传代码”风波升级，企业发函追责",
-      "link": "https://www.infoq.cn/article/huOiZyyH32MpRwTFkoNe?utm_source=rss&utm_medium=article",
+      "title": "黄仁勋把矛头对准 AI 实验室：别先谈末日，先为已经发生的事故负责",
+      "link": "https://www.infoq.cn/article/xlQFjzl2mGPSYJq1RDod?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 19:46:24 GMT"
+      "pub_date": "Mon, 21 Sep 2026 15:45:47 GMT"
+    },
+    {
+      "title": "把未来做成基础设施｜亚马逊 CTO Dr.Werner Vogels 与云计算 20 年",
+      "link": "http://www.geekpark.net/news/370759",
+      "description": "作者｜Cynthia \n编辑｜ 郑玄\n&nbsp;\nAI 时代，开发者要如何跟上技术的变化？亚马逊 CTO Werner Vogels，用了二十多年的时间来解答这个问题：基于他主导的 S3、EC2、Lambda&hellip;&hellip;无数企业与开发者实现了加速奔跑。他每一年的 re:Invent 演讲，也成为了无数人的认知风向标。\n虽然自 2025 年之后，他将不再登上",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 21 Sep 2026 19:00:08 +0800"
+    },
+    {
+      "title": "对话桥介数物：机器人运动的下一步是让任何机器人半小时内学会跳特定的舞",
+      "link": "http://www.geekpark.net/news/370717",
+      "description": "具身智能现在太吵了。行业里的人各自笃定，声音大的先被听见。最响的那些声音，往往离真实的进展最远。真正在往前推的人，看的是谁在践行非共识，什么在真的往前走，以及谁心里有一张完整的图，而不是走一步看一步。这些东西不会上热搜，但它们决定这个行业的下一步。我们一直探寻这些。如果你也是——欢迎来到极客公园 In The Loop。👇作者｜Li Yuan8 月，具身智能圈最热闹的一件事是宇树",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 21 Sep 2026 12:01:49 +0800"
+    },
+    {
+      "title": "Figure AI 宣称找到了机器人版 scaling law，同行却说它其实根本不会泛化",
+      "link": "http://www.geekpark.net/news/370607",
+      "description": "作者｜Li Yuan\n\n390 亿美元的 Figure AI 已经把机器人送进 30 个陌生家庭，同行却说失败一半还谈不上会干活\n「这是 Figure AI 成立以来最重要的项目。」\n在 Helix 2.5 的发布视频里，Figure AI 创始人 Brett Adcock 把话说得很满。\nFigure AI 目前估值达到 390 亿美元，是全球最贵的未上市人形机器人公司",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 21 Sep 2026 11:57:07 +0800"
     },
     {
       "title": "卢伟冰谈小米18 Pro涨价：大家会觉得合理；剪映发布 Hub 及 AI 助手「小映」；苹果或 10 月推出智能家居设备｜极客早知道",
@@ -102,30 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 20 Sep 2026 15:15:14 +0800"
-    },
-    {
-      "title": "不可逆的人类衰老，快被 AI 破解了",
-      "link": "http://www.geekpark.net/news/370664",
-      "description": "作者｜Li Yuan\n编辑｜郑玄\n&nbsp;\n\n\n2026 年 9 月，42 个平均 67 岁的人，在六只不同的时钟上同时变年轻了。\n这些时钟不在墙上，而在他们的血液里。\n服用一种名叫 rentosertib 的药物四周后，患者体内近 3000 种蛋白被检测，其中 326 种发生显著变化。六套由不同团队开发的模型都认为，他们的身体正在朝更年轻的方向移动。\n多数时钟倒退了 3",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 20 Sep 2026 15:08:22 +0800"
-    },
-    {
-      "title": "Meta 个人助手登顶美国 App Store；张雪机车发 5 款新车，最贵 13.8 万；淘宝闪购「制服」获法国设计最高奖，马云深度参与",
-      "link": "http://www.geekpark.net/news/370615",
-      "description": "传 Anthropic 计划在 IPO 前夕推出新一代 AI 模型助力资本市场信心\n据路透社援引多名知情人士消息透露，全球顶尖人工智能初创企业 Anthropic 正考虑在公开首次募股（IPO）之前，正式发布其最新的旗舰级人工智能模型。这一战略举措旨在进一步巩固其在生成式 AI 领域的市场领先地位，同时在关键的资本市场亮相节点前，向潜在投资者展示其强劲的技术迭代能力与商业化前景",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 20 Sep 2026 08:36:42 +0800"
-    },
-    {
-      "title": "传折叠屏 iPhone 维修费 8000 元，苹果：价格未公布；腾讯 Chatterfly 输入法开启内测；软高管：AI 训练是「人类历史上最大规模的劳动盗窃」｜极客早知道",
-      "link": "http://www.geekpark.net/news/370608",
-      "description": "谷歌最新旗舰模型 Gemini 4 Pro 疑似「偷跑」，多项指标领先 Astra 和 Fable 5.1\n9 月 18 日，Google 下一代旗舰模型 Gemini 4 Pro 疑似正以「gemini-3.8-flash」名称「偷跑」上线。据反馈，谷歌在 Arena 等基准平台上测试了其最强 Gemini 4 Pro 模型，内部开发代号为 Argon。\n\n网上流传的一张测试",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sat, 19 Sep 2026 08:01:42 +0800"
     }
   ]
 };
