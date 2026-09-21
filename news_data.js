@@ -1,12 +1,20 @@
-// 自动生成于 2026-09-20 20:13:36
+// 自动生成于 2026-09-21 03:02:56
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-20",
-  "time": "20:13",
-  "weekday": "周日",
+  "date": "2026-09-21",
+  "time": "03:02",
+  "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: 大模型, 智能体。",
   "items": [
+    {
+      "title": "汽车行业首个AI超级智能体「迪迪虾」来了！腾势多款车型即将OTA",
+      "link": "https://www.qbitai.com/2026/09/493091.html",
+      "description": "近日，比亚迪重磅发布了AI超级智能体「迪迪虾」，首搭腾势N8L纯电车型上",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Mon, 21 Sep 2026 01:48:50 +0000"
+    },
     {
       "title": "刚刚，剪映发了个大的：AI生视频和AI剪辑的壁，被打破了！",
       "link": "https://www.qbitai.com/2026/09/492973.html",
@@ -40,12 +48,28 @@ var NEWS_DATA = {
       "pub_date": "Sun, 20 Sep 2026 08:30:32 +0000"
     },
     {
-      "title": "谷歌AI首次“越狱”：竟然自己破解密码入侵三家公司！",
-      "link": "https://www.qbitai.com/2026/09/492912.html",
-      "description": "亚马逊云科技给企业安全用Agent打了个样",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sun, 20 Sep 2026 08:01:13 +0000"
+      "title": "AI4S走出实验室：材料研发开始跨越“中试鸿沟”",
+      "link": "https://www.infoq.cn/article/rSTAidV81IITt3lgMROZ?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 21 Sep 2026 10:22:16 GMT"
+    },
+    {
+      "title": "Altum：蚂蚁集团新一代大模型训练数据处理系统设计与实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/AGIRRRtM1lBDFIvwWuRX?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 21 Sep 2026 10:00:00 GMT"
+    },
+    {
+      "title": "人工智能时代的代码正在变为只写且可丢弃的",
+      "link": "https://www.infoq.cn/article/Z3RA77AHmLro8zmY7Sl3?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 21 Sep 2026 09:06:00 GMT"
     },
     {
       "title": "瞄准 AI 编程、金融等场景，单次成本仅为Opus 5 的1/8！这款国产旗舰模型跻身 AA 榜单全球前三",
@@ -64,28 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Sun, 20 Sep 2026 19:46:24 GMT"
     },
     {
-      "title": "从“看见文字”到“读懂画面”：AI MediaKit 如何实现视频字幕无痕擦除",
-      "link": "https://www.infoq.cn/article/Vqhz90IcQjPlqNXIbfAk?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 19:23:38 GMT"
-    },
-    {
-      "title": "70强会师杭州，世界人工智能开源大赛（GOAI）总决赛即将启幕",
-      "link": "https://www.infoq.cn/article/MaOcETZFPCvAuFRQJps2?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 18:47:49 GMT"
-    },
-    {
-      "title": "全球AI Builders，9月杭州见｜GOAI开源周即将启幕",
-      "link": "https://www.infoq.cn/article/r8605s0h2Lv8OwmyW9s1?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 20 Sep 2026 18:28:50 GMT"
+      "title": "卢伟冰谈小米18 Pro涨价：大家会觉得合理；剪映发布 Hub 及 AI 助手「小映」；苹果或 10 月推出智能家居设备｜极客早知道",
+      "link": "http://www.geekpark.net/news/370681",
+      "description": "B 站上线 AI 无限竞技场测评榜：GPT-6 Astra 现居榜首\n9 月 20 日，B 站宣布上线「AI 无限竞技场」大模型测评榜，并同步公布了首轮模型排行榜。据 B 站介绍，「AI 无限竞技场」是一个汇集了 B 站 UP 主 AI 大模型测评的竞技广场，由各领域 UP 主对上百个大模型的真实场景实测构成，涵盖代码、推理、协作、知识等多种测评主题。\n其中 GPT-6 Ast",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 21 Sep 2026 09:01:53 +0800"
     },
     {
       "title": "机器人如何自进化，乐享科技走了一条新路",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sat, 19 Sep 2026 08:01:42 +0800"
-    },
-    {
-      "title": "AI 硬件创业者，疯狂涌入手机的背面",
-      "link": "http://www.geekpark.net/news/370610",
-      "description": "头图来源：产品小红书账号、官网\n&nbsp;\n过去一年，AI 硬件创业者开始扎堆手机背面。\nPlaud 的 AI 录音卡累计出货突破百万台。2026 年 6 月，Plaud 宣布 ARR 达到 1 亿美元、服务超过 200 万专业用户；截至 9 月，公司最新披露的全球用户数已超过 250 万。另一边，做磁吸电子纸屏的阅星曈完成近 5000 万元 A 轮追加融资，顺为、经纬、博裕和",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 18 Sep 2026 22:07:09 +0800"
     }
   ]
 };
