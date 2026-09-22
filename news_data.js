@@ -1,12 +1,20 @@
-// 自动生成于 2026-09-22 16:09:56
+// 自动生成于 2026-09-22 20:48:36
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-22",
-  "time": "16:09",
+  "time": "20:48",
   "weekday": "周二",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, 大模型, 智能体, Agent, 多模态。",
   "items": [
+    {
+      "title": "Agent时代，CPU的价值该重估了",
+      "link": "https://www.qbitai.com/2026/09/494430.html",
+      "description": "CPU与GPU趋近1∶1",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 22 Sep 2026 15:46:54 +0000"
+    },
     {
       "title": "直播预告：未来两三年，哪些工业AI场景会率先爆发？",
       "link": "https://www.qbitai.com/2026/09/494420.html",
@@ -38,14 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Tue, 22 Sep 2026 10:06:34 +0000"
-    },
-    {
-      "title": "虎鲸文娱推出“鲸锐AI”影视制作与管理平台，打造文娱产业新基建",
-      "link": "https://www.qbitai.com/2026/09/493865.html",
-      "description": "9月22日，在2026云栖大会「AI+文化传媒」技术发展论坛上，虎鲸文娱集团推出行业首个AI影视制作与管理平台“鲸锐AI”",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 22 Sep 2026 08:49:12 +0000"
     },
     {
       "title": "从生成内容到创造体验，多模态大模型如何改变内容生产？",
