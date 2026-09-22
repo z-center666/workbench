@@ -1,12 +1,44 @@
-// 自动生成于 2026-09-22 10:52:06
+// 自动生成于 2026-09-22 16:09:56
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-22",
-  "time": "10:52",
+  "time": "16:09",
   "weekday": "周二",
-  "total": 14,
-  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: OpenAI, 大模型, 智能体, Agent。",
+  "total": 15,
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, 大模型, 智能体, Agent, 多模态。",
   "items": [
+    {
+      "title": "直播预告：未来两三年，哪些工业AI场景会率先爆发？",
+      "link": "https://www.qbitai.com/2026/09/494420.html",
+      "description": "从真实工厂到产品复制，再到生态和下一批机会，两位嘉宾会把工业AI从「能用」走向「规模化」的关键问题一层层拆开。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 22 Sep 2026 14:28:59 +0000"
+    },
+    {
+      "title": "讲真，我没看出这图是AI做的，更没想到是国产AI做的",
+      "link": "https://www.qbitai.com/2026/09/494263.html",
+      "description": "商汤U1 Pro，正式发布",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 22 Sep 2026 13:57:10 +0000"
+    },
+    {
+      "title": "WebArena作者Shuyan Zhou入职Meta超级智能实验室",
+      "link": "https://www.qbitai.com/2026/09/493653.html",
+      "description": "梦想是做能帮妈妈订机票的AI浏览器。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 22 Sep 2026 11:58:53 +0000"
+    },
+    {
+      "title": "基元律动韩凯：从多模型调度到反馈闭环，探索Agent持续进化",
+      "link": "https://www.qbitai.com/2026/09/494120.html",
+      "description": "9月22日，在2026杭州云栖大会企业级Agent实践峰会上，基元律动联合创始人兼CTO韩凯发表演讲《从Harness到RSI飞轮》。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 22 Sep 2026 10:06:34 +0000"
+    },
     {
       "title": "虎鲸文娱推出“鲸锐AI”影视制作与管理平台，打造文娱产业新基建",
       "link": "https://www.qbitai.com/2026/09/493865.html",
@@ -16,28 +48,20 @@ var NEWS_DATA = {
       "pub_date": "Tue, 22 Sep 2026 08:49:12 +0000"
     },
     {
-      "title": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中",
-      "link": "https://www.qbitai.com/2026/09/493625.html",
-      "description": "9月22日， 2026云栖大会开幕，阿里巴巴公布大模型最新进展。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 22 Sep 2026 03:42:43 +0000"
+      "title": "从生成内容到创造体验，多模态大模型如何改变内容生产？",
+      "link": "https://www.infoq.cn/article/rNHK14OsBl5CgSpMoTPq?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 22 Sep 2026 20:12:00 GMT"
     },
     {
-      "title": "阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石",
-      "link": "https://www.qbitai.com/2026/09/493502.html",
-      "description": "吴泳铭表示，阿里巴巴将坚定投入AI模型、AI芯片和AI云这三项基础设施建设，这是阿里的长期战略选择。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 22 Sep 2026 02:59:29 +0000"
-    },
-    {
-      "title": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」",
-      "link": "https://www.qbitai.com/2026/09/493363.html",
-      "description": "弥补算力缺口，不能只靠堆料",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 22 Sep 2026 02:22:06 +0000"
+      "title": "不受控的 Agent ，凭什么上生产系统？",
+      "link": "https://www.infoq.cn/article/3TjH8fZziNB50Qzz9tJx?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 22 Sep 2026 18:58:07 GMT"
     },
     {
       "title": "Jotai 3.0 带来仅支持 ESM 的现代化包，摒弃旧版构建方式和已弃用 API",
@@ -62,22 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Tue, 22 Sep 2026 14:32:17 GMT"
-    },
-    {
-      "title": "AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
-      "link": "https://www.infoq.cn/article/XPo33yALUEeIsBhQ4zGI?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 22 Sep 2026 14:17:25 GMT"
-    },
-    {
-      "title": "华为云码道面向鸿蒙开发者升级：上线鸿蒙编码大模型，覆盖开发到编译全流程",
-      "link": "https://www.infoq.cn/article/jCdqhiUJHJlVgOYGfWGx?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 22 Sep 2026 11:22:09 GMT"
     },
     {
       "title": "Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了",
