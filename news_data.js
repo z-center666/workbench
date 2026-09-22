@@ -1,12 +1,20 @@
-// 自动生成于 2026-09-21 21:38:04
+// 自动生成于 2026-09-22 03:02:13
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-21",
-  "time": "21:38",
-  "weekday": "周一",
+  "date": "2026-09-22",
+  "time": "03:02",
+  "weekday": "周二",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, Agent。",
   "items": [
+    {
+      "title": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」",
+      "link": "https://www.qbitai.com/2026/09/493363.html",
+      "description": "弥补算力缺口，不能只靠堆料",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 22 Sep 2026 02:22:06 +0000"
+    },
     {
       "title": "啊啊啊GPT-6 Astra这么不安全！这次马斯克都瘫坐了",
       "link": "https://www.qbitai.com/2026/09/493241.html",
@@ -40,12 +48,20 @@ var NEWS_DATA = {
       "pub_date": "Mon, 21 Sep 2026 06:22:37 +0000"
     },
     {
-      "title": "百曜科技发起，《AI虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告》正式发布",
-      "link": "https://www.qbitai.com/2026/09/493114.html",
-      "description": "《AI 虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告——AI 时代生命科学的新型基础设施》正式发布。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 21 Sep 2026 02:28:46 +0000"
+      "title": "NVIDIA Personal AI Router 将 AI 任务分配到本地计算资源上",
+      "link": "https://www.infoq.cn/article/ZSAtWPoOgIDcANYa8CXc?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 22 Sep 2026 10:44:00 GMT"
+    },
+    {
+      "title": "复杂业务 Agent 的持续进化：快手电商导购的 Harness Loop 实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/jeG84GGVYvIHaQKQfIo2?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 22 Sep 2026 10:00:00 GMT"
     },
     {
       "title": "MiniMax H3 开源后，本地 AIGC 走到了哪里？",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Mon, 21 Sep 2026 18:18:29 GMT"
     },
     {
-      "title": "70强项目观察之新智基座：Agent正在从“会聊”走向“会干活”",
-      "link": "https://www.infoq.cn/article/G58AHJw8gT8CQuiq5sap?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 21 Sep 2026 18:15:51 GMT"
-    },
-    {
-      "title": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9%",
-      "link": "https://www.infoq.cn/article/vA7opkWL5WYlwYcPIdds?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 21 Sep 2026 17:07:01 GMT"
+      "title": "黄仁勋：AI 时代，企业应该尽可能多付薪酬；宇树科技发布 Dex5-S 灵巧手；OpenAI 新模型 24 天解决 100+ 世界级数学难题 | 极客早知道",
+      "link": "http://www.geekpark.net/news/370768",
+      "description": "消息称华为 Mate 90 系列年度旗舰手机将在 9 月 29 日发布\n9 月 21 日消息，昨日早些时候，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东刚刚宣布，智界 RX 及鸿蒙智行新品发布会定档 9 月 28 日 14:30 举行。\n根据此前爆料，华为 Mate 90 系列手机也将在本月发布，但遗憾的是，今天华为并未官宣这款年度旗舰的发布会时间。但博主 @",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 22 Sep 2026 08:42:21 +0800"
     },
     {
       "title": "把未来做成基础设施｜亚马逊 CTO Dr.Werner Vogels 与云计算 20 年",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 21 Sep 2026 09:01:53 +0800"
-    },
-    {
-      "title": "机器人如何自进化，乐享科技走了一条新路",
-      "link": "http://www.geekpark.net/news/370665",
-      "description": "作者｜Li Yuan\n编辑｜郑玄\n\n最近，乐享科技因为一个颇大胆的 claim，引发了不少关注：它提出，其具身智能模型以太大模型能够在部署和执行过程中持续更新，并将这种能力概括为「自进化」，是全球首个能自进化的具身智能模型。\n自进化是一个容易引起争议的说法。「进化」究竟是模型参数发生了变化，还是进行了任务的临时调整？在多大程度上这样的调整能够变成可迁移的新能力？一个模型能",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 20 Sep 2026 15:15:14 +0800"
     }
   ]
 };
