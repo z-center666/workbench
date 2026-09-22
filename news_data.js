@@ -1,12 +1,36 @@
-// 自动生成于 2026-09-22 03:02:13
+// 自动生成于 2026-09-22 10:52:06
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-22",
-  "time": "03:02",
+  "time": "10:52",
   "weekday": "周二",
-  "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, Agent。",
+  "total": 14,
+  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: OpenAI, 大模型, 智能体, Agent。",
   "items": [
+    {
+      "title": "虎鲸文娱推出“鲸锐AI”影视制作与管理平台，打造文娱产业新基建",
+      "link": "https://www.qbitai.com/2026/09/493865.html",
+      "description": "9月22日，在2026云栖大会「AI+文化传媒」技术发展论坛上，虎鲸文娱集团推出行业首个AI影视制作与管理平台“鲸锐AI”",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 22 Sep 2026 08:49:12 +0000"
+    },
+    {
+      "title": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中",
+      "link": "https://www.qbitai.com/2026/09/493625.html",
+      "description": "9月22日， 2026云栖大会开幕，阿里巴巴公布大模型最新进展。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 22 Sep 2026 03:42:43 +0000"
+    },
+    {
+      "title": "阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石",
+      "link": "https://www.qbitai.com/2026/09/493502.html",
+      "description": "吴泳铭表示，阿里巴巴将坚定投入AI模型、AI芯片和AI云这三项基础设施建设，这是阿里的长期战略选择。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 22 Sep 2026 02:59:29 +0000"
+    },
     {
       "title": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」",
       "link": "https://www.qbitai.com/2026/09/493363.html",
@@ -16,76 +40,52 @@ var NEWS_DATA = {
       "pub_date": "Tue, 22 Sep 2026 02:22:06 +0000"
     },
     {
-      "title": "啊啊啊GPT-6 Astra这么不安全！这次马斯克都瘫坐了",
-      "link": "https://www.qbitai.com/2026/09/493241.html",
-      "description": "97%尝试危险行为",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 21 Sep 2026 08:21:55 +0000"
-    },
-    {
-      "title": "长三角安全人工智能安徽省实验室发布星界、星驭、星鉴三大AI安全解决方案",
-      "link": "https://www.qbitai.com/2026/09/493235.html",
-      "description": "9月19日，第一届中国网络空间安全大会（CCSC 2026）的高水平专题论坛在安徽合肥正式举办。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 21 Sep 2026 07:52:46 +0000"
-    },
-    {
-      "title": "国产数据库跑出AI新能力！OceanBase登顶国际Data Agent榜单",
-      "link": "https://www.qbitai.com/2026/09/493231.html",
-      "description": "OceanBase团队提交的Data Agent方案登顶国际数据智能体基准Data Agent Benchmark",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 21 Sep 2026 07:31:26 +0000"
-    },
-    {
-      "title": "GPT-6 Astra开进机器人身体！清华联手无问芯穹等开源RPent",
-      "link": "https://www.qbitai.com/2026/09/493218.html",
-      "description": "在物理世界真正干活的具身智能体",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 21 Sep 2026 06:22:37 +0000"
-    },
-    {
-      "title": "NVIDIA Personal AI Router 将 AI 任务分配到本地计算资源上",
-      "link": "https://www.infoq.cn/article/ZSAtWPoOgIDcANYa8CXc?utm_source=rss&utm_medium=article",
+      "title": "Jotai 3.0 带来仅支持 ESM 的现代化包，摒弃旧版构建方式和已弃用 API",
+      "link": "https://www.infoq.cn/article/JkDJyKWiavXREdAWBvJk?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 22 Sep 2026 10:44:00 GMT"
+      "pub_date": "Tue, 22 Sep 2026 17:31:00 GMT"
     },
     {
-      "title": "复杂业务 Agent 的持续进化：快手电商导购的 Harness Loop 实践｜QCon上海",
-      "link": "https://www.infoq.cn/article/jeG84GGVYvIHaQKQfIo2?utm_source=rss&utm_medium=article",
+      "title": "Meta 开源 Astryx：面向 Agent 的 React 设计系统",
+      "link": "https://www.infoq.cn/article/He6bUhlNIuPEa99GGRYC?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 22 Sep 2026 10:00:00 GMT"
+      "pub_date": "Tue, 22 Sep 2026 15:12:00 GMT"
     },
     {
-      "title": "MiniMax H3 开源后，本地 AIGC 走到了哪里？",
-      "link": "https://www.infoq.cn/video/fJe6qRKX70UqqCEDMRTK?utm_source=rss&utm_medium=article",
+      "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
+      "link": "https://www.infoq.cn/article/7suOC8BJWYA4yx6dvZXa?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 21 Sep 2026 21:31:00 GMT"
+      "pub_date": "Tue, 22 Sep 2026 14:32:17 GMT"
     },
     {
-      "title": "70强项目观察之前沿探索：AI进入科学发现，答案之外还要验证什么",
-      "link": "https://www.infoq.cn/article/ihH1ltOG7d2YCelYKJYe?utm_source=rss&utm_medium=article",
+      "title": "AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
+      "link": "https://www.infoq.cn/article/XPo33yALUEeIsBhQ4zGI?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 21 Sep 2026 18:21:03 GMT"
+      "pub_date": "Tue, 22 Sep 2026 14:17:25 GMT"
     },
     {
-      "title": "70强项目观察之无界应用：AI应用正在从“有功能”走向“能完成任务”",
-      "link": "https://www.infoq.cn/article/te2qjg2J6Ausgc6vAeNy?utm_source=rss&utm_medium=article",
+      "title": "华为云码道面向鸿蒙开发者升级：上线鸿蒙编码大模型，覆盖开发到编译全流程",
+      "link": "https://www.infoq.cn/article/jCdqhiUJHJlVgOYGfWGx?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 21 Sep 2026 18:18:29 GMT"
+      "pub_date": "Tue, 22 Sep 2026 11:22:09 GMT"
+    },
+    {
+      "title": "Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了",
+      "link": "http://www.geekpark.net/news/370797",
+      "description": "9 月 21 日，一条弹窗开始出现在试图用 Meta Muse 在 Amazon 上购物的用户屏幕上：「未经授权的 AI Agent 继续访问，将违反 Amazon 使用条款。」\n这距离 Muse 正式上线，仅仅过了 13 天。\n\nMeta 推出的个人 AI 助手 Muse 最近爆火｜图片来源：Meta\nMeta 在 9 月 8 日发布了 Muse，把它定义为「全球第一款，为所有",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 22 Sep 2026 12:01:13 +0800"
     },
     {
       "title": "黄仁勋：AI 时代，企业应该尽可能多付薪酬；宇树科技发布 Dex5-S 灵巧手；OpenAI 新模型 24 天解决 100+ 世界级数学难题 | 极客早知道",
@@ -118,14 +118,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 21 Sep 2026 11:57:07 +0800"
-    },
-    {
-      "title": "卢伟冰谈小米18 Pro涨价：大家会觉得合理；剪映发布 Hub 及 AI 助手「小映」；苹果或 10 月推出智能家居设备｜极客早知道",
-      "link": "http://www.geekpark.net/news/370681",
-      "description": "B 站上线 AI 无限竞技场测评榜：GPT-6 Astra 现居榜首\n9 月 20 日，B 站宣布上线「AI 无限竞技场」大模型测评榜，并同步公布了首轮模型排行榜。据 B 站介绍，「AI 无限竞技场」是一个汇集了 B 站 UP 主 AI 大模型测评的竞技广场，由各领域 UP 主对上百个大模型的真实场景实测构成，涵盖代码、推理、协作、知识等多种测评主题。\n其中 GPT-6 Ast",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 21 Sep 2026 09:01:53 +0800"
     }
   ]
 };
