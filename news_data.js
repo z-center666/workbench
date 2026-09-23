@@ -1,51 +1,27 @@
-// 自动生成于 2026-09-22 20:48:36
+// 自动生成于 2026-09-23 03:02:30
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-22",
-  "time": "20:48",
-  "weekday": "周二",
-  "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, 大模型, 智能体, Agent, 多模态。",
+  "date": "2026-09-23",
+  "time": "03:02",
+  "weekday": "周三",
+  "total": 10,
+  "briefing": "今日共抓取 10 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, 大模型, Agent, 多模态。",
   "items": [
     {
-      "title": "Agent时代，CPU的价值该重估了",
-      "link": "https://www.qbitai.com/2026/09/494430.html",
-      "description": "CPU与GPU趋近1∶1",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 22 Sep 2026 15:46:54 +0000"
+      "title": "阿里 Open Code Review 登顶 GitHub Trending 周榜第一，作者李峥峰将在 QCon 上海站揭秘百万任务验证的 Agent 工程实践",
+      "link": "https://www.infoq.cn/article/ekVtt3hgufw4wCvP7Zb5?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 23 Sep 2026 10:05:17 GMT"
     },
     {
-      "title": "直播预告：未来两三年，哪些工业AI场景会率先爆发？",
-      "link": "https://www.qbitai.com/2026/09/494420.html",
-      "description": "从真实工厂到产品复制，再到生态和下一批机会，两位嘉宾会把工业AI从「能用」走向「规模化」的关键问题一层层拆开。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 22 Sep 2026 14:28:59 +0000"
-    },
-    {
-      "title": "讲真，我没看出这图是AI做的，更没想到是国产AI做的",
-      "link": "https://www.qbitai.com/2026/09/494263.html",
-      "description": "商汤U1 Pro，正式发布",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 22 Sep 2026 13:57:10 +0000"
-    },
-    {
-      "title": "WebArena作者Shuyan Zhou入职Meta超级智能实验室",
-      "link": "https://www.qbitai.com/2026/09/493653.html",
-      "description": "梦想是做能帮妈妈订机票的AI浏览器。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 22 Sep 2026 11:58:53 +0000"
-    },
-    {
-      "title": "基元律动韩凯：从多模型调度到反馈闭环，探索Agent持续进化",
-      "link": "https://www.qbitai.com/2026/09/494120.html",
-      "description": "9月22日，在2026杭州云栖大会企业级Agent实践峰会上，基元律动联合创始人兼CTO韩凯发表演讲《从Harness到RSI飞轮》。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 22 Sep 2026 10:06:34 +0000"
+      "title": "飞猪 AI Native 交付大脑：用超级流程重构需求交付｜QCon上海",
+      "link": "https://www.infoq.cn/article/lRSUjSdeaHMzTTycosyT?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 23 Sep 2026 10:00:00 GMT"
     },
     {
       "title": "从生成内容到创造体验，多模态大模型如何改变内容生产？",
@@ -72,20 +48,12 @@ var NEWS_DATA = {
       "pub_date": "Tue, 22 Sep 2026 17:31:00 GMT"
     },
     {
-      "title": "Meta 开源 Astryx：面向 Agent 的 React 设计系统",
-      "link": "https://www.infoq.cn/article/He6bUhlNIuPEa99GGRYC?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 22 Sep 2026 15:12:00 GMT"
-    },
-    {
-      "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-      "link": "https://www.infoq.cn/article/7suOC8BJWYA4yx6dvZXa?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 22 Sep 2026 14:32:17 GMT"
+      "title": "OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布 AI 手机全栈解决方案 | 极客早知道",
+      "link": "http://www.geekpark.net/news/370829",
+      "description": "OpenAI 发布 GPT-6 Sol 和 Luna 模型，API 价格大降 50%\n9 月 23 日消息，OpenAI 今日发布 GPT-6 系列模型的最新成员 GPT-6 Sol 和 GPT-6 Luna。\nOpenAI 官方表示，两款模型采用与 GPT-6 Astra 类似的方法进行训练，将 Astra 在专业工作、事实性、编码、计算机使用和对齐等方面最先进的性能带入更快",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 23 Sep 2026 08:39:09 +0800"
     },
     {
       "title": "Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了",
@@ -118,14 +86,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 21 Sep 2026 12:01:49 +0800"
-    },
-    {
-      "title": "Figure AI 宣称找到了机器人版 scaling law，同行却说它其实根本不会泛化",
-      "link": "http://www.geekpark.net/news/370607",
-      "description": "作者｜Li Yuan\n\n390 亿美元的 Figure AI 已经把机器人送进 30 个陌生家庭，同行却说失败一半还谈不上会干活\n「这是 Figure AI 成立以来最重要的项目。」\n在 Helix 2.5 的发布视频里，Figure AI 创始人 Brett Adcock 把话说得很满。\nFigure AI 目前估值达到 390 亿美元，是全球最贵的未上市人形机器人公司",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 21 Sep 2026 11:57:07 +0800"
     }
   ]
 };
