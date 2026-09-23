@@ -1,12 +1,20 @@
-// 自动生成于 2026-09-23 10:40:50
+// 自动生成于 2026-09-23 15:59:29
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-23",
-  "time": "10:40",
+  "time": "15:59",
   "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 智能体。",
   "items": [
+    {
+      "title": "联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
+      "link": "https://www.qbitai.com/2026/09/496609.html",
+      "description": "联想天禧AI携全场景多端产品矩阵亮相阿里云栖大会",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 23 Sep 2026 10:35:16 +0000"
+    },
     {
       "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
       "link": "https://www.qbitai.com/2026/09/496493.html",
@@ -40,12 +48,20 @@ var NEWS_DATA = {
       "pub_date": "Wed, 23 Sep 2026 07:29:50 +0000"
     },
     {
-      "title": "Jev vs Decitron：同为决策AI，为什么不是一回事？",
-      "link": "https://www.qbitai.com/2026/09/496352.html",
-      "description": "对复杂现实进行推演与决策",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 23 Sep 2026 06:38:07 +0000"
+      "title": "Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
+      "link": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 23 Sep 2026 22:41:27 GMT"
+    },
+    {
+      "title": "2026 年的云栖，阿里给 AI 行业递了一把新尺子",
+      "link": "https://www.infoq.cn/article/zSPQbRwmS0AGpeTAhu9r?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 23 Sep 2026 19:51:33 GMT"
     },
     {
       "title": "AI 改变跨平台开发取舍，Shopify 弃用 React Native，改用 Swift 和 Kotlin",
@@ -70,22 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Wed, 23 Sep 2026 14:43:22 GMT"
-    },
-    {
-      "title": "Agents成新一代造王者，开发者正在快速失去技术决定权",
-      "link": "https://www.infoq.cn/article/bakwHvI7PTqZr4Mh45xi?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 23 Sep 2026 12:03:21 GMT"
-    },
-    {
-      "title": "数百亿向量怎么搜？Pinterest 抛弃“内存大户”HNSW，转向量化 SPANN",
-      "link": "https://www.infoq.cn/article/rB0WGcG9iLIRH3xZojY5?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 23 Sep 2026 11:22:00 GMT"
     },
     {
       "title": "剪映，杀入 AI 互动影游",
