@@ -1,12 +1,36 @@
-// 自动生成于 2026-09-24 11:01:05
+// 自动生成于 2026-09-24 16:23:31
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-24",
-  "time": "11:01",
+  "time": "16:23",
   "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
   "items": [
+    {
+      "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+      "link": "https://www.qbitai.com/2026/09/496961.html",
+      "description": "懂出海，能记忆，自进化",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 24 Sep 2026 14:20:14 +0000"
+    },
+    {
+      "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
+      "link": "https://www.qbitai.com/2026/09/496925.html",
+      "description": "1.5台6000D跑赢1台B300！",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 24 Sep 2026 14:17:48 +0000"
+    },
+    {
+      "title": "时隔十年，AI大牛署名新论文",
+      "link": "https://www.qbitai.com/2026/09/496834.html",
+      "description": "让自动驾驶“走一步想十步”",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 24 Sep 2026 12:58:55 +0000"
+    },
     {
       "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
       "link": "https://www.qbitai.com/2026/09/496816.html",
@@ -22,30 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Thu, 24 Sep 2026 05:46:10 +0000"
-    },
-    {
-      "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
-      "link": "https://www.qbitai.com/2026/09/496767.html",
-      "description": "开源一座具身智能的新“塔台”",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 24 Sep 2026 05:19:55 +0000"
-    },
-    {
-      "title": "Meta靠自研Manus翻身！股价一夜暴涨11%，登顶苹果商店，增速反超ChatGPT",
-      "link": "https://www.qbitai.com/2026/09/496647.html",
-      "description": "美国也开启了全民养虾狂潮",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 24 Sep 2026 02:23:12 +0000"
-    },
-    {
-      "title": "联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
-      "link": "https://www.qbitai.com/2026/09/496609.html",
-      "description": "联想天禧AI携全场景多端产品矩阵亮相阿里云栖大会",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 23 Sep 2026 10:35:16 +0000"
     },
     {
       "title": "云栖之后，10+阿里AI实战派将亮相QCon上海站",
@@ -88,6 +88,22 @@ var NEWS_DATA = {
       "pub_date": "Thu, 24 Sep 2026 16:00:00 GMT"
     },
     {
+      "title": "Agent 时代来了，3D 生成大模型接下来比什么？",
+      "link": "http://www.geekpark.net/news/371031",
+      "description": "9 月 3 日，GPT-6 Astra 的发布，把 3D 内容创作带到了舞台中央。\n在 GPT-6 Astra 官方发布页的一个不到 3 分钟的视频里与后续解读中，Astra 已经能直接进入 Blender，从一句住宅设计需求开始搭场景，先生成极简住宅，后来又将其扩展为围绕庭院展开的家庭住宅。里面有卧室、办公室、厨房和卫生间；家具从床板、衣柜挂杆、烤箱、餐具抽屉，再到灯光模拟，一",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 24 Sep 2026 22:49:18 +0800"
+    },
+    {
+      "title": "李彦宏的长期主义，进入回报周期",
+      "link": "http://www.geekpark.net/news/371030",
+      "description": "作者｜cola\n编辑｜郑玄\n\n9 月 21 日，百度创始人李彦宏在内部活动上为技术团队颁发「百度最高奖」。两支入围团队均获奖，各获 100 万美元奖励。\n其中，天池团队面向万亿级 MoE 大模型，自主研发百度天池超节点架构；dodo 团队是通过打造企业 AI 员工。\n它们代表着百度当下两条重要的技术探索：基于昆仑芯的天池超节点，向更大规模的 AI 基础设施深入；以及让 A",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 24 Sep 2026 19:34:07 +0800"
+    },
+    {
       "title": "从数人头到数智能体：一场正在发生的企业生产力换血",
       "link": "http://www.geekpark.net/news/371011",
       "description": "用了 AI、消耗了 Token，不一定就是 AI 原生组织，但不用肯定没有机会。作者｜Li Yuan编辑｜郑玄先让许多管理者感到危险的，往往不是行业里又冒出了什么新技术概念，而是身边的同行突然拿出了完全看不懂的交付速度和报价单。这种压迫感在今年变得极其具体：老牌企业正在把成群的智能体塞进核心生产线，甩掉繁琐的流程包袱；而那些从第一天起就生长在 AI 上的轻量团队，几个人就能直接撬",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 23 Sep 2026 15:32:36 +0800"
-    },
-    {
-      "title": "拆解下阿里的 AI 经济学，与它的下注",
-      "link": "http://www.geekpark.net/news/370865",
-      "description": "作者｜张鹏 \n编辑｜ 苏子华\n&nbsp;\n9 月 22 日，杭州云栖大会。阿里巴巴集团 CEO 吴泳铭和往年一样，做了开场的主旨演讲。\n过去几年云栖大会的主旨演讲，可以当作「技术风向标」来听，会抛出很多重磅的技术判断，比如，「大模型是下一代操作系统」、「超级 AI 云是下一代计算机」。\n但这一次，我听完的感受很不一样。吴泳铭花了很多时间讲工业革命、讲电、讲经济学。他的重心不在",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 23 Sep 2026 14:02:57 +0800"
-    },
-    {
-      "title": "从单卡到千卡互联，平头哥真武 V900 背后的 AI 算力变局",
-      "link": "http://www.geekpark.net/news/370864",
-      "description": "作者｜Cynthia\n编辑｜郑玄\n9 月 22 日的 2026 杭州云栖大会，平头哥少见地被完整推到了主论坛台前。\n当天上午，吴泳铭完成主旨演讲后，千问大模型、多模态模型负责人依次登场，随后就是平头哥副总裁高慧。她的演讲题目是「Agentic 时代卓越算力基石」。\n平头哥带来的产品，则从一颗最新得真武 V900 芯片，一直延伸到 ICN Switch 互联芯片、磐脉智能网卡、镇岳",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 23 Sep 2026 13:55:58 +0800"
     }
   ]
 };
