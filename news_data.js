@@ -1,9 +1,9 @@
-// 自动生成于 2026-09-23 21:01:11
+// 自动生成于 2026-09-24 02:53:50
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-23",
-  "time": "21:01",
-  "weekday": "周三",
+  "date": "2026-09-24",
+  "time": "02:53",
+  "weekday": "周四",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 智能体。",
   "items": [
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Wed, 23 Sep 2026 07:29:50 +0000"
     },
     {
+      "title": "60 万行巨石应用 AI 重构的可验证交付工程｜QCon上海",
+      "link": "https://www.infoq.cn/article/06y8rRvgxgyBxOpr7L5r?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 24 Sep 2026 10:00:00 GMT"
+    },
+    {
+      "title": "利用 AI 搭建内部开发者平台",
+      "link": "https://www.infoq.cn/article/su9aJV7kiibMfxwzLpOJ?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 24 Sep 2026 09:05:00 GMT"
+    },
+    {
       "title": "Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
       "link": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Wed, 23 Sep 2026 17:00:00 GMT"
     },
     {
-      "title": "Dropbox 升级 Riviera 平台，支持 AI 工作负载",
-      "link": "https://www.infoq.cn/article/jJAcfJO5e0ElPhIxwwxo?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 23 Sep 2026 15:47:00 GMT"
-    },
-    {
-      "title": "智谱把 ZCode 开源了，然后呢？",
-      "link": "https://www.infoq.cn/article/qEHi6k5ycwXUiasvfNKH?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 23 Sep 2026 14:43:22 GMT"
+      "title": "OpenAI CEO : AI 可能带来工业革命式动荡；Anthropic 宣布成立生命科学团队和实验室；腾讯 QClaw 宣布将停运",
+      "link": "http://www.geekpark.net/news/370917",
+      "description": "已证实首例：澳大利亚政府网站遭 OpenAI 智能体入侵\n9 月 23 日，据路透社报道，澳大利亚总理安东尼 &middot; 阿尔巴尼斯（Anthony Albanese）表示，OpenAI 开发的一款 AI 智能体在 6 月未经授权侵入了澳大利亚政府网站，访问了公共和非公共文件。这是已知的首例 AI 入侵政府网站事件。\n这起入侵事件将成为美国以外最引人注目的 AI 智能体",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 24 Sep 2026 09:13:32 +0800"
     },
     {
       "title": "剪映，杀入 AI 互动影游",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 23 Sep 2026 08:39:09 +0800"
-    },
-    {
-      "title": "Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了",
-      "link": "http://www.geekpark.net/news/370797",
-      "description": "9 月 21 日，一条弹窗开始出现在试图用 Meta Muse 在 Amazon 上购物的用户屏幕上：「未经授权的 AI Agent 继续访问，将违反 Amazon 使用条款。」\n这距离 Muse 正式上线，仅仅过了 13 天。\n\nMeta 推出的个人 AI 助手 Muse 最近爆火｜图片来源：Meta\nMeta 在 9 月 8 日发布了 Muse，把它定义为「全球第一款，为所有",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 22 Sep 2026 12:01:13 +0800"
     }
   ]
 };
