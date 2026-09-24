@@ -1,12 +1,44 @@
-// 自动生成于 2026-09-24 02:53:50
+// 自动生成于 2026-09-24 11:01:05
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-24",
-  "time": "02:53",
+  "time": "11:01",
   "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, 智能体, Agent。",
   "items": [
+    {
+      "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+      "link": "https://www.qbitai.com/2026/09/496816.html",
+      "description": "人类演示一次，机器人即可实现跨场景任务复用",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 24 Sep 2026 08:20:12 +0000"
+    },
+    {
+      "title": "Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
+      "link": "https://www.qbitai.com/2026/09/496779.html",
+      "description": "Stripe Managed Payments (SMP) 现已全面上线",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 24 Sep 2026 05:46:10 +0000"
+    },
+    {
+      "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
+      "link": "https://www.qbitai.com/2026/09/496767.html",
+      "description": "开源一座具身智能的新“塔台”",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 24 Sep 2026 05:19:55 +0000"
+    },
+    {
+      "title": "Meta靠自研Manus翻身！股价一夜暴涨11%，登顶苹果商店，增速反超ChatGPT",
+      "link": "https://www.qbitai.com/2026/09/496647.html",
+      "description": "美国也开启了全民养虾狂潮",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 24 Sep 2026 02:23:12 +0000"
+    },
     {
       "title": "联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
       "link": "https://www.qbitai.com/2026/09/496609.html",
@@ -16,76 +48,52 @@ var NEWS_DATA = {
       "pub_date": "Wed, 23 Sep 2026 10:35:16 +0000"
     },
     {
-      "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
-      "link": "https://www.qbitai.com/2026/09/496493.html",
-      "description": "企业AI服务迎来平台化交付时代",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 23 Sep 2026 09:50:26 +0000"
-    },
-    {
-      "title": "它石智航顶尖团队引领中国具身智能率先迈入规模化落地阶段",
-      "link": "https://www.qbitai.com/2026/09/496481.html",
-      "description": "它石智航将继续扩大研发团队，加快布局生产基地，全面提升机器人交付能力",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 23 Sep 2026 08:54:04 +0000"
-    },
-    {
-      "title": "斑马智能发布端模型AutoOmni2.0，让元神AI更懂“我的世界”",
-      "link": "https://www.qbitai.com/2026/09/496471.html",
-      "description": "9月23日云栖大会期间，斑马智能发布新一代全模态端侧大模型AutoOmni 2.0-23B-A3B",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 23 Sep 2026 08:45:22 +0000"
-    },
-    {
-      "title": "DeepSeek新论文公开Agent训练！梁文锋署名",
-      "link": "https://www.qbitai.com/2026/09/496393.html",
-      "description": "每秒能产生5000+个沙盒",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 23 Sep 2026 07:29:50 +0000"
-    },
-    {
-      "title": "60 万行巨石应用 AI 重构的可验证交付工程｜QCon上海",
-      "link": "https://www.infoq.cn/article/06y8rRvgxgyBxOpr7L5r?utm_source=rss&utm_medium=article",
+      "title": "云栖之后，10+阿里AI实战派将亮相QCon上海站",
+      "link": "https://www.infoq.cn/article/lh6Z5E9Zkr33bOeHQGky?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 24 Sep 2026 10:00:00 GMT"
+      "pub_date": "Thu, 24 Sep 2026 18:38:59 GMT"
     },
     {
-      "title": "利用 AI 搭建内部开发者平台",
-      "link": "https://www.infoq.cn/article/su9aJV7kiibMfxwzLpOJ?utm_source=rss&utm_medium=article",
+      "title": "世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
+      "link": "https://www.infoq.cn/article/hrmb2p18iKEwl24OMvcv?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 24 Sep 2026 09:05:00 GMT"
+      "pub_date": "Thu, 24 Sep 2026 18:11:27 GMT"
     },
     {
-      "title": "Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
-      "link": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov?utm_source=rss&utm_medium=article",
+      "title": "WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
+      "link": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 23 Sep 2026 22:41:27 GMT"
+      "pub_date": "Thu, 24 Sep 2026 17:25:00 GMT"
     },
     {
-      "title": "2026 年的云栖，阿里给 AI 行业递了一把新尺子",
-      "link": "https://www.infoq.cn/article/zSPQbRwmS0AGpeTAhu9r?utm_source=rss&utm_medium=article",
+      "title": "数据、模型、算力越来越难分开，Data+AI 基础设施怎么进化？",
+      "link": "https://www.infoq.cn/article/amffXXMpr23rX3eoJDhv?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 23 Sep 2026 19:51:33 GMT"
+      "pub_date": "Thu, 24 Sep 2026 16:34:30 GMT"
     },
     {
-      "title": "AI 改变跨平台开发取舍，Shopify 弃用 React Native，改用 Swift 和 Kotlin",
-      "link": "https://www.infoq.cn/article/2FFH5EHF2SMusaYQhjlX?utm_source=rss&utm_medium=article",
+      "title": "29 小时攻破浏览器，GPT-6 Astra 成为 OpenAI 首个“严重级”模型",
+      "link": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 23 Sep 2026 17:00:00 GMT"
+      "pub_date": "Thu, 24 Sep 2026 16:00:00 GMT"
+    },
+    {
+      "title": "从数人头到数智能体：一场正在发生的企业生产力换血",
+      "link": "http://www.geekpark.net/news/371011",
+      "description": "用了 AI、消耗了 Token，不一定就是 AI 原生组织，但不用肯定没有机会。作者｜Li Yuan编辑｜郑玄先让许多管理者感到危险的，往往不是行业里又冒出了什么新技术概念，而是身边的同行突然拿出了完全看不懂的交付速度和报价单。这种压迫感在今年变得极其具体：老牌企业正在把成群的智能体塞进核心生产线，甩掉繁琐的流程包袱；而那些从第一天起就生长在 AI 上的轻量团队，几个人就能直接撬",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 24 Sep 2026 16:13:08 +0800"
     },
     {
       "title": "OpenAI CEO : AI 可能带来工业革命式动荡；Anthropic 宣布成立生命科学团队和实验室；腾讯 QClaw 宣布将停运",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 23 Sep 2026 13:55:58 +0800"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布 AI 手机全栈解决方案 | 极客早知道",
-      "link": "http://www.geekpark.net/news/370829",
-      "description": "OpenAI 发布 GPT-6 Sol 和 Luna 模型，API 价格大降 50%\n9 月 23 日消息，OpenAI 今日发布 GPT-6 系列模型的最新成员 GPT-6 Sol 和 GPT-6 Luna。\nOpenAI 官方表示，两款模型采用与 GPT-6 Astra 类似的方法进行训练，将 Astra 在专业工作、事实性、编码、计算机使用和对齐等方面最先进的性能带入更快",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 23 Sep 2026 08:39:09 +0800"
     }
   ]
 };
