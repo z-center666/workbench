@@ -1,12 +1,36 @@
-// 自动生成于 2026-09-25 03:10:17
+// 自动生成于 2026-09-25 11:01:02
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-25",
-  "time": "03:10",
+  "time": "11:01",
   "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 大模型, 智能体, Agent。",
   "items": [
+    {
+      "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
+      "link": "https://www.qbitai.com/2026/09/497108.html",
+      "description": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 25 Sep 2026 10:00:14 +0000"
+    },
+    {
+      "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
+      "link": "https://www.qbitai.com/2026/09/497075.html",
+      "description": "Agent的手越伸越长",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 25 Sep 2026 06:20:56 +0000"
+    },
+    {
+      "title": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
+      "link": "https://www.qbitai.com/2026/09/497070.html",
+      "description": "一场物理世界的基模实验",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 25 Sep 2026 06:14:07 +0000"
+    },
     {
       "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
       "link": "https://www.qbitai.com/2026/09/496961.html",
@@ -22,30 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Thu, 24 Sep 2026 14:17:48 +0000"
-    },
-    {
-      "title": "时隔十年，AI大牛署名新论文",
-      "link": "https://www.qbitai.com/2026/09/496834.html",
-      "description": "让自动驾驶“走一步想十步”",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 24 Sep 2026 12:58:55 +0000"
-    },
-    {
-      "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
-      "link": "https://www.qbitai.com/2026/09/496816.html",
-      "description": "人类演示一次，机器人即可实现跨场景任务复用",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 24 Sep 2026 08:20:12 +0000"
-    },
-    {
-      "title": "Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
-      "link": "https://www.qbitai.com/2026/09/496779.html",
-      "description": "Stripe Managed Payments (SMP) 现已全面上线",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 24 Sep 2026 05:46:10 +0000"
     },
     {
       "title": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
