@@ -1,12 +1,20 @@
-// 自动生成于 2026-09-25 11:01:02
+// 自动生成于 2026-09-25 16:24:06
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-25",
-  "time": "11:01",
+  "time": "16:24",
   "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 大模型, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, 大模型, 智能体, Agent。",
   "items": [
+    {
+      "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
+      "link": "https://www.qbitai.com/2026/09/497177.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 25 Sep 2026 13:15:45 +0000"
+    },
     {
       "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
       "link": "https://www.qbitai.com/2026/09/497108.html",
@@ -38,14 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Thu, 24 Sep 2026 14:20:14 +0000"
-    },
-    {
-      "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
-      "link": "https://www.qbitai.com/2026/09/496925.html",
-      "description": "1.5台6000D跑赢1台B300！",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 24 Sep 2026 14:17:48 +0000"
     },
     {
       "title": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
