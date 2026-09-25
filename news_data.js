@@ -1,9 +1,9 @@
-// 自动生成于 2026-09-24 21:04:56
+// 自动生成于 2026-09-25 03:10:17
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-24",
-  "time": "21:04",
-  "weekday": "周四",
+  "date": "2026-09-25",
+  "time": "03:10",
+  "weekday": "周五",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
   "items": [
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Thu, 24 Sep 2026 05:46:10 +0000"
     },
     {
+      "title": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
+      "link": "https://www.infoq.cn/article/QQk3wiolU1VScH3u0P7T?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 25 Sep 2026 10:00:00 GMT"
+    },
+    {
       "title": "云栖之后，10+阿里AI实战派将亮相QCon上海站",
       "link": "https://www.infoq.cn/article/lh6Z5E9Zkr33bOeHQGky?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Thu, 24 Sep 2026 16:34:30 GMT"
     },
     {
-      "title": "29 小时攻破浏览器，GPT-6 Astra 成为 OpenAI 首个“严重级”模型",
-      "link": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 24 Sep 2026 16:00:00 GMT"
+      "title": "OPPO 姜昱辰：大模型的差距越来越小，AI 手机的差距才刚拉开",
+      "link": "http://www.geekpark.net/news/371035",
+      "description": "小布、ColorOS 17 与「AI 硬件」\n\n作者｜张勇毅\n编辑｜郑玄\n\n「以意图驱动的手机就是 AI 手机。用户说一句话，手机就能把事情办了，不需要再打开 APP、反复点击。」\n这是 OPPO ColorOS 智慧产品研发总监姜昱辰，给 AI 手机下的最新定义。她也用这把尺子量了一遍市面上的产品，包括 OPPO 自家的，结论是现在没有一台手机可以称为 AI 手机。\n但做出",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 25 Sep 2026 09:50:25 +0800"
     },
     {
       "title": "Agent 时代来了，3D 生成大模型接下来比什么？",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Thu, 24 Sep 2026 09:13:32 +0800"
-    },
-    {
-      "title": "剪映，杀入 AI 互动影游",
-      "link": "http://www.geekpark.net/news/370883",
-      "description": "&nbsp;\n头图来源：剪映\n9 月 20 日，剪映在「AI 新创作发布会」上，集中更新了专业版、移动端和创作者生态。\n专业版新增一站式创作工作台「剪映 Hub」，由无限画布和多轨编辑器组成。用户可以从一句话、一个参考视频或者一份文档开始，在画布上整理思路、生成脚本和分镜，调用即梦、小云雀等平台生成图片、视频和声音，再把初剪结果送入时间线继续修改。\n智能创作 Agent「剪映助手",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 23 Sep 2026 15:32:36 +0800"
     }
   ]
 };
