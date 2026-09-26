@@ -1,12 +1,20 @@
-// 自动生成于 2026-09-26 10:43:44
+// 自动生成于 2026-09-26 15:38:37
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-26",
-  "time": "10:43",
+  "time": "15:38",
   "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 大模型, 智能体, Agent。",
   "items": [
+    {
+      "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
+      "link": "https://www.qbitai.com/2026/09/498478.html",
+      "description": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 26 Sep 2026 11:49:43 +0000"
+    },
     {
       "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
       "link": "https://www.qbitai.com/2026/09/498271.html",
@@ -38,14 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Sat, 26 Sep 2026 07:12:05 +0000"
-    },
-    {
-      "title": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
-      "link": "https://www.qbitai.com/2026/09/497382.html",
-      "description": "还把「密钥」叫战利品",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 26 Sep 2026 07:04:15 +0000"
     },
     {
       "title": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
