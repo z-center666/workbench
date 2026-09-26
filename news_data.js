@@ -1,11 +1,11 @@
-// 自动生成于 2026-09-25 21:02:06
+// 自动生成于 2026-09-26 03:14:05
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-25",
-  "time": "21:02",
-  "weekday": "周五",
+  "date": "2026-09-26",
+  "time": "03:14",
+  "weekday": "周六",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, 大模型, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
   "items": [
     {
       "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Thu, 24 Sep 2026 14:20:14 +0000"
     },
     {
+      "title": "AI 时代，技术人靠什么赢？｜QCon上海",
+      "link": "https://www.infoq.cn/article/C1Vuzh9fUmUL9i5wmDZf?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 26 Sep 2026 10:00:00 GMT"
+    },
+    {
+      "title": "DoorDash 借助多 Agent LLM 系统清理 6 万个 Feature Flag",
+      "link": "https://www.infoq.cn/article/gk4rWsQg09PWTFTZlJE3?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 26 Sep 2026 09:20:21 GMT"
+    },
+    {
       "title": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
       "link": "https://www.infoq.cn/article/QQk3wiolU1VScH3u0P7T?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Thu, 24 Sep 2026 18:11:27 GMT"
     },
     {
-      "title": "WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
-      "link": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 24 Sep 2026 17:25:00 GMT"
-    },
-    {
-      "title": "数据、模型、算力越来越难分开，Data+AI 基础设施怎么进化？",
-      "link": "https://www.infoq.cn/article/amffXXMpr23rX3eoJDhv?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 24 Sep 2026 16:34:30 GMT"
+      "title": "Deepseek 桌面版悄悄上线；Muse 大火，扎克伯格跃升全球第四大富豪；OpenAI 被曝筹备推出 ProMax 订阅层级，月费或达 500-600 美元",
+      "link": "http://www.geekpark.net/news/371038",
+      "description": "Anthropic 与 Akamai 达成 7 年 116 亿美元协议，扩充 CPU 算力\n9 月 26 日消息，云计算、网络安全、内容交付企业 Akamai 当地时间 24 日宣布大幅扩展与 Anthropic 的合作关系，两家公司签署了一份为期 7 年、价值 116 亿美元（现汇率约合 779.2 亿元人民币）的合同。\n根据协议，Akamai 将以其分布式人工智能基础设施和",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sat, 26 Sep 2026 08:45:21 +0800"
     },
     {
       "title": "OPPO 姜昱辰：大模型的差距越来越小，AI 手机的差距才刚拉开",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Thu, 24 Sep 2026 16:13:08 +0800"
-    },
-    {
-      "title": "OpenAI CEO : AI 可能带来工业革命式动荡；Anthropic 宣布成立生命科学团队和实验室；腾讯 QClaw 宣布将停运",
-      "link": "http://www.geekpark.net/news/370917",
-      "description": "已证实首例：澳大利亚政府网站遭 OpenAI 智能体入侵\n9 月 23 日，据路透社报道，澳大利亚总理安东尼 &middot; 阿尔巴尼斯（Anthony Albanese）表示，OpenAI 开发的一款 AI 智能体在 6 月未经授权侵入了澳大利亚政府网站，访问了公共和非公共文件。这是已知的首例 AI 入侵政府网站事件。\n这起入侵事件将成为美国以外最引人注目的 AI 智能体",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 24 Sep 2026 09:13:32 +0800"
     }
   ]
 };
