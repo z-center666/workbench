@@ -1,51 +1,59 @@
-// 自动生成于 2026-09-26 03:14:05
+// 自动生成于 2026-09-26 10:43:44
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-26",
-  "time": "03:14",
+  "time": "10:43",
   "weekday": "周六",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 大模型, 智能体, Agent。",
   "items": [
     {
-      "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
-      "link": "https://www.qbitai.com/2026/09/497177.html",
-      "description": "",
+      "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+      "link": "https://www.qbitai.com/2026/09/498271.html",
+      "description": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 25 Sep 2026 13:15:45 +0000"
+      "pub_date": "Sat, 26 Sep 2026 09:07:41 +0000"
     },
     {
-      "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
-      "link": "https://www.qbitai.com/2026/09/497108.html",
-      "description": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。",
+      "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+      "link": "https://www.qbitai.com/2026/09/497624.html",
+      "description": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 25 Sep 2026 10:00:14 +0000"
+      "pub_date": "Sat, 26 Sep 2026 09:01:00 +0000"
     },
     {
-      "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
-      "link": "https://www.qbitai.com/2026/09/497075.html",
-      "description": "Agent的手越伸越长",
+      "title": "在云栖大会，我终于看懂了米哈游千亿AI野心",
+      "link": "https://www.qbitai.com/2026/09/497613.html",
+      "description": "大伟哥：如果做不到，一年两年之后过来打我脸",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 25 Sep 2026 06:20:56 +0000"
+      "pub_date": "Sat, 26 Sep 2026 07:18:05 +0000"
     },
     {
-      "title": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
-      "link": "https://www.qbitai.com/2026/09/497070.html",
-      "description": "一场物理世界的基模实验",
+      "title": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
+      "link": "https://www.qbitai.com/2026/09/497425.html",
+      "description": "vLLM人马创业公司团队出品",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 25 Sep 2026 06:14:07 +0000"
+      "pub_date": "Sat, 26 Sep 2026 07:12:05 +0000"
     },
     {
-      "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
-      "link": "https://www.qbitai.com/2026/09/496961.html",
-      "description": "懂出海，能记忆，自进化",
+      "title": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
+      "link": "https://www.qbitai.com/2026/09/497382.html",
+      "description": "还把「密钥」叫战利品",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 24 Sep 2026 14:20:14 +0000"
+      "pub_date": "Sat, 26 Sep 2026 07:04:15 +0000"
+    },
+    {
+      "title": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
+      "link": "https://www.infoq.cn/article/jJIXCaLHUvPgswTOZ1uQ?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 26 Sep 2026 17:00:00 GMT"
     },
     {
       "title": "AI 时代，技术人靠什么赢？｜QCon上海",
@@ -78,14 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Thu, 24 Sep 2026 18:38:59 GMT"
-    },
-    {
-      "title": "世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
-      "link": "https://www.infoq.cn/article/hrmb2p18iKEwl24OMvcv?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 24 Sep 2026 18:11:27 GMT"
     },
     {
       "title": "Deepseek 桌面版悄悄上线；Muse 大火，扎克伯格跃升全球第四大富豪；OpenAI 被曝筹备推出 ProMax 订阅层级，月费或达 500-600 美元",
