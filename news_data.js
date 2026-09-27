@@ -1,11 +1,11 @@
-// 自动生成于 2026-09-26 20:35:40
+// 自动生成于 2026-09-27 03:21:54
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-26",
-  "time": "20:35",
-  "weekday": "周六",
+  "date": "2026-09-27",
+  "time": "03:21",
+  "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 大模型, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 大模型, Agent。",
   "items": [
     {
       "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Sat, 26 Sep 2026 07:12:05 +0000"
     },
     {
+      "title": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
+      "link": "https://www.infoq.cn/article/sQV4EomjPP0J3hM3lyF9?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 27 Sep 2026 10:00:00 GMT"
+    },
+    {
+      "title": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/UC6jk6tu7fWE5bDO8oQw?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 27 Sep 2026 10:00:00 GMT"
+    },
+    {
       "title": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
       "link": "https://www.infoq.cn/article/jJIXCaLHUvPgswTOZ1uQ?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Sat, 26 Sep 2026 09:20:21 GMT"
     },
     {
-      "title": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
-      "link": "https://www.infoq.cn/article/QQk3wiolU1VScH3u0P7T?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 25 Sep 2026 10:00:00 GMT"
-    },
-    {
-      "title": "云栖之后，10+阿里AI实战派将亮相QCon上海站",
-      "link": "https://www.infoq.cn/article/lh6Z5E9Zkr33bOeHQGky?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 24 Sep 2026 18:38:59 GMT"
+      "title": "接连发生 AI 失控，OpenAI 暂停最强模型训练；腾讯推出云端小龙虾：已接入微信 QQ；王兴兴回应造 390 万元变形机甲",
+      "link": "http://www.geekpark.net/news/371039",
+      "description": "接连发生 AI 失控事件，OpenAI 再次暂停其最强模型训练\n9 月 27 日消息，随着有关 OpenAI 模型突破限制、攻击网站以及整体行为失控的报告不断增加，该公司决定暂停训练旗下能力最强的模型。\n这一决定是在一款处于沙盒环境中测试的模型利用漏洞获得互联网访问权限后作出的。该事件发生于 9 月 20 日。截至当地时间 9 月 25 日星期六晚间，OpenAI「所有涉及工具",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 27 Sep 2026 08:38:29 +0800"
     },
     {
       "title": "Deepseek 桌面版悄悄上线；Muse 大火，扎克伯格跃升全球第四大富豪；OpenAI 被曝筹备推出 ProMax 订阅层级，月费或达 500-600 美元",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Thu, 24 Sep 2026 19:34:07 +0800"
-    },
-    {
-      "title": "从数人头到数智能体：一场正在发生的企业生产力换血",
-      "link": "http://www.geekpark.net/news/371011",
-      "description": "用了 AI、消耗了 Token，不一定就是 AI 原生组织，但不用肯定没有机会。作者｜Li Yuan编辑｜郑玄先让许多管理者感到危险的，往往不是行业里又冒出了什么新技术概念，而是身边的同行突然拿出了完全看不懂的交付速度和报价单。这种压迫感在今年变得极其具体：老牌企业正在把成群的智能体塞进核心生产线，甩掉繁琐的流程包袱；而那些从第一天起就生长在 AI 上的轻量团队，几个人就能直接撬",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 24 Sep 2026 16:13:08 +0800"
     }
   ]
 };
