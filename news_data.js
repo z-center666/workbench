@@ -1,12 +1,20 @@
-// 自动生成于 2026-09-27 11:17:10
+// 自动生成于 2026-09-27 16:17:43
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-27",
-  "time": "11:17",
+  "time": "16:17",
   "weekday": "周日",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 大模型, Agent。",
   "items": [
+    {
+      "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+      "link": "https://www.qbitai.com/2026/09/498633.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 27 Sep 2026 14:20:35 +0000"
+    },
     {
       "title": "啥题啊能干崩OpenAI最强模型训练…",
       "link": "https://www.qbitai.com/2026/09/498546.html",
@@ -38,14 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Sat, 26 Sep 2026 09:01:00 +0000"
-    },
-    {
-      "title": "在云栖大会，我终于看懂了米哈游千亿AI野心",
-      "link": "https://www.qbitai.com/2026/09/497613.html",
-      "description": "大伟哥：如果做不到，一年两年之后过来打我脸",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 26 Sep 2026 07:18:05 +0000"
     },
     {
       "title": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
