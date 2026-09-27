@@ -1,12 +1,20 @@
-// 自动生成于 2026-09-27 03:21:54
+// 自动生成于 2026-09-27 11:17:10
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-27",
-  "time": "03:21",
+  "time": "11:17",
   "weekday": "周日",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 大模型, Agent。",
   "items": [
+    {
+      "title": "啥题啊能干崩OpenAI最强模型训练…",
+      "link": "https://www.qbitai.com/2026/09/498546.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 27 Sep 2026 09:44:16 +0000"
+    },
     {
       "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
       "link": "https://www.qbitai.com/2026/09/498478.html",
@@ -38,14 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Sat, 26 Sep 2026 07:18:05 +0000"
-    },
-    {
-      "title": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
-      "link": "https://www.qbitai.com/2026/09/497425.html",
-      "description": "vLLM人马创业公司团队出品",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 26 Sep 2026 07:12:05 +0000"
     },
     {
       "title": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
@@ -88,6 +88,14 @@ var NEWS_DATA = {
       "pub_date": "Sat, 26 Sep 2026 09:20:21 GMT"
     },
     {
+      "title": "阿里整合 AI 办公力量后，千问办公怎么打这场大战？",
+      "link": "http://www.geekpark.net/news/371040",
+      "description": "办公正在成为全球 AI 行业竞争最集中的战场之一。\n相比聊天、搜索，AI 在企业办公场景下的落地要复杂的多，一方面需要连接、调用企业的文档、邮件、知识库，另一方面还需要 AI 理解审批、销售、财务等业务流程。而今年以来 Agent 快速发展，让 AI 进入「千司千面」的企业办公场景成为可能。\n因此，从微软、谷歌到国内的互联网和云计算公司，行业竞争的重点都在从模型能力延伸到办公入口",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 27 Sep 2026 16:38:53 +0800"
+    },
+    {
       "title": "接连发生 AI 失控，OpenAI 暂停最强模型训练；腾讯推出云端小龙虾：已接入微信 QQ；王兴兴回应造 390 万元变形机甲",
       "link": "http://www.geekpark.net/news/371039",
       "description": "接连发生 AI 失控事件，OpenAI 再次暂停其最强模型训练\n9 月 27 日消息，随着有关 OpenAI 模型突破限制、攻击网站以及整体行为失控的报告不断增加，该公司决定暂停训练旗下能力最强的模型。\n这一决定是在一款处于沙盒环境中测试的模型利用漏洞获得互联网访问权限后作出的。该事件发生于 9 月 20 日。截至当地时间 9 月 25 日星期六晚间，OpenAI「所有涉及工具",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Thu, 24 Sep 2026 22:49:18 +0800"
-    },
-    {
-      "title": "李彦宏的长期主义，进入回报周期",
-      "link": "http://www.geekpark.net/news/371030",
-      "description": "作者｜cola\n编辑｜郑玄\n\n9 月 21 日，百度创始人李彦宏在内部活动上为技术团队颁发「百度最高奖」。两支入围团队均获奖，各获 100 万美元奖励。\n其中，天池团队面向万亿级 MoE 大模型，自主研发百度天池超节点架构；dodo 团队是通过打造企业 AI 员工。\n它们代表着百度当下两条重要的技术探索：基于昆仑芯的天池超节点，向更大规模的 AI 基础设施深入；以及让 A",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 24 Sep 2026 19:34:07 +0800"
     }
   ]
 };
