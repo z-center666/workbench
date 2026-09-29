@@ -1,11 +1,11 @@
-// 自动生成于 2026-09-28 22:53:30
+// 自动生成于 2026-09-29 03:56:11
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-28",
-  "time": "22:53",
-  "weekday": "周一",
+  "date": "2026-09-29",
+  "time": "03:56",
+  "weekday": "周二",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, 大模型, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, 大模型, 智能体, Agent。",
   "items": [
     {
       "title": "工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路",
@@ -48,6 +48,38 @@ var NEWS_DATA = {
       "pub_date": "Sat, 26 Sep 2026 11:49:43 +0000"
     },
     {
+      "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+      "link": "https://www.infoq.cn/article/uwfvFTWwH5Qupo2lBxF6?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 29 Sep 2026 11:24:14 GMT"
+    },
+    {
+      "title": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/AmYfVbwTlVyApFszqKx3?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 29 Sep 2026 10:36:23 GMT"
+    },
+    {
+      "title": "AI 驱动复杂业务漏洞挖掘：从业务规则建模到攻击路径验证｜QCon上海",
+      "link": "https://www.infoq.cn/article/mDiczbGJpHNMU6e0qBX1?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 29 Sep 2026 10:00:00 GMT"
+    },
+    {
+      "title": "Token价格一降再降，但不会让边缘AI退场：企业算力账越来越细",
+      "link": "https://www.infoq.cn/article/XF5kZxV681STVDrzsstj?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 29 Sep 2026 09:50:11 GMT"
+    },
+    {
       "title": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
       "link": "https://www.infoq.cn/article/OooAe7xY816xAdLrkv8V?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -56,76 +88,44 @@ var NEWS_DATA = {
       "pub_date": "Mon, 28 Sep 2026 22:17:00 GMT"
     },
     {
-      "title": "Imagination 发布 E 系列 GPU IP 新进展：一套架构支持图形、计算与AI",
-      "link": "https://www.infoq.cn/article/5Xfeqshw0hwfUD95JpWE?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 28 Sep 2026 18:23:47 GMT"
-    },
-    {
-      "title": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
-      "link": "https://www.infoq.cn/article/sQV4EomjPP0J3hM3lyF9?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 27 Sep 2026 10:00:00 GMT"
-    },
-    {
-      "title": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
-      "link": "https://www.infoq.cn/article/UC6jk6tu7fWE5bDO8oQw?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 27 Sep 2026 10:00:00 GMT"
-    },
-    {
-      "title": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
-      "link": "https://www.infoq.cn/article/jJIXCaLHUvPgswTOZ1uQ?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 26 Sep 2026 17:00:00 GMT"
-    },
-    {
-      "title": "百炼智能 冯是聪：人工智能如何拯救 B2B 行业的地推获客？ | Founder 100",
-      "link": "http://www.geekpark.net/news/371386",
-      "description": "本文首发于 Founder Park 公众号 · 2022 年 7 月 28 日针对个人消费者的广告营销如今已经完全智能化了，你的购买行为、社交媒体的言论都有可能被拿来作为推销的数据来源，甚至有些泛滥的趋势，以至于苹果在 iOS 14 的版本中发布了升级版的「隐私保护」，给予用户可以选择关闭 app 数据跟踪的权利。对于 B2C 营销的公司来说，现在的数据获取和营销智能化，有大把",
+      "title": "对话斯坦福爆款论文作者：创造可信Agents、突破上下文限制、个体智能和集体智能",
+      "link": "http://www.geekpark.net/news/371474",
+      "description": "本文首发于 Founder Park 公众号 · 2023 年 4 月 19 日25 个智能体（agents），在一个貌似早期宝可梦游戏的虚拟小镇，自行制定计划、执行行动、反思行为。上周，题为《生成式代理：人类行为的交互模拟体》（Generative Agents: Interactive Simulacra of Human Behavior）的论文火遍全网。游戏从业者们看到了",
       "source": "极客公园",
       "category": "科技",
-      "pub_date": "Tue, 29 Sep 2026 02:19:20 +0800"
+      "pub_date": "Tue, 29 Sep 2026 10:59:13 +0800"
     },
     {
-      "title": "玻色量子 马寅：量子计算+AI，未来已来 | Founder 100",
-      "link": "http://www.geekpark.net/news/371383",
-      "description": "本文首发于 Founder Park 公众号 · 2022 年 7 月 14 日摩尔定律正在失效，经典计算机的性能也日益捉襟见肘。单靠堆积硬件的方式，已经无法满足当下骤增的算力需求了。在这其中，量子计算作为最具潜力、也最受关注的新兴技术，吸引了业内不少的关注，也和人工智能一样，成为了科技巨头纷纷投资的领域，谷歌、IBM、微软等都在量子计算领域砸入重金。而当量子计算和人工智能又结合",
+      "title": "信息爆炸的 10 篇 AGI 访谈，我们从中整理了 14 个关键问题",
+      "link": "http://www.geekpark.net/news/371473",
+      "description": "本文首发于 Founder Park 公众号 · 2023 年 4 月 16 日自从 GPT-4 发布以来，媒体高度关注 OpenAI 和其内外部相关人士，重要角色的视频、播客和文章访谈频频出现。为了节省读者时间，我们整理了过去几周传播较广的 10 篇/支访谈内容，以问题梳理，以下是整理后的内容。访谈对象包括：Sam Altman: OpenAI CEOIlya Sutskeve",
       "source": "极客公园",
       "category": "科技",
-      "pub_date": "Tue, 29 Sep 2026 02:14:44 +0800"
+      "pub_date": "Tue, 29 Sep 2026 10:57:47 +0800"
     },
     {
-      "title": "​领骏科技 杨文利：自动驾驶商业化时代已经到来 | Founder 100",
-      "link": "http://www.geekpark.net/news/371381",
-      "description": "本文首发于 Founder Park 公众号 · 2022 年 7 月 11 日公司：领骏科技领域：自动驾驶、无人巴士、无人驾驶、智能网联公交、智慧城市、智能交通融资状态：数千万元 PreA+轮主要投资人：武岳峰资本、满帮集团、地平线、赣州市发投官方网站：http://www.leadgentech.ai/今年 4 月，《北京市智能网联汽车政策先行区乘用车无人化道路测试与示范应用",
+      "title": "Sam Altman 的创业手册 | 周末长文",
+      "link": "http://www.geekpark.net/news/371471",
+      "description": "本文首发于 Founder Park 公众号 · 2023 年 4 月 15 日Sam Altman 可以说是改变了 YC 和 OpenAI 的发展轨迹，这篇由他创作，发表于 2015 年的创业手册，在当下 AGI 带来的新一波创业热潮里，适合重新拿出来读一读。作者：Sam Altman翻译：海松&nbsp;英文版：https://playbook.samaltman.com/在",
       "source": "极客公园",
       "category": "科技",
-      "pub_date": "Tue, 29 Sep 2026 02:11:44 +0800"
+      "pub_date": "Tue, 29 Sep 2026 10:56:28 +0800"
     },
     {
-      "title": "量子计算、AI 和商业航天领域的创始人都在读什么？ | 创始人书单",
-      "link": "http://www.geekpark.net/news/371379",
-      "description": "本文首发于 Founder Park 公众号 · 2022 年 7 月 1 日在 4 月份的第一期书单后，今天送上的是来自创始人的书单推荐第二期。本期的 10 位创业者，分别来自 AI、量子力学、云游戏、商业航空和自动驾驶等领域，而他们的推荐，包含文学、科普、社科、非虚构等类型，甚至还有一款航天模拟类游戏，希望对你有所帮助。01《三体 2：黑暗森林》推荐人：Jina AI 肖涵“",
+      "title": "有了插件的 ChatGPT，可能会成为未来互联网的唯一入口",
+      "link": "http://www.geekpark.net/news/371469",
+      "description": "本文首发于 Founder Park 公众号 · 2023 年 4 月 14 日3 月 23 号，OpenAI 宣布发布官方版 ChatGPT 插件，帮助 ChatGPT 访问最新信息、运行计算或使用第三方服务。功能包括：1. 浏览：一种知道何时以及如何浏览互联网的实验模型；2. 代码解释器：一个可以使用 Python 处理上传和下载的实验性 ChatGPT 模型；3. 检索：开",
       "source": "极客公园",
       "category": "科技",
-      "pub_date": "Tue, 29 Sep 2026 02:08:25 +0800"
+      "pub_date": "Tue, 29 Sep 2026 10:55:04 +0800"
     },
     {
-      "title": "慧夜科技 渠思源：虚拟人的背后，是服务 | Founder 100",
-      "link": "http://www.geekpark.net/news/371371",
-      "description": "本文首发于 Founder Park 公众号 · 2022 年 5 月 17 日公司：慧夜科技领域：人工智能、3D 图形、虚拟人融资状态：Pre-A 轮，数百万美元主要投资方：青山资本、顺为资本官方网站：https://www.huiye.tech/柳夜熙、翎 Ling、AYAYI、A-SOUL、小冰……过去一年，虚拟人越来越多地出现在我们的视野中。虽然看起来很类似，但虚拟人一直",
+      "title": "张鹏对谈王俊煜、李志飞：ChatGPT 插件模式会如何颠覆互联网格局？",
+      "link": "http://www.geekpark.net/news/371468",
+      "description": "本文首发于 Founder Park 公众号 · 2023 年 4 月 12 日3 月 23 日，OpenAI 宣布计划推出 Plugins 插件以「帮助 ChatGPT 访问最新信息、运行计算或使用第三方服务」。插件可以显著增强自然语言处理能力，使其与用户的交流更加有效。拥有了插件之后，本来作为演示产品而存在的 ChatGPT 突然成为了一个面向普通消费者的服务平台，很多商业落",
       "source": "极客公园",
       "category": "科技",
-      "pub_date": "Tue, 29 Sep 2026 01:51:12 +0800"
+      "pub_date": "Tue, 29 Sep 2026 10:53:37 +0800"
     }
   ]
 };
