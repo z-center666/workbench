@@ -1,11 +1,11 @@
-// 自动生成于 2026-09-29 12:01:47
+// 自动生成于 2026-09-29 21:47:21
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-29",
-  "time": "12:01",
+  "time": "21:47",
   "weekday": "周二",
   "total": 14,
-  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: GPT, OpenAI, 大模型, Agent。",
+  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: OpenAI, 大模型, Agent。",
   "items": [
     {
       "title": "OpenAI因新模型太强叫停发布",
@@ -80,6 +80,14 @@ var NEWS_DATA = {
       "pub_date": "Tue, 29 Sep 2026 15:49:30 GMT"
     },
     {
+      "title": "除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」",
+      "link": "http://www.geekpark.net/news/372003",
+      "description": "模型越来越便宜，付费给的用量却砍了半\n\n作者｜Alan\n\n北京时间 9 月 30 日凌晨，OpenAI 开完了它口中「迄今规模最大的一届」开发者大会。官方汇总页上一共列了 25 项发布，从新模型、新 API，一路排到给企业买软件用的应用市场。\n\n现场最安静的一刻，出现在 Sam Altman 讲到 ChatGPT Pro 会员调整的时候。台下没有一个人鼓掌。\n调整本身不复杂：",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 30 Sep 2026 02:59:48 +0800"
+    },
+    {
       "title": "AMD 82 亿美元收购 World Labs，买的不只是世界模型",
       "link": "http://www.geekpark.net/news/372000",
       "description": "9 月 3 日，英伟达宣布以约 130 亿美元收购 Hugging Face。25 天后，AMD 宣布以约 82 亿美元收购李飞飞创办的 World Labs。\n两笔交易放在一起看，更觉得有意思。CNBC 最新的报道提到，Hugging Face 在被英伟达拿下之前，AMD 和 Salesforce 都曾表达过收购兴趣。\n没抢到 AI 世界里最大的模型「集散地」，AMD 转身买下",
@@ -110,14 +118,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 28 Sep 2026 22:54:50 +0800"
-    },
-    {
-      "title": "不到 1 个月估值暴涨 100 亿美元，Jev 创造者：ChatGPT 把 AI 带歪了",
-      "link": "http://www.geekpark.net/news/371126",
-      "description": "最近， 一个叫 Jev 的 AI 模型突然在开发者圈子里炸了。更可怕的是，根据最新消息，Jev 最近正在洽谈 10 亿美元融资，最新估值 100 亿美元&mdash;&mdash;而这距离 Jev 推出，还不到 1 个月。\nJev 这个新模型，它不生成文本，不跟你聊天，甚至不写代码。你给它一段数据和一组结构化问题，它返回类型化的答案和校准过的概率值。TypeSafe AI 管它叫",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 28 Sep 2026 17:50:05 +0800"
     }
   ]
 };
