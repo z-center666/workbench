@@ -1,12 +1,28 @@
-// 自动生成于 2026-09-30 11:49:49
+// 自动生成于 2026-09-30 17:30:31
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-30",
-  "time": "11:49",
+  "time": "17:30",
   "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
   "items": [
+    {
+      "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
+      "link": "https://www.qbitai.com/2026/09/499654.html",
+      "description": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 30 Sep 2026 14:03:43 +0000"
+    },
+    {
+      "title": "直播回顾：工业AI的下一个机会在哪？",
+      "link": "https://www.qbitai.com/2026/09/499605.html",
+      "description": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 30 Sep 2026 12:11:24 +0000"
+    },
     {
       "title": "Anthropic，你是来给智谱打广告的吧！",
       "link": "https://www.qbitai.com/2026/09/499597.html",
@@ -32,20 +48,20 @@ var NEWS_DATA = {
       "pub_date": "Wed, 30 Sep 2026 07:54:54 +0000"
     },
     {
-      "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
-      "link": "https://www.qbitai.com/2026/09/499308.html",
-      "description": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 30 Sep 2026 05:18:05 +0000"
+      "title": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
+      "link": "https://www.infoq.cn/article/M6BRTrsyJvUg8y0M0kyh?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 30 Sep 2026 20:40:07 GMT"
     },
     {
-      "title": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
-      "link": "https://www.qbitai.com/2026/09/499263.html",
-      "description": "",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 30 Sep 2026 02:53:17 +0000"
+      "title": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
+      "link": "https://www.infoq.cn/article/cA9rSEGKphbJHIiTQKMv?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 30 Sep 2026 20:37:48 GMT"
     },
     {
       "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
@@ -70,22 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Wed, 30 Sep 2026 12:10:15 GMT"
-    },
-    {
-      "title": "首发！openJiuwen workSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
-      "link": "https://www.infoq.cn/article/fOuaRtwuySyZsS0iGg7N?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 30 Sep 2026 11:52:00 GMT"
-    },
-    {
-      "title": "AIGC 驱动的内容生产力变革--Vidu 多模态大模型的创新与实践｜QCon上海",
-      "link": "https://www.infoq.cn/article/OBQpdcB1xURrJMRlrJZ1?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 30 Sep 2026 10:00:00 GMT"
     },
     {
       "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
