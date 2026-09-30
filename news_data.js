@@ -1,51 +1,83 @@
-// 自动生成于 2026-09-30 03:43:45
+// 自动生成于 2026-09-30 11:49:49
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-09-30",
-  "time": "03:43",
+  "time": "11:49",
   "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, 大模型, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
   "items": [
     {
-      "title": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
-      "link": "https://www.qbitai.com/2026/09/499246.html",
-      "description": "今年devday牙膏挤爆",
+      "title": "Anthropic，你是来给智谱打广告的吧！",
+      "link": "https://www.qbitai.com/2026/09/499597.html",
+      "description": "实测说GLM-5.3很强",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 29 Sep 2026 23:01:05 +0000"
+      "pub_date": "Wed, 30 Sep 2026 10:04:12 +0000"
     },
     {
-      "title": "OpenAI因新模型太强叫停发布",
-      "link": "https://www.qbitai.com/2026/09/499140.html",
-      "description": "AGI计划暂停。",
+      "title": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
+      "link": "https://www.qbitai.com/2026/09/499592.html",
+      "description": "给Agent配上手机号，再拉个群",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 29 Sep 2026 07:49:20 +0000"
+      "pub_date": "Wed, 30 Sep 2026 07:58:37 +0000"
     },
     {
-      "title": "工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路",
-      "link": "https://www.qbitai.com/2026/09/498877.html",
-      "description": "工业平台已经卷到帮伙伴拿线索、做Agent、出海了",
+      "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
+      "link": "https://www.qbitai.com/2026/09/499493.html",
+      "description": "让GPT把机器人技能当工具调用",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 28 Sep 2026 12:43:53 +0000"
+      "pub_date": "Wed, 30 Sep 2026 07:54:54 +0000"
     },
     {
-      "title": "HC归来，华为正重新定义AIDC基础设施",
-      "link": "https://www.qbitai.com/2026/09/498787.html",
-      "description": "AI基础设施下一站：算电协同",
+      "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
+      "link": "https://www.qbitai.com/2026/09/499308.html",
+      "description": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 28 Sep 2026 11:18:27 +0000"
+      "pub_date": "Wed, 30 Sep 2026 05:18:05 +0000"
     },
     {
-      "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
-      "link": "https://www.qbitai.com/2026/09/498633.html",
+      "title": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
+      "link": "https://www.qbitai.com/2026/09/499263.html",
       "description": "",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sun, 27 Sep 2026 14:20:35 +0000"
+      "pub_date": "Wed, 30 Sep 2026 02:53:17 +0000"
+    },
+    {
+      "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
+      "link": "https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 30 Sep 2026 19:40:16 GMT"
+    },
+    {
+      "title": "从 AI 试点到营收增长：Snowflake 销售与营销团队如何跨越落地鸿沟 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/hw3PpM2ZlCmCArsNo1y7?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 30 Sep 2026 15:12:35 GMT"
+    },
+    {
+      "title": "一个忘关的开关，与企业Agent的全栈技术账单",
+      "link": "https://www.infoq.cn/article/z9VP6ZQ3vCxTrk1VdU5D?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 30 Sep 2026 12:10:15 GMT"
+    },
+    {
+      "title": "首发！openJiuwen workSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
+      "link": "https://www.infoq.cn/article/fOuaRtwuySyZsS0iGg7N?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 30 Sep 2026 11:52:00 GMT"
     },
     {
       "title": "AIGC 驱动的内容生产力变革--Vidu 多模态大模型的创新与实践｜QCon上海",
@@ -54,38 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Wed, 30 Sep 2026 10:00:00 GMT"
-    },
-    {
-      "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-      "link": "https://www.infoq.cn/article/he0zFgEyStxF9kOh70AP?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 29 Sep 2026 18:36:43 GMT"
-    },
-    {
-      "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-      "link": "https://www.infoq.cn/article/PSvHjyoJTC9bSLWYxpfF?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 29 Sep 2026 18:07:09 GMT"
-    },
-    {
-      "title": "上下文优势：AI 增长战略缺失的关键拼图 ｜ 技术趋势",
-      "link": "https://www.infoq.cn/article/ftFzzJ6jgxha7grHHLjf?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 29 Sep 2026 18:00:00 GMT"
-    },
-    {
-      "title": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-      "link": "https://www.infoq.cn/video/HsaJfo3DKR9XC0LeeV30?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 29 Sep 2026 17:06:48 GMT"
     },
     {
       "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
