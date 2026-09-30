@@ -1,12 +1,20 @@
-// 自动生成于 2026-09-29 21:47:21
+// 自动生成于 2026-09-30 03:43:45
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-29",
-  "time": "21:47",
-  "weekday": "周二",
-  "total": 14,
-  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: OpenAI, 大模型, Agent。",
+  "date": "2026-09-30",
+  "time": "03:43",
+  "weekday": "周三",
+  "total": 15,
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, 大模型, 智能体, Agent。",
   "items": [
+    {
+      "title": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
+      "link": "https://www.qbitai.com/2026/09/499246.html",
+      "description": "今年devday牙膏挤爆",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 29 Sep 2026 23:01:05 +0000"
+    },
     {
       "title": "OpenAI因新模型太强叫停发布",
       "link": "https://www.qbitai.com/2026/09/499140.html",
@@ -38,6 +46,14 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Sun, 27 Sep 2026 14:20:35 +0000"
+    },
+    {
+      "title": "AIGC 驱动的内容生产力变革--Vidu 多模态大模型的创新与实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/OBQpdcB1xURrJMRlrJZ1?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 30 Sep 2026 10:00:00 GMT"
     },
     {
       "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
@@ -72,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Tue, 29 Sep 2026 17:06:48 GMT"
     },
     {
-      "title": "大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
-      "link": "https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 29 Sep 2026 15:49:30 GMT"
+      "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
+      "link": "http://www.geekpark.net/news/372005",
+      "description": "OpenAI 开发者大会推出智能体 dots，重构会员定价，意图打造 AI 超级入口\n北京时间 9 月 30 日凌晨，OpenAI 举办其宣称规模最大的一届开发者大会，一次性发布 25 项更新，覆盖新模型、API、智能体、插件生态与企业软件市场。大会现场，Sam Altman 公布 ChatGPT Pro 会员调整方案时台下一片沉寂，套餐调价成为本次发布最受争议的内容。\n会员体",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 30 Sep 2026 08:25:27 +0800"
     },
     {
       "title": "除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」",
@@ -110,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 29 Sep 2026 08:07:40 +0800"
-    },
-    {
-      "title": "中国智能汽车的后台，越来越像阿里云的主场",
-      "link": "http://www.geekpark.net/news/371357",
-      "description": "中国智能汽车产业，正在经历一场没有硝烟、却极为深刻的范式迭代。\n在 2026 云栖大会汽车行业峰会上，我们看到了智能汽车竞争的主线：智能座舱正全面进入 Agent 时代，车不再是执行指令的机器，而是能理解你的意图、主动帮你把事情办成的智能体；智能驾驶的竞争，也早已从算法层下沉到工程层。数据产线的效率、训练集群的稳定性、模型迭代的周期，这些工程层的东西，正在决定胜负。\n如果切换一下",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 28 Sep 2026 22:54:50 +0800"
     }
   ]
 };
