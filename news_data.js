@@ -1,12 +1,20 @@
-// 自动生成于 2026-10-01 12:19:27
+// 自动生成于 2026-10-01 22:16:35
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-01",
-  "time": "12:19",
+  "time": "22:16",
   "weekday": "周四",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Gemini, DeepSeek, OpenAI, 智能体。",
   "items": [
+    {
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "link": "https://www.qbitai.com/2026/10/499663.html",
+      "description": "价格只有Astra一半",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 01 Oct 2026 15:02:14 +0000"
+    },
     {
       "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
       "link": "https://www.qbitai.com/2026/09/499654.html",
@@ -38,14 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Wed, 30 Sep 2026 07:58:37 +0000"
-    },
-    {
-      "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
-      "link": "https://www.qbitai.com/2026/09/499493.html",
-      "description": "让GPT把机器人技能当工具调用",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 30 Sep 2026 07:54:54 +0000"
     },
     {
       "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
