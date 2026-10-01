@@ -1,11 +1,11 @@
-// 自动生成于 2026-09-30 21:48:48
+// 自动生成于 2026-10-01 03:50:27
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-09-30",
-  "time": "21:48",
-  "weekday": "周三",
+  "date": "2026-10-01",
+  "time": "03:50",
+  "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Gemini, DeepSeek, OpenAI, 智能体。",
   "items": [
     {
       "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Wed, 30 Sep 2026 07:54:54 +0000"
     },
     {
+      "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+      "link": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 01 Oct 2026 11:00:00 GMT"
+    },
+    {
+      "title": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 01 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
       "link": "https://www.infoq.cn/article/M6BRTrsyJvUg8y0M0kyh?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -72,20 +88,20 @@ var NEWS_DATA = {
       "pub_date": "Wed, 30 Sep 2026 19:40:16 GMT"
     },
     {
-      "title": "从 AI 试点到营收增长：Snowflake 销售与营销团队如何跨越落地鸿沟 ｜ 技术实践",
-      "link": "https://www.infoq.cn/article/hw3PpM2ZlCmCArsNo1y7?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 30 Sep 2026 15:12:35 GMT"
+      "title": "从数据到智能，再到进化：Agent正在重写AI基础设施",
+      "link": "http://www.geekpark.net/news/372065",
+      "description": "&nbsp;\n一个工程师写完数据处理代码，点下提交，然后去喝了杯咖啡。十几分钟甚至几十分钟之后，他才回到屏幕前看结果、改代码、再提交。这条「等待&mdash; 反馈」的空隙，过去一直是数据平台默认的节奏。\nAgent 没有这个空隙。它拿到一次结果，立刻验证，紧接着并发地去试第二种、第三种方案，飞快拿到反馈，再发起下一轮调用。\n人用平台，发过来的是一个相对确定的任务，算完、给结果、",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 01 Oct 2026 11:21:33 +0800"
     },
     {
-      "title": "一个忘关的开关，与企业Agent的全栈技术账单",
-      "link": "https://www.infoq.cn/article/z9VP6ZQ3vCxTrk1VdU5D?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 30 Sep 2026 12:10:15 GMT"
+      "title": "谷歌 Gemini 4 Argon 曝光；中国生成 AI 用户超 7 亿；美光 2026 财年净利暴涨 895%",
+      "link": "http://www.geekpark.net/news/372064",
+      "description": "苹果即将发布「智能家居中枢」新品\n据彭博社报道，苹果公司计划于 10 月 13 日推进其拖延已久的智能家居市场布局，这是该公司在新任 CEO 约翰&middot;特努斯领导下的一次关键产品扩张。\n据知情人士透露，该战略的核心是一款代号为 J490 的智能家居中枢设备。该设备将采用大约 6 英寸的方形显示屏设计，提供可安装在墙上或放置在台面上的版本。\n按照苹果的设想，用户会在家中",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 01 Oct 2026 08:28:44 +0800"
     },
     {
       "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 29 Sep 2026 19:21:44 +0800"
-    },
-    {
-      "title": "Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶",
-      "link": "http://www.geekpark.net/news/371493",
-      "description": "头图来源：Manus\n&nbsp;\n突然地，Manus 在官网和社交平台上公布了 Manus 2.0 版本的更新。\n这并非一次简单的产品迭代，更像是Manus 团队尝试将当下所有最热门的 AI 场景和功能，融合到一个「AI 全家桶中」。\n此次升级中，团队打造的底层 Cascade Agent 框架，能将任务 Token 消耗减少 23.2%，任务完成时间缩短 28.2%，运行成",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 29 Sep 2026 13:27:55 +0800"
-    },
-    {
-      "title": "AMD 82 亿美元收购李飞飞 AI 创业公司；Manus 推出个人 AI 助手 CUE；今年低价手机将减少 2.3 亿部｜极客早知道",
-      "link": "http://www.geekpark.net/news/371359",
-      "description": "Manus 发布 2.0，新增云电脑、远程控制及个人 AI 助手 Cue\n9 月 28 日，Manus 发布 2.0 版本，升级自研 Cascade Agent 框架，并推出云电脑、视频编辑、游戏开发及个人 AI 助手 Cue。据官方数据，新框架可使任务 Token 消耗减少 23.2%、完成时间缩短 28.2%、运行成本降低 32%。\n升级后的 Manus Studio 支持",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 29 Sep 2026 08:07:40 +0800"
     }
   ]
 };
