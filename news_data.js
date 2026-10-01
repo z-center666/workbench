@@ -1,8 +1,8 @@
-// 自动生成于 2026-10-01 03:50:27
+// 自动生成于 2026-10-01 12:19:27
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-01",
-  "time": "03:50",
+  "time": "12:19",
   "weekday": "周四",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Gemini, DeepSeek, OpenAI, 智能体。",
