@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-01 22:16:35
+// 自动生成于 2026-10-02 03:48:09
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-01",
-  "time": "22:16",
-  "weekday": "周四",
+  "date": "2026-10-02",
+  "time": "03:48",
+  "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Gemini, DeepSeek, OpenAI, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Gemini, OpenAI, 智能体, Agent。",
   "items": [
     {
       "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Wed, 30 Sep 2026 07:58:37 +0000"
     },
     {
+      "title": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/DEyrayxufObhpoeZgOKT?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 02 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
       "link": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Wed, 30 Sep 2026 20:37:48 GMT"
     },
     {
-      "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
-      "link": "https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 30 Sep 2026 19:40:16 GMT"
+      "title": "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》",
+      "link": "http://www.geekpark.net/news/372069",
+      "description": "华为 Mate90 系列发布，售价 5999 元起\n10 月 1 日，华为 Mate90 系列手机正式发布。华为 Mate90 售价 5999 元起，华为 Mate90 Pro 售价 6999 元起，华为 Mate90 Pro Max 售价 9499 元起，华为 Mate90 Pro Max 典藏版售价 10999 元起，华为 Mate90 RS 非凡大师售价 12999 元起",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 02 Oct 2026 08:28:26 +0800"
     },
     {
       "title": "从数据到智能，再到进化：Agent正在重写AI基础设施",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 30 Sep 2026 02:59:48 +0800"
-    },
-    {
-      "title": "AMD 82 亿美元收购 World Labs，买的不只是世界模型",
-      "link": "http://www.geekpark.net/news/372000",
-      "description": "9 月 3 日，英伟达宣布以约 130 亿美元收购 Hugging Face。25 天后，AMD 宣布以约 82 亿美元收购李飞飞创办的 World Labs。\n两笔交易放在一起看，更觉得有意思。CNBC 最新的报道提到，Hugging Face 在被英伟达拿下之前，AMD 和 Salesforce 都曾表达过收购兴趣。\n没抢到 AI 世界里最大的模型「集散地」，AMD 转身买下",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 29 Sep 2026 19:21:44 +0800"
     }
   ]
 };
