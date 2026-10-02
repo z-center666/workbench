@@ -1,12 +1,28 @@
-// 自动生成于 2026-10-02 03:48:09
+// 自动生成于 2026-10-02 11:47:40
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-02",
-  "time": "03:48",
+  "time": "11:47",
   "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Gemini, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, 智能体。",
   "items": [
+    {
+      "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+      "link": "https://www.qbitai.com/2026/10/500098.html",
+      "description": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 02 Oct 2026 07:34:15 +0000"
+    },
+    {
+      "title": "丘成桐新论文致谢了GPT和Claude",
+      "link": "https://www.qbitai.com/2026/10/499991.html",
+      "description": "44年前被亲自列入问题清单",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 02 Oct 2026 07:27:03 +0000"
+    },
     {
       "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
       "link": "https://www.qbitai.com/2026/10/499663.html",
@@ -32,20 +48,12 @@ var NEWS_DATA = {
       "pub_date": "Wed, 30 Sep 2026 12:11:24 +0000"
     },
     {
-      "title": "Anthropic，你是来给智谱打广告的吧！",
-      "link": "https://www.qbitai.com/2026/09/499597.html",
-      "description": "实测说GLM-5.3很强",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 30 Sep 2026 10:04:12 +0000"
-    },
-    {
-      "title": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
-      "link": "https://www.qbitai.com/2026/09/499592.html",
-      "description": "给Agent配上手机号，再拉个群",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 30 Sep 2026 07:58:37 +0000"
+      "title": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
+      "link": "https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 02 Oct 2026 13:00:00 GMT"
     },
     {
       "title": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
@@ -78,14 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Wed, 30 Sep 2026 20:40:07 GMT"
-    },
-    {
-      "title": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
-      "link": "https://www.infoq.cn/article/cA9rSEGKphbJHIiTQKMv?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 30 Sep 2026 20:37:48 GMT"
     },
     {
       "title": "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》",
