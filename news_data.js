@@ -1,12 +1,28 @@
-// 自动生成于 2026-10-03 03:33:00
+// 自动生成于 2026-10-03 11:01:23
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-03",
-  "time": "03:33",
+  "time": "11:01",
   "weekday": "周六",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, DeepSeek, OpenAI。",
   "items": [
+    {
+      "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+      "link": "https://www.qbitai.com/2026/10/501381.html",
+      "description": "岗位JD甩了篇技术报告",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 03 Oct 2026 07:54:43 +0000"
+    },
+    {
+      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "link": "https://www.qbitai.com/2026/10/501368.html",
+      "description": "又咋啦。。。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 03 Oct 2026 04:41:24 +0000"
+    },
     {
       "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
       "link": "https://www.qbitai.com/2026/10/500098.html",
@@ -30,22 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Thu, 01 Oct 2026 15:02:14 +0000"
-    },
-    {
-      "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
-      "link": "https://www.qbitai.com/2026/09/499654.html",
-      "description": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 30 Sep 2026 14:03:43 +0000"
-    },
-    {
-      "title": "直播回顾：工业AI的下一个机会在哪？",
-      "link": "https://www.qbitai.com/2026/09/499605.html",
-      "description": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 30 Sep 2026 12:11:24 +0000"
     },
     {
       "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
