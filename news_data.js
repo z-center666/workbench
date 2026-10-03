@@ -1,9 +1,9 @@
-// 自动生成于 2026-10-02 21:45:30
+// 自动生成于 2026-10-03 03:33:00
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-02",
-  "time": "21:45",
-  "weekday": "周五",
+  "date": "2026-10-03",
+  "time": "03:33",
+  "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, 智能体。",
   "items": [
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Wed, 30 Sep 2026 12:11:24 +0000"
     },
     {
+      "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "link": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 03 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
       "link": "https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Thu, 01 Oct 2026 10:00:00 GMT"
     },
     {
-      "title": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
-      "link": "https://www.infoq.cn/article/M6BRTrsyJvUg8y0M0kyh?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 30 Sep 2026 20:40:07 GMT"
+      "title": "英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文",
+      "link": "http://www.geekpark.net/news/372070",
+      "description": "英伟达股价创新高，逼近 6 万亿美元\n英伟达股价自 5 月以来首次创下历史新高，在两个月的抛售导致市值蒸发逾 1 万亿美元后，投资者重新涌入该股。这家全球市值最高的上市公司股价周五上涨 2.9%，较 7 月底低点累计反弹近 25%。\n英伟达股价今年迄今上涨约 27%，有望连续第四年实现两位数涨幅。目前公司市值约为 5.7 万亿美元，距离成为历史上首家市值达到 6 万亿美元的公司",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sat, 03 Oct 2026 09:17:08 +0800"
     },
     {
       "title": "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 30 Sep 2026 08:25:27 +0800"
-    },
-    {
-      "title": "除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」",
-      "link": "http://www.geekpark.net/news/372003",
-      "description": "模型越来越便宜，付费给的用量却砍了半\n\n作者｜Alan\n\n北京时间 9 月 30 日凌晨，OpenAI 开完了它口中「迄今规模最大的一届」开发者大会。官方汇总页上一共列了 25 项发布，从新模型、新 API，一路排到给企业买软件用的应用市场。\n\n现场最安静的一刻，出现在 Sam Altman 讲到 ChatGPT Pro 会员调整的时候。台下没有一个人鼓掌。\n调整本身不复杂：",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 30 Sep 2026 02:59:48 +0800"
     }
   ]
 };
