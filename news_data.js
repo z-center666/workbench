@@ -1,12 +1,20 @@
-// 自动生成于 2026-10-03 20:32:12
+// 自动生成于 2026-10-04 04:01:27
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-03",
-  "time": "20:32",
-  "weekday": "周六",
+  "date": "2026-10-04",
+  "time": "04:01",
+  "weekday": "周日",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, DeepSeek, OpenAI。",
   "items": [
+    {
+      "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
+      "link": "https://www.qbitai.com/2026/10/501451.html",
+      "description": "专业3D模型反而更稀缺了",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 04 Oct 2026 00:53:29 +0000"
+    },
     {
       "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
       "link": "https://www.qbitai.com/2026/10/501381.html",
@@ -40,12 +48,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 02 Oct 2026 07:27:03 +0000"
     },
     {
-      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
-      "link": "https://www.qbitai.com/2026/10/499663.html",
-      "description": "价格只有Astra一半",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 01 Oct 2026 15:02:14 +0000"
+      "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "link": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 04 Oct 2026 10:00:00 GMT"
     },
     {
       "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Thu, 01 Oct 2026 11:00:00 GMT"
     },
     {
-      "title": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
-      "link": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 01 Oct 2026 10:00:00 GMT"
+      "title": "苹果确认美版 iPhone 18 Pro Max 有问题；OpenAI 每天烧超 50 万美元查 AI 入侵事故；求职者吐槽 AI 面试「恐怖谷」上热搜｜极客早知道",
+      "link": "http://www.geekpark.net/news/372073",
+      "description": "苹果确认：美版 iPhone 18 Pro Max 有问题\n北京时间 10 月 3 日，彭博社报道称，苹果公司表示，AT&amp;T 的问题已导致部分 iPhone 18 Pro Max 用户无法拨打电话、访问数据或在联网时收发短信。目前尚不清楚有多少人遇到此问题。受影响的用户发现，除非连接到 Wi-Fi 网络，否则他们的设备基本无法使用。\n苹果公司已发布运营商设置更新，并推出",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 04 Oct 2026 08:33:38 +0800"
     },
     {
       "title": "英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Thu, 01 Oct 2026 08:28:44 +0800"
-    },
-    {
-      "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
-      "link": "http://www.geekpark.net/news/372005",
-      "description": "OpenAI 开发者大会推出智能体 dots，重构会员定价，意图打造 AI 超级入口\n北京时间 9 月 30 日凌晨，OpenAI 举办其宣称规模最大的一届开发者大会，一次性发布 25 项更新，覆盖新模型、API、智能体、插件生态与企业软件市场。大会现场，Sam Altman 公布 ChatGPT Pro 会员调整方案时台下一片沉寂，套餐调价成为本次发布最受争议的内容。\n会员体",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 30 Sep 2026 08:25:27 +0800"
     }
   ]
 };
