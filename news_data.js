@@ -1,12 +1,28 @@
-// 自动生成于 2026-10-05 03:46:52
+// 自动生成于 2026-10-05 13:26:50
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-05",
-  "time": "03:46",
+  "time": "13:26",
   "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, OpenAI, Agent。",
   "items": [
+    {
+      "title": "刚刚，Hinton发了首篇RSI论文",
+      "link": "https://www.qbitai.com/2026/10/501705.html",
+      "description": "AI已经开始真正进入「造下一代AI」的流水线",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Mon, 05 Oct 2026 04:42:52 +0000"
+    },
+    {
+      "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
+      "link": "https://www.qbitai.com/2026/10/501700.html",
+      "description": "有改进就体验，没改进就重置，横竖不亏。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Mon, 05 Oct 2026 02:50:46 +0000"
+    },
     {
       "title": "AI算力硬合作，马斯克还是更相信中国制造",
       "link": "https://www.qbitai.com/2026/10/501605.html",
@@ -30,22 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Sun, 04 Oct 2026 00:53:29 +0000"
-    },
-    {
-      "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
-      "link": "https://www.qbitai.com/2026/10/501381.html",
-      "description": "岗位JD甩了篇技术报告",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 03 Oct 2026 07:54:43 +0000"
-    },
-    {
-      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
-      "link": "https://www.qbitai.com/2026/10/501368.html",
-      "description": "又咋啦。。。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 03 Oct 2026 04:41:24 +0000"
     },
     {
       "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
@@ -88,6 +88,14 @@ var NEWS_DATA = {
       "pub_date": "Fri, 02 Oct 2026 10:00:00 GMT"
     },
     {
+      "title": "AI，为什么总在画美女？",
+      "link": "http://www.geekpark.net/news/372084",
+      "description": "作者｜汤一涛\n编辑｜靖宇\n&nbsp;\n\n今年 5 月初，X 上一条五秒钟的视频火了。这是一场韩国职业棒球联赛转播，韩华鹰队对阵斗山熊队。镜头扫到看台上一个穿白上衣和牛仔裤的女人，翘着腿。某一刻，她似乎叹了口气，并移开了视线，看起来对比赛感到不满。\n\n视频配文是「普通韩国女性」。截至本文发布，视频播放量已经为 1525 万｜视频来源：X @kangminlee\n但是很快一群资深",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 05 Oct 2026 17:45:01 +0800"
+    },
+    {
       "title": "马斯克将旗下人工智能业务更名为 SpaceXSI；Altman 称 AI 发展应容忍一定风险；小米 Vision GT 将入驻《GT7》游戏｜极客早知道",
       "link": "http://www.geekpark.net/news/372082",
       "description": "马斯克拟将 SpaceXAI 更名为 SpaceXSI 为「超级智能」概念背书\n美国总统特朗普推动以「超级智能」（Super Intelligence，简称 SI）取代「人工智能」（AI）的举措正在迅速影响科技行业。特斯拉和 SpaceX 首席执行官埃隆&middot;马斯克日前表示，旗下人工智能业务品牌 SpaceXAI 有意更名为 SpaceXSI，并公开宣称「SpaceX",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 04 Oct 2026 13:16:11 +0800"
-    },
-    {
-      "title": "苹果确认美版 iPhone 18 Pro Max 有问题；OpenAI 每天烧超 50 万美元查 AI 入侵事故；求职者吐槽 AI 面试「恐怖谷」上热搜｜极客早知道",
-      "link": "http://www.geekpark.net/news/372073",
-      "description": "苹果确认：美版 iPhone 18 Pro Max 有问题\n北京时间 10 月 3 日，彭博社报道称，苹果公司表示，AT&amp;T 的问题已导致部分 iPhone 18 Pro Max 用户无法拨打电话、访问数据或在联网时收发短信。目前尚不清楚有多少人遇到此问题。受影响的用户发现，除非连接到 Wi-Fi 网络，否则他们的设备基本无法使用。\n苹果公司已发布运营商设置更新，并推出",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 04 Oct 2026 08:33:38 +0800"
     }
   ]
 };
