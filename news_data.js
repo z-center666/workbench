@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-04 20:48:49
+// 自动生成于 2026-10-05 03:46:52
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-04",
-  "time": "20:48",
-  "weekday": "周日",
+  "date": "2026-10-05",
+  "time": "03:46",
+  "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, DeepSeek, OpenAI。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, Agent。",
   "items": [
     {
       "title": "AI算力硬合作，马斯克还是更相信中国制造",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Sat, 03 Oct 2026 04:41:24 +0000"
     },
     {
+      "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "link": "https://www.infoq.cn/article/yVWAQGCZCzI838JESA1b?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 05 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
       "link": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 02 Oct 2026 10:00:00 GMT"
     },
     {
-      "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
-      "link": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 01 Oct 2026 11:00:00 GMT"
+      "title": "马斯克将旗下人工智能业务更名为 SpaceXSI；Altman 称 AI 发展应容忍一定风险；小米 Vision GT 将入驻《GT7》游戏｜极客早知道",
+      "link": "http://www.geekpark.net/news/372082",
+      "description": "马斯克拟将 SpaceXAI 更名为 SpaceXSI 为「超级智能」概念背书\n美国总统特朗普推动以「超级智能」（Super Intelligence，简称 SI）取代「人工智能」（AI）的举措正在迅速影响科技行业。特斯拉和 SpaceX 首席执行官埃隆&middot;马斯克日前表示，旗下人工智能业务品牌 SpaceXAI 有意更名为 SpaceXSI，并公开宣称「SpaceX",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 05 Oct 2026 08:36:34 +0800"
     },
     {
       "title": "Jev 之后，中国团队开始深挖 AI 的「直觉层」",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 04 Oct 2026 08:33:38 +0800"
-    },
-    {
-      "title": "英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文",
-      "link": "http://www.geekpark.net/news/372070",
-      "description": "英伟达股价创新高，逼近 6 万亿美元\n英伟达股价自 5 月以来首次创下历史新高，在两个月的抛售导致市值蒸发逾 1 万亿美元后，投资者重新涌入该股。这家全球市值最高的上市公司股价周五上涨 2.9%，较 7 月底低点累计反弹近 25%。\n英伟达股价今年迄今上涨约 27%，有望连续第四年实现两位数涨幅。目前公司市值约为 5.7 万亿美元，距离成为历史上首家市值达到 6 万亿美元的公司",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sat, 03 Oct 2026 09:17:08 +0800"
     }
   ]
 };
