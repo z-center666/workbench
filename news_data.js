@@ -1,12 +1,28 @@
-// 自动生成于 2026-10-06 04:34:35
+// 自动生成于 2026-10-06 12:39:49
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-06",
-  "time": "04:34",
+  "time": "12:39",
   "weekday": "周二",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, Agent。",
   "items": [
+    {
+      "title": "不er，咋陶哲轩也成AI减速派了？？",
+      "link": "https://www.qbitai.com/2026/10/501736.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 06 Oct 2026 07:59:17 +0000"
+    },
+    {
+      "title": "OpenAI「疯狂28天」首日，这都发了些啥啊…",
+      "link": "https://www.qbitai.com/2026/10/501726.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 06 Oct 2026 06:45:40 +0000"
+    },
     {
       "title": "刚刚，Hinton发了首篇RSI论文",
       "link": "https://www.qbitai.com/2026/10/501705.html",
@@ -30,22 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Sun, 04 Oct 2026 06:12:22 +0000"
-    },
-    {
-      "title": "最火AI岗位FDE：月薪5万，都干这些…",
-      "link": "https://www.qbitai.com/2026/10/501506.html",
-      "description": "什么是FDE？它会一直存在吗？",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sun, 04 Oct 2026 06:05:35 +0000"
-    },
-    {
-      "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
-      "link": "https://www.qbitai.com/2026/10/501451.html",
-      "description": "专业3D模型反而更稀缺了",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sun, 04 Oct 2026 00:53:29 +0000"
     },
     {
       "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
