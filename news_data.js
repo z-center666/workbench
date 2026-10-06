@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-05 23:39:22
+// 自动生成于 2026-10-06 04:34:35
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-05",
-  "time": "23:39",
-  "weekday": "周一",
+  "date": "2026-10-06",
+  "time": "04:34",
+  "weekday": "周二",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, OpenAI, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, Agent。",
   "items": [
     {
       "title": "刚刚，Hinton发了首篇RSI论文",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Sun, 04 Oct 2026 00:53:29 +0000"
     },
     {
+      "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "link": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 06 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
       "link": "https://www.infoq.cn/article/yVWAQGCZCzI838JESA1b?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 02 Oct 2026 13:00:00 GMT"
     },
     {
-      "title": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
-      "link": "https://www.infoq.cn/article/DEyrayxufObhpoeZgOKT?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 02 Oct 2026 10:00:00 GMT"
+      "title": "OpenAI 宣布「28 天计划」，持续改进 Codex、Work；TikTok 上线一系列 AI 电商功能；蓝色起源公布月球「动力塔计划」",
+      "link": "http://www.geekpark.net/news/372086",
+      "description": "2026 诺贝尔奖生理学或医学奖揭晓：三学者凭借「光控离子通道和光遗传学」领域发现获表彰\n10 月 5 日消息，诺贝尔奖基金会宣布将 2026 年诺贝尔生理学或医学奖授予以下三人，以表彰他们在「光控离子通道和光遗传学」领域的发现：美国霍华德 &middot; 休斯医学研究所及斯坦福大学的 Karl Deisseroth、德国柏林洪堡大学的 Peter Hegemann、德国维尔",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 06 Oct 2026 09:16:53 +0800"
     },
     {
       "title": "AI，为什么总在画美女？",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 04 Oct 2026 13:27:14 +0800"
-    },
-    {
-      "title": "Claude Code 的「乐高」模式，让程序员彻底玩「上头」了",
-      "link": "http://www.geekpark.net/news/372074",
-      "description": "作者｜Wildcard\n编辑｜靖宇\n\n终端向来是程序员最严肃的地盘。黑底白字，光标跳动，每一行输出都关乎代码能不能跑通。\n但最近两周，Claude Code 的画风。被一群开发者彻底带偏了。\n有人在输入框上方养了一只像素宠物，Claude 每调用一次工具它就吃一口饭，调用失败当场生病，碰上 rm -rf 还会抱头惊慌。有人把 Chrome 断网时的小恐龙搬了进来，Claude",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 04 Oct 2026 13:16:11 +0800"
     }
   ]
 };
