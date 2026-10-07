@@ -1,12 +1,20 @@
-// 自动生成于 2026-10-06 22:13:43
+// 自动生成于 2026-10-07 04:00:45
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-06",
-  "time": "22:13",
-  "weekday": "周二",
+  "date": "2026-10-07",
+  "time": "04:00",
+  "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, OpenAI, Agent。",
   "items": [
+    {
+      "title": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
+      "link": "https://www.qbitai.com/2026/10/501749.html",
+      "description": "三位菲尔兹奖得主：不代表认可",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 07 Oct 2026 01:05:13 +0000"
+    },
     {
       "title": "不er，咋陶哲轩也成AI减速派了？？",
       "link": "https://www.qbitai.com/2026/10/501736.html",
@@ -38,14 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Mon, 05 Oct 2026 02:50:46 +0000"
-    },
-    {
-      "title": "AI算力硬合作，马斯克还是更相信中国制造",
-      "link": "https://www.qbitai.com/2026/10/501605.html",
-      "description": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sun, 04 Oct 2026 06:12:22 +0000"
     },
     {
       "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
@@ -88,6 +88,14 @@ var NEWS_DATA = {
       "pub_date": "Fri, 02 Oct 2026 13:00:00 GMT"
     },
     {
+      "title": "派拉蒙 1100 亿美元收购时代华纳，好莱坞诞生新巨无霸；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude",
+      "link": "http://www.geekpark.net/news/372089",
+      "description": "2026 诺贝尔物理学奖揭晓：把一立方公里南极冰变成望远镜，打开「中微子天文学」\n10 月 6 日，2026 年诺贝尔物理学奖授予比利时裔美国物理学家 Francis Halzen，以表彰其「对 IceCube 中微子天文台的决定性贡献，以及发现来自天体的高能中微子」。\nHalzen 领导建设的 IceCube 位于南极，把超过 一立方公里的透明冰层本身变成粒子探测器：5000",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 07 Oct 2026 08:39:21 +0800"
+    },
+    {
       "title": "OpenAI 宣布「28 天计划」，持续改进 Codex、Work；TikTok 上线一系列 AI 电商功能；蓝色起源公布月球「动力塔计划」",
       "link": "http://www.geekpark.net/news/372086",
       "description": "2026 诺贝尔奖生理学或医学奖揭晓：三学者凭借「光控离子通道和光遗传学」领域发现获表彰\n10 月 5 日消息，诺贝尔奖基金会宣布将 2026 年诺贝尔生理学或医学奖授予以下三人，以表彰他们在「光控离子通道和光遗传学」领域的发现：美国霍华德 &middot; 休斯医学研究所及斯坦福大学的 Karl Deisseroth、德国柏林洪堡大学的 Peter Hegemann、德国维尔",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 04 Oct 2026 19:41:48 +0800"
-    },
-    {
-      "title": "点头、抢话、会脸红，一半人分辨不出这是位「AI 小姐姐」",
-      "link": "http://www.geekpark.net/news/372075",
-      "description": "作者｜宇航猿\n编辑｜靖宇\n\n一个男人对着镜头拧魔方，屏幕里的女孩盯着他手上的动作，时不时点头，提醒他下一步该转哪一面。他卡住了，低头琢磨，她没有插话，只是安静地等着。等他重新动手，她才接上一句。\n如果没人告诉你，这看起来就是一次再普通不过的视频通话。\n但屏幕里那个女孩并不存在。她的脸、她的声音、她的每一次点头和停顿，全部由 AI 实时生成。\n\nGriffin 模型的演示效果确实",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 04 Oct 2026 13:27:14 +0800"
     }
   ]
 };
