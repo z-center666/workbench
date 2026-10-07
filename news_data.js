@@ -1,12 +1,36 @@
-// 自动生成于 2026-10-07 04:00:45
+// 自动生成于 2026-10-07 12:33:08
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-07",
-  "time": "04:00",
+  "time": "12:33",
   "weekday": "周三",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, OpenAI, Agent。",
   "items": [
+    {
+      "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
+      "link": "https://www.qbitai.com/2026/10/501803.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 07 Oct 2026 11:34:47 +0000"
+    },
+    {
+      "title": "晕…这年头还有说人话的AI不",
+      "link": "https://www.qbitai.com/2026/10/501796.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 07 Oct 2026 08:41:13 +0000"
+    },
+    {
+      "title": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
+      "link": "https://www.qbitai.com/2026/10/501791.html",
+      "description": "在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、Canva、Superhuman、Higgsfield 等共同上榜",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 07 Oct 2026 06:39:36 +0000"
+    },
     {
       "title": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
       "link": "https://www.qbitai.com/2026/10/501749.html",
@@ -22,30 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Tue, 06 Oct 2026 07:59:17 +0000"
-    },
-    {
-      "title": "OpenAI「疯狂28天」首日，这都发了些啥啊…",
-      "link": "https://www.qbitai.com/2026/10/501726.html",
-      "description": "",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 06 Oct 2026 06:45:40 +0000"
-    },
-    {
-      "title": "刚刚，Hinton发了首篇RSI论文",
-      "link": "https://www.qbitai.com/2026/10/501705.html",
-      "description": "AI已经开始真正进入「造下一代AI」的流水线",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 05 Oct 2026 04:42:52 +0000"
-    },
-    {
-      "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
-      "link": "https://www.qbitai.com/2026/10/501700.html",
-      "description": "有改进就体验，没改进就重置，横竖不亏。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 05 Oct 2026 02:50:46 +0000"
     },
     {
       "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
