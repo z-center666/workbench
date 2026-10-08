@@ -1,12 +1,36 @@
-// 自动生成于 2026-10-07 22:35:28
+// 自动生成于 2026-10-08 04:13:09
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-07",
-  "time": "22:35",
-  "weekday": "周三",
+  "date": "2026-10-08",
+  "time": "04:13",
+  "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, OpenAI, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 大模型。",
   "items": [
+    {
+      "title": "大模型原生智能体手机STEPX Neo将于10月13日正式发布",
+      "link": "https://www.qbitai.com/2026/10/501915.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 08 Oct 2026 02:15:37 +0000"
+    },
+    {
+      "title": "GPT-6今起免费用！拒答变少，话变多了",
+      "link": "https://www.qbitai.com/2026/10/501834.html",
+      "description": "ChatGPT聊天框长出界面",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 08 Oct 2026 01:07:19 +0000"
+    },
+    {
+      "title": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊",
+      "link": "https://www.qbitai.com/2026/10/501832.html",
+      "description": "小模型新守门员",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 08 Oct 2026 01:04:00 +0000"
+    },
     {
       "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
       "link": "https://www.qbitai.com/2026/10/501803.html",
@@ -24,28 +48,36 @@ var NEWS_DATA = {
       "pub_date": "Wed, 07 Oct 2026 08:41:13 +0000"
     },
     {
-      "title": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
-      "link": "https://www.qbitai.com/2026/10/501791.html",
-      "description": "在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、Canva、Superhuman、Higgsfield 等共同上榜",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 07 Oct 2026 06:39:36 +0000"
+      "title": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
+      "link": "https://www.infoq.cn/article/s2Rt9t0yqUFk6VYV33Mh?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 08 Oct 2026 11:43:00 GMT"
     },
     {
-      "title": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
-      "link": "https://www.qbitai.com/2026/10/501749.html",
-      "description": "三位菲尔兹奖得主：不代表认可",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 07 Oct 2026 01:05:13 +0000"
+      "title": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
+      "link": "https://www.infoq.cn/article/aJ7cgaNqf4pXVtbbtYiv?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 08 Oct 2026 11:08:39 GMT"
     },
     {
-      "title": "不er，咋陶哲轩也成AI减速派了？？",
-      "link": "https://www.qbitai.com/2026/10/501736.html",
-      "description": "",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 06 Oct 2026 07:59:17 +0000"
+      "title": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+      "link": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 08 Oct 2026 10:35:29 GMT"
+    },
+    {
+      "title": "代码交给AI，心流却回来了：Codex负责人不再怀念手写时代",
+      "link": "https://www.infoq.cn/article/rLaX4DEMuRxqW135ZSSC?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 08 Oct 2026 09:35:10 GMT"
     },
     {
       "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
@@ -56,36 +88,20 @@ var NEWS_DATA = {
       "pub_date": "Tue, 06 Oct 2026 10:00:00 GMT"
     },
     {
-      "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
-      "link": "https://www.infoq.cn/article/yVWAQGCZCzI838JESA1b?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 05 Oct 2026 10:00:00 GMT"
+      "title": "造物 100#07   | 给硬盘养个图书馆员、指纹钥匙给 AI 上锁、AI 对讲机住着科幻宇宙",
+      "link": "http://www.geekpark.net/news/372099",
+      "description": "产品的创新，究竟应该如何定义它的价值？\n上周，华为、小米、苹果在 72 小时内接连发布折叠屏旗舰。华为 Mate XT 2 非凡大师 19999 元起售，小米 18 Fold 10999 元，苹果首款折叠屏 iPhone Duo 市场预计 1.6 万起。与此同时，一组数据冲上热搜，通用内存合约价环比涨超 58%，固态硬盘涨超 70%，主流性能机比去年贵了 2800 到 4500",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 08 Oct 2026 09:40:34 +0800"
     },
     {
-      "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
-      "link": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 04 Oct 2026 10:00:00 GMT"
-    },
-    {
-      "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
-      "link": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 03 Oct 2026 10:00:00 GMT"
-    },
-    {
-      "title": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
-      "link": "https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 02 Oct 2026 13:00:00 GMT"
+      "title": "ChatGPT 推出全新 IUI 智能用户界面；谷歌推出试验性 AI 游戏平台 Playground；苹果被曝联合 LG 开发门锁、摄像头等智能家居配件｜极客早知道",
+      "link": "http://www.geekpark.net/news/372090",
+      "description": "2026 年诺贝尔化学奖公布：二人因解开不对称有机合成难题获奖，其中一位 96 岁高龄\n10 月 7 日，2026 年诺贝尔化学奖正式公布，瑞典皇家科学院决定将 2026 年诺贝尔化学奖授予亨利 &middot;B&middot; 卡甘（Henri B. Kagan）和硖合宪三（Kenso Soai），「表彰他们在不对称有机合成中发现非线性效应和自催化现象。」\n有些分子，例如氨",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 08 Oct 2026 08:49:27 +0800"
     },
     {
       "title": "派拉蒙 1100 亿美元收购时代华纳，好莱坞诞生新巨无霸；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 05 Oct 2026 17:45:01 +0800"
-    },
-    {
-      "title": "马斯克将旗下人工智能业务更名为 SpaceXSI；Altman 称 AI 发展应容忍一定风险；小米 Vision GT 将入驻《GT7》游戏｜极客早知道",
-      "link": "http://www.geekpark.net/news/372082",
-      "description": "马斯克拟将 SpaceXAI 更名为 SpaceXSI 为「超级智能」概念背书\n美国总统特朗普推动以「超级智能」（Super Intelligence，简称 SI）取代「人工智能」（AI）的举措正在迅速影响科技行业。特斯拉和 SpaceX 首席执行官埃隆&middot;马斯克日前表示，旗下人工智能业务品牌 SpaceXAI 有意更名为 SpaceXSI，并公开宣称「SpaceX",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 05 Oct 2026 08:36:34 +0800"
-    },
-    {
-      "title": "Jev 之后，中国团队开始深挖 AI 的「直觉层」",
-      "link": "http://www.geekpark.net/news/372081",
-      "description": "作者｜桦林舞王\n编辑｜靖宇\n&nbsp;\n\n9 月 15 日，前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI 发布了 Jev。这款模型不写一个字，只做判断。\n两周之后，整个行业都在做同一件事。OpenAI 在开发者日上推出 Decisions API，Cloudflare 在 10 月 1 日开源了 Clef，亚马逊也放出了 Strands",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 04 Oct 2026 19:41:48 +0800"
     }
   ]
 };
