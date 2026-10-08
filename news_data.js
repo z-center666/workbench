@@ -1,12 +1,28 @@
-// 自动生成于 2026-10-08 04:13:09
+// 自动生成于 2026-10-08 12:42:56
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-08",
-  "time": "04:13",
+  "time": "12:42",
   "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 大模型。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, OpenAI, 大模型, 智能体。",
   "items": [
+    {
+      "title": "浪子回头！Manus重启北京办公室大举招聘",
+      "link": "https://www.qbitai.com/2026/10/502009.html",
+      "description": "开始和国产Agent抢人，还拿到5亿美元新融资",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 08 Oct 2026 09:30:17 +0000"
+    },
+    {
+      "title": "ChatGPT踢到铁板了！能破解千禧数学难题，但论文复现率低至13.98%？",
+      "link": "https://www.qbitai.com/2026/10/501995.html",
+      "description": "PaperBenchX为代表的基准或许能更好地衡量AI的科研实力",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 08 Oct 2026 09:28:44 +0000"
+    },
     {
       "title": "大模型原生智能体手机STEPX Neo将于10月13日正式发布",
       "link": "https://www.qbitai.com/2026/10/501915.html",
@@ -32,20 +48,28 @@ var NEWS_DATA = {
       "pub_date": "Thu, 08 Oct 2026 01:04:00 +0000"
     },
     {
-      "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
-      "link": "https://www.qbitai.com/2026/10/501803.html",
-      "description": "",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 07 Oct 2026 11:34:47 +0000"
+      "title": "谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
+      "link": "https://www.infoq.cn/article/LVsjSV4pIlh3Liz0KZZE?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 08 Oct 2026 17:12:00 GMT"
     },
     {
-      "title": "晕…这年头还有说人话的AI不",
-      "link": "https://www.qbitai.com/2026/10/501796.html",
-      "description": "",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 07 Oct 2026 08:41:13 +0000"
+      "title": "OpenAI刚把多Agent做成产品，o1奠基人却说：1万个Agent解出世界级难题，多Agent贡献不到10%",
+      "link": "https://www.infoq.cn/article/3MSU3CcJuh0XjHDyjhXj?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 08 Oct 2026 14:11:21 GMT"
+    },
+    {
+      "title": "2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
+      "link": "https://www.infoq.cn/article/dS754RhjExrwFP6tWD9d?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 08 Oct 2026 14:10:29 GMT"
     },
     {
       "title": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
@@ -61,31 +85,7 @@ var NEWS_DATA = {
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 08 Oct 2026 11:08:39 GMT"
-    },
-    {
-      "title": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
-      "link": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 08 Oct 2026 10:35:29 GMT"
-    },
-    {
-      "title": "代码交给AI，心流却回来了：Codex负责人不再怀念手写时代",
-      "link": "https://www.infoq.cn/article/rLaX4DEMuRxqW135ZSSC?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 08 Oct 2026 09:35:10 GMT"
-    },
-    {
-      "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
-      "link": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 06 Oct 2026 10:00:00 GMT"
+      "pub_date": "Thu, 08 Oct 2026 11:08:38 GMT"
     },
     {
       "title": "造物 100#07   | 给硬盘养个图书馆员、指纹钥匙给 AI 上锁、AI 对讲机住着科幻宇宙",
