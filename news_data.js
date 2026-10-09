@@ -1,12 +1,44 @@
-// 自动生成于 2026-10-08 22:48:14
+// 自动生成于 2026-10-09 04:18:33
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-08",
-  "time": "22:48",
-  "weekday": "周四",
+  "date": "2026-10-09",
+  "time": "04:18",
+  "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, OpenAI, 大模型, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, 智能体。",
   "items": [
+    {
+      "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
+      "link": "https://www.qbitai.com/2026/10/502106.html",
+      "description": "多Agent协同还能自我进化",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 09 Oct 2026 02:37:22 +0000"
+    },
+    {
+      "title": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试炼场中边玩边进化",
+      "link": "https://www.qbitai.com/2026/10/502096.html",
+      "description": "让AI反复试错的“练兵场”来了",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 09 Oct 2026 02:03:48 +0000"
+    },
+    {
+      "title": "陶哲轩带头宣战！人类数学家联合抵制OpenAI",
+      "link": "https://www.qbitai.com/2026/10/502089.html",
+      "description": "彻底撕破脸了",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 09 Oct 2026 00:35:57 +0000"
+    },
+    {
+      "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
+      "link": "https://www.qbitai.com/2026/10/502083.html",
+      "description": "新的“缝合怪”已经出现，怎么能够停滞不前",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 09 Oct 2026 00:16:56 +0000"
+    },
     {
       "title": "浪子回头！Manus重启北京办公室大举招聘",
       "link": "https://www.qbitai.com/2026/10/502009.html",
@@ -16,36 +48,20 @@ var NEWS_DATA = {
       "pub_date": "Thu, 08 Oct 2026 09:30:17 +0000"
     },
     {
-      "title": "ChatGPT踢到铁板了！能破解千禧数学难题，但论文复现率低至13.98%？",
-      "link": "https://www.qbitai.com/2026/10/501995.html",
-      "description": "PaperBenchX为代表的基准或许能更好地衡量AI的科研实力",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 08 Oct 2026 09:28:44 +0000"
+      "title": "从 Demo 到生产：AI Agent 缺的到底是什么？",
+      "link": "https://www.infoq.cn/article/PLEWse6sEviMN99iLE93?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 09 Oct 2026 11:13:00 GMT"
     },
     {
-      "title": "大模型原生智能体手机STEPX Neo将于10月13日正式发布",
-      "link": "https://www.qbitai.com/2026/10/501915.html",
-      "description": "",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 08 Oct 2026 02:15:37 +0000"
-    },
-    {
-      "title": "GPT-6今起免费用！拒答变少，话变多了",
-      "link": "https://www.qbitai.com/2026/10/501834.html",
-      "description": "ChatGPT聊天框长出界面",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 08 Oct 2026 01:07:19 +0000"
-    },
-    {
-      "title": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊",
-      "link": "https://www.qbitai.com/2026/10/501832.html",
-      "description": "小模型新守门员",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 08 Oct 2026 01:04:00 +0000"
+      "title": "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/832RV3o8ireEdJpO9H4v?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 09 Oct 2026 10:00:00 GMT"
     },
     {
       "title": "谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Thu, 08 Oct 2026 14:10:29 GMT"
     },
     {
-      "title": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
-      "link": "https://www.infoq.cn/article/s2Rt9t0yqUFk6VYV33Mh?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 08 Oct 2026 11:43:00 GMT"
-    },
-    {
-      "title": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
-      "link": "https://www.infoq.cn/article/aJ7cgaNqf4pXVtbbtYiv?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 08 Oct 2026 11:08:38 GMT"
+      "title": "谷歌云发布 Gemini Agent；Manus 官宣五亿美元融资；小鹏上线 Robotaxi 打车小程序",
+      "link": "http://www.geekpark.net/news/372143",
+      "description": "谷歌云发布 Gemini Agent，支持多种 AI 模型\n10 月 8 日，谷歌云在 Gemini at Work 2026 发布会上宣布，面向企业客户推出 Gemini 智能体（Gemini Agent）。这款产品定位「通用工作智能体」，支持 Gemini Enterprise 、Workspace 以及第三方服务。\n谷歌表示，Gemini Agent 只需要用户给出目标就",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 09 Oct 2026 08:35:13 +0800"
     },
     {
       "title": "造物 100#07   | 给硬盘养个图书馆员、指纹钥匙给 AI 上锁、AI 对讲机住着科幻宇宙",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 06 Oct 2026 09:16:53 +0800"
-    },
-    {
-      "title": "AI，为什么总在画美女？",
-      "link": "http://www.geekpark.net/news/372084",
-      "description": "作者｜汤一涛\n编辑｜靖宇\n&nbsp;\n\n今年 5 月初，X 上一条五秒钟的视频火了。这是一场韩国职业棒球联赛转播，韩华鹰队对阵斗山熊队。镜头扫到看台上一个穿白上衣和牛仔裤的女人，翘着腿。某一刻，她似乎叹了口气，并移开了视线，看起来对比赛感到不满。\n\n视频配文是「普通韩国女性」。截至本文发布，视频播放量已经为 1525 万｜视频来源：X @kangminlee\n但是很快一群资深",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 05 Oct 2026 17:45:01 +0800"
     }
   ]
 };
