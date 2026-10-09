@@ -1,12 +1,44 @@
-// 自动生成于 2026-10-09 04:18:33
+// 自动生成于 2026-10-09 12:29:36
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-09",
-  "time": "04:18",
+  "time": "12:29",
   "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, DeepSeek, OpenAI。",
   "items": [
+    {
+      "title": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
+      "link": "https://www.qbitai.com/2026/10/502422.html",
+      "description": "联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 09 Oct 2026 08:53:08 +0000"
+    },
+    {
+      "title": "字节找到了DeepSeek时强时弱的原因",
+      "link": "https://www.qbitai.com/2026/10/502364.html",
+      "description": "答不答得对，得看Token站位",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 09 Oct 2026 07:11:55 +0000"
+    },
+    {
+      "title": "《柳叶刀》研究表明：AI 有望改善医患关系",
+      "link": "https://www.qbitai.com/2026/10/502359.html",
+      "description": "Google 研究成果首次登上《柳叶刀》主刊",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 09 Oct 2026 06:28:55 +0000"
+    },
+    {
+      "title": "清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据",
+      "link": "https://www.qbitai.com/2026/10/502125.html",
+      "description": "星动纪元选择将视频预测与动作学习分阶段训练，重点不是「视频、动作一锅炖」，而是把两者「解耦」，重新「排序」。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 09 Oct 2026 03:52:21 +0000"
+    },
     {
       "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
       "link": "https://www.qbitai.com/2026/10/502106.html",
@@ -16,76 +48,52 @@ var NEWS_DATA = {
       "pub_date": "Fri, 09 Oct 2026 02:37:22 +0000"
     },
     {
-      "title": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试炼场中边玩边进化",
-      "link": "https://www.qbitai.com/2026/10/502096.html",
-      "description": "让AI反复试错的“练兵场”来了",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 09 Oct 2026 02:03:48 +0000"
-    },
-    {
-      "title": "陶哲轩带头宣战！人类数学家联合抵制OpenAI",
-      "link": "https://www.qbitai.com/2026/10/502089.html",
-      "description": "彻底撕破脸了",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 09 Oct 2026 00:35:57 +0000"
-    },
-    {
-      "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
-      "link": "https://www.qbitai.com/2026/10/502083.html",
-      "description": "新的“缝合怪”已经出现，怎么能够停滞不前",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 09 Oct 2026 00:16:56 +0000"
-    },
-    {
-      "title": "浪子回头！Manus重启北京办公室大举招聘",
-      "link": "https://www.qbitai.com/2026/10/502009.html",
-      "description": "开始和国产Agent抢人，还拿到5亿美元新融资",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 08 Oct 2026 09:30:17 +0000"
-    },
-    {
-      "title": "从 Demo 到生产：AI Agent 缺的到底是什么？",
-      "link": "https://www.infoq.cn/article/PLEWse6sEviMN99iLE93?utm_source=rss&utm_medium=article",
+      "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
+      "link": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 09 Oct 2026 11:13:00 GMT"
+      "pub_date": "Fri, 09 Oct 2026 17:39:38 GMT"
     },
     {
-      "title": "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海",
-      "link": "https://www.infoq.cn/article/832RV3o8ireEdJpO9H4v?utm_source=rss&utm_medium=article",
+      "title": "OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的",
+      "link": "https://www.infoq.cn/article/IRqoPz4cNONlNFBolD9V?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 09 Oct 2026 10:00:00 GMT"
+      "pub_date": "Fri, 09 Oct 2026 17:24:31 GMT"
     },
     {
-      "title": "谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
-      "link": "https://www.infoq.cn/article/LVsjSV4pIlh3Liz0KZZE?utm_source=rss&utm_medium=article",
+      "title": "@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude",
+      "link": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 08 Oct 2026 17:12:00 GMT"
+      "pub_date": "Fri, 09 Oct 2026 17:15:07 GMT"
     },
     {
-      "title": "OpenAI刚把多Agent做成产品，o1奠基人却说：1万个Agent解出世界级难题，多Agent贡献不到10%",
-      "link": "https://www.infoq.cn/article/3MSU3CcJuh0XjHDyjhXj?utm_source=rss&utm_medium=article",
+      "title": "AI 落地，此刻发生 ｜1024 模力工场 AI 社区日，首批报名开启",
+      "link": "https://www.infoq.cn/article/RicHewwNF5jacSMQNy6O?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 08 Oct 2026 14:11:21 GMT"
+      "pub_date": "Fri, 09 Oct 2026 16:59:33 GMT"
     },
     {
-      "title": "2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
-      "link": "https://www.infoq.cn/article/dS754RhjExrwFP6tWD9d?utm_source=rss&utm_medium=article",
+      "title": "全球最大独立 AI 原生影视公司，开始打破工具与制片厂的边界",
+      "link": "https://www.infoq.cn/article/ZxZMY50COGlUNHLSAEUo?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 08 Oct 2026 14:10:29 GMT"
+      "pub_date": "Fri, 09 Oct 2026 14:03:15 GMT"
+    },
+    {
+      "title": "我使用国产「个人 AI 助手」的十天｜AI 上新",
+      "link": "http://www.geekpark.net/news/372163",
+      "description": "过去一年，AI 产品越来越想变成一个「人」。\n一边是越来越自动化的 Agent，已经可以直接操作电脑，甚至和其他 AI 互相通信。\n而另一边，是近期大火的「个人助理」式 Personal AI，它不仅要完成眼前的任务，还想记住是谁在提需求：这个人关心什么，手上有哪些没做完的事。\n就在最近一个月里， Meta 推出了 Muse； Manus 推出个人 Agent 应用 Cue； O",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 09 Oct 2026 12:34:12 +0800"
     },
     {
       "title": "谷歌云发布 Gemini Agent；Manus 官宣五亿美元融资；小鹏上线 Robotaxi 打车小程序",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 07 Oct 2026 08:39:21 +0800"
-    },
-    {
-      "title": "OpenAI 宣布「28 天计划」，持续改进 Codex、Work；TikTok 上线一系列 AI 电商功能；蓝色起源公布月球「动力塔计划」",
-      "link": "http://www.geekpark.net/news/372086",
-      "description": "2026 诺贝尔奖生理学或医学奖揭晓：三学者凭借「光控离子通道和光遗传学」领域发现获表彰\n10 月 5 日消息，诺贝尔奖基金会宣布将 2026 年诺贝尔生理学或医学奖授予以下三人，以表彰他们在「光控离子通道和光遗传学」领域的发现：美国霍华德 &middot; 休斯医学研究所及斯坦福大学的 Karl Deisseroth、德国柏林洪堡大学的 Peter Hegemann、德国维尔",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 06 Oct 2026 09:16:53 +0800"
     }
   ]
 };
