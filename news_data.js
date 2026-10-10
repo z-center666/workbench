@@ -1,9 +1,9 @@
-// 自动生成于 2026-10-09 22:10:25
+// 自动生成于 2026-10-10 04:03:48
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-09",
-  "time": "22:10",
-  "weekday": "周五",
+  "date": "2026-10-10",
+  "time": "04:03",
+  "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, DeepSeek, OpenAI。",
   "items": [
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Fri, 09 Oct 2026 02:37:22 +0000"
     },
     {
+      "title": "当代码不再稀缺：大型工程 AI 狂欢下的确定性底座｜QCon上海",
+      "link": "https://www.infoq.cn/article/0LiYFbYJtkttVMpDVkWC?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 10 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
       "link": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 09 Oct 2026 16:59:33 GMT"
     },
     {
-      "title": "全球最大独立 AI 原生影视公司，开始打破工具与制片厂的边界",
-      "link": "https://www.infoq.cn/article/ZxZMY50COGlUNHLSAEUo?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 09 Oct 2026 14:03:15 GMT"
+      "title": "Jev 开发商估值已达 75 亿美元；苹果投资 AI 音频初创；传 OpenAI、Anthropic 高管私下推演 AI 灾难场景",
+      "link": "http://www.geekpark.net/news/372184",
+      "description": "内存等成本压力上升，2027 全球笔记本价格恐继续上涨\n市场调查机构集邦咨询（Trendforce）于 10 月 8 日发布博文，表示如果零部件价格继续维持高位，品牌扩大成本转嫁，终端涨价可能延长用户换机周期，预估 2027 年全球笔记本市场面临出货、价格双重影响。\n在 2026 年第 3 季度以建议零售价 900 美元的主流笔记本为例，其 CPU、内存及 SSD 占物料成本约",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sat, 10 Oct 2026 09:27:14 +0800"
     },
     {
       "title": "我使用国产「个人 AI 助手」的十天｜AI 上新",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Thu, 08 Oct 2026 08:49:27 +0800"
-    },
-    {
-      "title": "派拉蒙 1100 亿美元收购时代华纳，好莱坞诞生新巨无霸；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude",
-      "link": "http://www.geekpark.net/news/372089",
-      "description": "2026 诺贝尔物理学奖揭晓：把一立方公里南极冰变成望远镜，打开「中微子天文学」\n10 月 6 日，2026 年诺贝尔物理学奖授予比利时裔美国物理学家 Francis Halzen，以表彰其「对 IceCube 中微子天文台的决定性贡献，以及发现来自天体的高能中微子」。\nHalzen 领导建设的 IceCube 位于南极，把超过 一立方公里的透明冰层本身变成粒子探测器：5000",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 07 Oct 2026 08:39:21 +0800"
     }
   ]
 };
