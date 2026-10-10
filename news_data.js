@@ -1,8 +1,8 @@
-// 自动生成于 2026-10-10 04:03:48
+// 自动生成于 2026-10-10 11:49:00
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-10",
-  "time": "04:03",
+  "time": "11:49",
   "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, DeepSeek, OpenAI。",
@@ -48,44 +48,60 @@ var NEWS_DATA = {
       "pub_date": "Fri, 09 Oct 2026 02:37:22 +0000"
     },
     {
-      "title": "当代码不再稀缺：大型工程 AI 狂欢下的确定性底座｜QCon上海",
-      "link": "https://www.infoq.cn/article/0LiYFbYJtkttVMpDVkWC?utm_source=rss&utm_medium=article",
+      "title": "模型开放之后，AI能力为什么仍难以复用？",
+      "link": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sat, 10 Oct 2026 10:00:00 GMT"
+      "pub_date": "Sat, 10 Oct 2026 17:10:50 GMT"
     },
     {
-      "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
-      "link": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article",
+      "title": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
+      "link": "https://www.infoq.cn/article/jri7etqXIv2dp6RsiSHh?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 09 Oct 2026 17:39:38 GMT"
+      "pub_date": "Sat, 10 Oct 2026 15:24:10 GMT"
     },
     {
-      "title": "OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的",
-      "link": "https://www.infoq.cn/article/IRqoPz4cNONlNFBolD9V?utm_source=rss&utm_medium=article",
+      "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
+      "link": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 09 Oct 2026 17:24:31 GMT"
+      "pub_date": "Sat, 10 Oct 2026 15:18:57 GMT"
     },
     {
-      "title": "@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude",
-      "link": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article",
+      "title": "OpenAI 只用 15 天，就杀死了估值 100 亿美元的 Jev？",
+      "link": "https://www.infoq.cn/article/qmoRIQ1TceKfKwGlXN0S?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 09 Oct 2026 17:15:07 GMT"
+      "pub_date": "Sat, 10 Oct 2026 15:11:32 GMT"
     },
     {
-      "title": "AI 落地，此刻发生 ｜1024 模力工场 AI 社区日，首批报名开启",
-      "link": "https://www.infoq.cn/article/RicHewwNF5jacSMQNy6O?utm_source=rss&utm_medium=article",
+      "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
+      "link": "https://www.infoq.cn/article/SuqGY4FQ95AVzs1S0KSV?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 09 Oct 2026 16:59:33 GMT"
+      "pub_date": "Sat, 10 Oct 2026 14:27:56 GMT"
+    },
+    {
+      "title": "好产品就是与时代和生活共振｜2026 年度极客最爱好物启动",
+      "link": "http://www.geekpark.net/news/372196",
+      "description": "一件好产品，往往是在用过一段时间之后，才让人意识到它的好。出门时顺手带上，遇到事情时首先打开，或者因为有了它，愿意尝试一件过去觉得麻烦的事。这样的产品，值得被分享给更多人。\n2026 年，我们把寻找好产品的目光，投向更丰富的形态。能协助完成任务的 AI 应用、戴在身上的智能设备，以及尝试在真实环境中干活的机器人，都进入了今年的选品视野。技术提供了新的可能，具体的产品体验，决定了",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sat, 10 Oct 2026 14:07:11 +0800"
+    },
+    {
+      "title": "记录生生不息的创新力量｜2026 年度「InnoForce 50」启动",
+      "link": "http://www.geekpark.net/news/372195",
+      "description": "过去几年，科技行业最重要的变化之一，是创新的底层逻辑正在被重新改写。\n到了 2026 年，AI 已经不只是技术变量，而成为影响产品形态和组织方式的关键变量。它开始进入办公室、工厂、汽车、机器人、医院等场景，也进入了许多过去并不处在科技叙事中心的行业。它改变软件，也反过来改变硬件；改变一个人的工作方式，也改变一家公司的组织方式。\n但 AI 不是全部。真正值得被记录的，是当 AI",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sat, 10 Oct 2026 13:58:20 +0800"
     },
     {
       "title": "Jev 开发商估值已达 75 亿美元；苹果投资 AI 音频初创；传 OpenAI、Anthropic 高管私下推演 AI 灾难场景",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 09 Oct 2026 08:35:13 +0800"
-    },
-    {
-      "title": "造物 100#07   | 给硬盘养个图书馆员、指纹钥匙给 AI 上锁、AI 对讲机住着科幻宇宙",
-      "link": "http://www.geekpark.net/news/372099",
-      "description": "产品的创新，究竟应该如何定义它的价值？\n上周，华为、小米、苹果在 72 小时内接连发布折叠屏旗舰。华为 Mate XT 2 非凡大师 19999 元起售，小米 18 Fold 10999 元，苹果首款折叠屏 iPhone Duo 市场预计 1.6 万起。与此同时，一组数据冲上热搜，通用内存合约价环比涨超 58%，固态硬盘涨超 70%，主流性能机比去年贵了 2800 到 4500",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 08 Oct 2026 09:40:34 +0800"
-    },
-    {
-      "title": "ChatGPT 推出全新 IUI 智能用户界面；谷歌推出试验性 AI 游戏平台 Playground；苹果被曝联合 LG 开发门锁、摄像头等智能家居配件｜极客早知道",
-      "link": "http://www.geekpark.net/news/372090",
-      "description": "2026 年诺贝尔化学奖公布：二人因解开不对称有机合成难题获奖，其中一位 96 岁高龄\n10 月 7 日，2026 年诺贝尔化学奖正式公布，瑞典皇家科学院决定将 2026 年诺贝尔化学奖授予亨利 &middot;B&middot; 卡甘（Henri B. Kagan）和硖合宪三（Kenso Soai），「表彰他们在不对称有机合成中发现非线性效应和自催化现象。」\n有些分子，例如氨",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 08 Oct 2026 08:49:27 +0800"
     }
   ]
 };
