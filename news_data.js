@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-10 21:04:06
+// 自动生成于 2026-10-11 03:39:17
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-10",
-  "time": "21:04",
-  "weekday": "周六",
+  "date": "2026-10-11",
+  "time": "03:39",
+  "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, DeepSeek, OpenAI。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 智能体。",
   "items": [
     {
       "title": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Fri, 09 Oct 2026 02:37:22 +0000"
     },
     {
+      "title": "利用 AI 代码智能体优化软件架构的五种方法",
+      "link": "https://www.infoq.cn/article/soRObi5sjdTTUM95zLJK?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 11 Oct 2026 10:04:31 GMT"
+    },
+    {
+      "title": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 11 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "模型开放之后，AI能力为什么仍难以复用？",
       "link": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Sat, 10 Oct 2026 15:18:57 GMT"
     },
     {
-      "title": "OpenAI 只用 15 天，就杀死了估值 100 亿美元的 Jev？",
-      "link": "https://www.infoq.cn/article/qmoRIQ1TceKfKwGlXN0S?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 10 Oct 2026 15:11:32 GMT"
-    },
-    {
-      "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
-      "link": "https://www.infoq.cn/article/SuqGY4FQ95AVzs1S0KSV?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 10 Oct 2026 14:27:56 GMT"
+      "title": "马斯克豪言 SpaceX 估值将超1000万亿美元，遭拉表打脸；传腾讯字节加速个人智能体研发；四部门拟禁止汽车采用全隐藏式门把手",
+      "link": "http://www.geekpark.net/news/372216",
+      "description": "马斯克豪言 SpaceX 估值超 1000 万亿美元，惨遭拉表打脸近日，马斯克在社交平台大胆预测，SpaceX 未来估值有望突破 1000 万亿美元，体量将远超当前全球经济总量。目前 SpaceX 估值仅约 2.2 万亿美元，而 2025 年全球 GDP 总量约 118 万亿美元，此番极具颠覆性的超高估值言论引发全网热议与质疑。面对这一惊人预测，有网友晒出富国银行证券整理的一张名",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 11 Oct 2026 08:53:38 +0800"
     },
     {
       "title": "好产品就是与时代和生活共振｜2026 年度极客最爱好物启动",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 09 Oct 2026 12:34:12 +0800"
-    },
-    {
-      "title": "谷歌云发布 Gemini Agent；Manus 官宣五亿美元融资；小鹏上线 Robotaxi 打车小程序",
-      "link": "http://www.geekpark.net/news/372143",
-      "description": "谷歌云发布 Gemini Agent，支持多种 AI 模型\n10 月 8 日，谷歌云在 Gemini at Work 2026 发布会上宣布，面向企业客户推出 Gemini 智能体（Gemini Agent）。这款产品定位「通用工作智能体」，支持 Gemini Enterprise 、Workspace 以及第三方服务。\n谷歌表示，Gemini Agent 只需要用户给出目标就",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 09 Oct 2026 08:35:13 +0800"
     }
   ]
 };
