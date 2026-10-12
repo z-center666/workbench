@@ -1,12 +1,20 @@
-// 自动生成于 2026-10-11 21:24:56
+// 自动生成于 2026-10-12 04:02:56
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-11",
-  "time": "21:24",
-  "weekday": "周日",
+  "date": "2026-10-12",
+  "time": "04:02",
+  "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, OpenAI, 智能体, Agent。",
   "items": [
+    {
+      "title": "智谱新模型，490 tokens/s！",
+      "link": "https://www.qbitai.com/2026/10/502649.html",
+      "description": "GLM「速度仙人」来了？",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Mon, 12 Oct 2026 02:37:04 +0000"
+    },
     {
       "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
       "link": "https://www.qbitai.com/2026/10/502644.html",
@@ -40,12 +48,12 @@ var NEWS_DATA = {
       "pub_date": "Sun, 11 Oct 2026 05:18:04 +0000"
     },
     {
-      "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
-      "link": "https://www.qbitai.com/2026/10/502544.html",
-      "description": "Grok Bot我养不起，ds bot不得高低尝尝咸淡？",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sun, 11 Oct 2026 03:27:08 +0000"
+      "title": "阿里巴巴中国电商事业群/飞猪CTO陈烨博士已确认出席QCon上海，分享“从 Coding 到消费：AI 的下一场革命”",
+      "link": "https://www.infoq.cn/article/4hYrs8ShAKPAhyzTGQ92?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 12 Oct 2026 10:00:00 GMT"
     },
     {
       "title": "利用 AI 代码智能体优化软件架构的五种方法",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Sat, 10 Oct 2026 15:24:10 GMT"
     },
     {
-      "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
-      "link": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 10 Oct 2026 15:18:57 GMT"
+      "title": "尊界：11 月起陆续升级踏板；iPhone 折叠屏国内预约超 200 万；6 个月，超千万 Claude 账户被封杀｜极客早知道",
+      "link": "http://www.geekpark.net/news/372218",
+      "description": "陶哲轩提出「数学 2.0」：AI 解题之外，还要帮助人理解证明\n10 月 11 日，数学家陶哲轩公开了在加州理工学院的演讲《数学 2.0》。他认为，AI 正在降低部分数学问题的求解成本，使数学研究逐渐从「证明稀缺」走向「证明富足」。但目前多数前沿问题仍未解决，不能只凭公开传播的成功案例判断 AI 的整体能力。\n\n陶哲轩指出，得到正确证明，并不意味着研究者理解了证明为何成立，或掌",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 12 Oct 2026 08:02:38 +0800"
     },
     {
       "title": "马斯克豪言 SpaceX 估值将超1000万亿美元，遭拉表打脸；传腾讯字节加速个人智能体研发；四部门拟禁止汽车采用全隐藏式门把手",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sat, 10 Oct 2026 09:27:14 +0800"
-    },
-    {
-      "title": "我使用国产「个人 AI 助手」的十天｜AI 上新",
-      "link": "http://www.geekpark.net/news/372163",
-      "description": "过去一年，AI 产品越来越想变成一个「人」。\n一边是越来越自动化的 Agent，已经可以直接操作电脑，甚至和其他 AI 互相通信。\n而另一边，是近期大火的「个人助理」式 Personal AI，它不仅要完成眼前的任务，还想记住是谁在提需求：这个人关心什么，手上有哪些没做完的事。\n就在最近一个月里， Meta 推出了 Muse； Manus 推出个人 Agent 应用 Cue； O",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 09 Oct 2026 12:34:12 +0800"
     }
   ]
 };
