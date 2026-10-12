@@ -1,12 +1,20 @@
-// 自动生成于 2026-10-12 04:02:56
+// 自动生成于 2026-10-12 14:16:17
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-12",
-  "time": "04:02",
+  "time": "14:16",
   "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, 智能体, Agent, 多模态。",
   "items": [
+    {
+      "title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+      "link": "https://www.qbitai.com/2026/10/502654.html",
+      "description": "游戏打到21:0，AI甚至不用再调用大模型了",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Mon, 12 Oct 2026 05:48:36 +0000"
+    },
     {
       "title": "智谱新模型，490 tokens/s！",
       "link": "https://www.qbitai.com/2026/10/502649.html",
@@ -40,12 +48,20 @@ var NEWS_DATA = {
       "pub_date": "Sun, 11 Oct 2026 05:22:38 +0000"
     },
     {
-      "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
-      "link": "https://www.qbitai.com/2026/10/502550.html",
-      "description": "初代4o的API快照进入停用倒计时",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sun, 11 Oct 2026 05:18:04 +0000"
+      "title": "从 Agent 到 Loop：AI 正如何重构软件工程？｜QCon 上海 2026 即将开幕",
+      "link": "https://www.infoq.cn/article/DpieQJ598YdxQC8Ymjso?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 12 Oct 2026 17:19:27 GMT"
+    },
+    {
+      "title": "AI 智能体三周重构 30 万行代码，Code Health 从 5.6 升至 10.0：代码真的变好了吗？",
+      "link": "https://www.infoq.cn/article/Qk7CzmLpDCvfYpAiU6Tf?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 12 Oct 2026 16:00:00 GMT"
     },
     {
       "title": "阿里巴巴中国电商事业群/飞猪CTO陈烨博士已确认出席QCon上海，分享“从 Coding 到消费：AI 的下一场革命”",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Sun, 11 Oct 2026 10:00:00 GMT"
     },
     {
-      "title": "模型开放之后，AI能力为什么仍难以复用？",
-      "link": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 10 Oct 2026 17:10:50 GMT"
-    },
-    {
-      "title": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
-      "link": "https://www.infoq.cn/article/jri7etqXIv2dp6RsiSHh?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 10 Oct 2026 15:24:10 GMT"
+      "title": "一周 10 万星，AI「逆向一切」，但大家不要过于兴奋",
+      "link": "http://www.geekpark.net/news/372263",
+      "description": "头图图片来源：REA头图来源：CyberSecurityNews「在应用里看到一个想加入自己产品的功能？让智能体去帮你调查它。」这是 REA 项目主页第一屏的话。后半句更直接：即使没有源代码，智能体也可以检查应用、解释功能怎么工作、展示证据，「并为你的项目实现类似功能」。REA 全名 Reverse Engineer Anything，即「逆向一切」。上周它在 AI 开发者圈刷了",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 12 Oct 2026 20:15:30 +0800"
     },
     {
       "title": "尊界：11 月起陆续升级踏板；iPhone 折叠屏国内预约超 200 万；6 个月，超千万 Claude 账户被封杀｜极客早知道",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sat, 10 Oct 2026 13:58:20 +0800"
-    },
-    {
-      "title": "Jev 开发商估值已达 75 亿美元；苹果投资 AI 音频初创；传 OpenAI、Anthropic 高管私下推演 AI 灾难场景",
-      "link": "http://www.geekpark.net/news/372184",
-      "description": "内存等成本压力上升，2027 全球笔记本价格恐继续上涨\n市场调查机构集邦咨询（Trendforce）于 10 月 8 日发布博文，表示如果零部件价格继续维持高位，品牌扩大成本转嫁，终端涨价可能延长用户换机周期，预估 2027 年全球笔记本市场面临出货、价格双重影响。\n在 2026 年第 3 季度以建议零售价 900 美元的主流笔记本为例，其 CPU、内存及 SSD 占物料成本约",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sat, 10 Oct 2026 09:27:14 +0800"
     }
   ]
 };
