@@ -1,8 +1,8 @@
-// 自动生成于 2026-10-13 13:26:14
+// 自动生成于 2026-10-13 22:14:33
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-13",
-  "time": "13:26",
+  "time": "22:14",
   "weekday": "周二",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, Gemini, DeepSeek, 智能体, Agent。",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Tue, 13 Oct 2026 04:07:04 +0000"
     },
     {
+      "title": "手机解锁先见 AI，不再先找 App：阶跃星辰首款智能体手机来了，定价 3999",
+      "link": "https://www.infoq.cn/article/p2TobACROBC8UBPlRKXx?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 13 Oct 2026 22:26:45 GMT"
+    },
+    {
       "title": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
       "link": "https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Tue, 13 Oct 2026 17:25:00 GMT"
     },
     {
-      "title": "千问Personal Agent硬件升级：AI眼镜可虹膜支付，携手Bose首发AI耳夹耳机",
-      "link": "https://www.infoq.cn/article/xJ8vYf2lCwGWzVizOTSM?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 13 Oct 2026 16:24:40 GMT"
+      "title": "苹果给 Siri 做了一块能认出全家人的屏幕，售价 299 美元",
+      "link": "http://www.geekpark.net/news/372302",
+      "description": "头图来源：Apple 官网北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 13 Oct 2026 21:51:34 +0800"
     },
     {
       "title": "说个事：极客公园创新大会 2027！",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 12 Oct 2026 20:15:30 +0800"
-    },
-    {
-      "title": "尊界：11 月起陆续升级踏板；iPhone 折叠屏国内预约超 200 万；6 个月，超千万 Claude 账户被封杀｜极客早知道",
-      "link": "http://www.geekpark.net/news/372218",
-      "description": "陶哲轩提出「数学 2.0」：AI 解题之外，还要帮助人理解证明\n10 月 11 日，数学家陶哲轩公开了在加州理工学院的演讲《数学 2.0》。他认为，AI 正在降低部分数学问题的求解成本，使数学研究逐渐从「证明稀缺」走向「证明富足」。但目前多数前沿问题仍未解决，不能只凭公开传播的成功案例判断 AI 的整体能力。\n\n陶哲轩指出，得到正确证明，并不意味着研究者理解了证明为何成立，或掌",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 12 Oct 2026 08:02:38 +0800"
     }
   ]
 };
