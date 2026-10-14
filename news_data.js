@@ -1,91 +1,91 @@
-// 自动生成于 2026-10-14 03:18:13
+// 自动生成于 2026-10-14 11:04:05
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-14",
-  "time": "03:18",
+  "time": "11:04",
   "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, Gemini, DeepSeek, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, Gemini, 大模型, 智能体, Agent。",
   "items": [
     {
-      "title": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
-      "link": "https://www.qbitai.com/2026/10/503107.html",
-      "description": "让VLA从“演示可用”逼近“产线可用”",
+      "title": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
+      "link": "https://www.qbitai.com/2026/10/503244.html",
+      "description": "这妥妥是个物理版Agent啊！",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 13 Oct 2026 11:05:39 +0000"
+      "pub_date": "Wed, 14 Oct 2026 08:01:18 +0000"
     },
     {
-      "title": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
-      "link": "https://www.qbitai.com/2026/10/503093.html",
-      "description": "Winverse AI",
+      "title": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
+      "link": "https://www.qbitai.com/2026/10/503211.html",
+      "description": "从创意到成本，AI正在重写综艺的生产逻辑",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 13 Oct 2026 09:33:37 +0000"
+      "pub_date": "Wed, 14 Oct 2026 07:03:44 +0000"
     },
     {
-      "title": "Claude团队又搞事：实测AI全自主复制进智能家电",
-      "link": "https://www.qbitai.com/2026/10/502920.html",
-      "description": "拉马克进化的幽灵",
+      "title": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
+      "link": "https://www.qbitai.com/2026/10/503201.html",
+      "description": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 13 Oct 2026 06:19:10 +0000"
+      "pub_date": "Wed, 14 Oct 2026 06:45:38 +0000"
     },
     {
-      "title": "“模态进化”：第八届亿邦产业互联网年会暨首届产业智能体大会双会合体定档",
-      "link": "https://www.qbitai.com/2026/10/502907.html",
-      "description": "由亿邦动力主办的“2026第八届亿邦产业互联网年会暨首届产业智能体大会”正式定档",
+      "title": "国内最年轻AI教授创业：要让世界模型走向全身全模态",
+      "link": "https://www.qbitai.com/2026/10/503172.html",
+      "description": "给Ego补上缺失的交互信息",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 13 Oct 2026 06:00:20 +0000"
+      "pub_date": "Wed, 14 Oct 2026 04:51:32 +0000"
     },
     {
-      "title": "9大赛道，23份企业真实考卷！上海具身智能大考，邀千队共解题",
-      "link": "https://www.qbitai.com/2026/10/502784.html",
-      "description": "赢奖金、拿融资、送出海",
+      "title": "调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地",
+      "link": "https://www.qbitai.com/2026/10/503173.html",
+      "description": "从“懂空间”到“能干活”",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 13 Oct 2026 04:07:04 +0000"
+      "pub_date": "Wed, 14 Oct 2026 04:09:29 +0000"
     },
     {
-      "title": "无问芯穹联合创始人戴国浩博士确认出席QCon上海，分享Agentic Infra 技术探索与实践",
-      "link": "https://www.infoq.cn/article/EVQ0s2JRvxZyo9f9gSg6?utm_source=rss&utm_medium=article",
+      "title": "企业真正需要的，不是更聪明的 Agent ？",
+      "link": "https://www.infoq.cn/video/Wss036X3C6APXsS41HwC?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 14 Oct 2026 10:00:00 GMT"
+      "pub_date": "Wed, 14 Oct 2026 18:36:53 GMT"
     },
     {
-      "title": "手机解锁先见 AI，不再先找 App：阶跃星辰首款智能体手机来了，定价 3999",
-      "link": "https://www.infoq.cn/article/p2TobACROBC8UBPlRKXx?utm_source=rss&utm_medium=article",
+      "title": "千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
+      "link": "https://www.infoq.cn/article/IAAteiFAzfescqFHIyQU?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 13 Oct 2026 22:26:45 GMT"
+      "pub_date": "Wed, 14 Oct 2026 17:48:46 GMT"
     },
     {
-      "title": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
-      "link": "https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article",
+      "title": "九成具身智能公司在东部沿海，长沙抢走了另一样东西",
+      "link": "https://www.infoq.cn/article/ZqJq0uHBPvvEewkc0ZFC?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 13 Oct 2026 18:32:43 GMT"
+      "pub_date": "Wed, 14 Oct 2026 17:35:33 GMT"
     },
     {
-      "title": "刚亮相就传被英伟达收购：Gemini老兵团队凭什么还敢押注Coding Agent？",
-      "link": "https://www.infoq.cn/article/LQjytCZpPdgOE5PrWU59?utm_source=rss&utm_medium=article",
+      "title": "从大模型到 Agent 落地，这场大会讲透 AI 全链路",
+      "link": "https://www.infoq.cn/article/PuGS7Qxy4AFOal4wVR22?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 13 Oct 2026 17:57:05 GMT"
+      "pub_date": "Wed, 14 Oct 2026 14:52:06 GMT"
     },
     {
-      "title": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
-      "link": "https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article",
+      "title": "Claude写代码太快，Git扛不住了：Anthropic仅靠7人，5个月重造版本控制系统",
+      "link": "https://www.infoq.cn/article/6iRATYfkqF7aITPaFR2R?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 13 Oct 2026 17:41:43 GMT"
+      "pub_date": "Wed, 14 Oct 2026 11:46:46 GMT"
     },
     {
       "title": "超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线",
