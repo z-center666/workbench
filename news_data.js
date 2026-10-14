@@ -1,9 +1,9 @@
-// 自动生成于 2026-10-13 22:14:33
+// 自动生成于 2026-10-14 03:18:13
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-13",
-  "time": "22:14",
-  "weekday": "周二",
+  "date": "2026-10-14",
+  "time": "03:18",
+  "weekday": "周三",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, Gemini, DeepSeek, 智能体, Agent。",
   "items": [
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Tue, 13 Oct 2026 04:07:04 +0000"
     },
     {
+      "title": "无问芯穹联合创始人戴国浩博士确认出席QCon上海，分享Agentic Infra 技术探索与实践",
+      "link": "https://www.infoq.cn/article/EVQ0s2JRvxZyo9f9gSg6?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 14 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "手机解锁先见 AI，不再先找 App：阶跃星辰首款智能体手机来了，定价 3999",
       "link": "https://www.infoq.cn/article/p2TobACROBC8UBPlRKXx?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Tue, 13 Oct 2026 17:41:43 GMT"
     },
     {
-      "title": "修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程",
-      "link": "https://www.infoq.cn/article/R7OkT6DCUifdCQqAvwtJ?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 13 Oct 2026 17:25:00 GMT"
+      "title": "超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线",
+      "link": "http://www.geekpark.net/news/372304",
+      "description": "谷歌最强 AI 模型：Gemini 4 Argon 上线，输出词元上限 100 万个、专攻最棘手难题\n10 月 14 日消息，Gemini 4 Argon现已面向全球开发者和企业开放，可通过 AI Studio、 Gemini 平台 API 使用，同时支持 Google Antigravity 的 Google AI Ultra 订阅用户，以及 Gemini 应用和搜索 AI",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 14 Oct 2026 08:28:51 +0800"
     },
     {
       "title": "苹果给 Siri 做了一块能认出全家人的屏幕，售价 299 美元",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 13 Oct 2026 08:27:49 +0800"
-    },
-    {
-      "title": "一周 10 万星，AI「逆向一切」，但大家不要过于兴奋",
-      "link": "http://www.geekpark.net/news/372263",
-      "description": "头图图片来源：REA头图来源：CyberSecurityNews「在应用里看到一个想加入自己产品的功能？让智能体去帮你调查它。」这是 REA 项目主页第一屏的话。后半句更直接：即使没有源代码，智能体也可以检查应用、解释功能怎么工作、展示证据，「并为你的项目实现类似功能」。REA 全名 Reverse Engineer Anything，即「逆向一切」。上周它在 AI 开发者圈刷了",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 12 Oct 2026 20:15:30 +0800"
     }
   ]
 };
