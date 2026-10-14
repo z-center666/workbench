@@ -1,12 +1,20 @@
-// 自动生成于 2026-10-14 11:04:05
+// 自动生成于 2026-10-14 16:24:20
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-14",
-  "time": "11:04",
+  "time": "16:24",
   "weekday": "周三",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, Gemini, 大模型, 智能体, Agent。",
   "items": [
+    {
+      "title": "抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！",
+      "link": "https://www.qbitai.com/2026/10/503294.html",
+      "description": "“具身进实景，劳动最光荣”",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 14 Oct 2026 10:41:47 +0000"
+    },
     {
       "title": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
       "link": "https://www.qbitai.com/2026/10/503244.html",
@@ -38,14 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Wed, 14 Oct 2026 04:51:32 +0000"
-    },
-    {
-      "title": "调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地",
-      "link": "https://www.qbitai.com/2026/10/503173.html",
-      "description": "从“懂空间”到“能干活”",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 14 Oct 2026 04:09:29 +0000"
     },
     {
       "title": "企业真正需要的，不是更聪明的 Agent ？",
