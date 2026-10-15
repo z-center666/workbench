@@ -1,12 +1,20 @@
-// 自动生成于 2026-10-14 21:14:34
+// 自动生成于 2026-10-15 02:56:41
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-14",
-  "time": "21:14",
-  "weekday": "周三",
+  "date": "2026-10-15",
+  "time": "02:56",
+  "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, Gemini, 大模型, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, 大模型, 智能体。",
   "items": [
+    {
+      "title": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元",
+      "link": "https://www.qbitai.com/2026/10/503303.html",
+      "description": "给企业Agent打了个样",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 15 Oct 2026 01:56:20 +0000"
+    },
     {
       "title": "抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！",
       "link": "https://www.qbitai.com/2026/10/503294.html",
@@ -40,12 +48,20 @@ var NEWS_DATA = {
       "pub_date": "Wed, 14 Oct 2026 06:45:38 +0000"
     },
     {
-      "title": "国内最年轻AI教授创业：要让世界模型走向全身全模态",
-      "link": "https://www.qbitai.com/2026/10/503172.html",
-      "description": "给Ego补上缺失的交互信息",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 14 Oct 2026 04:51:32 +0000"
+      "title": "成立不到半年融资数亿元，98年清华学者、KAN一作创业：让AI学会设计模型",
+      "link": "https://www.infoq.cn/article/QdPWpubQFmegrsH9UZFC?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 15 Oct 2026 10:30:00 GMT"
+    },
+    {
+      "title": "从 App 到 Agent：字节跳动 Supabase 的 Agent-Native 规模化实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/kvzkXDXpKOXILlfirftW?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 15 Oct 2026 10:00:00 GMT"
     },
     {
       "title": "企业真正需要的，不是更聪明的 Agent ？",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Wed, 14 Oct 2026 17:35:33 GMT"
     },
     {
-      "title": "从大模型到 Agent 落地，这场大会讲透 AI 全链路",
-      "link": "https://www.infoq.cn/article/PuGS7Qxy4AFOal4wVR22?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 14 Oct 2026 14:52:06 GMT"
-    },
-    {
-      "title": "Claude写代码太快，Git扛不住了：Anthropic仅靠7人，5个月重造版本控制系统",
-      "link": "https://www.infoq.cn/article/6iRATYfkqF7aITPaFR2R?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 14 Oct 2026 11:46:46 GMT"
+      "title": "腾讯上线「绿泡泡」短剧，主打免费好看；特斯拉 Roadster 跑车明日发布；豆包工作支持一键导入 GPT、Claude 对话 | 极客早知道",
+      "link": "http://www.geekpark.net/news/372366",
+      "description": "155 款应用拒绝豆包助手 AI 自动化操作\n10 月 14 日，豆包手机助手《屏幕自动化操作声明协议》（SAEP）30 天公示期结束，官方公布名单显示，已有 155 款第三方应用拒绝 AI 自动化操作，腾讯、阿里、美团、快手旗下多款产品，连同 Kimi、DeepSeek 等 AI 产品均在名单内，堪称互联网头部厂商的集体表态。\nSAEP 协议核心是将 AI 屏幕自动操作的选择",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 15 Oct 2026 08:29:12 +0800"
     },
     {
       "title": "超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 13 Oct 2026 11:44:18 +0800"
-    },
-    {
-      "title": "曝梁文锋密集见机器人创业者；影石出货量累计突破1000万台；Meta发布Muse Wonder模型｜极客早知道",
-      "link": "http://www.geekpark.net/news/372264",
-      "description": "曝梁文锋密集接触具身智能创业者，DeepSeek 拟入局具身智能\n据报道，DeepSeek 创始人梁文锋近期密集关注具身智能领域，并与多位该领域创业者交流，探讨机器人、大模型与现实世界交互等方向。\n据知情人士透露，梁文锋正在考虑 DeepSeek 进入具身智能领域的可能性，可能会亲自组建团队下场研发，也可能通过投资相关企业切入。\n此前，梁文锋已投资宇树科技，另据彭博社报道，De",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 13 Oct 2026 08:27:49 +0800"
     }
   ]
 };
