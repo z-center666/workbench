@@ -1,8 +1,8 @@
-// 自动生成于 2026-10-15 02:56:41
+// 自动生成于 2026-10-15 10:46:29
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-15",
-  "time": "02:56",
+  "time": "10:46",
   "weekday": "周四",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, 大模型, 智能体。",
@@ -48,44 +48,44 @@ var NEWS_DATA = {
       "pub_date": "Wed, 14 Oct 2026 06:45:38 +0000"
     },
     {
-      "title": "成立不到半年融资数亿元，98年清华学者、KAN一作创业：让AI学会设计模型",
-      "link": "https://www.infoq.cn/article/QdPWpubQFmegrsH9UZFC?utm_source=rss&utm_medium=article",
+      "title": "微软一口气致谢 23 个漏洞，背后是智谱 GLM 和一位顶级“白帽”",
+      "link": "https://www.infoq.cn/article/JZZ6JSvRBq3R579uy8V3?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 10:30:00 GMT"
+      "pub_date": "Thu, 15 Oct 2026 17:50:22 GMT"
     },
     {
-      "title": "从 App 到 Agent：字节跳动 Supabase 的 Agent-Native 规模化实践｜QCon上海",
-      "link": "https://www.infoq.cn/article/kvzkXDXpKOXILlfirftW?utm_source=rss&utm_medium=article",
+      "title": "Istio 1.31 拥抱 AI 智能体，却先宣布“告别”Google Cloud",
+      "link": "https://www.infoq.cn/article/JxVNJwhmsB1YYKmgD9KU?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 10:00:00 GMT"
+      "pub_date": "Thu, 15 Oct 2026 15:07:00 GMT"
     },
     {
-      "title": "企业真正需要的，不是更聪明的 Agent ？",
-      "link": "https://www.infoq.cn/video/Wss036X3C6APXsS41HwC?utm_source=rss&utm_medium=article",
+      "title": "亚马逊云科技推出 CloudWatch Omni：不仅监控系统，还要评估 AI 是否靠谱",
+      "link": "https://www.infoq.cn/article/5GOXqmJaGKbukSIWU4Uf?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 14 Oct 2026 18:36:53 GMT"
+      "pub_date": "Thu, 15 Oct 2026 13:00:00 GMT"
     },
     {
-      "title": "千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
-      "link": "https://www.infoq.cn/article/IAAteiFAzfescqFHIyQU?utm_source=rss&utm_medium=article",
+      "title": "数据驱动的具身智能：迈向规模化之路｜QCon 上海",
+      "link": "https://www.infoq.cn/article/a8LKxyL9AC4PWhB2r0XX?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 14 Oct 2026 17:48:46 GMT"
+      "pub_date": "Thu, 15 Oct 2026 12:01:47 GMT"
     },
     {
-      "title": "九成具身智能公司在东部沿海，长沙抢走了另一样东西",
-      "link": "https://www.infoq.cn/article/ZqJq0uHBPvvEewkc0ZFC?utm_source=rss&utm_medium=article",
+      "title": "算力效率的边界：以体系结构量化与分布式工程破局 AI Infra",
+      "link": "https://www.infoq.cn/article/JbzA5yvzl2BkuTpkfdrU?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 14 Oct 2026 17:35:33 GMT"
+      "pub_date": "Thu, 15 Oct 2026 11:44:05 GMT"
     },
     {
       "title": "腾讯上线「绿泡泡」短剧，主打免费好看；特斯拉 Roadster 跑车明日发布；豆包工作支持一键导入 GPT、Claude 对话 | 极客早知道",
