@@ -1,8 +1,8 @@
-// 自动生成于 2026-10-15 10:46:29
+// 自动生成于 2026-10-15 16:12:12
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-15",
-  "time": "10:46",
+  "time": "16:12",
   "weekday": "周四",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, 大模型, 智能体。",
@@ -48,44 +48,44 @@ var NEWS_DATA = {
       "pub_date": "Wed, 14 Oct 2026 06:45:38 +0000"
     },
     {
+      "title": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
+      "link": "https://www.infoq.cn/article/wMMAbsA4UOtYlAl1fH4T?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 15 Oct 2026 23:06:01 GMT"
+    },
+    {
+      "title": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统",
+      "link": "https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 15 Oct 2026 20:09:59 GMT"
+    },
+    {
+      "title": "黄仁勋谈中国 AI 公司：算力很缺，但他们就是在拼命把事情做成",
+      "link": "https://www.infoq.cn/article/HC8SAgaZmHc6sfwp9gc9?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 15 Oct 2026 19:19:06 GMT"
+    },
+    {
+      "title": "AI 侦察团集结 QCon 上海：企业一号位，如何把 AI 从试点带进业务？",
+      "link": "https://www.infoq.cn/article/GSZMrydgKuejLcCpEGYb?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 15 Oct 2026 19:15:39 GMT"
+    },
+    {
       "title": "微软一口气致谢 23 个漏洞，背后是智谱 GLM 和一位顶级“白帽”",
       "link": "https://www.infoq.cn/article/JZZ6JSvRBq3R579uy8V3?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Thu, 15 Oct 2026 17:50:22 GMT"
-    },
-    {
-      "title": "Istio 1.31 拥抱 AI 智能体，却先宣布“告别”Google Cloud",
-      "link": "https://www.infoq.cn/article/JxVNJwhmsB1YYKmgD9KU?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 15:07:00 GMT"
-    },
-    {
-      "title": "亚马逊云科技推出 CloudWatch Omni：不仅监控系统，还要评估 AI 是否靠谱",
-      "link": "https://www.infoq.cn/article/5GOXqmJaGKbukSIWU4Uf?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 13:00:00 GMT"
-    },
-    {
-      "title": "数据驱动的具身智能：迈向规模化之路｜QCon 上海",
-      "link": "https://www.infoq.cn/article/a8LKxyL9AC4PWhB2r0XX?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 12:01:47 GMT"
-    },
-    {
-      "title": "算力效率的边界：以体系结构量化与分布式工程破局 AI Infra",
-      "link": "https://www.infoq.cn/article/JbzA5yvzl2BkuTpkfdrU?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 11:44:05 GMT"
     },
     {
       "title": "腾讯上线「绿泡泡」短剧，主打免费好看；特斯拉 Roadster 跑车明日发布；豆包工作支持一键导入 GPT、Claude 对话 | 极客早知道",
