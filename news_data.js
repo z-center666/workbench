@@ -1,51 +1,59 @@
-// 自动生成于 2026-10-15 20:52:47
+// 自动生成于 2026-10-16 02:54:23
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-15",
-  "time": "20:52",
-  "weekday": "周四",
+  "date": "2026-10-16",
+  "time": "02:54",
+  "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, 大模型, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, 大模型, 智能体, Agent。",
   "items": [
     {
-      "title": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元",
-      "link": "https://www.qbitai.com/2026/10/503303.html",
-      "description": "给企业Agent打了个样",
+      "title": "库克：苹果智能接入阿里千问大模型，10月底在中国发布测试版本",
+      "link": "https://www.qbitai.com/2026/10/503640.html",
+      "description": "Siri AI这次不包括在内",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 15 Oct 2026 01:56:20 +0000"
+      "pub_date": "Thu, 15 Oct 2026 09:43:29 +0000"
     },
     {
-      "title": "抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！",
-      "link": "https://www.qbitai.com/2026/10/503294.html",
-      "description": "“具身进实景，劳动最光荣”",
+      "title": "量子位智库发布Agent落地报告！拆解企业智能化六大断点，附全链路破局框架",
+      "link": "https://www.qbitai.com/2026/10/503614.html",
+      "description": "Agent究竟该如何深入业务毛细血管？",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 14 Oct 2026 10:41:47 +0000"
+      "pub_date": "Thu, 15 Oct 2026 08:48:31 +0000"
     },
     {
-      "title": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
-      "link": "https://www.qbitai.com/2026/10/503244.html",
-      "description": "这妥妥是个物理版Agent啊！",
+      "title": "2026 TMOT首个AI智能体走进电音现场，让听众成为音乐共创者",
+      "link": "https://www.qbitai.com/2026/10/503611.html",
+      "description": "10月17日至18日，顶尖电音节The Magic of Tomorrowland 2026将在上海举行。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 14 Oct 2026 08:01:18 +0000"
+      "pub_date": "Thu, 15 Oct 2026 08:16:19 +0000"
     },
     {
-      "title": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
-      "link": "https://www.qbitai.com/2026/10/503211.html",
-      "description": "从创意到成本，AI正在重写综艺的生产逻辑",
+      "title": "这个双十一，百灵新模型干起活来不烧心",
+      "link": "https://www.qbitai.com/2026/10/503532.html",
+      "description": "大模型好不好用，百灵拿成品说话",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 14 Oct 2026 07:03:44 +0000"
+      "pub_date": "Thu, 15 Oct 2026 07:35:24 +0000"
     },
     {
-      "title": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
-      "link": "https://www.qbitai.com/2026/10/503201.html",
-      "description": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布",
+      "title": "AI时代，商学院这样培养未来商业领袖",
+      "link": "https://www.qbitai.com/2026/10/503504.html",
+      "description": "未来十年共创1000个AI课题",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 14 Oct 2026 06:45:38 +0000"
+      "pub_date": "Thu, 15 Oct 2026 07:22:34 +0000"
+    },
+    {
+      "title": "AI 写完代码，谁来验证？手淘 TEKO “写—验—修”自主闭环的工程实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/t3XbHewuN37fsodaprUC?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 16 Oct 2026 10:00:00 GMT"
     },
     {
       "title": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
@@ -80,12 +88,36 @@ var NEWS_DATA = {
       "pub_date": "Thu, 15 Oct 2026 19:15:39 GMT"
     },
     {
-      "title": "微软一口气致谢 23 个漏洞，背后是智谱 GLM 和一位顶级“白帽”",
-      "link": "https://www.infoq.cn/article/JZZ6JSvRBq3R579uy8V3?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 17:50:22 GMT"
+      "title": "巅峰估值 50 亿美元的 AI 独角兽，何以不到 0.1 折贱卖",
+      "link": "http://www.geekpark.net/news/372437",
+      "description": "&nbsp;\n头图来源：Chatgpt 生成\n&nbsp;\n当地时间 10 月 12 日，曾经引爆 AI 陪伴赛道的明星项目 Character.AI，在美国特拉华州法院提交《破产法》第 11 章重组申请，开启法院监督下的资产拍卖流程。\n根据披露文件，迪士尼已经与它提前达成了底价竞购协议：2000 万美元，买走部分知识产权的非独占永久许可，外加用一批「前员工」为平台提供过渡期技术",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 16 Oct 2026 10:22:17 +0800"
+    },
+    {
+      "title": "第一款 AI 手机，被半个互联网「拒」了",
+      "link": "http://www.geekpark.net/news/372436",
+      "description": "&nbsp;\n头图来源：chatgpt 生成\n&nbsp;\n10 月 14 日，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）正式结束 30 天公示期。随之公布的拒绝名单显示，已有 155 款第三方应用明确关上了 AI 自动化操作的大门。名单当日经两轮更新，首批发布为 153 款，最终补全长尾应用",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 16 Oct 2026 10:18:36 +0800"
+    },
+    {
+      "title": "腾讯盯上了字节的摇钱树",
+      "link": "http://www.geekpark.net/news/372435",
+      "description": "&nbsp;\n头图来源：Chatgpt 生成\n&nbsp;\n短剧正在成为互联网行业最吸金的时长黑洞。\nQuestMobile 数据显示，2026 年 7 月，红果短剧日活达到 1.68 亿，超过腾讯视频、爱奇艺、优酷、芒果 TV 四大长视频平台的日活总和，用户人均单日刷剧时长达到 125 分钟，甚至一度超过抖音主站同期的人均使用时长。\n而据第三方监测数据，到 10 月其日活规模已",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 16 Oct 2026 10:15:21 +0800"
+    },
+    {
+      "title": "DeepSeek 出现服务故障，官方补偿 1 周 Token 消耗；库克：苹果智能月底在华发测试版；特斯拉、SpaceX 最快年底合并｜极客早知道",
+      "link": "http://www.geekpark.net/news/372430",
+      "description": "DeepSeek 服务故障近 5 小时，官方补偿所有 API 用户 7 天内的消耗金额\n10 月 15 日消息，DeepSeek 网页 / API 服务今日（10 月 15 日）早间出现服务问题，经过近 5 个小时的修复，终于恢复正常。\n对此，DeepSeek 官方开放平台发布服务恢复及补偿通知，将补偿所有 API 用户 7 天内的消耗金额：\n北京时间 2026 年 10 月",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 16 Oct 2026 08:15:00 +0800"
     },
     {
       "title": "手机大厂开始做穿戴录音，卷的已经不是转写：OPPO 心力球体验",
@@ -94,38 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 16 Oct 2026 01:08:03 +0800"
-    },
-    {
-      "title": "腾讯上线「绿泡泡」短剧，主打免费好看；特斯拉 Roadster 跑车明日发布；豆包工作支持一键导入 GPT、Claude 对话 | 极客早知道",
-      "link": "http://www.geekpark.net/news/372366",
-      "description": "155 款应用拒绝豆包助手 AI 自动化操作\n10 月 14 日，豆包手机助手《屏幕自动化操作声明协议》（SAEP）30 天公示期结束，官方公布名单显示，已有 155 款第三方应用拒绝 AI 自动化操作，腾讯、阿里、美团、快手旗下多款产品，连同 Kimi、DeepSeek 等 AI 产品均在名单内，堪称互联网头部厂商的集体表态。\nSAEP 协议核心是将 AI 屏幕自动操作的选择",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 15 Oct 2026 08:29:12 +0800"
-    },
-    {
-      "title": "超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线",
-      "link": "http://www.geekpark.net/news/372304",
-      "description": "谷歌最强 AI 模型：Gemini 4 Argon 上线，输出词元上限 100 万个、专攻最棘手难题\n10 月 14 日消息，Gemini 4 Argon现已面向全球开发者和企业开放，可通过 AI Studio、 Gemini 平台 API 使用，同时支持 Google Antigravity 的 Google AI Ultra 订阅用户，以及 Gemini 应用和搜索 AI",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 14 Oct 2026 08:28:51 +0800"
-    },
-    {
-      "title": "苹果给 Siri 做了一块能认出全家人的屏幕，售价 299 美元",
-      "link": "http://www.geekpark.net/news/372302",
-      "description": "头图来源：Apple 官网北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 13 Oct 2026 21:51:34 +0800"
-    },
-    {
-      "title": "说个事：极客公园创新大会 2027！",
-      "link": "http://www.geekpark.net/news/372300",
-      "description": "一年一度：极客公园创新大会 2027，已经启动了。\n你大概已经注意到一些不太寻常的事&mdash;&mdash;科技行业真正关心的东西，一直在变。\n大模型公司的关注点，过去几年，几个月就一波变化：从追求用户规模，到追求技术的 SOTA 程度；应用公司的产品热点从 Chatbot，到 Agent，再到 Personal Agent；生产力工具也从 Copilot，一路到了 work",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 13 Oct 2026 19:33:53 +0800"
     }
   ]
 };
