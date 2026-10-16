@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-16 02:54:23
+// 自动生成于 2026-10-16 10:34:27
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-16",
-  "time": "02:54",
+  "time": "10:34",
   "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, 大模型, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: 大模型, 智能体, Agent。",
   "items": [
     {
       "title": "库克：苹果智能接入阿里千问大模型，10月底在中国发布测试版本",
@@ -48,44 +48,60 @@ var NEWS_DATA = {
       "pub_date": "Thu, 15 Oct 2026 07:22:34 +0000"
     },
     {
-      "title": "AI 写完代码，谁来验证？手淘 TEKO “写—验—修”自主闭环的工程实践｜QCon上海",
-      "link": "https://www.infoq.cn/article/t3XbHewuN37fsodaprUC?utm_source=rss&utm_medium=article",
+      "title": "聚焦 AI 场景落地与 FDE 创新，2026 人工智能产业大会专项活动在济南举行",
+      "link": "https://www.infoq.cn/article/1XtKjZ1OCyrYTCmb4Zkb?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 16 Oct 2026 10:00:00 GMT"
+      "pub_date": "Fri, 16 Oct 2026 17:45:51 GMT"
     },
     {
-      "title": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
-      "link": "https://www.infoq.cn/article/wMMAbsA4UOtYlAl1fH4T?utm_source=rss&utm_medium=article",
+      "title": "生产级大模型平台工程实战手册",
+      "link": "https://www.infoq.cn/article/xQLd004RGWrzFhwqBOyC?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 23:06:01 GMT"
+      "pub_date": "Fri, 16 Oct 2026 17:00:00 GMT"
     },
     {
-      "title": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统",
-      "link": "https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&utm_medium=article",
+      "title": "AI 生成的代码，怎么才能进得了工程体系？",
+      "link": "https://www.infoq.cn/article/8iKz8xNQvxDfeuxH1QLA?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 20:09:59 GMT"
+      "pub_date": "Fri, 16 Oct 2026 16:56:30 GMT"
     },
     {
-      "title": "黄仁勋谈中国 AI 公司：算力很缺，但他们就是在拼命把事情做成",
-      "link": "https://www.infoq.cn/article/HC8SAgaZmHc6sfwp9gc9?utm_source=rss&utm_medium=article",
+      "title": "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
+      "link": "https://www.infoq.cn/article/VZPlIIdGRg062mgwJe5y?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 19:19:06 GMT"
+      "pub_date": "Fri, 16 Oct 2026 16:38:02 GMT"
     },
     {
-      "title": "AI 侦察团集结 QCon 上海：企业一号位，如何把 AI 从试点带进业务？",
-      "link": "https://www.infoq.cn/article/GSZMrydgKuejLcCpEGYb?utm_source=rss&utm_medium=article",
+      "title": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
+      "link": "https://www.infoq.cn/article/hQOHf1ZXoBs7uMpWJQss?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 15 Oct 2026 19:15:39 GMT"
+      "pub_date": "Fri, 16 Oct 2026 11:53:14 GMT"
+    },
+    {
+      "title": "为什么 Anthropic 不做 Personal AI",
+      "link": "http://www.geekpark.net/news/372461",
+      "description": "不久前，9 月 29 日的 OpenAI DevDay 开发者日，舞台上飘出了几个圆滚滚的小气泡。\n它们叫 dots，是 OpenAI 最新的个人 agent。每个 dot 跑在 GPT-6 Astra 上，拥有一台独立的云端电脑和浏览器，用户关掉 ChatGPT 之后，它还在后台继续干活。OpenAI 对它的描述是：\n「built to handle everything」，什",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 16 Oct 2026 14:50:02 +0800"
+    },
+    {
+      "title": "苹果和 Meta 和好了，是 AI 逼的",
+      "link": "http://www.geekpark.net/news/372458",
+      "description": "没有永远的敌人，只有永远的 AI 焦虑。\n10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。\n起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。\n苹果随即表态，",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 16 Oct 2026 14:41:48 +0800"
     },
     {
       "title": "巅峰估值 50 亿美元的 AI 独角兽，何以不到 0.1 折贱卖",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 16 Oct 2026 10:15:21 +0800"
-    },
-    {
-      "title": "DeepSeek 出现服务故障，官方补偿 1 周 Token 消耗；库克：苹果智能月底在华发测试版；特斯拉、SpaceX 最快年底合并｜极客早知道",
-      "link": "http://www.geekpark.net/news/372430",
-      "description": "DeepSeek 服务故障近 5 小时，官方补偿所有 API 用户 7 天内的消耗金额\n10 月 15 日消息，DeepSeek 网页 / API 服务今日（10 月 15 日）早间出现服务问题，经过近 5 个小时的修复，终于恢复正常。\n对此，DeepSeek 官方开放平台发布服务恢复及补偿通知，将补偿所有 API 用户 7 天内的消耗金额：\n北京时间 2026 年 10 月",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 16 Oct 2026 08:15:00 +0800"
-    },
-    {
-      "title": "手机大厂开始做穿戴录音，卷的已经不是转写：OPPO 心力球体验",
-      "link": "http://www.geekpark.net/news/372428",
-      "description": "头图来源：极客公园「24 小时全天候录音硬件」这个概念，放到今天其实已经不太新鲜了。无论是年初的 CES，再到国内今年数次硬件展、再到一个月前 IFA 上，我都密集看了一圈把麦克风塞进手环、戒指甚至项链里的 AI 穿戴硬件。不管是海外创业团队还是国内硬件老兵，大家都在试着把屏幕拆掉，把麦克风戴到身上。真正新鲜、也是所有人都还在苦苦寻找答案的问题，是如何把录下来的东西自然地融入你自",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 16 Oct 2026 01:08:03 +0800"
     }
   ]
 };
