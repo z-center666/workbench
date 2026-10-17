@@ -1,51 +1,59 @@
-// 自动生成于 2026-10-17 02:45:41
+// 自动生成于 2026-10-17 10:04:08
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-17",
-  "time": "02:45",
+  "time": "10:04",
   "weekday": "周六",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: 大模型, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: 大模型, 多模态。",
   "items": [
     {
-      "title": "库克：苹果智能接入阿里千问大模型，10月底在中国发布测试版本",
-      "link": "https://www.qbitai.com/2026/10/503640.html",
-      "description": "Siri AI这次不包括在内",
+      "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
+      "link": "https://www.qbitai.com/2026/10/503880.html",
+      "description": "从搭载物理建模能力的世界模型切入",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 15 Oct 2026 09:43:29 +0000"
+      "pub_date": "Fri, 16 Oct 2026 12:54:54 +0000"
     },
     {
-      "title": "量子位智库发布Agent落地报告！拆解企业智能化六大断点，附全链路破局框架",
-      "link": "https://www.qbitai.com/2026/10/503614.html",
-      "description": "Agent究竟该如何深入业务毛细血管？",
+      "title": "说真话就能拿10万？网易叭哥说重金求“真需求”，不卡专业学历",
+      "link": "https://www.qbitai.com/2026/10/503861.html",
+      "description": "网易首个AI原生语音Agent「网易叭哥说」上线 “用户荣誉联创计划”，投入 10 万元征集产品建议",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 15 Oct 2026 08:48:31 +0000"
+      "pub_date": "Fri, 16 Oct 2026 08:07:33 +0000"
     },
     {
-      "title": "2026 TMOT首个AI智能体走进电音现场，让听众成为音乐共创者",
-      "link": "https://www.qbitai.com/2026/10/503611.html",
-      "description": "10月17日至18日，顶尖电音节The Magic of Tomorrowland 2026将在上海举行。",
+      "title": "霸榜三大基准！优必选 Thinker-WM：多模态统一表征，单模型实现六大能力",
+      "link": "https://www.qbitai.com/2026/10/503843.html",
+      "description": "优必选 Thinker-WM在三大公认具身世界模型基准评测中全部拿下第一名",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 15 Oct 2026 08:16:19 +0000"
+      "pub_date": "Fri, 16 Oct 2026 08:00:31 +0000"
     },
     {
-      "title": "这个双十一，百灵新模型干起活来不烧心",
-      "link": "https://www.qbitai.com/2026/10/503532.html",
-      "description": "大模型好不好用，百灵拿成品说话",
+      "title": "范式智能联合睿思智联推出开源一站式  生产级 AI 部署平台 “模域ModelSphere”",
+      "link": "https://www.qbitai.com/2026/10/503829.html",
+      "description": "范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 15 Oct 2026 07:35:24 +0000"
+      "pub_date": "Fri, 16 Oct 2026 07:16:11 +0000"
     },
     {
-      "title": "AI时代，商学院这样培养未来商业领袖",
-      "link": "https://www.qbitai.com/2026/10/503504.html",
-      "description": "未来十年共创1000个AI课题",
+      "title": "68岁亚马逊CTO：别让恐惧，替企业做AI决策",
+      "link": "https://www.qbitai.com/2026/10/503815.html",
+      "description": "经验没有压缩算法",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 15 Oct 2026 07:22:34 +0000"
+      "pub_date": "Fri, 16 Oct 2026 07:01:31 +0000"
+    },
+    {
+      "title": "Akka 在 65 个开源项目中测试基于规格的 AI 交付",
+      "link": "https://www.infoq.cn/article/uGNQwpOt5GGAKm2XlEZC?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 17 Oct 2026 15:00:00 GMT"
     },
     {
       "title": "The World Is Not a Dataset - Building AI Systems That Continuously Learn from Reality｜QCon上海",
@@ -78,14 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Fri, 16 Oct 2026 17:00:00 GMT"
-    },
-    {
-      "title": "AI 生成的代码，怎么才能进得了工程体系？",
-      "link": "https://www.infoq.cn/article/8iKz8xNQvxDfeuxH1QLA?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 16 Oct 2026 16:56:30 GMT"
     },
     {
       "title": "iPhone Duo 一秒售罄，发货排到明年；马斯克：考虑自建电商平台；谷歌创始人：AI 正开始自己造自己",
