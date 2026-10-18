@@ -1,51 +1,51 @@
-// 自动生成于 2026-10-18 02:47:28
+// 自动生成于 2026-10-18 10:17:17
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-18",
-  "time": "02:47",
+  "time": "10:17",
   "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, 大模型, 多模态。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, 大模型, 智能体。",
   "items": [
     {
-      "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
-      "link": "https://www.qbitai.com/2026/10/503880.html",
-      "description": "从搭载物理建模能力的世界模型切入",
+      "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "link": "https://www.qbitai.com/2026/10/504067.html",
+      "description": "新版本V4.1-Flash-1017，还开放了自研搜索API",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 16 Oct 2026 12:54:54 +0000"
+      "pub_date": "Sat, 17 Oct 2026 12:21:09 +0000"
     },
     {
-      "title": "说真话就能拿10万？网易叭哥说重金求“真需求”，不卡专业学历",
-      "link": "https://www.qbitai.com/2026/10/503861.html",
-      "description": "网易首个AI原生语音Agent「网易叭哥说」上线 “用户荣誉联创计划”，投入 10 万元征集产品建议",
+      "title": "智谱新模型，懂法方面全球第一了",
+      "link": "https://www.qbitai.com/2026/10/503965.html",
+      "description": "AI的风还是刮到了法律圈",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 16 Oct 2026 08:07:33 +0000"
+      "pub_date": "Sat, 17 Oct 2026 12:13:45 +0000"
     },
     {
-      "title": "霸榜三大基准！优必选 Thinker-WM：多模态统一表征，单模型实现六大能力",
-      "link": "https://www.qbitai.com/2026/10/503843.html",
-      "description": "优必选 Thinker-WM在三大公认具身世界模型基准评测中全部拿下第一名",
+      "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
+      "link": "https://www.qbitai.com/2026/10/503935.html",
+      "description": "整套系统原生支持MCP",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 16 Oct 2026 08:00:31 +0000"
+      "pub_date": "Sat, 17 Oct 2026 12:10:35 +0000"
     },
     {
-      "title": "范式智能联合睿思智联推出开源一站式  生产级 AI 部署平台 “模域ModelSphere”",
-      "link": "https://www.qbitai.com/2026/10/503829.html",
-      "description": "范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线。",
+      "title": "Claude半小时解开密码学悬案，学界集体走偏20年",
+      "link": "https://www.qbitai.com/2026/10/503910.html",
+      "description": "谜底指向时间",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 16 Oct 2026 07:16:11 +0000"
+      "pub_date": "Sat, 17 Oct 2026 12:06:51 +0000"
     },
     {
-      "title": "68岁亚马逊CTO：别让恐惧，替企业做AI决策",
-      "link": "https://www.qbitai.com/2026/10/503815.html",
-      "description": "经验没有压缩算法",
+      "title": "端侧跑通超千亿大模型！联想YOGA Pro 15 RTX Spark超级AIPC今日正式发售",
+      "link": "https://www.qbitai.com/2026/10/504116.html",
+      "description": "买AIPC就选联想YOGA。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 16 Oct 2026 07:01:31 +0000"
+      "pub_date": "Fri, 16 Oct 2026 13:48:10 +0000"
     },
     {
       "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
