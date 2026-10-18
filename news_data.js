@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-17 20:01:05
+// 自动生成于 2026-10-18 02:47:28
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-17",
-  "time": "20:01",
-  "weekday": "周六",
+  "date": "2026-10-18",
+  "time": "02:47",
+  "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: 大模型, 多模态。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, 大模型, 多模态。",
   "items": [
     {
       "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Fri, 16 Oct 2026 07:01:31 +0000"
     },
     {
+      "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
+      "link": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 18 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "Akka 在 65 个开源项目中测试基于规格的 AI 交付",
       "link": "https://www.infoq.cn/article/uGNQwpOt5GGAKm2XlEZC?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 16 Oct 2026 17:45:51 GMT"
     },
     {
-      "title": "生产级大模型平台工程实战手册",
-      "link": "https://www.infoq.cn/article/xQLd004RGWrzFhwqBOyC?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 16 Oct 2026 17:00:00 GMT"
+      "title": "DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
+      "link": "http://www.geekpark.net/news/372512",
+      "description": "DeepSeek V4.1 Flash 新版本上线：许愿式编程一键成真\n10 月 17 日，DeepSeek V4.1 Flash 更新至 V4.1-Flash-1017 版本，官方网页端、APP 与 API 模型已同步变更为新模型。相比上一版本的 DeepSeek V4.1 Flash，新模型在各方面的基准测试中取得了长足的提升。\n在提升性能的同时，模型的任务运行时间与输出长",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 18 Oct 2026 08:39:02 +0800"
     },
     {
       "title": "iPhone Duo 一秒售罄，发货排到明年；马斯克：考虑自建电商平台；谷歌创始人：AI 正开始自己造自己",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 16 Oct 2026 10:22:17 +0800"
-    },
-    {
-      "title": "第一款 AI 手机，被半个互联网「拒」了",
-      "link": "http://www.geekpark.net/news/372436",
-      "description": "&nbsp;\n头图来源：chatgpt 生成\n&nbsp;\n10 月 14 日，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）正式结束 30 天公示期。随之公布的拒绝名单显示，已有 155 款第三方应用明确关上了 AI 自动化操作的大门。名单当日经两轮更新，首批发布为 153 款，最终补全长尾应用",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 16 Oct 2026 10:18:36 +0800"
     }
   ]
 };
