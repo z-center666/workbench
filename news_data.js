@@ -1,8 +1,8 @@
-// 自动生成于 2026-10-18 15:17:30
+// 自动生成于 2026-10-18 20:00:20
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-18",
-  "time": "15:17",
+  "time": "20:00",
   "weekday": "周日",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, 大模型, 智能体。",
@@ -40,12 +40,12 @@ var NEWS_DATA = {
       "pub_date": "Sat, 17 Oct 2026 12:06:51 +0000"
     },
     {
-      "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
-      "link": "https://www.qbitai.com/2026/10/503880.html",
-      "description": "从搭载物理建模能力的世界模型切入",
+      "title": "端侧跑通超千亿大模型！联想YOGA Pro 15 RTX Spark超级AIPC今日正式发售",
+      "link": "https://www.qbitai.com/2026/10/504116.html",
+      "description": "买AIPC就选联想YOGA。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 16 Oct 2026 12:54:54 +0000"
+      "pub_date": "Fri, 16 Oct 2026 13:48:10 +0000"
     },
     {
       "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
