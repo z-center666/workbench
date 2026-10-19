@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-18 20:00:20
+// 自动生成于 2026-10-19 03:00:33
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-18",
-  "time": "20:00",
-  "weekday": "周日",
+  "date": "2026-10-19",
+  "time": "03:00",
+  "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, 大模型, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, OpenAI, 大模型, 智能体。",
   "items": [
     {
       "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
@@ -40,12 +40,20 @@ var NEWS_DATA = {
       "pub_date": "Sat, 17 Oct 2026 12:06:51 +0000"
     },
     {
-      "title": "端侧跑通超千亿大模型！联想YOGA Pro 15 RTX Spark超级AIPC今日正式发售",
-      "link": "https://www.qbitai.com/2026/10/504116.html",
-      "description": "买AIPC就选联想YOGA。",
+      "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
+      "link": "https://www.qbitai.com/2026/10/503880.html",
+      "description": "从搭载物理建模能力的世界模型切入",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 16 Oct 2026 13:48:10 +0000"
+      "pub_date": "Fri, 16 Oct 2026 12:54:54 +0000"
+    },
+    {
+      "title": "打造生产级的 Agent｜QCon上海",
+      "link": "https://www.infoq.cn/article/oZHrjYAsXvjOZXRwLt6T?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 19 Oct 2026 10:00:00 GMT"
     },
     {
       "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Sat, 17 Oct 2026 10:00:00 GMT"
     },
     {
-      "title": "Java 近期新闻：JobRunr 9、OpenXava 8、Quarkus、LangChain4j、JNoSQL、Lathe",
-      "link": "https://www.infoq.cn/article/AF1qxLVCRls3R6MdWwBh?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 17 Oct 2026 10:00:00 GMT"
+      "title": "OpenAI 三个神秘模型曝光；DeepSeek 开放搜索与网页抓取 API；智界将获独立造车资格，公司计划上市 ｜ 极客早知道",
+      "link": "http://www.geekpark.net/news/372514",
+      "description": "OpenAI 三个神秘模型曝光10 月 18 日，有开发者发现，OpenAI 的 API 模型列表中突然出现了三个陌生名字：aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha。三个模型都以 Aurora（极光）命名，分别对应红、绿、蓝三种颜色。但相关条目很快便从模型列表中消失。此次发现来自第三方维护的 OpenAI 模型列表",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 19 Oct 2026 09:18:11 +0800"
     },
     {
       "title": "DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 16 Oct 2026 14:41:48 +0800"
-    },
-    {
-      "title": "巅峰估值 50 亿美元的 AI 独角兽，何以不到 0.1 折贱卖",
-      "link": "http://www.geekpark.net/news/372437",
-      "description": "&nbsp;\n头图来源：Chatgpt 生成\n&nbsp;\n当地时间 10 月 12 日，曾经引爆 AI 陪伴赛道的明星项目 Character.AI，在美国特拉华州法院提交《破产法》第 11 章重组申请，开启法院监督下的资产拍卖流程。\n根据披露文件，迪士尼已经与它提前达成了底价竞购协议：2000 万美元，买走部分知识产权的非独占永久许可，外加用一批「前员工」为平台提供过渡期技术",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 16 Oct 2026 10:22:17 +0800"
     }
   ]
 };
