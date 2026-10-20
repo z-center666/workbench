@@ -1,8 +1,8 @@
-// 自动生成于 2026-10-20 10:51:38
+// 自动生成于 2026-10-20 16:15:53
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-20",
-  "time": "10:51",
+  "time": "16:15",
   "weekday": "周二",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, OpenAI, Agent。",
