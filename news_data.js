@@ -1,8 +1,8 @@
-// 自动生成于 2026-10-20 16:15:53
+// 自动生成于 2026-10-20 21:11:09
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-20",
-  "time": "16:15",
+  "time": "21:11",
   "weekday": "周二",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, OpenAI, Agent。",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Mon, 19 Oct 2026 08:12:45 +0000"
     },
     {
+      "title": "比 Opus 5.5 便宜 88 倍！MiniMax M3.1 Flash “杀“回王座，顺手拿了个  Agent 国模第一",
+      "link": "https://www.infoq.cn/article/7Twa7KBWIzi8JGOdVwCK?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 21 Oct 2026 00:26:48 GMT"
+    },
+    {
       "title": "突破长文本推理瓶颈 九章云极Alaya-DFlash2助GLM-5.3解码提速3.41倍",
       "link": "https://www.infoq.cn/article/mJ5udryLFwjov1pk4Dsq?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -78,14 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Tue, 20 Oct 2026 11:00:00 GMT"
-    },
-    {
-      "title": "RISC-V 加速进入 AI 与高性能计算：玄铁车规 IP、服务器芯片等新进展亮相",
-      "link": "https://www.infoq.cn/article/J1Z3RYgH3Vyd9LFEfmlF?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 20 Oct 2026 10:51:46 GMT"
     },
     {
       "title": "设计师的第一个 Personal Agent，可能就是 Lovart 2.0 的 Arti 了",
