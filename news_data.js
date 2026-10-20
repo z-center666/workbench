@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-19 18:27:29
+// 自动生成于 2026-10-20 03:10:03
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-19",
-  "time": "18:27",
-  "weekday": "周一",
+  "date": "2026-10-20",
+  "time": "03:10",
+  "weekday": "周二",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, Gemini, DeepSeek, OpenAI, 大模型。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, OpenAI, 大模型, 智能体。",
   "items": [
     {
       "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
@@ -48,6 +48,30 @@ var NEWS_DATA = {
       "pub_date": "Fri, 16 Oct 2026 13:48:10 +0000"
     },
     {
+      "title": "调查发现：AI 生成代码会提升调试难度与故障发生率，并造成代码理解鸿沟",
+      "link": "https://www.infoq.cn/article/ywvgVDVLsSU7r47Jk6lq?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 20 Oct 2026 11:00:00 GMT"
+    },
+    {
+      "title": "RISC-V 加速进入 AI 与高性能计算：玄铁车规 IP、服务器芯片等新进展亮相",
+      "link": "https://www.infoq.cn/article/J1Z3RYgH3Vyd9LFEfmlF?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 20 Oct 2026 10:51:46 GMT"
+    },
+    {
+      "title": "失败一次，受益多次：测试 Agent 从记忆到持续学习的工程实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/ZyjObqGawfurPFLBQONd?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 20 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "DoorDash的Flux在云端智能体上运行130000个工程任务",
       "link": "https://www.infoq.cn/article/4IPptJpXQqX5Lr77uBFZ?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -64,28 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Mon, 19 Oct 2026 14:38:24 GMT"
     },
     {
-      "title": "Cloudflare 推出面向 AI 代理的 CLI，并逐步停用 Wrangler",
-      "link": "https://www.infoq.cn/article/Ddda0DF68laqfoqa4Lju?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 19 Oct 2026 11:27:00 GMT"
-    },
-    {
-      "title": "Gemini 4 Argon：为您解决最棘手的问题",
-      "link": "https://www.infoq.cn/article/LkxBOvOJWmQGMQemUOrX?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 19 Oct 2026 11:10:27 GMT"
-    },
-    {
-      "title": "打造生产级的 Agent｜QCon上海",
-      "link": "https://www.infoq.cn/article/oZHrjYAsXvjOZXRwLt6T?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 19 Oct 2026 10:00:00 GMT"
+      "title": "DeepSeek 新模型登顶开源模型榜首；国内 55% 算力用于视频和短剧？豆包发言人辟谣；微信发起公众号小说改编微短剧激励｜极客早知道",
+      "link": "http://www.geekpark.net/news/372568",
+      "description": "DeepSeek 新模型登顶 Code Arena WebDev 开源模型榜首\n10 月 19 日，AI 模型评测平台 Arena 宣布，DeepSeek-V4.1-Flash-1017（Max）超过 Kimi K3（Max），成为 Code Arena: WebDev 榜单排名最高的开源模型。&nbsp;\n截至目前，DeepSeek-V4.1-Flash-1017 在该榜单上",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 20 Oct 2026 09:01:44 +0800"
     },
     {
       "title": "AI 里没有答案的问题，需要一场「深谈」",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 18 Oct 2026 08:39:02 +0800"
-    },
-    {
-      "title": "iPhone Duo 一秒售罄，发货排到明年；马斯克：考虑自建电商平台；谷歌创始人：AI 正开始自己造自己",
-      "link": "http://www.geekpark.net/news/372488",
-      "description": "苹果官网 2026 年的 iPhone Duo 已售罄！发货日期排到明年 1 月 22 日\n10 月 16 日，苹果首款折叠屏 iPhone Duo 于当晚 8 点开启线上预购，大量用户同时涌入苹果官网、Apple Store App 及天猫、京东等官方直营渠道，购买页面一度无法正常打开。开售一分钟左右，各大电商平台即显示该机型售罄。\n\n目前官网仍可下单，预计发货时间排至 1",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sat, 17 Oct 2026 08:22:32 +0800"
     }
   ]
 };
