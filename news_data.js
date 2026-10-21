@@ -1,91 +1,99 @@
-// 自动生成于 2026-10-21 03:04:50
+// 自动生成于 2026-10-21 11:03:28
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-21",
-  "time": "03:04",
+  "time": "11:03",
   "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
   "items": [
     {
-      "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
-      "link": "https://www.qbitai.com/2026/10/504314.html",
-      "description": "OpenAI只掏出一个6.1 Terra…",
+      "title": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人",
+      "link": "https://www.qbitai.com/2026/10/504608.html",
+      "description": "先看真实问题解决力",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 20 Oct 2026 01:09:43 +0000"
+      "pub_date": "Wed, 21 Oct 2026 02:37:39 +0000"
     },
     {
-      "title": "通研院孵化的团队，也盯上了RSI",
-      "link": "https://www.qbitai.com/2026/10/504294.html",
-      "description": "当AI越来越懂你，如何让智能真正属于你？",
+      "title": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价",
+      "link": "https://www.qbitai.com/2026/10/504517.html",
+      "description": "兔皮底下，竟然是MiniMax！",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 19 Oct 2026 14:31:12 +0000"
+      "pub_date": "Tue, 20 Oct 2026 13:29:54 +0000"
     },
     {
-      "title": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行",
-      "link": "https://www.qbitai.com/2026/10/504266.html",
-      "description": "2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行",
+      "title": "首Token延迟降低32.4%！是石科技集群调度大招，国产推理再提效",
+      "link": "https://www.qbitai.com/2026/10/504421.html",
+      "description": "最新发布TokenFleet调度框架",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 19 Oct 2026 10:27:39 +0000"
+      "pub_date": "Tue, 20 Oct 2026 08:01:25 +0000"
     },
     {
-      "title": "AI 开始挑战最复杂的系统：生命",
-      "link": "https://www.qbitai.com/2026/10/504242.html",
-      "description": "10 月 17 日，哲源科技发布 WHIRLPO 计算医学平台。",
+      "title": "Meshy推出Meshy Edit：基于全新自研AI模型，一句指令实现3D模型局部编辑",
+      "link": "https://www.qbitai.com/2026/10/504415.html",
+      "description": "圈选修改区域，一句话描述改动，约一分钟生成新模型，未选中区域保持原样",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 19 Oct 2026 10:04:18 +0000"
+      "pub_date": "Tue, 20 Oct 2026 04:59:04 +0000"
     },
     {
-      "title": "赛场交卷 未来已来——首届全球具身智能应用创新挑战赛暨2026中国机器人大赛闭幕",
-      "link": "https://www.qbitai.com/2026/10/504199.html",
-      "description": "10月18日下午，首届全球具身智能应用创新挑战赛暨2026中国机器人大赛落下帷幕。",
+      "title": "赛豆首款AI汽车公告图公示，价格被按零件猜到了20万以上",
+      "link": "https://www.qbitai.com/2026/10/504395.html",
+      "description": "宁德时代电池上车",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 19 Oct 2026 08:12:45 +0000"
+      "pub_date": "Tue, 20 Oct 2026 04:18:29 +0000"
     },
     {
-      "title": "美团企业级 Agent 的平台化应用实践｜QCon上海",
-      "link": "https://www.infoq.cn/article/BQJltkL1FJ9AG3cMeUmB?utm_source=rss&utm_medium=article",
+      "title": "从试点到规模化落地：制造业领导者如何推动 AI 应用并赢得高管层支持 ｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/Ms3bMt5OcUyYMHwfaXgM?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 21 Oct 2026 10:00:00 GMT"
+      "pub_date": "Wed, 21 Oct 2026 18:00:00 GMT"
     },
     {
-      "title": "比 Opus 5.5 便宜 88 倍！MiniMax M3.1 Flash “杀“回王座，顺手拿了个  Agent 国模第一",
-      "link": "https://www.infoq.cn/article/7Twa7KBWIzi8JGOdVwCK?utm_source=rss&utm_medium=article",
+      "title": "推动 AI 规模化落地的三大经验：来自公共部门领导者的实践洞察 ｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/GVcxHscrQqv9HXGRowJh?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 21 Oct 2026 00:26:48 GMT"
+      "pub_date": "Wed, 21 Oct 2026 15:19:41 GMT"
     },
     {
-      "title": "突破长文本推理瓶颈 九章云极Alaya-DFlash2助GLM-5.3解码提速3.41倍",
-      "link": "https://www.infoq.cn/article/mJ5udryLFwjov1pk4Dsq?utm_source=rss&utm_medium=article",
+      "title": "代码迁移准确率从 5.4% 飙至 97.9%！OpenAI 挑战 COBOL，几十年的老系统真能交给 AI 了？",
+      "link": "https://www.infoq.cn/article/LZsVYHAH1jyOtLg6Yiwk?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 20 Oct 2026 15:07:31 GMT"
+      "pub_date": "Wed, 21 Oct 2026 15:00:29 GMT"
     },
     {
-      "title": "AI生成的代码看不懂就扔掉重来：一位首席架构师的 5 条 Agent 编程反常识原则",
-      "link": "https://www.infoq.cn/article/tgqMEJsqXfX6YzAcOiAR?utm_source=rss&utm_medium=article",
+      "title": "Cloudflare 开源面向 AI 智能体的决策模型 Clef",
+      "link": "https://www.infoq.cn/article/iqCrZLLizNkRTpfo2Jrb?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 20 Oct 2026 15:05:27 GMT"
+      "pub_date": "Wed, 21 Oct 2026 13:47:00 GMT"
     },
     {
-      "title": "AI Agent 越用越贵？如何借助可观测性平衡性能、质量与成本 ｜ 技术趋势",
-      "link": "https://www.infoq.cn/article/4FreCLUUQb4W4AXUhXo5?utm_source=rss&utm_medium=article",
+      "title": "Agent 删库频频发生，几十年前就有的数据库防呆机制不管用了？",
+      "link": "https://www.infoq.cn/article/2Z056Q54wWa6vAIQKsqJ?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 20 Oct 2026 14:55:22 GMT"
+      "pub_date": "Wed, 21 Oct 2026 12:10:15 GMT"
+    },
+    {
+      "title": "亚马逊 CTO Dr. Werner Vogels：二十余年技术实践，想与创业者分享这 4 点",
+      "link": "http://www.geekpark.net/news/372671",
+      "description": "在 2026 年 亚马逊云科技软件企业峰会创业加速营巅峰路演 上，亚马逊副总裁兼首席技术官 Werner Vogels 博士与极客公园创始人 &amp; CEO 张鹏进行了一场极具深度的炉边对谈。面对当下狂热的 AI 创业潮与复杂的技术演进，Vogels 博士分享了亚马逊云科技走过二十年的底层商业逻辑，并为初创企业给出了极具实操性的避坑建议。\n\n左：亚马逊副总裁兼首席技术官 We",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 21 Oct 2026 12:16:25 +0800"
     },
     {
       "title": "曝高通启动全球裁员；上线 40 天，Muse 下载量突破 1000 万次；ChatGPT 上线幻灯片工具",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 19 Oct 2026 21:57:34 +0800"
-    },
-    {
-      "title": "客户为什么愿意为端侧 AI 买单？五位一线操盘手讲透了",
-      "link": "http://www.geekpark.net/news/372578",
-      "description": "过去几年，AI 行业热衷于比参数、拼算力、讲融资。但模型一旦离开展台，客户的问题立刻具体起来：数据会不会泄露？设备能不能 24 小时运行？响应够不够快？噪声大不大？\n这些问题，正把端侧 AI 推到产业舞台中央。\n10 月 14 日，后摩智能在北京开了一场生态合作伙伴大会。期间，极客公园创始人 &amp; CEO 张鹏主持了一场圆桌，五位来自不同赛道的人坐到了一起：麒麟软件副总经理",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 19 Oct 2026 18:10:03 +0800"
     }
   ]
 };
