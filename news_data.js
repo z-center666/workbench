@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-20 21:11:09
+// 自动生成于 2026-10-21 03:04:50
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-20",
-  "time": "21:11",
-  "weekday": "周二",
+  "date": "2026-10-21",
+  "time": "03:04",
+  "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, OpenAI, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, Agent。",
   "items": [
     {
       "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Mon, 19 Oct 2026 08:12:45 +0000"
     },
     {
+      "title": "美团企业级 Agent 的平台化应用实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/BQJltkL1FJ9AG3cMeUmB?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 21 Oct 2026 10:00:00 GMT"
+    },
+    {
       "title": "比 Opus 5.5 便宜 88 倍！MiniMax M3.1 Flash “杀“回王座，顺手拿了个  Agent 国模第一",
       "link": "https://www.infoq.cn/article/7Twa7KBWIzi8JGOdVwCK?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Tue, 20 Oct 2026 14:55:22 GMT"
     },
     {
-      "title": "调查发现：AI 生成代码会提升调试难度与故障发生率，并造成代码理解鸿沟",
-      "link": "https://www.infoq.cn/article/ywvgVDVLsSU7r47Jk6lq?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 20 Oct 2026 11:00:00 GMT"
+      "title": "曝高通启动全球裁员；上线 40 天，Muse 下载量突破 1000 万次；ChatGPT 上线幻灯片工具",
+      "link": "http://www.geekpark.net/news/372650",
+      "description": "DeepSeek 开源大规模云服务推理框架\n10 月 20 日下午，DeepSeek 宣布，在此前开源一系列大模型、TileLang 编译工具及推理算子库的基础上，决定进一步将内部推理框架 DeepInfer 全面开源。\nDeepSeek 称，基于 DeepInfer，已实现 DeepSeek V4.1 Flash 高吞吐、低延迟的大规模推理服务。未来，DeepSeek 新模型",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 21 Oct 2026 08:37:07 +0800"
     },
     {
       "title": "设计师的第一个 Personal Agent，可能就是 Lovart 2.0 的 Arti 了",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 19 Oct 2026 18:10:03 +0800"
-    },
-    {
-      "title": "OpenAI 三个神秘模型曝光；DeepSeek 开放搜索与网页抓取 API；智界将获独立造车资格，公司计划上市 ｜ 极客早知道",
-      "link": "http://www.geekpark.net/news/372514",
-      "description": "OpenAI 三个神秘模型曝光10 月 18 日，有开发者发现，OpenAI 的 API 模型列表中突然出现了三个陌生名字：aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha。三个模型都以 Aurora（极光）命名，分别对应红、绿、蓝三种颜色。但相关条目很快便从模型列表中消失。此次发现来自第三方维护的 OpenAI 模型列表",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 19 Oct 2026 09:18:11 +0800"
     }
   ]
 };
