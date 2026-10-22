@@ -1,9 +1,9 @@
-// 自动生成于 2026-10-21 21:10:33
+// 自动生成于 2026-10-22 03:03:19
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-21",
-  "time": "21:10",
-  "weekday": "周三",
+  "date": "2026-10-22",
+  "time": "03:03",
+  "weekday": "周四",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
   "items": [
@@ -88,6 +88,14 @@ var NEWS_DATA = {
       "pub_date": "Wed, 21 Oct 2026 12:10:15 GMT"
     },
     {
+      "title": "微软员工数十年来首次下降；沃尔玛/山姆推出 Agent 购物接口；推动 SpaceX 和特斯拉合并，马斯克财富有望暴涨",
+      "link": "http://www.geekpark.net/news/372711",
+      "description": "24 小时为你在线打工：Anthropic 推出 Claude Duet AI 智能体，迎战 Meta 和 OpenAI\n10 月 22 日消息，Anthropic 昨日（10 月 21 日）宣布以研究预览版形式，推出全新应用 Claude Duet，定位为可主动工作的 AI 智能体（agent），加入由 Meta 的 Muse、以及 OpenAI 的 Dots 领衔的「全天候",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 22 Oct 2026 08:48:32 +0800"
+    },
+    {
       "title": "亚马逊 CTO Dr. Werner Vogels：二十余年技术实践，想与创业者分享这 4 点",
       "link": "http://www.geekpark.net/news/372671",
       "description": "在 2026 年 亚马逊云科技软件企业峰会创业加速营巅峰路演 上，亚马逊副总裁兼首席技术官 Werner Vogels 博士与极客公园创始人 &amp; CEO 张鹏进行了一场极具深度的炉边对谈。面对当下狂热的 AI 创业潮与复杂的技术演进，Vogels 博士分享了亚马逊云科技走过二十年的底层商业逻辑，并为初创企业给出了极具实操性的避坑建议。\n\n左：亚马逊副总裁兼首席技术官 We",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 20 Oct 2026 09:01:44 +0800"
-    },
-    {
-      "title": "AI 里没有答案的问题，需要一场「深谈」",
-      "link": "http://www.geekpark.net/news/372579",
-      "description": "去年，极客公园创新大会第一次办起「小场深谈」。场子都不大，百人左右围坐在一起。\n有些瞬间仍然记忆犹新。\n\n在「超级个体」专场，一位观众站起来。他刚从大厂跳槽到一家小厂，正用 AI 做自己的第一款产品。他向嘉宾说出自己的困惑：我还在打工，做公众号、视频号，早晚会被老板和同事刷到。这个冲突，怎么解？\n在「硬控 AI」专场，有人直接向刚刚离职的小米 AI 眼镜负责人提问：如果给你两个亿",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 19 Oct 2026 21:57:34 +0800"
     }
   ]
 };
