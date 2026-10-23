@@ -1,12 +1,20 @@
-// 自动生成于 2026-10-23 03:07:45
+// 自动生成于 2026-10-23 10:56:07
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-23",
-  "time": "03:07",
+  "time": "10:56",
   "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
   "items": [
+    {
+      "title": "百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径",
+      "link": "https://www.qbitai.com/2026/10/504901.html",
+      "description": "10月21日，百度官方公众号发文披露了百度世界2026分论坛的更多议程信息。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 23 Oct 2026 07:35:51 +0000"
+    },
     {
       "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
       "link": "https://www.qbitai.com/2026/10/504832.html",
@@ -40,52 +48,60 @@ var NEWS_DATA = {
       "pub_date": "Wed, 21 Oct 2026 09:45:22 +0000"
     },
     {
-      "title": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人",
-      "link": "https://www.qbitai.com/2026/10/504608.html",
-      "description": "先看真实问题解决力",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 21 Oct 2026 02:37:39 +0000"
-    },
-    {
-      "title": "DeepSeek千亿融资逼近收官：结盟完美世界、中芯聚源等产业资本，募资翻倍押注具身智能",
-      "link": "https://www.infoq.cn/article/ViOyxiOSP2ihxuUyg1rD?utm_source=rss&utm_medium=article",
+      "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
+      "link": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 23 Oct 2026 08:46:30 GMT"
+      "pub_date": "Fri, 23 Oct 2026 17:54:19 GMT"
     },
     {
-      "title": "企业 AI 越用越复杂，如何用一个 Gateway 管好模型、Agent 和成本？｜ 技术趋势",
-      "link": "https://www.infoq.cn/article/v85ey09UlxhCDH4r3RS3?utm_source=rss&utm_medium=article",
+      "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
+      "link": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 22 Oct 2026 18:00:00 GMT"
+      "pub_date": "Fri, 23 Oct 2026 17:53:09 GMT"
     },
     {
-      "title": "企业有需求，FDE 团队有能力，为什么 AI 项目仍难落地？",
-      "link": "https://www.infoq.cn/article/Ei2spcFKComKqkPv6osN?utm_source=rss&utm_medium=article",
+      "title": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
+      "link": "https://www.infoq.cn/article/Q6mgHWCSqV6KeZzee3NT?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 22 Oct 2026 16:24:28 GMT"
+      "pub_date": "Fri, 23 Oct 2026 17:48:25 GMT"
     },
     {
-      "title": "AI把整个软件生态打成筛子，全栈开发者的至暗时刻",
-      "link": "https://www.infoq.cn/article/glAvFT7PWdZ53mbgPbgC?utm_source=rss&utm_medium=article",
+      "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
+      "link": "https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 22 Oct 2026 15:30:05 GMT"
+      "pub_date": "Fri, 23 Oct 2026 17:40:09 GMT"
     },
     {
-      "title": "GitHub 通过 AI 辅助重构，将 Copilot 运行时迁移至 Rust",
-      "link": "https://www.infoq.cn/article/zGqDWHF8tHDtlYcImAJS?utm_source=rss&utm_medium=article",
+      "title": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
+      "link": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 22 Oct 2026 13:17:00 GMT"
+      "pub_date": "Fri, 23 Oct 2026 17:35:04 GMT"
+    },
+    {
+      "title": "中国 AI 硬件的下一个爆款，可能生在「网球场」",
+      "link": "http://www.geekpark.net/news/372807",
+      "description": "头图来源：Hirdwire2024 年巴黎奥运会，郑钦文在罗兰·加洛斯捧起金牌的那个下午，中国的网球场预订量在一周内翻了数倍。两年后，最先把这股热潮变成生意的，是一群造机器的深圳工程师。过去一年，至少四款中国团队打造的 AI 球类机器人在 Kickstarter 上筹得百万美元级资金。庞伯特以 26255% 的超募率卷走 265 万美元；智能家居大厂 SwitchBot 推出的",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 23 Oct 2026 14:15:58 +0800"
+    },
+    {
+      "title": "造物 100 #10｜百万众筹的和弦合成器、52kHz 超声波去污笔、能打电话的奥特曼 AI 玩具",
+      "link": "http://www.geekpark.net/news/372803",
+      "description": "这周苹果发了新一代 HomePod mini，149 美元，10 月 30 日开卖，真正的新 Siri 要等之后的软件更新才到。科技巨头正抢着在假日季前，把 AI 小设备摆上货架。\n大公司的打法很统一，先造一个入口，再把 AI 慢慢塞进去。但这周名单里的产品，走的是另一条路。NOPIA 把乐理做了只有一个八度的键盘，按一个键出一整个和弦。InstaSpot 把超声波清洗机缩成一支",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 23 Oct 2026 14:03:13 +0800"
     },
     {
       "title": "DeepSeek 据悉完成 1000 亿元新一轮融资；特斯拉三季度利润大跌 43%；微信称已完成适配 iPhone Duo | 极客早知道",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Thu, 22 Oct 2026 21:20:53 +0800"
-    },
-    {
-      "title": "宇树 10 周年，王兴兴：我劝你相信 AI",
-      "link": "http://www.geekpark.net/news/372759",
-      "description": "10 月 22 日，杭州国际博览中心热闹非常，不仅人多，而且机器人也特别多。\n这是 2026 年宇树科技举办的世界物理 AI 大会的现场，从四足机器人到人形机器人，你甚至可以说这里是全球「机器人密度」最高的地方。\n2026 年，也是宇树科技创立的第十年。有意思的是，在今天的舞台上，宇树科技创始人王兴兴，在谈机器人之外，聊的最多的就是当下最火热的 AI。\n他不仅劝所有人要「相信 A",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 22 Oct 2026 19:56:03 +0800"
-    },
-    {
-      "title": "AI 漫剧越做越快，赚钱却没那么容易了",
-      "link": "http://www.geekpark.net/news/372746",
-      "description": "&nbsp;\n「一个创作者加上 IP 和 AI 工具，就能完成漫剧创作全流程。」\n在上周举行的阅文创作大会上，阅文集团 CEO 侯晓楠这样描述正在兴起的「一人公司」。当日，阅文发布首批 AI 精品动画项目，将 DramaBuddy 漫剧助手升级为 OPC 一站式平台，并推出「IP 委员会」模式，试图把故事从文字到影像，再到后续开发的过程连接起来。\n看起来，AI 带来的机会似乎还在",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 22 Oct 2026 16:20:34 +0800"
     }
   ]
 };
