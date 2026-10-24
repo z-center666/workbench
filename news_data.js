@@ -1,9 +1,9 @@
-// 自动生成于 2026-10-23 20:55:23
+// 自动生成于 2026-10-24 03:03:00
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-23",
-  "time": "20:55",
-  "weekday": "周五",
+  "date": "2026-10-24",
+  "time": "03:03",
+  "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
   "items": [
