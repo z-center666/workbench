@@ -1,12 +1,28 @@
-// 自动生成于 2026-10-25 02:57:19
+// 自动生成于 2026-10-25 10:36:12
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-25",
-  "time": "02:57",
+  "time": "10:36",
   "weekday": "周日",
-  "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 智能体, Agent。",
+  "total": 13,
+  "briefing": "今日共抓取 13 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(3条)。 热点关键词: DeepSeek, Agent。",
   "items": [
+    {
+      "title": "企业AI需要两个世界模型",
+      "link": "https://www.qbitai.com/2026/10/505032.html",
+      "description": "特赞想让企业Agent真正懂业务",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 23 Oct 2026 09:07:25 +0000"
+    },
+    {
+      "title": "南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
+      "link": "https://www.qbitai.com/2026/10/504915.html",
+      "description": "让AI真正走进真实世界",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 23 Oct 2026 08:45:43 +0000"
+    },
     {
       "title": "百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径",
       "link": "https://www.qbitai.com/2026/10/504901.html",
@@ -14,38 +30,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Fri, 23 Oct 2026 07:35:51 +0000"
-    },
-    {
-      "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
-      "link": "https://www.qbitai.com/2026/10/504832.html",
-      "description": "中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 22 Oct 2026 07:11:14 +0000"
-    },
-    {
-      "title": "谁在给OpenAI供应具身数据？",
-      "link": "https://www.qbitai.com/2026/10/504800.html",
-      "description": "挤进全球Physical AI核心供应链",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 22 Oct 2026 07:05:59 +0000"
-    },
-    {
-      "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
-      "link": "https://www.qbitai.com/2026/10/504734.html",
-      "description": "医疗AI质变时刻",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 21 Oct 2026 11:30:59 +0000"
-    },
-    {
-      "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
-      "link": "https://www.qbitai.com/2026/10/504730.html",
-      "description": "10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 21 Oct 2026 09:45:22 +0000"
     },
     {
       "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
