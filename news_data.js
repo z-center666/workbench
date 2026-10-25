@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-24 20:07:15
+// 自动生成于 2026-10-25 02:57:19
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-24",
-  "time": "20:07",
-  "weekday": "周六",
+  "date": "2026-10-25",
+  "time": "02:57",
+  "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 智能体, Agent。",
   "items": [
     {
       "title": "百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径",
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Wed, 21 Oct 2026 09:45:22 +0000"
     },
     {
+      "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
+      "link": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 25 Oct 2026 10:30:00 GMT"
+    },
+    {
+      "title": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock",
+      "link": "https://www.infoq.cn/article/BHWP4JJDeExZZWsifFlg?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 25 Oct 2026 09:06:00 GMT"
+    },
+    {
       "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
       "link": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 23 Oct 2026 17:48:25 GMT"
     },
     {
-      "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
-      "link": "https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 23 Oct 2026 17:40:09 GMT"
-    },
-    {
-      "title": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-      "link": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 23 Oct 2026 17:35:04 GMT"
+      "title": "苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机",
+      "link": "http://www.geekpark.net/news/372860",
+      "description": "​到手 6 小时、开合不到 20 次屏幕就裂：苹果首批折叠屏遭集中投诉\n苹果首款折叠屏手机 iPhone Duo 刚开售就遇上了麻烦：据海外论坛和小红书多人反馈，不少用户开箱即遇到屏幕爆线、开裂问题，汇总照片显示故障位置高度集中&mdash;&mdash;几乎全部出现在铰链正上方，多数表现为屏幕一侧浮现一条亮像素线。\n一名澳洲用户称，设备到手约 6 小时、开合不到 20 次，向",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 25 Oct 2026 08:52:41 +0800"
     },
     {
       "title": "中国 AI 硬件的下一个爆款，可能生在「网球场」",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 23 Oct 2026 06:41:03 +0800"
-    },
-    {
-      "title": "Token 成本降到每年 1 元，AI 家电这事就能成了 | 对话博联刘宗孺",
-      "link": "http://www.geekpark.net/news/372762",
-      "description": "过去两年多，在智能硬件领域，投资人和创业者都热衷于为 AI 寻找一个个物理世界里的新「容器」，各种新形态的 AI 原生硬件成了投资市场的热门项目。\n但其实，很多成熟形态的硬件同样有 AI 化的需求。这也许没有「AI Native」的概念那么性感，但市场一点不小，复杂度丝毫不低。\n以家电行业为例：供应链长，改一次硬件就要重走研发、测试、认证；销售链条长，从厂家、经销商到上门安装的电",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 22 Oct 2026 21:20:53 +0800"
     }
   ]
 };
