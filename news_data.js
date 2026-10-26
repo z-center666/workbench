@@ -1,12 +1,28 @@
-// 自动生成于 2026-10-26 02:56:14
+// 自动生成于 2026-10-26 12:09:23
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-26",
-  "time": "02:56",
+  "time": "12:09",
   "weekday": "周一",
-  "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 智能体, Agent。",
+  "total": 13,
+  "briefing": "今日共抓取 13 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(3条)。 热点关键词: DeepSeek, Agent。",
   "items": [
+    {
+      "title": "企业AI需要两个世界模型",
+      "link": "https://www.qbitai.com/2026/10/505032.html",
+      "description": "特赞想让企业Agent真正懂业务",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 23 Oct 2026 09:07:25 +0000"
+    },
+    {
+      "title": "南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
+      "link": "https://www.qbitai.com/2026/10/504915.html",
+      "description": "让AI真正走进真实世界",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 23 Oct 2026 08:45:43 +0000"
+    },
     {
       "title": "百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径",
       "link": "https://www.qbitai.com/2026/10/504901.html",
@@ -16,76 +32,52 @@ var NEWS_DATA = {
       "pub_date": "Fri, 23 Oct 2026 07:35:51 +0000"
     },
     {
-      "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
-      "link": "https://www.qbitai.com/2026/10/504832.html",
-      "description": "中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 22 Oct 2026 07:11:14 +0000"
-    },
-    {
-      "title": "谁在给OpenAI供应具身数据？",
-      "link": "https://www.qbitai.com/2026/10/504800.html",
-      "description": "挤进全球Physical AI核心供应链",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 22 Oct 2026 07:05:59 +0000"
-    },
-    {
-      "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
-      "link": "https://www.qbitai.com/2026/10/504734.html",
-      "description": "医疗AI质变时刻",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 21 Oct 2026 11:30:59 +0000"
-    },
-    {
-      "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
-      "link": "https://www.qbitai.com/2026/10/504730.html",
-      "description": "10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 21 Oct 2026 09:45:22 +0000"
-    },
-    {
-      "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
-      "link": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&utm_medium=article",
+      "title": "中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付",
+      "link": "https://www.infoq.cn/article/2svt5BbWUOHbADdo0UZo?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sun, 25 Oct 2026 10:30:00 GMT"
+      "pub_date": "Mon, 26 Oct 2026 18:30:50 GMT"
     },
     {
-      "title": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock",
-      "link": "https://www.infoq.cn/article/BHWP4JJDeExZZWsifFlg?utm_source=rss&utm_medium=article",
+      "title": "让 AI 从需求一路干到上线，软件开发组织要变了？",
+      "link": "https://www.infoq.cn/article/b32Mw2zaPrxyJ6ChePD5?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sun, 25 Oct 2026 09:06:00 GMT"
+      "pub_date": "Mon, 26 Oct 2026 18:08:13 GMT"
     },
     {
-      "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
-      "link": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791?utm_source=rss&utm_medium=article",
+      "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
+      "link": "https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 23 Oct 2026 17:54:19 GMT"
+      "pub_date": "Mon, 26 Oct 2026 15:05:27 GMT"
     },
     {
-      "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-      "link": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok?utm_source=rss&utm_medium=article",
+      "title": "模型好选，搜索难做：一个投研Agent的两年开发历程",
+      "link": "https://www.infoq.cn/article/NrUkJExfuuFOICsjVYbb?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 23 Oct 2026 17:53:09 GMT"
+      "pub_date": "Mon, 26 Oct 2026 14:57:35 GMT"
     },
     {
-      "title": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
-      "link": "https://www.infoq.cn/article/Q6mgHWCSqV6KeZzee3NT?utm_source=rss&utm_medium=article",
+      "title": "从 Agent 工程化到任务交付，解读 AI 走向生产的关键挑战｜QCon 上海 2026 圆满收官",
+      "link": "https://www.infoq.cn/article/0C1Wgt7N9NzM6KjHSFeA?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Fri, 23 Oct 2026 17:48:25 GMT"
+      "pub_date": "Mon, 26 Oct 2026 11:53:09 GMT"
+    },
+    {
+      "title": "今年的 1024，可能是最后一个程序员节",
+      "link": "http://www.geekpark.net/news/372944",
+      "description": "作者｜Wildcard\n编辑｜靖宇\n今天一整天， X 上都有人在讨论，「1024 程序员节日快乐，今年会不会是最后一个程序员节了」。\n这一天恰好是周六。微博上的话题叫「今年程序员节自带休息日」，配文说 AI 工具分担了重复编码，程序员终于能过一个不被紧急需求打断的节。\n影石连续第五年给优秀程序员发黄金键帽，今年新增了一颗「F5」键，寓意不断刷新迭代。颁奖现场，一位年轻同事说了句玩",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 26 Oct 2026 18:16:50 +0800"
     },
     {
       "title": "苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机",
@@ -118,14 +110,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 23 Oct 2026 08:49:03 +0800"
-    },
-    {
-      "title": "欧洲 AI，等来了黄仁勋",
-      "link": "http://www.geekpark.net/news/372763",
-      "description": "GTC 柏林开幕前的两周，半导体板块走得并不顺，费城半导体指数出现了 2008 年以来最长的一轮连跌。市场在反复算同一笔账，巨额的 GPU 投入，什么时候能变成实打实的回报。\n10 月 21 日，在柏林 Tempodrom 的舞台上，黄仁勋没有发布新芯片。早已发布的 Vera Rubin 平台，这次只是确认「已全面量产」。他把更多时间留给了三个更落地的问题：算力中心怎么建得更快，",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 23 Oct 2026 06:41:03 +0800"
     }
   ]
 };
