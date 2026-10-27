@@ -1,51 +1,51 @@
-// 自动生成于 2026-10-27 17:21:01
+// 自动生成于 2026-10-27 21:45:29
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-27",
-  "time": "17:21",
+  "time": "21:45",
   "weekday": "周二",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, 大模型, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, Agent。",
   "items": [
     {
-      "title": "印奇把4D雷达也端到端了",
-      "link": "https://www.qbitai.com/2026/10/505852.html",
-      "description": "毫米波雷达，AI算力10TOPS",
+      "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
+      "link": "https://www.qbitai.com/2026/10/505580.html",
+      "description": "10 月 23 日，以 “ AI is Profitable ” 为主题的 2026 TGC 科技增长大会于广州召开。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 27 Oct 2026 10:40:12 +0000"
+      "pub_date": "Tue, 27 Oct 2026 03:23:55 +0000"
     },
     {
-      "title": "乔布斯的皮克斯，狂赞中国物理AI数据终端",
-      "link": "https://www.qbitai.com/2026/10/505830.html",
-      "description": "顶尖智能汽车玩家的终局，不会停在智能汽车",
+      "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
+      "link": "https://www.qbitai.com/2026/10/505551.html",
+      "description": "地球最富兄妹俩堂堂来袭！7名联创仍紧握50.1%总投票权",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 27 Oct 2026 09:54:51 +0000"
+      "pub_date": "Mon, 26 Oct 2026 16:06:31 +0000"
     },
     {
-      "title": "Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
-      "link": "https://www.qbitai.com/2026/10/505799.html",
-      "description": "无人在环进店实测啃下长尾场景",
+      "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验",
+      "link": "https://www.qbitai.com/2026/10/505539.html",
+      "description": "10月23日至25日，以“见证超能发生”为主题的“天禧AI × 观猹大会”在杭州茶叶博览会会议会展中心启幕。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 27 Oct 2026 08:46:12 +0000"
+      "pub_date": "Mon, 26 Oct 2026 09:46:13 +0000"
     },
     {
-      "title": "GPT-6.1 Terra首批网友实测来了！1折价格获得Astra级电脑操作能力",
-      "link": "https://www.qbitai.com/2026/10/505719.html",
-      "description": "同一天，OpenAI还甩出3项AI科学新发现",
+      "title": "OpenAI开始断网训练最强模型：“安全起见”",
+      "link": "https://www.qbitai.com/2026/10/505529.html",
+      "description": "模型开始利用GPU缓存聊天？",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 27 Oct 2026 08:27:46 +0000"
+      "pub_date": "Mon, 26 Oct 2026 09:37:57 +0000"
     },
     {
-      "title": "国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6",
-      "link": "https://www.qbitai.com/2026/10/505694.html",
-      "description": "还是专业的模型做专业的事情",
+      "title": "A社联创演讲：AI奇点已来",
+      "link": "https://www.qbitai.com/2026/10/505521.html",
+      "description": "所谓奇点，或许是AI跃过人类的那个点。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 27 Oct 2026 08:18:59 +0000"
+      "pub_date": "Mon, 26 Oct 2026 09:35:14 +0000"
     },
     {
       "title": "Azure Container Apps Express在新的通用沙箱层上正式发布",
