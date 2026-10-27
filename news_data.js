@@ -1,35 +1,67 @@
-// 自动生成于 2026-10-27 03:28:59
+// 自动生成于 2026-10-27 11:31:01
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-27",
-  "time": "03:28",
+  "time": "11:31",
   "weekday": "周二",
-  "total": 13,
-  "briefing": "今日共抓取 13 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(3条)。 热点关键词: Agent。",
+  "total": 15,
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, Agent。",
   "items": [
     {
-      "title": "企业AI需要两个世界模型",
-      "link": "https://www.qbitai.com/2026/10/505032.html",
-      "description": "特赞想让企业Agent真正懂业务",
+      "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
+      "link": "https://www.qbitai.com/2026/10/505580.html",
+      "description": "10 月 23 日，以 “ AI is Profitable ” 为主题的 2026 TGC 科技增长大会于广州召开。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 23 Oct 2026 09:07:25 +0000"
+      "pub_date": "Tue, 27 Oct 2026 03:23:55 +0000"
     },
     {
-      "title": "南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
-      "link": "https://www.qbitai.com/2026/10/504915.html",
-      "description": "让AI真正走进真实世界",
+      "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
+      "link": "https://www.qbitai.com/2026/10/505551.html",
+      "description": "地球最富兄妹俩堂堂来袭！7名联创仍紧握50.1%总投票权",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 23 Oct 2026 08:45:43 +0000"
+      "pub_date": "Mon, 26 Oct 2026 16:06:31 +0000"
     },
     {
-      "title": "百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径",
-      "link": "https://www.qbitai.com/2026/10/504901.html",
-      "description": "10月21日，百度官方公众号发文披露了百度世界2026分论坛的更多议程信息。",
+      "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验",
+      "link": "https://www.qbitai.com/2026/10/505539.html",
+      "description": "10月23日至25日，以“见证超能发生”为主题的“天禧AI × 观猹大会”在杭州茶叶博览会会议会展中心启幕。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 23 Oct 2026 07:35:51 +0000"
+      "pub_date": "Mon, 26 Oct 2026 09:46:13 +0000"
+    },
+    {
+      "title": "OpenAI开始断网训练最强模型：“安全起见”",
+      "link": "https://www.qbitai.com/2026/10/505529.html",
+      "description": "模型开始利用GPU缓存聊天？",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Mon, 26 Oct 2026 09:37:57 +0000"
+    },
+    {
+      "title": "A社联创演讲：AI奇点已来",
+      "link": "https://www.qbitai.com/2026/10/505521.html",
+      "description": "所谓奇点，或许是AI跃过人类的那个点。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Mon, 26 Oct 2026 09:35:14 +0000"
+    },
+    {
+      "title": "Azure Container Apps Express在新的通用沙箱层上正式发布",
+      "link": "https://www.infoq.cn/article/ChONW7EYk5Vuj0VF7AkZ?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 27 Oct 2026 17:17:00 GMT"
+    },
+    {
+      "title": "TypeSafe AI发布Jev：一种只返回类型化概率而非文本的决策模型",
+      "link": "https://www.infoq.cn/article/3o7gwgKJt2SbH8AhdpkU?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 27 Oct 2026 15:22:00 GMT"
     },
     {
       "title": "中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付",
@@ -56,20 +88,20 @@ var NEWS_DATA = {
       "pub_date": "Mon, 26 Oct 2026 15:05:27 GMT"
     },
     {
-      "title": "模型好选，搜索难做：一个投研Agent的两年开发历程",
-      "link": "https://www.infoq.cn/article/NrUkJExfuuFOICsjVYbb?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 26 Oct 2026 14:57:35 GMT"
+      "title": "帮用户抢 iPhone 折叠屏的 Agent，正在塑造 AI 时代电商的形状",
+      "link": "http://www.geekpark.net/news/373002",
+      "description": "Shopify AI 交易订单增长了 13 倍。\n10 月 16 日清晨，苹果第一款折叠屏手机 iPhone Duo 开启预购。1999 美元起售，首批产能紧张，没过多久交付日期就排到了明年 1 月。\n这一次抢首发的，不只是守在屏幕前的人。\n\n今年 Agent 成为 iPhone Duo 黄牛最严厉的父亲｜图片来源：Apple\n在 MacRumors 论坛上，一位没抢到的用户愤",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 27 Oct 2026 16:42:40 +0800"
     },
     {
-      "title": "从 Agent 工程化到任务交付，解读 AI 走向生产的关键挑战｜QCon 上海 2026 圆满收官",
-      "link": "https://www.infoq.cn/article/0C1Wgt7N9NzM6KjHSFeA?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 26 Oct 2026 11:53:09 GMT"
+      "title": "左手开源模型，右手创作 Agent，Hi3D 的 AI 3D 下半场",
+      "link": "http://www.geekpark.net/news/372939",
+      "description": "作者｜Cynthia\n编辑｜郑玄\n2026 年的 AI 3D 赛道，正站在一个微妙的分水岭上。\n一级市场的热度仍在攀升，新模型、新创业公司层出不穷，单图生 3D 的正面渲染效果几乎已经做到了以假乱真。\n但剥开炫目的 Demo 外壳：绝大多数生成结果依然停留在「转台展示」阶段：一个精致的角色或机械模型，在灯光下缓缓旋转，鳞片、衣褶和金属刻纹栩栩如生；可这些细节一旦进入游戏引擎装配、",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 27 Oct 2026 15:59:20 +0800"
     },
     {
       "title": "苹果回应 iPhone 折叠屏问题：可申请换机；传腾讯绿泡泡短剧月活过亿；；Anthropic或下月上市｜极客早知道",
@@ -94,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 25 Oct 2026 08:52:41 +0800"
-    },
-    {
-      "title": "中国 AI 硬件的下一个爆款，可能生在「网球场」",
-      "link": "http://www.geekpark.net/news/372807",
-      "description": "头图来源：Hirdwire2024 年巴黎奥运会，郑钦文在罗兰·加洛斯捧起金牌的那个下午，中国的网球场预订量在一周内翻了数倍。两年后，最先把这股热潮变成生意的，是一群造机器的深圳工程师。过去一年，至少四款中国团队打造的 AI 球类机器人在 Kickstarter 上筹得百万美元级资金。庞伯特以 26255% 的超募率卷走 265 万美元；智能家居大厂 SwitchBot 推出的",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 23 Oct 2026 14:15:58 +0800"
-    },
-    {
-      "title": "造物 100 #10｜百万众筹的和弦合成器、52kHz 超声波去污笔、能打电话的奥特曼 AI 玩具",
-      "link": "http://www.geekpark.net/news/372803",
-      "description": "这周苹果发了新一代 HomePod mini，149 美元，10 月 30 日开卖，真正的新 Siri 要等之后的软件更新才到。科技巨头正抢着在假日季前，把 AI 小设备摆上货架。\n大公司的打法很统一，先造一个入口，再把 AI 慢慢塞进去。但这周名单里的产品，走的是另一条路。NOPIA 把乐理做了只有一个八度的键盘，按一个键出一整个和弦。InstaSpot 把超声波清洗机缩成一支",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 23 Oct 2026 14:03:13 +0800"
     }
   ]
 };
