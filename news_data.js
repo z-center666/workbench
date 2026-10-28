@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-27 21:45:29
+// 自动生成于 2026-10-28 03:44:56
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-27",
-  "time": "21:45",
-  "weekday": "周二",
+  "date": "2026-10-28",
+  "time": "03:44",
+  "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, Agent。",
   "items": [
     {
       "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Mon, 26 Oct 2026 09:35:14 +0000"
     },
     {
+      "title": "GPT-6.1 Terra 发布：比旗舰快 3 倍，价格仅1/10！事实错误率暴降近 70%",
+      "link": "https://www.infoq.cn/article/28VVsANi9FBYRKfUz8vA?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 28 Oct 2026 10:37:05 GMT"
+    },
+    {
+      "title": "在AI时代如何提升软件工程能力",
+      "link": "https://www.infoq.cn/article/Qwr9oqOSAdmi1YibHVWr?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 28 Oct 2026 09:07:00 GMT"
+    },
+    {
       "title": "Azure Container Apps Express在新的通用沙箱层上正式发布",
       "link": "https://www.infoq.cn/article/ChONW7EYk5Vuj0VF7AkZ?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -70,22 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Mon, 26 Oct 2026 18:30:50 GMT"
-    },
-    {
-      "title": "让 AI 从需求一路干到上线，软件开发组织要变了？",
-      "link": "https://www.infoq.cn/article/b32Mw2zaPrxyJ6ChePD5?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 26 Oct 2026 18:08:13 GMT"
-    },
-    {
-      "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
-      "link": "https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 26 Oct 2026 15:05:27 GMT"
     },
     {
       "title": "帮用户抢 iPhone 折叠屏的 Agent，正在塑造 AI 时代电商的形状",
