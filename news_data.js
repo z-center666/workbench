@@ -1,8 +1,8 @@
-// 自动生成于 2026-10-29 12:11:33
+// 自动生成于 2026-10-29 22:22:30
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-29",
-  "time": "12:11",
+  "time": "22:22",
   "weekday": "周四",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Gemini, DeepSeek, 智能体, Agent。",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Wed, 28 Oct 2026 08:59:00 +0000"
     },
     {
+      "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+      "link": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 29 Oct 2026 20:13:07 GMT"
+    },
+    {
       "title": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
       "link": "https://www.infoq.cn/article/aK6ADSkIvwf265yc8PuT?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -78,14 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Thu, 29 Oct 2026 13:00:00 GMT"
-    },
-    {
-      "title": "AI 用起来了，业务价值谁来打分？",
-      "link": "https://www.infoq.cn/article/LLbRSSwTyvqTpFsaJs3v?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 29 Oct 2026 10:37:25 GMT"
     },
     {
       "title": "苹果发触屏笔记本，最高 11 万元；DeepSeek V5 模型代码现身；宇树首发财报，净利增 270%",
