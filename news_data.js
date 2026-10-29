@@ -1,11 +1,11 @@
-// 自动生成于 2026-10-28 22:06:56
+// 自动生成于 2026-10-29 04:06:22
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-28",
-  "time": "22:06",
-  "weekday": "周三",
+  "date": "2026-10-29",
+  "time": "04:06",
+  "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, 智能体, Agent。",
   "items": [
     {
       "title": "Personal Agent走向真实任务，蚂蚁百灵开源 Ling-3.1-flash-1019",
@@ -48,6 +48,38 @@ var NEWS_DATA = {
       "pub_date": "Tue, 27 Oct 2026 08:27:46 +0000"
     },
     {
+      "title": "AI 用起来了，业务价值谁来打分？",
+      "link": "https://www.infoq.cn/article/LLbRSSwTyvqTpFsaJs3v?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 29 Oct 2026 10:37:25 GMT"
+    },
+    {
+      "title": "从三天Demo到一个月全员可用：小红书企业级AI助理Seal的规模化实践",
+      "link": "https://www.infoq.cn/article/eOqH5GJ5R6UuZGtlhL53?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 29 Oct 2026 09:58:08 GMT"
+    },
+    {
+      "title": "活动回顾｜InfoQ AI 侦察团的实战一天：企业 AI 如何走向落地？",
+      "link": "https://www.infoq.cn/article/g7TTtqzU1qyQXooXFQGN?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 29 Oct 2026 09:55:47 GMT"
+    },
+    {
+      "title": "亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
+      "link": "https://www.infoq.cn/article/YmgmEh686wTClmj3PY8o?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 29 Oct 2026 08:00:00 GMT"
+    },
+    {
       "title": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
       "link": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -56,36 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Wed, 28 Oct 2026 22:53:53 GMT"
     },
     {
-      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
-      "link": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 28 Oct 2026 22:05:40 GMT"
-    },
-    {
-      "title": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
-      "link": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 28 Oct 2026 21:39:45 GMT"
-    },
-    {
-      "title": "Instagram 采用原生 AI 架构对用户界面进行了现代化改造，将 token 成本降低了 33%",
-      "link": "https://www.infoq.cn/article/bXKVgLdpf7HONYHIi6Su?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 28 Oct 2026 21:00:00 GMT"
-    },
-    {
-      "title": "Meta 利用私有处理技术将机密计算扩展至 AI 眼镜",
-      "link": "https://www.infoq.cn/article/r1ibrq9kmZ1qFAWAtzJf?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 28 Oct 2026 19:00:00 GMT"
+      "title": "苹果发触屏笔记本，最高 11 万元；DeepSeek V5 模型代码现身；宇树首发财报，净利增 270%",
+      "link": "http://www.geekpark.net/news/373085",
+      "description": "苹果发布首款触屏 MacBook Pro，顶配超 11 万元\n\n北京时间 10 月 29 日，苹果发布全新 MacBook Pro，首次为 Mac 引入屏幕触控和灵动岛，并采用双层串联 OLED 技术的 PROLED XDR 显示屏。\n新机提供 14 英寸和 16 英寸两种版本，搭载 M5 Pro 或 M5 Max 芯片。根据苹果中国区发布信息，新机将于 10 月 30 日开启",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 29 Oct 2026 08:05:58 +0800"
     },
     {
       "title": "斯坦福的研究，红海的珊瑚，与一个中国模型",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 27 Oct 2026 08:26:51 +0800"
-    },
-    {
-      "title": "今年的 1024，可能是最后一个程序员节",
-      "link": "http://www.geekpark.net/news/372944",
-      "description": "作者｜Wildcard\n编辑｜靖宇\n今天一整天， X 上都有人在讨论，「1024 程序员节日快乐，今年会不会是最后一个程序员节了」。\n这一天恰好是周六。微博上的话题叫「今年程序员节自带休息日」，配文说 AI 工具分担了重复编码，程序员终于能过一个不被紧急需求打断的节。\n影石连续第五年给优秀程序员发黄金键帽，今年新增了一颗「F5」键，寓意不断刷新迭代。颁奖现场，一位年轻同事说了句玩",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 26 Oct 2026 18:16:50 +0800"
     }
   ]
 };
