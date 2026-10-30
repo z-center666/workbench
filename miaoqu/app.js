@@ -25,11 +25,14 @@ const DEFAULT_SETTINGS = {
   engine: 'auto',
   customBase: '',
   customKey: '',
-  iosSave: 'share'
+  iosSave: 'share',
+  asrKey: '',
+  asrModel: 'FunAudioLLM/SenseVoiceSmall'
 };
 
 const state = {
   busy: false,
+  transcribing: false,
   result: null,
   history: [],
   settings: { ...DEFAULT_SETTINGS }
@@ -631,6 +634,270 @@ async function saveBlob(blob, filename, title) {
   return 'downloaded';
 }
 
+/* ---------------- 云端转写 ---------------- */
+
+const ASR_ENDPOINT = 'https://api.siliconflow.cn/v1/audio/transcriptions';
+const ASR_MODELS_ENDPOINT = 'https://api.siliconflow.cn/v1/models';
+const ASR_DEFAULT_MODEL = 'FunAudioLLM/SenseVoiceSmall';
+const ASR_TARGET_RATE = 16000;
+const ASR_MAX_SECONDS = 300;
+
+function currentAsrKey() {
+  return String(state.settings.asrKey || '').trim();
+}
+
+function setTranscribeLoading(loading, label) {
+  if (!el.transcribeBtn) return;
+  el.transcribeBtn.disabled = loading;
+  const hasText = !!(state.result && state.result.transcript);
+  el.transcribeBtnText.textContent = label || (hasText ? '重新提取' : '提取文字');
+  el.transcribeBtn.setAttribute('aria-busy', loading ? 'true' : 'false');
+}
+
+function setTranscribeHint(text) {
+  if (el.transcribeHint) el.transcribeHint.textContent = text || '';
+}
+
+function resampleLinear(data, fromRate, toRate) {
+  if (fromRate === toRate) return data;
+  const ratio = toRate / fromRate;
+  const length = Math.max(1, Math.round(data.length * ratio));
+  const output = new Float32Array(length);
+  for (let i = 0; i < length; i++) {
+    const pos = i / ratio;
+    const left = Math.floor(pos);
+    const right = Math.min(left + 1, data.length - 1);
+    const weight = pos - left;
+    output[i] = data[left] * (1 - weight) + data[right] * weight;
+  }
+  return output;
+}
+
+function encodeWav(samples, sampleRate) {
+  const buffer = new ArrayBuffer(44 + samples.length * 2);
+  const view = new DataView(buffer);
+  const writeText = (offset, text) => {
+    for (let i = 0; i < text.length; i++) view.setUint8(offset + i, text.charCodeAt(i));
+  };
+  writeText(0, 'RIFF');
+  view.setUint32(4, 36 + samples.length * 2, true);
+  writeText(8, 'WAVE');
+  writeText(12, 'fmt ');
+  view.setUint32(16, 16, true);
+  view.setUint16(20, 1, true);
+  view.setUint16(22, 1, true);
+  view.setUint32(24, sampleRate, true);
+  view.setUint32(28, sampleRate * 2, true);
+  view.setUint16(32, 2, true);
+  view.setUint16(34, 16, true);
+  writeText(36, 'data');
+  view.setUint32(40, samples.length * 2, true);
+
+  let offset = 44;
+  for (let i = 0; i < samples.length; i++) {
+    const sample = Math.max(-1, Math.min(1, samples[i]));
+    view.setInt16(offset, sample < 0 ? sample * 0x8000 : sample * 0x7fff, true);
+    offset += 2;
+  }
+  return new Blob([view], { type: 'audio/wav' });
+}
+
+async function extractAudioWav(blob) {
+  const AudioCtx = window.AudioContext || window.webkitAudioContext;
+  if (!AudioCtx) throw new ParseError('当前浏览器不支持音频解码');
+
+  let ctx;
+  try { ctx = new AudioCtx({ sampleRate: ASR_TARGET_RATE }); }
+  catch (_) { ctx = new AudioCtx(); }
+
+  let audio;
+  try {
+    audio = await ctx.decodeAudioData(await blob.arrayBuffer());
+  } catch (_) {
+    throw new ParseError('无法读取视频里的音轨，换一个视频试试');
+  } finally {
+    if (ctx && ctx.close) ctx.close().catch(() => {});
+  }
+
+  if (!audio || !audio.length) throw new ParseError('视频里没有可识别的音频');
+  if (audio.duration > ASR_MAX_SECONDS + 1) {
+    throw new ParseError('视频超过 5 分钟，云端转写暂只支持 5 分钟以内');
+  }
+
+  let data;
+  if (audio.numberOfChannels > 1) {
+    data = new Float32Array(audio.length);
+    for (let c = 0; c < audio.numberOfChannels; c++) {
+      const channel = audio.getChannelData(c);
+      for (let i = 0; i < channel.length; i++) data[i] += channel[i] / audio.numberOfChannels;
+    }
+  } else {
+    data = audio.getChannelData(0);
+  }
+  return encodeWav(resampleLinear(data, audio.sampleRate, ASR_TARGET_RATE), ASR_TARGET_RATE);
+}
+
+function asrMessage(status, detail) {
+  const chinese = /[\u4e00-\u9fa5]/.test(detail || '') ? detail : '';
+  if (status === 401 || status === 403) return 'API Key 无效或没有调用权限，请到设置里检查';
+  if (status === 402) return '账户余额不足，请先到硅基流动充值';
+  if (status === 413) return '音频太大，换一个更短的视频试试';
+  if (status === 429) return chinese || '请求过于频繁或额度用尽，请稍后再试';
+  if (status >= 500) return '转写服务暂时不可用，请稍后重试';
+  return chinese || `转写服务返回异常（${status}）`;
+}
+
+async function requestTranscription(wavBlob, key) {
+  const form = new FormData();
+  form.append('file', wavBlob, 'audio.wav');
+  form.append('model', state.settings.asrModel || ASR_DEFAULT_MODEL);
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 180000);
+  let response;
+  try {
+    response = await fetch(ASR_ENDPOINT, {
+      method: 'POST',
+      headers: { Authorization: 'Bearer ' + key },
+      body: form,
+      credentials: 'omit',
+      signal: controller.signal
+    });
+  } catch (error) {
+    clearTimeout(timer);
+    if (error && error.name === 'AbortError') throw new ParseError('识别超时，请稍后重试');
+    throw new ParseError('无法连接转写服务，请检查网络后重试');
+  }
+  clearTimeout(timer);
+
+  if (!response.ok) {
+    let detail = '';
+    try {
+      const data = await response.json();
+      detail = firstString(data.message, data.msg, data.error && data.error.message, data.error);
+    } catch (_) {}
+    throw new ParseError(asrMessage(response.status, detail), { code: response.status });
+  }
+
+  let data = null;
+  try { data = await response.json(); } catch (_) {}
+  const text = data ? firstString(data.text, data.transcription, data.result && data.result.text) : '';
+  if (!text) throw new ParseError('没有识别到语音内容');
+  return text.trim();
+}
+
+async function transcribeCurrent() {
+  if (state.transcribing) return;
+  if (!state.result) {
+    setStatus('先解析一个视频，再提取文字', true);
+    return;
+  }
+  if (!state.result.videoUrl) {
+    setStatus('图集没有音轨，无法提取文字', true);
+    return;
+  }
+  if (!currentAsrKey()) {
+    openSettings();
+    showToast('先在设置里填写硅基流动 API Key');
+    return;
+  }
+
+  state.transcribing = true;
+  setTranscribeLoading(true, '正在下载');
+  setTranscribeHint('准备中…');
+  setStatus('正在提取文字…', false);
+
+  try {
+    const blob = await downloadBlob(state.result.videoUrl, {
+      onProgress: (received, total) => {
+        setTranscribeHint(total
+          ? `正在下载视频 ${Math.min(100, Math.round((received / total) * 100))}%`
+          : '正在下载视频…');
+      }
+    });
+    setTranscribeHint('正在抽取音轨…');
+    const wav = await extractAudioWav(blob);
+    setTranscribeHint(`正在上传识别（${formatSize(wav.size)}）…`);
+    const text = await requestTranscription(wav, currentAsrKey());
+    state.result.transcript = text;
+    renderTranscript(text);
+    setTranscribeHint('');
+    setStatus('文字提取完成', false);
+  } catch (error) {
+    setTranscribeHint('');
+    setStatus(error && error.message ? error.message : '提取失败，请稍后重试', true);
+  } finally {
+    state.transcribing = false;
+    setTranscribeLoading(false);
+  }
+}
+
+function renderTranscript(text) {
+  const value = String(text || '').trim();
+  el.transcript.hidden = !value;
+  el.transcriptText.textContent = value;
+  el.transcriptMeta.textContent = value ? value.length + ' 字' : '';
+  if (value && el.transcribeBtnText) el.transcribeBtnText.textContent = '重新提取';
+}
+
+async function copyTranscript() {
+  const text = state.result && state.result.transcript;
+  if (!text) return;
+  try {
+    await navigator.clipboard.writeText(text);
+    showToast('文字已复制');
+  } catch (_) {
+    showToast('复制失败，请长按文字手动复制');
+  }
+}
+
+function saveTranscript() {
+  const text = state.result && state.result.transcript;
+  if (!text) return;
+  const name = sanitizeFilename(state.result.title || '文字稿', '文字稿') + '.txt';
+  const objectUrl = URL.createObjectURL(new Blob([text], { type: 'text/plain;charset=utf-8' }));
+  const a = document.createElement('a');
+  a.href = objectUrl;
+  a.download = name;
+  a.rel = 'noopener';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(objectUrl), 30000);
+  showToast('已保存文字稿');
+}
+
+async function testAsrKey() {
+  const key = el.asrKey.value.trim();
+  if (!key) {
+    showToast('请先填写 API Key');
+    return;
+  }
+  state.settings.asrKey = key;
+  saveSettings();
+  el.testAsrBtn.disabled = true;
+  el.testAsrBtn.textContent = '测试中…';
+  try {
+    const response = await fetch(ASR_MODELS_ENDPOINT, {
+      headers: { Authorization: 'Bearer ' + key },
+      credentials: 'omit',
+      mode: 'cors'
+    });
+    if (response.status === 401 || response.status === 403) {
+      showToast('密钥无效，请检查是否复制完整');
+    } else if (!response.ok) {
+      showToast('服务暂时不可用，请稍后再试');
+    } else {
+      showToast('密钥可用');
+    }
+  } catch (_) {
+    showToast('无法连接转写服务，请检查网络');
+  } finally {
+    el.testAsrBtn.disabled = false;
+    el.testAsrBtn.textContent = '测试密钥';
+  }
+}
+
 /* ---------------- UI ---------------- */
 
 function cacheEls() {
@@ -662,6 +929,14 @@ function cacheEls() {
   el.copyBtn = $('#copyBtn');
   el.shareBtn = $('#shareBtn');
   el.openBtn = $('#openBtn');
+  el.transcribeBtn = $('#transcribeBtn');
+  el.transcribeBtnText = $('#transcribeBtnText');
+  el.transcribeHint = $('#transcribeHint');
+  el.transcript = $('#transcript');
+  el.transcriptText = $('#transcriptText');
+  el.transcriptMeta = $('#transcriptMeta');
+  el.copyTranscriptBtn = $('#copyTranscriptBtn');
+  el.saveTranscriptBtn = $('#saveTranscriptBtn');
   el.previewBtn = $('#previewBtn');
   el.gallery = $('#gallery');
   el.galleryGrid = $('#galleryGrid');
@@ -676,6 +951,9 @@ function cacheEls() {
   el.customBase = $('#customBase');
   el.customKey = $('#customKey');
   el.testCustomBtn = $('#testCustomBtn');
+  el.asrKey = $('#asrKey');
+  el.asrModel = $('#asrModel');
+  el.testAsrBtn = $('#testAsrBtn');
   el.iosSaveSelect = $('#iosSaveSelect');
   el.clearAllBtn = $('#clearAllBtn');
   el.aboutLine = $('#aboutLine');
@@ -882,6 +1160,7 @@ function renderResult(result) {
 
   el.previewBtn.hidden = !result.videoUrl;
   el.copyBtn.hidden = !result.videoUrl;
+  el.transcribeBtn.hidden = !result.videoUrl;
   el.saveBtnText.textContent = result.videoUrl ? '保存视频' : '保存图片';
   el.saveBtn.hidden = !result.videoUrl && !result.images.length;
 
@@ -929,6 +1208,9 @@ function renderResult(result) {
   }
 
   clearSaveProgress();
+  setTranscribeLoading(false);
+  setTranscribeHint('');
+  renderTranscript(result.transcript || '');
 
   requestAnimationFrame(() => {
     el.resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1201,6 +1483,8 @@ function openSettings() {
   el.customBase.value = state.settings.customBase;
   el.customKey.value = state.settings.customKey;
   el.iosSaveSelect.value = state.settings.iosSave;
+  el.asrKey.value = state.settings.asrKey;
+  el.asrModel.value = state.settings.asrModel || ASR_DEFAULT_MODEL;
   el.settingsModal.hidden = false;
   document.body.style.overflow = 'hidden';
 }
@@ -1216,6 +1500,7 @@ function scheduleSettingsSave() {
   settingsTimer = setTimeout(() => {
     state.settings.customBase = el.customBase.value.trim();
     state.settings.customKey = el.customKey.value.trim();
+    state.settings.asrKey = el.asrKey.value.trim();
     saveSettings();
   }, 450);
 }
@@ -1286,6 +1571,9 @@ function bindEvents() {
   el.copyBtn.addEventListener('click', copyDirectLink);
   el.shareBtn.addEventListener('click', shareCurrent);
   el.openBtn.addEventListener('click', openOriginal);
+  el.transcribeBtn.addEventListener('click', transcribeCurrent);
+  el.copyTranscriptBtn.addEventListener('click', copyTranscript);
+  el.saveTranscriptBtn.addEventListener('click', saveTranscript);
   el.previewBtn.addEventListener('click', openPreview);
   el.previewClose.addEventListener('click', closePreview);
   el.previewModal.addEventListener('click', event => {
@@ -1308,6 +1596,12 @@ function bindEvents() {
   el.customBase.addEventListener('input', scheduleSettingsSave);
   el.customKey.addEventListener('input', scheduleSettingsSave);
   el.testCustomBtn.addEventListener('click', testCustomService);
+  el.asrKey.addEventListener('input', scheduleSettingsSave);
+  el.asrModel.addEventListener('change', () => {
+    state.settings.asrModel = el.asrModel.value;
+    saveSettings();
+  });
+  el.testAsrBtn.addEventListener('click', testAsrKey);
   el.clearHistoryBtn.addEventListener('click', clearHistory);
   el.clearAllBtn.addEventListener('click', clearAll);
 
@@ -1360,7 +1654,7 @@ async function init() {
         : '当前是局域网 HTTP，可用下方按钮保存；用 HTTPS 打开可直接存入相册'))
     : '支持抖音、快手；小红书与视频号需要登录态', false);
   if (!isSecureContext && el.aboutLine) {
-    el.aboutLine.textContent = '秒取 v1.0 · 当前是局域网 HTTP，安装与离线需用 HTTPS 地址打开';
+    el.aboutLine.textContent = '秒取 v1.1 · 当前是局域网 HTTP，安装与离线需用 HTTPS 地址打开';
   }
   registerServiceWorker();
   handleShareTarget();

@@ -32,6 +32,7 @@
     <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4.5 7h15"/><path d="M9.5 7V5.2c0-.7.6-1.2 1.2-1.2h2.6c.7 0 1.2.6 1.2 1.2V7"/><path d="M6.5 7l.8 12c0 .8.7 1.5 1.5 1.5h6.4c.8 0 1.5-.7 1.5-1.5l.8-12"/><path d="M10 11v5.5M14 11v5.5"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.2 4.2L19 7"/></symbol>
     <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3.5c.6 3.9 2.6 5.9 6.5 6.5-3.9.6-5.9 2.6-6.5 6.5-.6-3.9-2.6-5.9-6.5-6.5 3.9-.6 5.9-2.6 6.5-6.5Z"/><path d="M18 16.5c.3 1.9 1.3 2.9 3.2 3.2-1.9.3-2.9 1.3-3.2 3.2-.3-1.9-1.3-2.9-3.2-3.2 1.9-.3 2.9-1.3 3.2-3.2Z"/></symbol>
+    <symbol id="i-text" viewBox="0 0 24 24"><path d="M5 6.5h14"/><path d="M5 11.5h14"/><path d="M5 16.5h8"/></symbol>
   </svg>
 
   <main class="app" id="app">
@@ -119,7 +120,24 @@
                 <svg><use href="#i-link"/></svg>原作品
               </button>
             </div>
+            <button class="ghost-btn wide transcribe-btn" id="transcribeBtn" type="button" hidden>
+              <svg><use href="#i-text"/></svg>
+              <span id="transcribeBtnText">提取文字</span>
+            </button>
+            <p class="transcribe-hint" id="transcribeHint"></p>
             <p class="save-hint" id="saveHint"></p>
+          </div>
+
+          <div class="transcript" id="transcript" hidden>
+            <div class="transcript-head">
+              <h4>文字稿</h4>
+              <span class="engine-tag" id="transcriptMeta"></span>
+            </div>
+            <p class="transcript-text" id="transcriptText"></p>
+            <div class="transcript-actions">
+              <button class="ghost-btn" id="copyTranscriptBtn" type="button">复制文字</button>
+              <button class="ghost-btn" id="saveTranscriptBtn" type="button">存为 txt</button>
+            </div>
           </div>
         </div>
       </article>
@@ -196,6 +214,23 @@
         </section>
 
         <section class="setting-group">
+          <h3>云端转写</h3>
+          <label class="field">
+            <span>硅基流动 API Key</span>
+            <input id="asrKey" type="password" placeholder="sk-..." autocomplete="off" autocapitalize="off" spellcheck="false">
+          </label>
+          <label class="field">
+            <span>识别模型</span>
+            <select id="asrModel">
+              <option value="FunAudioLLM/SenseVoiceSmall">SenseVoice 小模型（推荐，中文更快）</option>
+              <option value="openai/whisper-large-v3">Whisper large-v3（更准，更慢）</option>
+            </select>
+          </label>
+          <p class="hint">把视频里的语音转成文字，5 分钟以内的视频可直接识别。密钥只存在本机浏览器；提取时音频会上传到硅基流动。</p>
+          <button class="ghost-btn wide" id="testAsrBtn" type="button">测试密钥</button>
+        </section>
+
+        <section class="setting-group">
           <h3>保存方式</h3>
           <label class="field">
             <span>iPhone 保存</span>
@@ -212,7 +247,7 @@
           <button class="ghost-btn wide danger" id="clearAllBtn" type="button">
             <svg><use href="#i-trash"/></svg>清除历史与设置
           </button>
-          <p class="hint" id="aboutLine">秒取 v1.0 · 网页版 · 数据只存在本机浏览器</p>
+          <p class="hint" id="aboutLine">秒取 v1.1 · 网页版 · 数据只存在本机浏览器</p>
         </section>
 
         <section class="setting-group note-group">

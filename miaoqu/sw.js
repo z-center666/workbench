@@ -2,7 +2,7 @@
 
 /* 秒取 Service Worker：只缓存应用外壳，不缓存解析请求与视频。 */
 
-const VERSION = 'miaoqu-v2';
+const VERSION = 'miaoqu-v3';
 const SHELL = [
   './',
   './index.html',
