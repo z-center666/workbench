@@ -1,9 +1,9 @@
-// 自动生成于 2026-10-29 22:22:30
+// 自动生成于 2026-10-30 04:07:40
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-29",
-  "time": "22:22",
-  "weekday": "周四",
+  "date": "2026-10-30",
+  "time": "04:07",
+  "weekday": "周五",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Gemini, DeepSeek, 智能体, Agent。",
   "items": [
@@ -48,6 +48,30 @@ var NEWS_DATA = {
       "pub_date": "Wed, 28 Oct 2026 08:59:00 +0000"
     },
     {
+      "title": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "link": "https://www.infoq.cn/article/FJqN3mFVyN1lMqHOiegs?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 30 Oct 2026 11:22:00 GMT"
+    },
+    {
+      "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "link": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 30 Oct 2026 10:04:10 GMT"
+    },
+    {
+      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "link": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 30 Oct 2026 09:23:00 GMT"
+    },
+    {
       "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
       "link": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -64,28 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Thu, 29 Oct 2026 18:00:23 GMT"
     },
     {
-      "title": "天数智芯公布天垓300实测数据：部分推理场景达到H200水平，端侧对标Thor T5000",
-      "link": "https://www.infoq.cn/article/tFaOHgBe8ENwteobTsLV?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 29 Oct 2026 16:38:28 GMT"
-    },
-    {
-      "title": "生产级 AI：隐性故障、工程落地与智能体治理",
-      "link": "https://www.infoq.cn/article/tsyyFmCmzphHw4gWy7Fo?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 29 Oct 2026 15:21:00 GMT"
-    },
-    {
-      "title": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
-      "link": "https://www.infoq.cn/article/Lg6RgMudjiWIVQllmz8a?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 29 Oct 2026 13:00:00 GMT"
+      "title": "Google 母集团市值蒸发 5000 亿美元创纪录；苹果高管回应新 iPad mini 60Hz 刷新率；因电池问题，理想 MEGA 退一赔一｜极客早知道",
+      "link": "http://www.geekpark.net/news/373154",
+      "description": "谷歌市值创纪录蒸发 5000 亿美元 AI 侵蚀营收\nAlphabet Inc 股价一度下跌逾 13%，市值蒸发逾 5000 亿美元，单日市值缩水规模创公司纪录。此前公司公布的搜索和广告业务营收令人失望，加剧了投资者对人工智能（AI）威胁其核心业务的担忧。\n\n这家谷歌母公司公布，第三季度不含合作伙伴分成的营收为 1112 亿美元，低于分析师预测。搜索及其他渠道的广告营收也不及预",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 30 Oct 2026 08:15:04 +0800"
     },
     {
       "title": "苹果发触屏笔记本，最高 11 万元；DeepSeek V5 模型代码现身；宇树首发财报，净利增 270%",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 27 Oct 2026 15:59:20 +0800"
-    },
-    {
-      "title": "苹果回应 iPhone 折叠屏问题：可申请换机；传腾讯绿泡泡短剧月活过亿；；Anthropic或下月上市｜极客早知道",
-      "link": "http://www.geekpark.net/news/372952",
-      "description": "Anthropic 公开递交纳斯达克 IPO 申请：目标 11 月 16 日当周上市\nAnthropic 正式踏上上市之路。这家成立仅五年、身处生成式 AI 浪潮核心的企业，本次 IPO 有望创下历史纪录。\nAnthropic 在提交给美国证券交易委员会（SEC）的文件中披露，计划登陆纳斯达克交易所，股票代码定为「ANT」，目标在 11 月 16 日当周进行 IPO。该公司将",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 27 Oct 2026 08:26:51 +0800"
     }
   ]
 };
