@@ -1,51 +1,83 @@
-// 自动生成于 2026-10-30 04:07:40
+// 自动生成于 2026-10-30 12:01:56
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-10-30",
-  "time": "04:07",
+  "time": "12:01",
   "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Gemini, DeepSeek, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, 智能体, Agent。",
   "items": [
     {
-      "title": "小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实",
-      "link": "https://www.qbitai.com/2026/10/506273.html",
-      "description": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。",
+      "title": "Claude新模型曝光：新Fable，新Opus…",
+      "link": "https://www.qbitai.com/2026/10/506674.html",
+      "description": "",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 29 Oct 2026 02:51:45 +0000"
+      "pub_date": "Fri, 30 Oct 2026 05:50:44 +0000"
     },
     {
-      "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
-      "link": "https://www.qbitai.com/2026/10/505934.html",
-      "description": "用扩散模型怎么做做Agent？",
+      "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
+      "link": "https://www.qbitai.com/2026/10/506662.html",
+      "description": "让机器人成为彼此的“老师”",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 29 Oct 2026 02:18:28 +0000"
+      "pub_date": "Fri, 30 Oct 2026 03:48:04 +0000"
     },
     {
-      "title": "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价",
-      "link": "https://www.qbitai.com/2026/10/506227.html",
-      "description": "能连肝数日修Bug，免疫提示词注入",
+      "title": "买车送终身AI？智己LS8纯电版25万起！全系线控底盘宁德时代标配",
+      "link": "https://www.qbitai.com/2026/10/506569.html",
+      "description": "Momenta世界模型上车",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 29 Oct 2026 00:03:58 +0000"
+      "pub_date": "Fri, 30 Oct 2026 00:19:06 +0000"
     },
     {
-      "title": "威卡：用数据集链接具身智能和工程机械",
-      "link": "https://www.qbitai.com/2026/10/506063.html",
-      "description": "威卡：为工程机械的智能化与少人化，提供一条被验证的路径",
+      "title": "STEPX Neo 发布两周即迎首次升级，智能体能力持续释放",
+      "link": "https://www.qbitai.com/2026/10/506554.html",
+      "description": "阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 28 Oct 2026 09:01:27 +0000"
+      "pub_date": "Thu, 29 Oct 2026 09:58:26 +0000"
     },
     {
-      "title": "19个项目18个成功，6个GPCR靶点全获命中！国产AI制药再破技术天花板",
-      "link": "https://www.qbitai.com/2026/10/506055.html",
-      "description": "精度达AlphaFold 3两倍，分子之心拿下高难度抗体设计",
+      "title": "中国MaaS市场TOP2，商汤大装置再度蝉联",
+      "link": "https://www.qbitai.com/2026/10/506550.html",
+      "description": "在大模型私有化市场，商汤大装置以9.4%的市场份额，再次稳居第二位",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 28 Oct 2026 08:59:00 +0000"
+      "pub_date": "Thu, 29 Oct 2026 09:52:05 +0000"
+    },
+    {
+      "title": "AI+垂类Agent：任务跑得久、工具用得熟，撑不起Agent公司长期竞争力｜贝联珠贯创始人兼CEO 毕玄分享",
+      "link": "https://www.infoq.cn/article/sCKczimP9lSEl0rgJ7VY?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 30 Oct 2026 19:27:02 GMT"
+    },
+    {
+      "title": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
+      "link": "https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 30 Oct 2026 18:53:48 GMT"
+    },
+    {
+      "title": "EmbeddingGemma 2：Google 把五种模态塞进同一个向量空间",
+      "link": "https://www.infoq.cn/article/O6mtiB7FVd0VSDHJe348?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 30 Oct 2026 17:00:00 GMT"
+    },
+    {
+      "title": "2026年AI技术演进与2027年趋势前瞻报告",
+      "link": "https://www.infoq.cn/minibook/lmVM6XjSDMpMb6QTbK0l?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 30 Oct 2026 14:41:36 GMT"
     },
     {
       "title": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
@@ -56,36 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 30 Oct 2026 11:22:00 GMT"
     },
     {
-      "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
-      "link": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 30 Oct 2026 10:04:10 GMT"
-    },
-    {
-      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
-      "link": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 30 Oct 2026 09:23:00 GMT"
-    },
-    {
-      "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
-      "link": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 29 Oct 2026 20:13:07 GMT"
-    },
-    {
-      "title": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
-      "link": "https://www.infoq.cn/article/aK6ADSkIvwf265yc8PuT?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 29 Oct 2026 18:00:23 GMT"
+      "title": "TRAE 开发者个人助理，打响 AI Coding 的下半场",
+      "link": "http://www.geekpark.net/news/373190",
+      "description": "作者｜Cynthia\n编辑｜郑玄\n\n过去两年，AI Coding 最令人兴奋的时刻，大基本止步于代码生成的那一秒。\n一句话生成页面，几分钟搭出原型，一个开发者用半天时间做完了过去需要一周才能完成的开发任务&hellip;&hellip;\n但在这之后，即使某项单点开发任务获得五倍、十倍的提速，一个项目从需求提出到产品交付的速度，有时候未必能有两倍效率提升。\n时间去了哪里？\n写提示",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 30 Oct 2026 13:49:25 +0800"
     },
     {
       "title": "Google 母集团市值蒸发 5000 亿美元创纪录；苹果高管回应新 iPad mini 60Hz 刷新率；因电池问题，理想 MEGA 退一赔一｜极客早知道",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 27 Oct 2026 16:42:40 +0800"
-    },
-    {
-      "title": "左手开源模型，右手创作 Agent，Hi3D 的 AI 3D 下半场",
-      "link": "http://www.geekpark.net/news/372939",
-      "description": "作者｜Cynthia\n编辑｜郑玄\n2026 年的 AI 3D 赛道，正站在一个微妙的分水岭上。\n一级市场的热度仍在攀升，新模型、新创业公司层出不穷，单图生 3D 的正面渲染效果几乎已经做到了以假乱真。\n但剥开炫目的 Demo 外壳：绝大多数生成结果依然停留在「转台展示」阶段：一个精致的角色或机械模型，在灯光下缓缓旋转，鳞片、衣褶和金属刻纹栩栩如生；可这些细节一旦进入游戏引擎装配、",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 27 Oct 2026 15:59:20 +0800"
     }
   ]
 };
