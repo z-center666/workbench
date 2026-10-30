@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>秒取 · 短视频下载</title>
+  <meta name="description" content="粘贴分享链接，解析并保存抖音、快手、小红书、视频号短视频到手机。">
+  <meta name="theme-color" content="#07070a">
+  <meta name="color-scheme" content="dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="秒取">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="icon" href="./icons/icon-192.png" sizes="192x192">
+  <link rel="icon" href="./icons/favicon-32.png" sizes="32x32">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"></div>
+
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-gear" viewBox="0 0 24 24"><path d="M12 15.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Z"/><path d="M19.4 13.5a7.7 7.7 0 0 0 0-3l1.8-1.2-1.9-3.3-2 .9a7.8 7.8 0 0 0-2.6-1.5L14.4 3h-3.8l-.3 2.4a7.8 7.8 0 0 0-2.6 1.5l-2-.9L3.8 9.3l1.8 1.2a7.7 7.7 0 0 0 0 3l-1.8 1.2 1.9 3.3 2-.9a7.8 7.8 0 0 0 2.6 1.5l.3 2.4h3.8l.3-2.4a7.8 7.8 0 0 0 2.6-1.5l2 .9 1.9-3.3-1.8-1.2Z"/></symbol>
+    <symbol id="i-paste" viewBox="0 0 24 24"><rect x="6" y="4.5" width="12" height="16" rx="2.6"/><path d="M9.5 4.5V3.8c0-.7.6-1.3 1.3-1.3h2.4c.7 0 1.3.6 1.3 1.3v.7"/><path d="M9 9.5h6M9 12.5h6M9 15.5h4"/></symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 3.5v12"/><path d="m7.2 11.2 4.8 4.8 4.8-4.8"/><path d="M5 20.5h14"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10.2 13.8a4.2 4.2 0 0 0 6 0l2.4-2.4a4.2 4.2 0 0 0-6-6l-1.2 1.2"/><path d="M13.8 10.2a4.2 4.2 0 0 0-6 0l-2.4 2.4a4.2 4.2 0 0 0 6 6l1.2-1.2"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15.5V3.8"/><path d="m8.2 7.4 3.8-3.6 3.8 3.6"/><path d="M6 12.5H4.8c-1 0-1.8.8-1.8 1.8v4.1c0 1 .8 1.8 1.8 1.8h14.4c1 0 1.8-.8 1.8-1.8v-4.1c0-1-.8-1.8-1.8-1.8H18"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8.4 5.6v12.8L19 12 8.4 5.6Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4.5 7h15"/><path d="M9.5 7V5.2c0-.7.6-1.2 1.2-1.2h2.6c.7 0 1.2.6 1.2 1.2V7"/><path d="M6.5 7l.8 12c0 .8.7 1.5 1.5 1.5h6.4c.8 0 1.5-.7 1.5-1.5l.8-12"/><path d="M10 11v5.5M14 11v5.5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.2 4.2L19 7"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3.5c.6 3.9 2.6 5.9 6.5 6.5-3.9.6-5.9 2.6-6.5 6.5-.6-3.9-2.6-5.9-6.5-6.5 3.9-.6 5.9-2.6 6.5-6.5Z"/><path d="M18 16.5c.3 1.9 1.3 2.9 3.2 3.2-1.9.3-2.9 1.3-3.2 3.2-.3-1.9-1.3-2.9-3.2-3.2 1.9-.3 2.9-1.3 3.2-3.2Z"/></symbol>
+  </svg>
+
+  <main class="app" id="app">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="秒取首页">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 4.2v12.2"/><path d="m6.8 11.6 5.2 5.2 5.2-5.2"/><path d="M5 20.2h14"/></svg>
+        </span>
+        <span class="brand-text">秒取</span>
+      </a>
+      <button class="icon-btn" id="settingsBtn" type="button" aria-label="设置">
+        <svg><use href="#i-gear"/></svg>
+      </button>
+    </header>
+
+    <section class="hero">
+      <h1>一条链接，<br><span class="grad-text">存进手机</span></h1>
+      <p>粘贴分享链接，解析后直接保存无水印原片。</p>
+    </section>
+
+    <section class="parse-card" aria-labelledby="parseTitle">
+      <h2 class="sr-only" id="parseTitle">粘贴链接</h2>
+      <div class="input-wrap" id="inputWrap">
+        <textarea id="linkInput" rows="3" inputmode="url" autocomplete="off" autocapitalize="off"
+          spellcheck="false" placeholder="粘贴抖音、快手、小红书或视频号的分享链接"></textarea>
+        <button class="paste-chip" id="pasteBtn" type="button">
+          <svg><use href="#i-paste"/></svg>粘贴
+        </button>
+      </div>
+      <div class="input-meta">
+        <span class="platform-pill" id="platformPill" hidden>
+          <i class="dot" aria-hidden="true"></i><span id="platformName">未识别</span>
+        </span>
+        <span class="meta-hint" id="metaHint">支持识别整段分享口令</span>
+      </div>
+      <button class="primary-btn" id="parseBtn" type="button" disabled>
+        <span class="btn-label">
+          <svg><use href="#i-spark"/></svg>
+          <span id="parseBtnText">解析视频</span>
+        </span>
+        <span class="btn-spinner" aria-hidden="true"></span>
+      </button>
+      <p class="status-line" id="statusLine" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="result-section" id="resultSection" hidden aria-live="polite">
+      <div class="section-head">
+        <h2>解析结果</h2>
+        <span class="engine-tag" id="engineTag"></span>
+      </div>
+      <article class="result-card" id="resultCard">
+        <div class="cover-wrap" id="coverWrap">
+          <img id="resultCover" alt="视频封面" loading="lazy" referrerpolicy="no-referrer">
+          <div class="cover-shade" aria-hidden="true"></div>
+          <span class="badge" id="resultPlatform"></span>
+          <span class="duration" id="resultDuration" hidden></span>
+          <button class="play-btn" id="previewBtn" type="button" aria-label="预览视频">
+            <svg><use href="#i-play"/></svg>
+          </button>
+        </div>
+        <div class="result-body">
+          <h3 class="result-title" id="resultTitle"></h3>
+          <div class="author-row" id="authorRow" hidden>
+            <img class="avatar" id="authorAvatar" alt="" referrerpolicy="no-referrer">
+            <span class="author-name" id="authorName"></span>
+            <span class="result-size" id="resultSize"></span>
+          </div>
+          <p class="result-desc" id="resultDesc" hidden></p>
+          <div class="result-actions">
+            <button class="primary-btn small" id="saveBtn" type="button">
+              <span class="btn-label">
+                <svg><use href="#i-arrow-down"/></svg>
+                <span id="saveBtnText">保存视频</span>
+              </span>
+              <span class="btn-spinner" aria-hidden="true"></span>
+            </button>
+            <div class="secondary-actions">
+              <button class="ghost-btn" id="copyBtn" type="button">
+                <svg><use href="#i-link"/></svg>直链
+              </button>
+              <button class="ghost-btn" id="shareBtn" type="button">
+                <svg><use href="#i-share"/></svg>分享
+              </button>
+              <button class="ghost-btn" id="openBtn" type="button">
+                <svg><use href="#i-link"/></svg>原作品
+              </button>
+            </div>
+            <p class="save-hint" id="saveHint"></p>
+          </div>
+        </div>
+      </article>
+
+      <div class="gallery" id="gallery" hidden>
+        <div class="section-head"><h2>图集</h2><span class="engine-tag" id="galleryCount"></span></div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <section class="history-section" id="historySection" hidden>
+      <div class="section-head">
+        <h2>最近解析</h2>
+        <button class="text-btn" id="clearHistoryBtn" type="button">清空</button>
+      </div>
+      <div class="history-list" id="historyList"></div>
+    </section>
+
+    <footer class="foot">
+      <p>解析由第三方公开接口完成，链接仅用于本次解析。请仅保存你有权使用的作品。</p>
+      <p class="foot-dim">秒取 · 本地运行 · 不收集账号信息</p>
+    </footer>
+  </main>
+
+  <!-- 预览 -->
+  <div class="modal" id="previewModal" hidden role="dialog" aria-modal="true" aria-label="视频预览">
+    <div class="modal-backdrop" data-close="preview"></div>
+    <div class="preview-shell">
+      <button class="modal-close" id="previewClose" type="button" aria-label="关闭预览">
+        <svg><use href="#i-close"/></svg>
+      </button>
+      <video id="previewVideo" controls playsinline preload="metadata" referrerpolicy="no-referrer"></video>
+      <p class="preview-tip" id="previewTip">若视频无法播放，可直接保存到手机后观看</p>
+    </div>
+  </div>
+
+  <!-- 设置 -->
+  <div class="modal sheet-modal" id="settingsModal" hidden role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+    <div class="modal-backdrop" data-close="settings"></div>
+    <div class="sheet">
+      <div class="sheet-grab" aria-hidden="true"></div>
+      <div class="sheet-head">
+        <h2 id="settingsTitle">设置</h2>
+        <button class="icon-btn" id="settingsClose" type="button" aria-label="关闭设置">
+          <svg><use href="#i-close"/></svg>
+        </button>
+      </div>
+      <div class="sheet-body">
+        <section class="setting-group">
+          <h3>解析引擎</h3>
+          <label class="field">
+            <span>优先方式</span>
+            <select id="engineSelect">
+              <option value="auto">自动（推荐）</option>
+              <option value="public">只用公共接口</option>
+              <option value="custom">只用自定义服务</option>
+            </select>
+          </label>
+          <p class="hint">自动模式会先用公共接口，失败后再尝试自定义服务。</p>
+        </section>
+
+        <section class="setting-group">
+          <h3>自定义解析服务</h3>
+          <label class="field">
+            <span>服务地址</span>
+            <input id="customBase" type="url" placeholder="https://your-host/api/v1/parse" autocapitalize="off" spellcheck="false">
+          </label>
+          <label class="field">
+            <span>访问密钥（可选）</span>
+            <input id="customKey" type="password" placeholder="X-API-Key" autocomplete="off">
+          </label>
+          <p class="hint">兼容 media-parser 的 <code>/api/v1/parse?url=</code>，也兼容返回 <code>data.video_url</code> 或 <code>data.url</code> 的接口。服务需允许跨域；小红书、视频号建议接入带登录态的自建服务。</p>
+          <button class="ghost-btn wide" id="testCustomBtn" type="button">测试服务</button>
+        </section>
+
+        <section class="setting-group">
+          <h3>保存方式</h3>
+          <label class="field">
+            <span>iPhone 保存</span>
+            <select id="iosSaveSelect">
+              <option value="share">系统分享面板（可存相册）</option>
+              <option value="download">直接下载到文件</option>
+            </select>
+          </label>
+          <p class="hint">iOS 无法像安卓一样直接写入相册，分享面板里选择「存储视频」最稳。</p>
+        </section>
+
+        <section class="setting-group">
+          <h3>其他</h3>
+          <button class="ghost-btn wide danger" id="clearAllBtn" type="button">
+            <svg><use href="#i-trash"/></svg>清除历史与设置
+          </button>
+          <p class="hint" id="aboutLine">秒取 v1.0 · 纯本地 PWA · 不收集任何账号信息</p>
+        </section>
+
+        <section class="setting-group note-group">
+          <h3>关于平台限制</h3>
+          <p class="hint">抖音、快手可直接解析。小红书、视频号的公开接口需要登录态，可能失败；可在上方填写自建 media-parser 服务。视频号本身不提供公开网页下载能力。</p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
