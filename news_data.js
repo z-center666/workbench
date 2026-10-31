@@ -1,9 +1,9 @@
-// 自动生成于 2026-10-30 21:53:44
+// 自动生成于 2026-10-31 03:51:10
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-10-30",
-  "time": "21:53",
-  "weekday": "周五",
+  "date": "2026-10-31",
+  "time": "03:51",
+  "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, 智能体, Agent。",
   "items": [
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Thu, 29 Oct 2026 09:52:05 +0000"
     },
     {
+      "title": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "link": "https://www.infoq.cn/article/fcdAAd69U452t9b39rLU?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 31 Oct 2026 08:00:00 GMT"
+    },
+    {
       "title": "AI+垂类Agent：任务跑得久、工具用得熟，撑不起Agent公司长期竞争力｜贝联珠贯创始人兼CEO 毕玄分享",
       "link": "https://www.infoq.cn/article/sCKczimP9lSEl0rgJ7VY?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 30 Oct 2026 14:41:36 GMT"
     },
     {
-      "title": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
-      "link": "https://www.infoq.cn/article/FJqN3mFVyN1lMqHOiegs?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 30 Oct 2026 11:22:00 GMT"
+      "title": "苹果官宣 Apple 智能接入阿里千问；DeepSeek 完成第二轮 1055 亿元融资，估值达 6155 亿元；英特尔股价开盘跌超 30%｜极客早知道",
+      "link": "http://www.geekpark.net/news/373220",
+      "description": "国行 Apple 智能确定上线时间：11 月开放测试，千问接入 Siri\n10 月 31 日，苹果宣布，国行 Apple 智能首批功能将于 11 月 4 日随 iOS 开发者 Beta 版开放测试，12 月随 iOS 27.3 正式面向用户推出。首批功能包括实时翻译、写作工具、照片消除、智绘表情和通知摘要等，支持 iPhone 15 Pro 系列、iPhone 16 及后续机型",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sat, 31 Oct 2026 08:03:20 +0800"
     },
     {
       "title": "TRAE 开发者个人助理，打响 AI Coding 的下半场",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 28 Oct 2026 15:37:30 +0800"
-    },
-    {
-      "title": "帮用户抢 iPhone 折叠屏的 Agent，正在塑造 AI 时代电商的形状",
-      "link": "http://www.geekpark.net/news/373002",
-      "description": "Shopify AI 交易订单增长了 13 倍。\n10 月 16 日清晨，苹果第一款折叠屏手机 iPhone Duo 开启预购。1999 美元起售，首批产能紧张，没过多久交付日期就排到了明年 1 月。\n这一次抢首发的，不只是守在屏幕前的人。\n\n今年 Agent 成为 iPhone Duo 黄牛最严厉的父亲｜图片来源：Apple\n在 MacRumors 论坛上，一位没抢到的用户愤",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 27 Oct 2026 16:42:40 +0800"
     }
   ]
 };
