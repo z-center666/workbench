@@ -1,12 +1,20 @@
-// 自动生成于 2026-11-01 12:34:50
+// 自动生成于 2026-11-01 21:37:39
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-01",
-  "time": "12:34",
+  "time": "21:37",
   "weekday": "周日",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, Agent。",
   "items": [
+    {
+      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "link": "https://www.qbitai.com/2026/11/507038.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 01 Nov 2026 13:09:55 +0000"
+    },
     {
       "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
       "link": "https://www.qbitai.com/2026/11/507031.html",
@@ -38,14 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Sat, 31 Oct 2026 05:05:29 +0000"
-    },
-    {
-      "title": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！",
-      "link": "https://www.qbitai.com/2026/10/506785.html",
-      "description": "之前还连登昇腾三榜第一",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 30 Oct 2026 11:05:06 +0000"
     },
     {
       "title": "当 AI 能读懂二进制，闭源软件还剩多少护城河？",
