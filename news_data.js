@@ -1,12 +1,28 @@
-// 自动生成于 2026-11-01 03:59:56
+// 自动生成于 2026-11-01 12:34:50
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-01",
-  "time": "03:59",
+  "time": "12:34",
   "weekday": "周日",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, Agent。",
   "items": [
+    {
+      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "link": "https://www.qbitai.com/2026/11/507031.html",
+      "description": "让AI像牛顿一样思考",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 01 Nov 2026 08:02:37 +0000"
+    },
+    {
+      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "link": "https://www.qbitai.com/2026/10/506904.html",
+      "description": "AI已经自己找到Bug并提交PR",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 31 Oct 2026 13:49:44 +0000"
+    },
     {
       "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
       "link": "https://www.qbitai.com/2026/10/506866.html",
@@ -32,20 +48,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 30 Oct 2026 11:05:06 +0000"
     },
     {
-      "title": "“超能模式”重磅登场！联想天禧AI 4.5全端升级，三大场景打造“职场超能搭档”",
-      "link": "https://www.qbitai.com/2026/10/506779.html",
-      "description": "10月30日，联想天禧AI 4.5迎来AIPC端正式发布。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 30 Oct 2026 10:44:01 +0000"
-    },
-    {
-      "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
-      "link": "https://www.qbitai.com/2026/10/506771.html",
-      "description": "",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 30 Oct 2026 08:50:44 +0000"
+      "title": "当 AI 能读懂二进制，闭源软件还剩多少护城河？",
+      "link": "https://www.infoq.cn/article/8mCjWWFLdjDA2vb51QZs?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 01 Nov 2026 17:00:00 GMT"
     },
     {
       "title": "如果 AI 幻觉也有预算，超支之后该怎么办？",
@@ -80,28 +88,20 @@ var NEWS_DATA = {
       "pub_date": "Sat, 31 Oct 2026 14:49:01 GMT"
     },
     {
-      "title": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
-      "link": "https://www.infoq.cn/article/fcdAAd69U452t9b39rLU?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 31 Oct 2026 08:00:00 GMT"
+      "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+      "link": "http://www.geekpark.net/news/373249",
+      "description": "作者｜汤一涛\n编辑｜靖宇\n10 月 21 日的 Meta 财报会上，扎克伯格披露了一组关于个人智能体 Muse 的关键数据：超过 1000 万人设置了 Muse，购物是 Muse 最常见的用途，超过四分之一的用户在用它买东西，平均客单价超过200 美元；上线第一周，Muse 交易量便超出了预期，Meta 不得不与支付合作伙伴 Stripe 一起临时上调了信用额度。\n六天后的 10",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 01 Nov 2026 18:03:12 +0800"
     },
     {
       "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
-      "link": "http://www.geekpark.net/news/373245",
-      "description": "最近，B 站评论区闹起了「鱼灾」。\n先是有人开了个「Claude 大小姐在运营」的账号，让 AI 负责选题、制作和运营。第二天，「DeepSeek 鲸鱼娘在运营」跟着上线，第一条视频播放量就超过了 200 万。\n\n由于目前 DeepSeek 暂无生图功能，该账号形象还是由 GPT 绘制的。｜图源：Bilibili\n网友纷纷效仿，给自己的 Agent 装上刷 B 站的工具，很快，科",
+      "link": "http://www.geekpark.net/news/373248",
+      "description": "作者｜Moonshot\n编辑｜靖宇\n最近，B 站评论区闹起了「鱼灾」。\n先是有人开了个「Claude 大小姐在运营」的账号，让 AI 负责选题、制作和运营。第二天，「DeepSeek 鲸鱼娘在运营」跟着上线，第一条视频播放量就超过了 200 万。\n\n由于目前 DeepSeek 暂无生图功能，该账号形象还是由 GPT 绘制的。｜图源：Bilibili\n网友纷纷效仿，给自己的 Age",
       "source": "极客公园",
       "category": "科技",
-      "pub_date": "Sun, 01 Nov 2026 09:46:08 +0800"
-    },
-    {
-      "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
-      "link": "http://www.geekpark.net/news/373244",
-      "description": "豆包手机的问题，也是蚂蚁灵光的问题。\n10 月 21 日的 Meta 财报会上，扎克伯格披露了一组关于个人智能体 Muse 的关键数据：超过 1000 万人设置了 Muse，购物是 Muse 最常见的用途，超过四分之一的用户在用它买东西，平均客单价超过200 美元；上线第一周，Muse 交易量便超出了预期，Meta 不得不与支付合作伙伴 Stripe 一起临时上调了信用额度。",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 01 Nov 2026 09:41:45 +0800"
+      "pub_date": "Sun, 01 Nov 2026 17:57:50 +0800"
     },
     {
       "title": "DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人",
