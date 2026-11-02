@@ -1,11 +1,11 @@
-// 自动生成于 2026-11-01 21:37:39
+// 自动生成于 2026-11-02 04:04:23
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-01",
-  "time": "21:37",
-  "weekday": "周日",
+  "date": "2026-11-02",
+  "time": "04:04",
+  "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, 智能体, Agent。",
   "items": [
     {
       "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
@@ -48,6 +48,30 @@ var NEWS_DATA = {
       "pub_date": "Sat, 31 Oct 2026 05:05:29 +0000"
     },
     {
+      "title": "CI 出错后，谁来把关？Buildkite 的智能体新思路",
+      "link": "https://www.infoq.cn/article/WmlATgJudjwPKqHf4QgX?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 02 Nov 2026 09:20:00 GMT"
+    },
+    {
+      "title": "ChatGPT Pro 额度翻倍：是让步，不是福利？",
+      "link": "https://www.infoq.cn/article/WpTNht7guarWEyejJFV6?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 02 Nov 2026 09:16:03 GMT"
+    },
+    {
+      "title": "百度搜索 AI API 千次仅需 4.9 元，低于 DeepSeek",
+      "link": "https://www.infoq.cn/article/HJgTwfsPAugNBJ2jUefj?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 02 Nov 2026 09:12:15 GMT"
+    },
+    {
       "title": "当 AI 能读懂二进制，闭源软件还剩多少护城河？",
       "link": "https://www.infoq.cn/article/8mCjWWFLdjDA2vb51QZs?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -64,28 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Sun, 01 Nov 2026 10:00:00 GMT"
     },
     {
-      "title": "AI 编程导师挑战低端 Android 手机！不用服务器，Python 和 SQL 直接在浏览器里运行",
-      "link": "https://www.infoq.cn/article/HHgKMMKa8BNZYQuMFSMS?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 31 Oct 2026 20:43:05 GMT"
-    },
-    {
-      "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-      "link": "https://www.infoq.cn/video/4qjamMQLVIoZvytUQwpI?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 31 Oct 2026 16:15:46 GMT"
-    },
-    {
-      "title": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
-      "link": "https://www.infoq.cn/article/acC46slIVKJg1O0ac8w4?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 31 Oct 2026 14:49:01 GMT"
+      "title": "​传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
+      "link": "http://www.geekpark.net/news/373252",
+      "description": "&nbsp;\n\n苹果 CEO：不会为了做 AI 而做产品\n苹果 CEO 约翰&middot;特努斯近日接受采访时，为苹果当前在人工智能领域的布局进行辩护。过去几年，外界常认为苹果在 AI 赛道落后，尤其是苹果推迟推出更强版本的 Siri，该功能直到今年夏天才正式上线。\n特努斯是苹果资深高管，9 月初正式出任 CEO。他承认「每个人都有自己的看法」，但坚称：「我对我们现在所处的阶段",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 02 Nov 2026 08:27:02 +0800"
     },
     {
       "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sat, 31 Oct 2026 08:03:20 +0800"
-    },
-    {
-      "title": "TRAE 开发者个人助理，打响 AI Coding 的下半场",
-      "link": "http://www.geekpark.net/news/373190",
-      "description": "作者｜Cynthia\n编辑｜郑玄\n\n过去两年，AI Coding 最令人兴奋的时刻，大基本止步于代码生成的那一秒。\n一句话生成页面，几分钟搭出原型，一个开发者用半天时间做完了过去需要一周才能完成的开发任务&hellip;&hellip;\n但在这之后，即使某项单点开发任务获得五倍、十倍的提速，一个项目从需求提出到产品交付的速度，有时候未必能有两倍效率提升。\n时间去了哪里？\n写提示",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 30 Oct 2026 13:49:25 +0800"
     }
   ]
 };
