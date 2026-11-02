@@ -1,91 +1,91 @@
-// 自动生成于 2026-11-02 04:04:23
+// 自动生成于 2026-11-02 14:38:19
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-02",
-  "time": "04:04",
+  "time": "14:38",
   "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 大模型。",
   "items": [
     {
-      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
-      "link": "https://www.qbitai.com/2026/11/507038.html",
-      "description": "",
+      "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
+      "link": "https://www.qbitai.com/2026/11/507277.html",
+      "description": "商汤SenseNova 6.8 Flash",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sun, 01 Nov 2026 13:09:55 +0000"
+      "pub_date": "Mon, 02 Nov 2026 13:36:41 +0000"
     },
     {
-      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
-      "link": "https://www.qbitai.com/2026/11/507031.html",
-      "description": "让AI像牛顿一样思考",
+      "title": "OpenAI重写大模型法则，第一条：忠于人类！！",
+      "link": "https://www.qbitai.com/2026/11/507225.html",
+      "description": "新版“机器人三定律”。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sun, 01 Nov 2026 08:02:37 +0000"
+      "pub_date": "Mon, 02 Nov 2026 07:27:54 +0000"
     },
     {
-      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
-      "link": "https://www.qbitai.com/2026/10/506904.html",
-      "description": "AI已经自己找到Bug并提交PR",
+      "title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
+      "link": "https://www.qbitai.com/2026/11/507150.html",
+      "description": "模型管线双驱动",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 31 Oct 2026 13:49:44 +0000"
+      "pub_date": "Mon, 02 Nov 2026 06:28:07 +0000"
     },
     {
-      "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
-      "link": "https://www.qbitai.com/2026/10/506866.html",
-      "description": "AI算力利用“九九成”",
+      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
+      "link": "https://www.qbitai.com/2026/11/507107.html",
+      "description": "能指挥Agent干活，还能控制智能家居",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 31 Oct 2026 05:11:19 +0000"
+      "pub_date": "Mon, 02 Nov 2026 06:08:04 +0000"
     },
     {
-      "title": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
-      "link": "https://www.qbitai.com/2026/10/506855.html",
-      "description": "200美元Ultra用户先用",
+      "title": "GPT-6.2 Astra开启灰测！Claude Mythos 5.5同日曝光",
+      "link": "https://www.qbitai.com/2026/11/507082.html",
+      "description": "HuggingFace疑似泄露权重已被下5000次",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 31 Oct 2026 05:05:29 +0000"
+      "pub_date": "Mon, 02 Nov 2026 04:28:53 +0000"
     },
     {
-      "title": "CI 出错后，谁来把关？Buildkite 的智能体新思路",
-      "link": "https://www.infoq.cn/article/WmlATgJudjwPKqHf4QgX?utm_source=rss&utm_medium=article",
+      "title": "AI+艺术：想让AI演得像“老戏骨”，多写提示词不如先演一遍 ｜ 奇点川越创始人 程佳伟导演分享",
+      "link": "https://www.infoq.cn/article/pXJoz3XPv5D224a9Fro1?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 02 Nov 2026 09:20:00 GMT"
+      "pub_date": "Mon, 02 Nov 2026 20:00:00 GMT"
     },
     {
-      "title": "ChatGPT Pro 额度翻倍：是让步，不是福利？",
-      "link": "https://www.infoq.cn/article/WpTNht7guarWEyejJFV6?utm_source=rss&utm_medium=article",
+      "title": "谷歌 SynthID Detector 简化了水印检测流程，并将支持范围扩展至其他 AI 提供商",
+      "link": "https://www.infoq.cn/article/JoVxAdq1OjtIDkRBjWOW?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 02 Nov 2026 09:16:03 GMT"
+      "pub_date": "Mon, 02 Nov 2026 18:52:12 GMT"
     },
     {
-      "title": "百度搜索 AI API 千次仅需 4.9 元，低于 DeepSeek",
-      "link": "https://www.infoq.cn/article/HJgTwfsPAugNBJ2jUefj?utm_source=rss&utm_medium=article",
+      "title": "AI+科研：Agent加速科研，论文写得快了，成果更难评了 ｜ 西湖大学工学院博导 王欢分享",
+      "link": "https://www.infoq.cn/article/MbwRCg4cKC2f3bwv0Cpb?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 02 Nov 2026 09:12:15 GMT"
+      "pub_date": "Mon, 02 Nov 2026 18:33:55 GMT"
     },
     {
-      "title": "当 AI 能读懂二进制，闭源软件还剩多少护城河？",
-      "link": "https://www.infoq.cn/article/8mCjWWFLdjDA2vb51QZs?utm_source=rss&utm_medium=article",
+      "title": "AI+办公：Agent都有“工位”了，云电脑既让它接手业务、也管住权限 ｜ 阿里云智能集团研发副总裁 张献涛分享",
+      "link": "https://www.infoq.cn/article/Vryq1f3C0f5uZHOlmIp4?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sun, 01 Nov 2026 17:00:00 GMT"
+      "pub_date": "Mon, 02 Nov 2026 18:08:42 GMT"
     },
     {
-      "title": "如果 AI 幻觉也有预算，超支之后该怎么办？",
-      "link": "https://www.infoq.cn/article/z8vQa2zzGyLiTxIZ8PXH?utm_source=rss&utm_medium=article",
+      "title": "InfoQ AI 侦察团现场手记：工具之外，企业 AI 落地还要跨过哪些关？",
+      "link": "https://www.infoq.cn/article/ORJZPCwM2XXNcdRYf8de?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sun, 01 Nov 2026 10:00:00 GMT"
+      "pub_date": "Mon, 02 Nov 2026 17:39:48 GMT"
     },
     {
       "title": "​传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
