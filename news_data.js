@@ -1,12 +1,20 @@
-// 自动生成于 2026-11-03 13:31:36
+// 自动生成于 2026-11-03 22:49:38
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-03",
-  "time": "13:31",
+  "time": "22:49",
   "weekday": "周二",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, Agent。",
   "items": [
+    {
+      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "link": "https://www.qbitai.com/2026/11/507507.html",
+      "description": "AI接管调度运营，仓库越干越聪明",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 03 Nov 2026 13:57:11 +0000"
+    },
     {
       "title": "模型谁都买得到，拉开差距的是AI生产力系统",
       "link": "https://www.qbitai.com/2026/11/507448.html",
@@ -40,12 +48,12 @@ var NEWS_DATA = {
       "pub_date": "Tue, 03 Nov 2026 05:59:05 +0000"
     },
     {
-      "title": "MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍",
-      "link": "https://www.qbitai.com/2026/11/507322.html",
-      "description": "指令执行能力也同步提升",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 03 Nov 2026 01:57:30 +0000"
+      "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
+      "link": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 03 Nov 2026 21:26:32 GMT"
     },
     {
       "title": "AI 改变的是数据接口，而不是查询引擎",
@@ -78,14 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Tue, 03 Nov 2026 15:12:00 GMT"
-    },
-    {
-      "title": "从模型调用到任务交付：MaaS 如何走进 Agent 生产",
-      "link": "https://www.infoq.cn/article/zZutPTX8bsr6NWQYNC3A?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 03 Nov 2026 14:40:18 GMT"
     },
     {
       "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」",
