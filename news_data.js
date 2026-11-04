@@ -1,12 +1,20 @@
-// 自动生成于 2026-11-03 22:49:38
+// 自动生成于 2026-11-04 04:38:04
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-03",
-  "time": "22:49",
-  "weekday": "周二",
+  "date": "2026-11-04",
+  "time": "04:38",
+  "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, 大模型, Agent。",
   "items": [
+    {
+      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
+      "link": "https://www.qbitai.com/2026/11/507533.html",
+      "description": "长视频记忆精度飙升，问答时延最高降97%",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 04 Nov 2026 02:49:02 +0000"
+    },
     {
       "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
       "link": "https://www.qbitai.com/2026/11/507507.html",
@@ -40,12 +48,20 @@ var NEWS_DATA = {
       "pub_date": "Tue, 03 Nov 2026 06:29:11 +0000"
     },
     {
-      "title": "AI数据平台OceanBase获世界互联网大会杰出贡献奖",
-      "link": "https://www.qbitai.com/2026/11/507405.html",
-      "description": "11月3日上午，2026世界互联网大会在浙江乌镇开幕。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 03 Nov 2026 05:59:05 +0000"
+      "title": "大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答",
+      "link": "https://www.infoq.cn/article/bFKTeyCOlydWMYi91H4q?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 04 Nov 2026 11:02:35 GMT"
+    },
+    {
+      "title": "给 AI 业务单独划一块地：帆软怎么重新安排事、人和组织｜AICon北京",
+      "link": "https://www.infoq.cn/article/BGkTakB51rl6ybIh4sYJ?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 04 Nov 2026 10:00:00 GMT"
     },
     {
       "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Tue, 03 Nov 2026 16:11:29 GMT"
     },
     {
-      "title": "构建面向 Agentic 推理的下一代 LLM 推理引擎",
-      "link": "https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 03 Nov 2026 15:40:16 GMT"
-    },
-    {
-      "title": "AI 复刻 Adobe 系列软件开发者坦言：项目远未准备就绪",
-      "link": "https://www.infoq.cn/article/a2X4KVOXOt6lACRv8IWh?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 03 Nov 2026 15:12:00 GMT"
+      "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
+      "link": "http://www.geekpark.net/news/373427",
+      "description": "国行 Apple 智能开始测试：iOS 27.3 首个开发者 Beta 版已推送\n11 月 4 日，苹果向开发者推送 iOS 27.3 首个 Beta 版，国行 iPhone 用户开始测试首批 Apple 智能功能，包括实时翻译、照片消除、写作工具和通知摘要等。国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问。国内用户可直接在 Siri、写作工具和视觉智能中调用千",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 04 Nov 2026 08:28:02 +0800"
     },
     {
       "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 01 Nov 2026 18:03:12 +0800"
-    },
-    {
-      "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
-      "link": "http://www.geekpark.net/news/373248",
-      "description": "作者｜Moonshot\n编辑｜靖宇\n最近，B 站评论区闹起了「鱼灾」。\n先是有人开了个「Claude 大小姐在运营」的账号，让 AI 负责选题、制作和运营。第二天，「DeepSeek 鲸鱼娘在运营」跟着上线，第一条视频播放量就超过了 200 万。\n\n由于目前 DeepSeek 暂无生图功能，该账号形象还是由 GPT 绘制的。｜图源：Bilibili\n网友纷纷效仿，给自己的 Age",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 01 Nov 2026 17:57:50 +0800"
     }
   ]
 };
