@@ -1,12 +1,36 @@
-// 自动生成于 2026-11-04 04:38:04
+// 自动生成于 2026-11-04 13:41:58
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-04",
-  "time": "04:38",
+  "time": "13:41",
   "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, 大模型, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Agent。",
   "items": [
+    {
+      "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
+      "link": "https://www.qbitai.com/2026/11/507586.html",
+      "description": "仅激活3B参数，十项基准全线提升！",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 04 Nov 2026 10:08:38 +0000"
+    },
+    {
+      "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
+      "link": "https://www.qbitai.com/2026/11/507574.html",
+      "description": "一场别开生面的具身智能科技盛宴",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 04 Nov 2026 08:59:57 +0000"
+    },
+    {
+      "title": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
+      "link": "https://www.qbitai.com/2026/11/507567.html",
+      "description": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 04 Nov 2026 08:49:12 +0000"
+    },
     {
       "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
       "link": "https://www.qbitai.com/2026/11/507533.html",
@@ -24,68 +48,44 @@ var NEWS_DATA = {
       "pub_date": "Tue, 03 Nov 2026 13:57:11 +0000"
     },
     {
-      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
-      "link": "https://www.qbitai.com/2026/11/507448.html",
-      "description": "AI的下一程是生产力系统之争",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 03 Nov 2026 11:13:49 +0000"
-    },
-    {
-      "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri",
-      "link": "https://www.qbitai.com/2026/11/507419.html",
-      "description": "终于，有了一个可以触摸的起点",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 03 Nov 2026 06:55:30 +0000"
-    },
-    {
-      "title": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间",
-      "link": "https://www.qbitai.com/2026/11/507410.html",
-      "description": "TeleAI智慧看护助手",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 03 Nov 2026 06:29:11 +0000"
-    },
-    {
-      "title": "大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答",
-      "link": "https://www.infoq.cn/article/bFKTeyCOlydWMYi91H4q?utm_source=rss&utm_medium=article",
+      "title": "谷歌 Data Agent Kit 正式发布：安全防护分为 Skill 与 IAM",
+      "link": "https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 04 Nov 2026 11:02:35 GMT"
+      "pub_date": "Wed, 04 Nov 2026 20:01:56 GMT"
     },
     {
-      "title": "给 AI 业务单独划一块地：帆软怎么重新安排事、人和组织｜AICon北京",
-      "link": "https://www.infoq.cn/article/BGkTakB51rl6ybIh4sYJ?utm_source=rss&utm_medium=article",
+      "title": "Harbor 新增 Docker Sandboxes 支持，可在隔离的 MicroVM 中运行可重现的 AI 代理评估",
+      "link": "https://www.infoq.cn/article/pgmES06L2MAH2TCSMhJ9?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 04 Nov 2026 10:00:00 GMT"
+      "pub_date": "Wed, 04 Nov 2026 17:00:00 GMT"
     },
     {
-      "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
-      "link": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article",
+      "title": "研究发现：AI 生成代码受下游环节瓶颈制约，无法提升整体生产力",
+      "link": "https://www.infoq.cn/article/c3vTLNrRwfCzw8SAmz90?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 03 Nov 2026 21:26:32 GMT"
+      "pub_date": "Wed, 04 Nov 2026 16:20:50 GMT"
     },
     {
-      "title": "AI 改变的是数据接口，而不是查询引擎",
-      "link": "https://www.infoq.cn/article/fvNWWYEmke5xJVsHEIIi?utm_source=rss&utm_medium=article",
+      "title": "员工都会用一点 AI，团队下一步怎么走？",
+      "link": "https://www.infoq.cn/article/6oGyozHwd1WjYyEGjpbk?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 03 Nov 2026 17:07:00 GMT"
+      "pub_date": "Wed, 04 Nov 2026 15:17:15 GMT"
     },
     {
-      "title": "前迪士尼 AI 高管出任 CPO，Utopai Studios 技术布局再提速",
-      "link": "https://www.infoq.cn/article/z1ZeGD2FDqi6xLvSJjSl?utm_source=rss&utm_medium=article",
+      "title": "如何把目标定得更大胆：写给 AI 使用者的实践指南",
+      "link": "https://www.infoq.cn/article/F1ms7x7KI1p7UfocCywh?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 03 Nov 2026 16:11:29 GMT"
+      "pub_date": "Wed, 04 Nov 2026 15:15:13 GMT"
     },
     {
       "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
