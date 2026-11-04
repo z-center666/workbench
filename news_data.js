@@ -1,8 +1,8 @@
-// 自动生成于 2026-11-04 13:41:58
+// 自动生成于 2026-11-04 23:08:13
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-04",
-  "time": "13:41",
+  "time": "23:08",
   "weekday": "周三",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Agent。",
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Tue, 03 Nov 2026 13:57:11 +0000"
     },
     {
+      "title": "当 Agent 成为数据库新用户，腾讯云如何解决“未知”的难题？",
+      "link": "https://www.infoq.cn/article/TeOb9MgqfeLOoNdxtMH2?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 04 Nov 2026 22:00:23 GMT"
+    },
+    {
+      "title": "Token 暴涨 5000 倍之后，企业 Agent 落地还卡在哪里？",
+      "link": "https://www.infoq.cn/article/VUmIUJ0ST9xIlPoViXmz?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 04 Nov 2026 21:56:58 GMT"
+    },
+    {
       "title": "谷歌 Data Agent Kit 正式发布：安全防护分为 Skill 与 IAM",
       "link": "https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -70,22 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Wed, 04 Nov 2026 16:20:50 GMT"
-    },
-    {
-      "title": "员工都会用一点 AI，团队下一步怎么走？",
-      "link": "https://www.infoq.cn/article/6oGyozHwd1WjYyEGjpbk?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 04 Nov 2026 15:17:15 GMT"
-    },
-    {
-      "title": "如何把目标定得更大胆：写给 AI 使用者的实践指南",
-      "link": "https://www.infoq.cn/article/F1ms7x7KI1p7UfocCywh?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 04 Nov 2026 15:15:13 GMT"
     },
     {
       "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
