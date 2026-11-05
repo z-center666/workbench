@@ -1,12 +1,44 @@
-// 自动生成于 2026-11-04 23:08:13
+// 自动生成于 2026-11-05 04:52:25
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-04",
-  "time": "23:08",
-  "weekday": "周三",
+  "date": "2026-11-05",
+  "time": "04:52",
+  "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Gemini, OpenAI, 智能体, Agent。",
   "items": [
+    {
+      "title": "基于本体+知识+Harness+Datat Agent的智能体完整落地链路！",
+      "link": "https://www.qbitai.com/2026/11/507696.html",
+      "description": "Data + AI 技术实践巡展 · 上海站",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 02:01:51 +0000"
+    },
+    {
+      "title": "GPT-Image-2.6全量上线！直出GIF和SVG，6.2 Astra也现身了",
+      "link": "https://www.qbitai.com/2026/11/507707.html",
+      "description": "最快6秒出图",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 01:59:37 +0000"
+    },
+    {
+      "title": "Linux内核被挖出948个漏洞！OpenAI花120万美元找到的",
+      "link": "https://www.qbitai.com/2026/11/507697.html",
+      "description": "被轰成筛子了…",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 01:54:44 +0000"
+    },
+    {
+      "title": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
+      "link": "https://www.qbitai.com/2026/11/507675.html",
+      "description": "薪资+期权不限！实习生也能训核心模型",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 00:41:34 +0000"
+    },
     {
       "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
       "link": "https://www.qbitai.com/2026/11/507586.html",
@@ -16,36 +48,20 @@ var NEWS_DATA = {
       "pub_date": "Wed, 04 Nov 2026 10:08:38 +0000"
     },
     {
-      "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
-      "link": "https://www.qbitai.com/2026/11/507574.html",
-      "description": "一场别开生面的具身智能科技盛宴",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 04 Nov 2026 08:59:57 +0000"
+      "title": "谷歌用 Gemini 4 Argon 一夜优化 ADK 代码库的 20 万行代码",
+      "link": "https://www.infoq.cn/article/u4fAoAH5vZPCV4TVqAcO?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 05 Nov 2026 11:00:00 GMT"
     },
     {
-      "title": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
-      "link": "https://www.qbitai.com/2026/11/507567.html",
-      "description": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 04 Nov 2026 08:49:12 +0000"
-    },
-    {
-      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
-      "link": "https://www.qbitai.com/2026/11/507533.html",
-      "description": "长视频记忆精度飙升，问答时延最高降97%",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 04 Nov 2026 02:49:02 +0000"
-    },
-    {
-      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
-      "link": "https://www.qbitai.com/2026/11/507507.html",
-      "description": "AI接管调度运营，仓库越干越聪明",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 03 Nov 2026 13:57:11 +0000"
+      "title": "AI Coding 增量风险管控：Skill 门禁与 Harness 落地实践｜AICon北京",
+      "link": "https://www.infoq.cn/article/XieGrL5pws7jG1zxKPle?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 05 Nov 2026 10:00:00 GMT"
     },
     {
       "title": "当 Agent 成为数据库新用户，腾讯云如何解决“未知”的难题？",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Wed, 04 Nov 2026 20:01:56 GMT"
     },
     {
-      "title": "Harbor 新增 Docker Sandboxes 支持，可在隔离的 MicroVM 中运行可重现的 AI 代理评估",
-      "link": "https://www.infoq.cn/article/pgmES06L2MAH2TCSMhJ9?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 04 Nov 2026 17:00:00 GMT"
-    },
-    {
-      "title": "研究发现：AI 生成代码受下游环节瓶颈制约，无法提升整体生产力",
-      "link": "https://www.infoq.cn/article/c3vTLNrRwfCzw8SAmz90?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 04 Nov 2026 16:20:50 GMT"
+      "title": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一；英伟达显卡订单排长队，中国客户预计只能拿到 1%；字节限制员工使用个人 AI｜极客早知道",
+      "link": "http://www.geekpark.net/news/373494",
+      "description": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一\n11 月 4 日，Apple 智能伴随 iOS 27.3 的 Developer Beta 向中国大陆用户开放测试，并计划于 12 月随 iOS 27.3 正式版推出。与此同时，苹果也确认与阿里巴巴达成合作，将千问接入 Siri、写作工具及视觉智能，让中国用户能够通过系统直接调用国内大模型的能力。\n不过，这一次上线的",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 05 Nov 2026 08:45:25 +0800"
     },
     {
       "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 02 Nov 2026 08:27:02 +0800"
-    },
-    {
-      "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
-      "link": "http://www.geekpark.net/news/373249",
-      "description": "作者｜汤一涛\n编辑｜靖宇\n10 月 21 日的 Meta 财报会上，扎克伯格披露了一组关于个人智能体 Muse 的关键数据：超过 1000 万人设置了 Muse，购物是 Muse 最常见的用途，超过四分之一的用户在用它买东西，平均客单价超过200 美元；上线第一周，Muse 交易量便超出了预期，Meta 不得不与支付合作伙伴 Stripe 一起临时上调了信用额度。\n六天后的 10",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 01 Nov 2026 18:03:12 +0800"
     }
   ]
 };
