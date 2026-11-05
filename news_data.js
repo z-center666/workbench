@@ -1,12 +1,36 @@
-// 自动生成于 2026-11-05 13:54:21
+// 自动生成于 2026-11-05 23:12:24
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-05",
-  "time": "13:54",
+  "time": "23:12",
   "weekday": "周四",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, 智能体。",
   "items": [
+    {
+      "title": "孩子的人生大事，你要怎样的AI？海亮科服把AI生涯规划带给更多家庭",
+      "link": "https://www.qbitai.com/2026/11/507919.html",
+      "description": "基础规划免费！",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 13:17:00 +0000"
+    },
+    {
+      "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
+      "link": "https://www.qbitai.com/2026/11/507834.html",
+      "description": "走向“智能体化世界模型”。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 09:37:40 +0000"
+    },
+    {
+      "title": "网易发力互动式讲题Agent：有道“欧拉讲题”上线，推翻行业“搜题生意”，开卷“讲题力”",
+      "link": "https://www.qbitai.com/2026/11/507822.html",
+      "description": "网易有道推出互动式数学讲题Agent「欧拉讲题」，已在应用市场上线",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 08:48:32 +0000"
+    },
     {
       "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
       "link": "https://www.qbitai.com/2026/11/507787.html",
@@ -22,30 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Thu, 05 Nov 2026 02:01:51 +0000"
-    },
-    {
-      "title": "GPT-Image-2.6全量上线！直出GIF和SVG，6.2 Astra也现身了",
-      "link": "https://www.qbitai.com/2026/11/507707.html",
-      "description": "最快6秒出图",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 05 Nov 2026 01:59:37 +0000"
-    },
-    {
-      "title": "Linux内核被挖出948个漏洞！OpenAI花120万美元找到的",
-      "link": "https://www.qbitai.com/2026/11/507697.html",
-      "description": "被轰成筛子了…",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 05 Nov 2026 01:54:44 +0000"
-    },
-    {
-      "title": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
-      "link": "https://www.qbitai.com/2026/11/507675.html",
-      "description": "薪资+期权不限！实习生也能训核心模型",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 05 Nov 2026 00:41:34 +0000"
     },
     {
       "title": "Claude Code 产品负责人Cut Wu 官宣加入 OpenAI",
