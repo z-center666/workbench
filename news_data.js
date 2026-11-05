@@ -1,12 +1,20 @@
-// 自动生成于 2026-11-05 04:52:25
+// 自动生成于 2026-11-05 13:54:21
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-05",
-  "time": "04:52",
+  "time": "13:54",
   "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Gemini, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, 智能体。",
   "items": [
+    {
+      "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+      "link": "https://www.qbitai.com/2026/11/507787.html",
+      "description": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 07:15:13 +0000"
+    },
     {
       "title": "基于本体+知识+Harness+Datat Agent的智能体完整落地链路！",
       "link": "https://www.qbitai.com/2026/11/507696.html",
@@ -40,12 +48,28 @@ var NEWS_DATA = {
       "pub_date": "Thu, 05 Nov 2026 00:41:34 +0000"
     },
     {
-      "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
-      "link": "https://www.qbitai.com/2026/11/507586.html",
-      "description": "仅激活3B参数，十项基准全线提升！",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 04 Nov 2026 10:08:38 +0000"
+      "title": "Claude Code 产品负责人Cut Wu 官宣加入 OpenAI",
+      "link": "https://www.infoq.cn/article/cDERcarozbrsCBNs5sWM?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 05 Nov 2026 16:53:21 GMT"
+    },
+    {
+      "title": "视频生成只是开始，AI 如何把内容做对？",
+      "link": "https://www.infoq.cn/article/GGILIuzW0RTGhoeuz9TD?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 05 Nov 2026 13:54:21 GMT"
+    },
+    {
+      "title": "谷歌发布 ML Drift：为各类 GPU 加速端侧 AI 推理",
+      "link": "https://www.infoq.cn/article/hHzARIJTeqoqYpjNKEuq?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 05 Nov 2026 13:00:00 GMT"
     },
     {
       "title": "谷歌用 Gemini 4 Argon 一夜优化 ADK 代码库的 20 万行代码",
@@ -64,28 +88,28 @@ var NEWS_DATA = {
       "pub_date": "Thu, 05 Nov 2026 10:00:00 GMT"
     },
     {
-      "title": "当 Agent 成为数据库新用户，腾讯云如何解决“未知”的难题？",
-      "link": "https://www.infoq.cn/article/TeOb9MgqfeLOoNdxtMH2?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 04 Nov 2026 22:00:23 GMT"
+      "title": "极客公园创新大会 2027 首批嘉宾揭晓！",
+      "link": "http://www.geekpark.net/news/373553",
+      "description": "今年 12 月 5 日&mdash;6 日，北京 798艺术区，还是老地方。\n极客公园创新大会（GEEKPARK IF），我们又要见面了。\nIF 将进入第 17 年。它像一本记录中国科技行业的「年鉴」，一场科技爱好者的年终盛宴，一次号召创新者聚集、留下历史回音的年度认知集结。\n今年，我们的主题是：Revaluation 价值，另有答案\n我们要探讨的不再是 AI 可以有多厉害，而",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 05 Nov 2026 21:15:49 +0800"
     },
     {
-      "title": "Token 暴涨 5000 倍之后，企业 Agent 落地还卡在哪里？",
-      "link": "https://www.infoq.cn/article/VUmIUJ0ST9xIlPoViXmz?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 04 Nov 2026 21:56:58 GMT"
+      "title": "世界互联网大会领先科技奖背后，Qoder 凭什么拿下中国 AI 编程市场第一",
+      "link": "http://www.geekpark.net/news/373542",
+      "description": "作者｜Cynthia\n编辑｜郑玄\n2026 年 11 月，每年乌镇世界互联网大会期间举办的领先科技奖，已经走到第十年。\n作为面向全球征集互联网领域领先成果的国际性科技奖项，领先科技奖每年会选出涵盖基础研究、关键技术与工程研发约 15 至 20 项获奖项目。一定程度上，它的评选也预示了未来几年潮水的走向。\n这一年，传统互联网的光环逐渐退去，AI 成了最大的关键词。其中，仅工程研发组",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 05 Nov 2026 17:19:17 +0800"
     },
     {
-      "title": "谷歌 Data Agent Kit 正式发布：安全防护分为 Skill 与 IAM",
-      "link": "https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 04 Nov 2026 20:01:56 GMT"
+      "title": "一个人用得好 AI，为什么一家公司却用不好？",
+      "link": "http://www.geekpark.net/news/373541",
+      "description": "作者｜老 S\n编辑｜郑玄\n今天的 Agent，已经能够独立完成不少具体的工作。\n写方案、写代码、做分析报告，过去可能需要员工花费几天才能完成的任务，如今 Agent 往往能在较短时间里交出不错的结果。\n但在企业里，完成一份方案，可能只是一项工作的开始。比如，Agent 可以很快制定一份员工考核方案。但要用它真正完成一次考核，还需要获取员工的考勤、业绩等数据，处理特殊情况，并经过业",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 05 Nov 2026 17:15:38 +0800"
     },
     {
       "title": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一；英伟达显卡订单排长队，中国客户预计只能拿到 1%；字节限制员工使用个人 AI｜极客早知道",
@@ -102,30 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 04 Nov 2026 08:28:02 +0800"
-    },
-    {
-      "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」",
-      "link": "http://www.geekpark.net/news/373424",
-      "description": "作者｜苏子华\n编辑｜郑玄\n&nbsp;\n\n博尔赫斯写过一则著名的寓言。一个帝国的制图师们绘制了一张与领土等大的地图，精确到每一寸土地、每一条河流。后代人发现这张地图毫无用处，把它弃置在荒野中，任其腐烂。\n真正在一个地方走路的人，靠的从来不是一张一比一的图纸，而是脚底的感觉、眼睛的判断，以及走错了再调整的能力。\n具身智能行业正在上演这则寓言的现实版。\n过去两年，人形机器人学会了跳",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 03 Nov 2026 19:54:26 +0800"
-    },
-    {
-      "title": "心言巴布「Bubbo 1」：一台机器人，如何成为家人",
-      "link": "http://www.geekpark.net/news/373399",
-      "description": "&nbsp;\n头图来源：心言机器人\n2026 年 10 月 29 日，心言机器人正式发布具身家庭智能体「巴布（Bubbo 1）」。\n这台毛绒外形的机器人，基于心言自研的 Bubbo OS，主打「伙伴式交互」：它不是一台等人发号施令的家电，而是一个会主动走近、主动回应的家庭成员。产品即日起在京东等官方渠道发售，售价 9499 元，前 1000 名订购者可享 7999 元。\n在心言机",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 03 Nov 2026 15:11:52 +0800"
-    },
-    {
-      "title": "​传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
-      "link": "http://www.geekpark.net/news/373252",
-      "description": "&nbsp;\n\n苹果 CEO：不会为了做 AI 而做产品\n苹果 CEO 约翰&middot;特努斯近日接受采访时，为苹果当前在人工智能领域的布局进行辩护。过去几年，外界常认为苹果在 AI 赛道落后，尤其是苹果推迟推出更强版本的 Siri，该功能直到今年夏天才正式上线。\n特努斯是苹果资深高管，9 月初正式出任 CEO。他承认「每个人都有自己的看法」，但坚称：「我对我们现在所处的阶段",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 02 Nov 2026 08:27:02 +0800"
     }
   ]
 };
