@@ -1,36 +1,12 @@
-// 自动生成于 2026-11-06 13:39:56
+// 自动生成于 2026-11-06 22:39:23
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-06",
-  "time": "13:39",
+  "time": "22:39",
   "weekday": "周五",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
   "items": [
-    {
-      "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
-      "link": "https://www.qbitai.com/2026/11/508174.html",
-      "description": "PPIO 沙箱，把“云电脑”做成开箱即用的 API",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 09:25:59 +0000"
-    },
-    {
-      "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
-      "link": "https://www.qbitai.com/2026/11/508170.html",
-      "description": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 09:21:51 +0000"
-    },
-    {
-      "title": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
-      "link": "https://www.qbitai.com/2026/11/508165.html",
-      "description": "11月5日，阿里巴巴发布《2026 AI向善行动报告》",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 09:19:00 +0000"
-    },
     {
       "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
       "link": "https://www.qbitai.com/2026/11/508155.html",
@@ -46,6 +22,30 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Fri, 06 Nov 2026 06:54:17 +0000"
+    },
+    {
+      "title": "从RSI、Agent、Physical AI到整个系统栈，2026 奇点智能技术大会最新日程公布！",
+      "link": "https://www.qbitai.com/2026/11/508143.html",
+      "description": "11 月 20—21 日，2026 奇点智能技术大会将在北京万达文华酒店举行。",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 06 Nov 2026 06:43:14 +0000"
+    },
+    {
+      "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
+      "link": "https://www.qbitai.com/2026/11/508107.html",
+      "description": "一举刷新「AI安全世界杯」CyberGym世界纪录",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 06 Nov 2026 05:01:47 +0000"
+    },
+    {
+      "title": "香港金融科技周 x StartmeupHK 2026主论坛：以「金融+」、「AI+」及全球拓展开拓新机遇",
+      "link": "https://www.qbitai.com/2026/11/507988.html",
+      "description": "香港金融科技周 x StartmeupHK 2026踏入第11届",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 06 Nov 2026 03:36:34 +0000"
     },
     {
       "title": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
