@@ -1,36 +1,12 @@
-// 自动生成于 2026-11-05 23:12:24
+// 自动生成于 2026-11-06 04:51:43
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-05",
-  "time": "23:12",
-  "weekday": "周四",
+  "date": "2026-11-06",
+  "time": "04:51",
+  "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, OpenAI, 智能体, Agent。",
   "items": [
-    {
-      "title": "孩子的人生大事，你要怎样的AI？海亮科服把AI生涯规划带给更多家庭",
-      "link": "https://www.qbitai.com/2026/11/507919.html",
-      "description": "基础规划免费！",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 05 Nov 2026 13:17:00 +0000"
-    },
-    {
-      "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
-      "link": "https://www.qbitai.com/2026/11/507834.html",
-      "description": "走向“智能体化世界模型”。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 05 Nov 2026 09:37:40 +0000"
-    },
-    {
-      "title": "网易发力互动式讲题Agent：有道“欧拉讲题”上线，推翻行业“搜题生意”，开卷“讲题力”",
-      "link": "https://www.qbitai.com/2026/11/507822.html",
-      "description": "网易有道推出互动式数学讲题Agent「欧拉讲题」，已在应用市场上线",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 05 Nov 2026 08:48:32 +0000"
-    },
     {
       "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
       "link": "https://www.qbitai.com/2026/11/507787.html",
@@ -48,44 +24,76 @@ var NEWS_DATA = {
       "pub_date": "Thu, 05 Nov 2026 02:01:51 +0000"
     },
     {
-      "title": "Claude Code 产品负责人Cut Wu 官宣加入 OpenAI",
-      "link": "https://www.infoq.cn/article/cDERcarozbrsCBNs5sWM?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 05 Nov 2026 16:53:21 GMT"
+      "title": "GPT-Image-2.6全量上线！直出GIF和SVG，6.2 Astra也现身了",
+      "link": "https://www.qbitai.com/2026/11/507707.html",
+      "description": "最快6秒出图",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 01:59:37 +0000"
     },
     {
-      "title": "视频生成只是开始，AI 如何把内容做对？",
-      "link": "https://www.infoq.cn/article/GGILIuzW0RTGhoeuz9TD?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 05 Nov 2026 13:54:21 GMT"
+      "title": "Linux内核被挖出948个漏洞！OpenAI花120万美元找到的",
+      "link": "https://www.qbitai.com/2026/11/507697.html",
+      "description": "被轰成筛子了…",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 01:54:44 +0000"
     },
     {
-      "title": "谷歌发布 ML Drift：为各类 GPU 加速端侧 AI 推理",
-      "link": "https://www.infoq.cn/article/hHzARIJTeqoqYpjNKEuq?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 05 Nov 2026 13:00:00 GMT"
+      "title": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
+      "link": "https://www.qbitai.com/2026/11/507675.html",
+      "description": "薪资+期权不限！实习生也能训核心模型",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 05 Nov 2026 00:41:34 +0000"
     },
     {
-      "title": "谷歌用 Gemini 4 Argon 一夜优化 ADK 代码库的 20 万行代码",
-      "link": "https://www.infoq.cn/article/u4fAoAH5vZPCV4TVqAcO?utm_source=rss&utm_medium=article",
+      "title": "“超脑”统一指挥，“狼族”协同作战：京东物流打造供应链 AI 机器人军团",
+      "link": "https://www.infoq.cn/article/1YeowHagkg1Or6wwy23P?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 05 Nov 2026 11:00:00 GMT"
+      "pub_date": "Fri, 06 Nov 2026 11:32:10 GMT"
     },
     {
-      "title": "AI Coding 增量风险管控：Skill 门禁与 Harness 落地实践｜AICon北京",
-      "link": "https://www.infoq.cn/article/XieGrL5pws7jG1zxKPle?utm_source=rss&utm_medium=article",
+      "title": "从仓储到配送，全程由 AI“指挥”：京东物流“超脑”3.0 的工业级 AI 实践",
+      "link": "https://www.infoq.cn/article/jBdvoUXheWN0oe6NfklO?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 05 Nov 2026 10:00:00 GMT"
+      "pub_date": "Fri, 06 Nov 2026 11:14:55 GMT"
+    },
+    {
+      "title": "AI Native 企业研发工具链：架构重构与持续演进｜AICon北京",
+      "link": "https://www.infoq.cn/article/4IUSd2wP28ua4Jd5fHG2?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 06 Nov 2026 10:00:00 GMT"
+    },
+    {
+      "title": "AI 狂烧 2000亿美元，谷歌全球启动“自愿买断”计划：最高补偿12个月工资",
+      "link": "https://www.infoq.cn/article/vMSj216sQUhmeDH4H0G7?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 06 Nov 2026 08:00:00 GMT"
+    },
+    {
+      "title": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
+      "link": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 06 Nov 2026 07:14:48 GMT"
+    },
+    {
+      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
+      "link": "http://www.geekpark.net/news/373554",
+      "description": "芯片股惨遭重挫，华尔街迎来 1896 年以来中期选举后表现最差的第二个交易日\n据路透社报道，美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧。\n当地时间周四，美国科技股遭遇大规模抛售，华尔街股票市值单日蒸发约 3.2 万亿美元（约合人民币 22.7 万亿元）。纳斯达克综合指数暴跌 5.52%，创下自 2025 年 4 月以来最大单日跌幅，较",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 06 Nov 2026 09:01:57 +0800"
     },
     {
       "title": "极客公园创新大会 2027 首批嘉宾揭晓！",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Thu, 05 Nov 2026 08:45:25 +0800"
-    },
-    {
-      "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
-      "link": "http://www.geekpark.net/news/373427",
-      "description": "国行 Apple 智能开始测试：iOS 27.3 首个开发者 Beta 版已推送\n11 月 4 日，苹果向开发者推送 iOS 27.3 首个 Beta 版，国行 iPhone 用户开始测试首批 Apple 智能功能，包括实时翻译、照片消除、写作工具和通知摘要等。国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问。国内用户可直接在 Siri、写作工具和视觉智能中调用千",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 04 Nov 2026 08:28:02 +0800"
     }
   ]
 };
