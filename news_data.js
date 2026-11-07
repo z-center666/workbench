@@ -1,36 +1,12 @@
-// 自动生成于 2026-11-07 12:20:53
+// 自动生成于 2026-11-07 21:22:49
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-07",
-  "time": "12:20",
+  "time": "21:22",
   "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
   "items": [
-    {
-      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
-      "link": "https://www.qbitai.com/2026/11/508449.html",
-      "description": "AI写代码太快，基础设施跟不上了",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 07 Nov 2026 09:38:56 +0000"
-    },
-    {
-      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
-      "link": "https://www.qbitai.com/2026/11/508344.html",
-      "description": "融资缩水，硅谷投资人也谨慎了",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 07 Nov 2026 08:11:25 +0000"
-    },
-    {
-      "title": "为了去AI味，人类开始主动写烂文章了……",
-      "link": "https://www.qbitai.com/2026/11/508330.html",
-      "description": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 07 Nov 2026 07:59:28 +0000"
-    },
     {
       "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
       "link": "https://www.qbitai.com/2026/11/508264.html",
@@ -46,6 +22,30 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Sat, 07 Nov 2026 03:43:55 +0000"
+    },
+    {
+      "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+      "link": "https://www.qbitai.com/2026/11/508174.html",
+      "description": "PPIO 沙箱，把“云电脑”做成开箱即用的 API",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 06 Nov 2026 09:25:59 +0000"
+    },
+    {
+      "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
+      "link": "https://www.qbitai.com/2026/11/508170.html",
+      "description": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 06 Nov 2026 09:21:51 +0000"
+    },
+    {
+      "title": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
+      "link": "https://www.qbitai.com/2026/11/508165.html",
+      "description": "11月5日，阿里巴巴发布《2026 AI向善行动报告》",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 06 Nov 2026 09:19:00 +0000"
     },
     {
       "title": "CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
