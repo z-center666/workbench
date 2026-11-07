@@ -1,11 +1,11 @@
-// 自动生成于 2026-11-06 22:39:23
+// 自动生成于 2026-11-07 04:22:41
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-06",
-  "time": "22:39",
-  "weekday": "周五",
+  "date": "2026-11-07",
+  "time": "04:22",
+  "weekday": "周六",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
   "items": [
     {
       "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Fri, 06 Nov 2026 03:36:34 +0000"
     },
     {
+      "title": "CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
+      "link": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 07 Nov 2026 10:00:00 GMT"
+    },
+    {
       "title": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
       "link": "https://www.infoq.cn/article/lGoA1ZSw6ojeh68GVlBl?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,20 @@ var NEWS_DATA = {
       "pub_date": "Fri, 06 Nov 2026 13:00:00 GMT"
     },
     {
-      "title": "“超脑”统一指挥，“狼族”协同作战：京东物流打造供应链 AI 机器人军团",
-      "link": "https://www.infoq.cn/article/1YeowHagkg1Or6wwy23P?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 06 Nov 2026 11:32:10 GMT"
+      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
+      "link": "http://www.geekpark.net/news/373643",
+      "description": "&nbsp;\n头图来源：豆包工作\n客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？\n在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。\n故障分析还没开始，大半天已经过去了。\n如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。\n博世的尝试：让 AI 接手沟通之后",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sat, 07 Nov 2026 11:35:36 +0800"
+    },
+    {
+      "title": "办公提效之后，企业级 Agent 开始对经营结果负责",
+      "link": "http://www.geekpark.net/news/373642",
+      "description": "头图来源：腾讯云\n过去一年，智能体是 AI 行业最受关注的方向之一。\n从查资料、写文档到处理日常办公事务，桌面办公智能体完成了第一轮普及，办公提效的价值已经成为行业共识。但当 AI 进一步走向企业核心业务，搭出一个智能体不难，难的是让它真正跑进业务流程，适配复杂的系统、权限与规则，持续产出可量化的经营价值。\n在腾讯云副总裁吴永坚看来，未来企业级智能体的核心赛道，对话式的桌面办公",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sat, 07 Nov 2026 11:31:37 +0800"
     },
     {
       "title": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 06 Nov 2026 09:01:57 +0800"
-    },
-    {
-      "title": "极客公园创新大会 2027 首批嘉宾揭晓！",
-      "link": "http://www.geekpark.net/news/373553",
-      "description": "今年 12 月 5 日&mdash;6 日，北京 798艺术区，还是老地方。\n极客公园创新大会（GEEKPARK IF），我们又要见面了。\nIF 将进入第 17 年。它像一本记录中国科技行业的「年鉴」，一场科技爱好者的年终盛宴，一次号召创新者聚集、留下历史回音的年度认知集结。\n今年，我们的主题是：Revaluation 价值，另有答案\n我们要探讨的不再是 AI 可以有多厉害，而",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 05 Nov 2026 21:15:49 +0800"
-    },
-    {
-      "title": "世界互联网大会领先科技奖背后，Qoder 凭什么拿下中国 AI 编程市场第一",
-      "link": "http://www.geekpark.net/news/373542",
-      "description": "作者｜Cynthia\n编辑｜郑玄\n2026 年 11 月，每年乌镇世界互联网大会期间举办的领先科技奖，已经走到第十年。\n作为面向全球征集互联网领域领先成果的国际性科技奖项，领先科技奖每年会选出涵盖基础研究、关键技术与工程研发约 15 至 20 项获奖项目。一定程度上，它的评选也预示了未来几年潮水的走向。\n这一年，传统互联网的光环逐渐退去，AI 成了最大的关键词。其中，仅工程研发组",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 05 Nov 2026 17:19:17 +0800"
     }
   ]
 };
