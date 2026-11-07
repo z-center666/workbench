@@ -1,51 +1,51 @@
-// 自动生成于 2026-11-07 04:22:41
+// 自动生成于 2026-11-07 12:20:53
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-07",
-  "time": "04:22",
+  "time": "12:20",
   "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
   "items": [
     {
-      "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
-      "link": "https://www.qbitai.com/2026/11/508155.html",
-      "description": "Q3营收实现数倍增长",
+      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+      "link": "https://www.qbitai.com/2026/11/508449.html",
+      "description": "AI写代码太快，基础设施跟不上了",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 07:00:29 +0000"
+      "pub_date": "Sat, 07 Nov 2026 09:38:56 +0000"
     },
     {
-      "title": "一边赛博修仙，一边卖家电！AI短剧开始冲双11业绩了？",
-      "link": "https://www.qbitai.com/2026/11/508118.html",
-      "description": "挑战商业视频的高难度场景",
+      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
+      "link": "https://www.qbitai.com/2026/11/508344.html",
+      "description": "融资缩水，硅谷投资人也谨慎了",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 06:54:17 +0000"
+      "pub_date": "Sat, 07 Nov 2026 08:11:25 +0000"
     },
     {
-      "title": "从RSI、Agent、Physical AI到整个系统栈，2026 奇点智能技术大会最新日程公布！",
-      "link": "https://www.qbitai.com/2026/11/508143.html",
-      "description": "11 月 20—21 日，2026 奇点智能技术大会将在北京万达文华酒店举行。",
+      "title": "为了去AI味，人类开始主动写烂文章了……",
+      "link": "https://www.qbitai.com/2026/11/508330.html",
+      "description": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 06:43:14 +0000"
+      "pub_date": "Sat, 07 Nov 2026 07:59:28 +0000"
     },
     {
-      "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
-      "link": "https://www.qbitai.com/2026/11/508107.html",
-      "description": "一举刷新「AI安全世界杯」CyberGym世界纪录",
+      "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+      "link": "https://www.qbitai.com/2026/11/508264.html",
+      "description": "苦单Session久矣，两大Agent玩家不谋而合。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 05:01:47 +0000"
+      "pub_date": "Sat, 07 Nov 2026 05:01:17 +0000"
     },
     {
-      "title": "香港金融科技周 x StartmeupHK 2026主论坛：以「金融+」、「AI+」及全球拓展开拓新机遇",
-      "link": "https://www.qbitai.com/2026/11/507988.html",
-      "description": "香港金融科技周 x StartmeupHK 2026踏入第11届",
+      "title": "AGENTS.MD，危险危险危险！！！",
+      "link": "https://www.qbitai.com/2026/11/508244.html",
+      "description": "全新的电脑病毒",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 03:36:34 +0000"
+      "pub_date": "Sat, 07 Nov 2026 03:43:55 +0000"
     },
     {
       "title": "CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
