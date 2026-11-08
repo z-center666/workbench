@@ -1,12 +1,36 @@
-// 自动生成于 2026-11-08 04:05:53
+// 自动生成于 2026-11-08 12:40:10
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-08",
-  "time": "04:05",
+  "time": "12:40",
   "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, 大模型, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, OpenAI, 大模型, Agent。",
   "items": [
+    {
+      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+      "link": "https://www.qbitai.com/2026/11/508449.html",
+      "description": "AI写代码太快，基础设施跟不上了",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 07 Nov 2026 09:38:56 +0000"
+    },
+    {
+      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
+      "link": "https://www.qbitai.com/2026/11/508344.html",
+      "description": "融资缩水，硅谷投资人也谨慎了",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 07 Nov 2026 08:11:25 +0000"
+    },
+    {
+      "title": "为了去AI味，人类开始主动写烂文章了……",
+      "link": "https://www.qbitai.com/2026/11/508330.html",
+      "description": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 07 Nov 2026 07:59:28 +0000"
+    },
     {
       "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
       "link": "https://www.qbitai.com/2026/11/508264.html",
@@ -24,28 +48,20 @@ var NEWS_DATA = {
       "pub_date": "Sat, 07 Nov 2026 03:43:55 +0000"
     },
     {
-      "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
-      "link": "https://www.qbitai.com/2026/11/508174.html",
-      "description": "PPIO 沙箱，把“云电脑”做成开箱即用的 API",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 09:25:59 +0000"
+      "title": "AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
+      "link": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 08 Nov 2026 16:19:44 GMT"
     },
     {
-      "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
-      "link": "https://www.qbitai.com/2026/11/508170.html",
-      "description": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 09:21:51 +0000"
-    },
-    {
-      "title": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
-      "link": "https://www.qbitai.com/2026/11/508165.html",
-      "description": "11月5日，阿里巴巴发布《2026 AI向善行动报告》",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 06 Nov 2026 09:19:00 +0000"
+      "title": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
+      "link": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 08 Nov 2026 15:03:06 GMT"
     },
     {
       "title": "从约束到进化：Ontology 与 AI 自迭代的实践｜AICon北京",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 06 Nov 2026 17:00:00 GMT"
     },
     {
-      "title": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
-      "link": "https://www.infoq.cn/article/upfROwtEl8R75H24D13J?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 06 Nov 2026 15:25:00 GMT"
-    },
-    {
-      "title": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
-      "link": "https://www.infoq.cn/article/azhgYaRTIjsSSVfA8AaU?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 06 Nov 2026 14:34:37 GMT"
+      "title": "为什么「陪伴」，注定是 Personal AI 的核心",
+      "link": "http://www.geekpark.net/news/373653",
+      "description": "作者｜宇航猿\n编辑｜靖宇\n\n最近这一波 Personal AI 实在太火了，我也注册了一个 Muse 体验了一下。\n整个体验下来，我感觉 Muse 的能力实在一般，远没到让人惊叹的地步。但奇怪的是，它确实带来了一种真切的陪伴感。这种陪伴感，甚至直接改变了我的使用习惯，让我总是忍不住想找它聊聊，哪怕只是把最琐碎的需求丢给它。\n就在本周，Muse 又往前迈了一步，正式上线了实时语音",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 08 Nov 2026 17:52:45 +0800"
     },
     {
       "title": "创业者做 Personal Agent，有没有一线生机？",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sat, 07 Nov 2026 11:31:37 +0800"
-    },
-    {
-      "title": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
-      "link": "http://www.geekpark.net/news/373637",
-      "description": "作者｜Wildcard\n编辑｜靖宇11 月 5 日，OpenAI 前 CTO Mira Murati 创立的 Thinking Machines Lab（简称 TML）同一天出了两条新闻。\n当天，公司发布了第二代模型 Inkling 2 Small，第三方评测机构 Artificial Analysis（AA）给的评价相当高：权重放出后，它将成为「中国以外得分最高的开放权重模型」",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 06 Nov 2026 20:13:06 +0800"
     }
   ]
 };
