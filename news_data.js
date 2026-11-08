@@ -1,8 +1,8 @@
-// 自动生成于 2026-11-08 12:40:10
+// 自动生成于 2026-11-08 21:37:33
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-08",
-  "time": "12:40",
+  "time": "21:37",
   "weekday": "周日",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, OpenAI, 大模型, Agent。",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Sat, 07 Nov 2026 03:43:55 +0000"
     },
     {
+      "title": "Agent 越用越多，企业为何仍不够 AI Native？",
+      "link": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 09 Nov 2026 00:08:00 GMT"
+    },
+    {
       "title": "AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
       "link": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -78,14 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Sat, 07 Nov 2026 10:00:00 GMT"
-    },
-    {
-      "title": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
-      "link": "https://www.infoq.cn/article/lGoA1ZSw6ojeh68GVlBl?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 06 Nov 2026 17:00:00 GMT"
     },
     {
       "title": "为什么「陪伴」，注定是 Personal AI 的核心",
