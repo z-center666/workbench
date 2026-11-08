@@ -1,11 +1,11 @@
-// 自动生成于 2026-11-07 21:22:49
+// 自动生成于 2026-11-08 04:05:53
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-07",
-  "time": "21:22",
-  "weekday": "周六",
+  "date": "2026-11-08",
+  "time": "04:05",
+  "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, 大模型, 智能体, Agent。",
   "items": [
     {
       "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
@@ -48,6 +48,14 @@ var NEWS_DATA = {
       "pub_date": "Fri, 06 Nov 2026 09:19:00 +0000"
     },
     {
+      "title": "从约束到进化：Ontology 与 AI 自迭代的实践｜AICon北京",
+      "link": "https://www.infoq.cn/article/sy9XMK3zJ3jPwHBN5fQV?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 08 Nov 2026 10:00:00 GMT"
+    },
+    {
       "title": "CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
       "link": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -80,12 +88,20 @@ var NEWS_DATA = {
       "pub_date": "Fri, 06 Nov 2026 14:34:37 GMT"
     },
     {
-      "title": "智能体 Harness 的演进：从链、图到代码化",
-      "link": "https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 06 Nov 2026 13:00:00 GMT"
+      "title": "创业者做 Personal Agent，有没有一线生机？",
+      "link": "http://www.geekpark.net/news/373650",
+      "description": "最近一阶段，Personal Agent 很热。有趣的是，这个概念迅速火爆又迅速有了一个共识，几波讨论下来大家的观点似乎是： Personal Agent 的机会是大厂的，创业者基本没戏。\n虽然一般情况下，「入口级机会归大厂」确实是大概率发生的事情，但 Personal Agent 真的是个「入口」的问题吗？真的意味着「这件事里没有创业者的位置」吗？\n这依旧值得认真聊一聊。\n&n",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 08 Nov 2026 10:40:20 +0800"
+    },
+    {
+      "title": "收购 EA 后，银湖资本与沙特基金 250 亿美元报价 Unity；超10万款应用已适配iPhone Duo；美国再发生 NVIDIA AI 设备失窃案",
+      "link": "http://www.geekpark.net/news/373649",
+      "description": "收购 EA 之后，银湖资本与沙特公共投资基金据报出价 250 亿美元收购 Unity\n据路透社援引未具名知情人士的消息报道，由美国私募股权公司银湖资本（Silver Lake Partners）与沙特阿拉伯主权财富基金&mdash;&mdash;公共投资基金（PIF）组成的投资者财团，已向 Unity Software 提出收购要约，对这家公司的估值约为 250 亿美元。据悉，",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 08 Nov 2026 08:57:46 +0800"
     },
     {
       "title": "博世用豆包工作：让工程师少搬信息，多解问题",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 06 Nov 2026 20:13:06 +0800"
-    },
-    {
-      "title": "AI 时代没有标准答案的问题，我们面对面聊",
-      "link": "http://www.geekpark.net/news/373636",
-      "description": "我们刚刚官宣了极客公园创新大会 2027 的首批嘉宾。 今天，再来揭晓「小场深谈」的最新进展。\n10 月底，我们在「小场深谈」的预热文章里做了一次调研，请大家投票选出最想聊的话题。最终，我们选定了最受关注的五组主题，设下了五场专场，每一场都从大家最想聊的那个问题开始。\n这五场专场，恰好瞄向当下行业最受关注、也最要紧的议题上：Personal AI 怎么接管日常、AI 创作怎么重",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 06 Nov 2026 20:09:13 +0800"
-    },
-    {
-      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
-      "link": "http://www.geekpark.net/news/373554",
-      "description": "芯片股惨遭重挫，华尔街迎来 1896 年以来中期选举后表现最差的第二个交易日\n据路透社报道，美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧。\n当地时间周四，美国科技股遭遇大规模抛售，华尔街股票市值单日蒸发约 3.2 万亿美元（约合人民币 22.7 万亿元）。纳斯达克综合指数暴跌 5.52%，创下自 2025 年 4 月以来最大单日跌幅，较",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 06 Nov 2026 09:01:57 +0800"
     }
   ]
 };
