@@ -1,91 +1,83 @@
-// 自动生成于 2026-11-09 04:21:45
+// 自动生成于 2026-11-09 15:00:21
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-09",
-  "time": "04:21",
+  "time": "15:00",
   "weekday": "周一",
-  "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, Agent。",
+  "total": 14,
+  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: 量子位(5条), 极客公园(5条), InfoQ(4条)。 热点关键词: GPT, 大模型, 智能体, Agent, 多模态。",
   "items": [
     {
-      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
-      "link": "https://www.qbitai.com/2026/11/508449.html",
-      "description": "AI写代码太快，基础设施跟不上了",
+      "title": "“AI毁了我的计算机学位”",
+      "link": "https://www.qbitai.com/2026/11/508706.html",
+      "description": "教授也用Claude糊弄…",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 07 Nov 2026 09:38:56 +0000"
+      "pub_date": "Mon, 09 Nov 2026 08:57:20 +0000"
     },
     {
-      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
-      "link": "https://www.qbitai.com/2026/11/508344.html",
-      "description": "融资缩水，硅谷投资人也谨慎了",
+      "title": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
+      "link": "https://www.qbitai.com/2026/11/507843.html",
+      "description": "",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 07 Nov 2026 08:11:25 +0000"
+      "pub_date": "Mon, 09 Nov 2026 08:44:00 +0000"
     },
     {
-      "title": "为了去AI味，人类开始主动写烂文章了……",
-      "link": "https://www.qbitai.com/2026/11/508330.html",
-      "description": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
+      "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
+      "link": "https://www.qbitai.com/2026/11/508694.html",
+      "description": "11月9日，千问办公发布2.0版本",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 07 Nov 2026 07:59:28 +0000"
+      "pub_date": "Mon, 09 Nov 2026 08:34:03 +0000"
     },
     {
-      "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
-      "link": "https://www.qbitai.com/2026/11/508264.html",
-      "description": "苦单Session久矣，两大Agent玩家不谋而合。",
+      "title": "AI接管一家8万Star开源公司，写代码、派任务、查Bug全包了",
+      "link": "https://www.qbitai.com/2026/11/508607.html",
+      "description": "Worker不够了主管Agent还能自己招！",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 07 Nov 2026 05:01:17 +0000"
+      "pub_date": "Mon, 09 Nov 2026 05:47:58 +0000"
     },
     {
-      "title": "AGENTS.MD，危险危险危险！！！",
-      "link": "https://www.qbitai.com/2026/11/508244.html",
-      "description": "全新的电脑病毒",
+      "title": "基元律动发布NeoHorse-1.5-Flash Preview，Agent模型RSI进入第二轮迭代",
+      "link": "https://www.qbitai.com/2026/11/508603.html",
+      "description": "11月5日，基元律动（TokenRhythm）发布Agent原生模型NeoHorse-1.5-Flash Preview。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 07 Nov 2026 03:43:55 +0000"
+      "pub_date": "Mon, 09 Nov 2026 05:09:23 +0000"
     },
     {
-      "title": "Harness 已经很准了，为什么还需要一个 Agent Native Database",
-      "link": "https://www.infoq.cn/article/49JGp1l7v97riBlPpZ1q?utm_source=rss&utm_medium=article",
+      "title": "不想当管理者，就用不好 Coding Agent？Anthropic 工程师长文谈 Agent 管理实战",
+      "link": "https://www.infoq.cn/article/YPQyY6bqhzhtO8MN6XUb?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 09 Nov 2026 10:44:00 GMT"
+      "pub_date": "Mon, 09 Nov 2026 18:24:32 GMT"
     },
     {
-      "title": "2.5小时一个零日，400多个root提权：Linux被AI挖成了筛子，人类逆向几周才看懂一个",
-      "link": "https://www.infoq.cn/article/6kuDZAK0IFkKviGrGzIR?utm_source=rss&utm_medium=article",
+      "title": "千问“死磕”Personal Agent：为什么下限比上限更重要？",
+      "link": "https://www.infoq.cn/article/1g0PWSVhNkb0sgud4heO?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 09 Nov 2026 10:25:36 GMT"
+      "pub_date": "Mon, 09 Nov 2026 17:02:39 GMT"
     },
     {
-      "title": "从“能写代码”到“能交付”：腾讯轻量云 LoopForge 多 Agent 编排实践｜AICon北京",
-      "link": "https://www.infoq.cn/article/wUArox9MHiAoyWPgRxpp?utm_source=rss&utm_medium=article",
+      "title": "AI越来越聪明，企业却快管不住了：Gartner 2027年十大趋势，智能体治理成新战场",
+      "link": "https://www.infoq.cn/article/CUgMFMX7uRJNMec1pfYo?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 09 Nov 2026 10:00:00 GMT"
+      "pub_date": "Mon, 09 Nov 2026 16:55:59 GMT"
     },
     {
-      "title": "Agent 越用越多，企业为何仍不够 AI Native？",
-      "link": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
+      "title": "不能把整个安全体系押在大模型上：AI 分诊 CVE，人工审查仍不能少",
+      "link": "https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 09 Nov 2026 00:08:00 GMT"
-    },
-    {
-      "title": "AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
-      "link": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 08 Nov 2026 16:19:44 GMT"
+      "pub_date": "Mon, 09 Nov 2026 16:00:00 GMT"
     },
     {
       "title": "实测 HY4：腾讯最「夯」大模型，离一线还有多远？",
