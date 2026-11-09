@@ -1,11 +1,11 @@
-// 自动生成于 2026-11-08 21:37:33
+// 自动生成于 2026-11-09 04:21:45
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-08",
-  "time": "21:37",
-  "weekday": "周日",
+  "date": "2026-11-09",
+  "time": "04:21",
+  "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, OpenAI, 大模型, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 大模型, Agent。",
   "items": [
     {
       "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
@@ -48,6 +48,30 @@ var NEWS_DATA = {
       "pub_date": "Sat, 07 Nov 2026 03:43:55 +0000"
     },
     {
+      "title": "Harness 已经很准了，为什么还需要一个 Agent Native Database",
+      "link": "https://www.infoq.cn/article/49JGp1l7v97riBlPpZ1q?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 09 Nov 2026 10:44:00 GMT"
+    },
+    {
+      "title": "2.5小时一个零日，400多个root提权：Linux被AI挖成了筛子，人类逆向几周才看懂一个",
+      "link": "https://www.infoq.cn/article/6kuDZAK0IFkKviGrGzIR?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 09 Nov 2026 10:25:36 GMT"
+    },
+    {
+      "title": "从“能写代码”到“能交付”：腾讯轻量云 LoopForge 多 Agent 编排实践｜AICon北京",
+      "link": "https://www.infoq.cn/article/wUArox9MHiAoyWPgRxpp?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 09 Nov 2026 10:00:00 GMT"
+    },
+    {
       "title": "Agent 越用越多，企业为何仍不够 AI Native？",
       "link": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -64,28 +88,28 @@ var NEWS_DATA = {
       "pub_date": "Sun, 08 Nov 2026 16:19:44 GMT"
     },
     {
-      "title": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
-      "link": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 08 Nov 2026 15:03:06 GMT"
+      "title": "实测 HY4：腾讯最「夯」大模型，离一线还有多远？",
+      "link": "http://www.geekpark.net/news/373644",
+      "description": "&nbsp;\n头图来源：腾讯混元\n11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相。腾讯给它的定位是&mdash;&mdash;首次跻身最强开源模型之列。\n过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用。Hy4 真正要回答的，",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 09 Nov 2026 11:57:03 +0800"
     },
     {
-      "title": "从约束到进化：Ontology 与 AI 自迭代的实践｜AICon北京",
-      "link": "https://www.infoq.cn/article/sy9XMK3zJ3jPwHBN5fQV?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 08 Nov 2026 10:00:00 GMT"
+      "title": "黄仁勋承认「婚外情」，英伟达启动调查；ChatGPT 突现封号风波，200 美元 Pro 用户也遭殃；腾讯姚顺雨谈「AI 公司护城河」：在产品层，而不是模型层",
+      "link": "http://www.geekpark.net/news/373687",
+      "description": "黄仁勋承认「婚外情」，英伟达启动调查\n11 月 9 日消息，英伟达 CEO 黄仁勋当地时间 8 日于公司官网发布致全员公开信，就个人私事致歉，同时披露董事会将针对相关报道提及的国家安全关切展开独立调查。\n黄仁勋在信中承认自己对妻子不忠，坦言该行为伤害家人，对此承担全部责任，并接受外界批评。他表示家人不应为其个人选择负责，恳请公众给予家人隐私空间，希望能有机会重新赢回家人信任。他",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 09 Nov 2026 10:58:04 +0800"
     },
     {
-      "title": "CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
-      "link": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 07 Nov 2026 10:00:00 GMT"
+      "title": "具身智能，也到了 API 时刻？",
+      "link": "http://www.geekpark.net/news/373683",
+      "description": "具身智能的 API 时刻意味着部分具身模型已经开始具备跨本体迁移、在一定范围内适应新任务的能力。作者｜Li Yuan编辑｜郑玄具身智能，也到了 API 时刻？过去，想知道一个具身模型有多强，往往要看它在发布视频里完成了什么任务。不过，这条线正在松动。就在近期，一些公司开始把另一种检验方式交到开发者手里：接上你自己的机器人，试着把你的任务做出来。10 月，Physical Inte",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 09 Nov 2026 10:18:55 +0800"
     },
     {
       "title": "为什么「陪伴」，注定是 Personal AI 的核心",
@@ -102,30 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 08 Nov 2026 10:40:20 +0800"
-    },
-    {
-      "title": "收购 EA 后，银湖资本与沙特基金 250 亿美元报价 Unity；超10万款应用已适配iPhone Duo；美国再发生 NVIDIA AI 设备失窃案",
-      "link": "http://www.geekpark.net/news/373649",
-      "description": "收购 EA 之后，银湖资本与沙特公共投资基金据报出价 250 亿美元收购 Unity\n据路透社援引未具名知情人士的消息报道，由美国私募股权公司银湖资本（Silver Lake Partners）与沙特阿拉伯主权财富基金&mdash;&mdash;公共投资基金（PIF）组成的投资者财团，已向 Unity Software 提出收购要约，对这家公司的估值约为 250 亿美元。据悉，",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 08 Nov 2026 08:57:46 +0800"
-    },
-    {
-      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
-      "link": "http://www.geekpark.net/news/373643",
-      "description": "&nbsp;\n头图来源：豆包工作\n客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？\n在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。\n故障分析还没开始，大半天已经过去了。\n如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。\n博世的尝试：让 AI 接手沟通之后",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sat, 07 Nov 2026 11:35:36 +0800"
-    },
-    {
-      "title": "办公提效之后，企业级 Agent 开始对经营结果负责",
-      "link": "http://www.geekpark.net/news/373642",
-      "description": "头图来源：腾讯云\n过去一年，智能体是 AI 行业最受关注的方向之一。\n从查资料、写文档到处理日常办公事务，桌面办公智能体完成了第一轮普及，办公提效的价值已经成为行业共识。但当 AI 进一步走向企业核心业务，搭出一个智能体不难，难的是让它真正跑进业务流程，适配复杂的系统、权限与规则，持续产出可量化的经营价值。\n在腾讯云副总裁吴永坚看来，未来企业级智能体的核心赛道，对话式的桌面办公",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sat, 07 Nov 2026 11:31:37 +0800"
     }
   ]
 };
