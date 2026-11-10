@@ -1,83 +1,91 @@
-// 自动生成于 2026-11-10 01:07:18
+// 自动生成于 2026-11-10 14:12:55
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-10",
-  "time": "01:07",
+  "time": "14:12",
   "weekday": "周二",
   "total": 14,
-  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: 量子位(5条), 极客公园(5条), InfoQ(4条)。 热点关键词: GPT, 大模型, 智能体, Agent, 多模态。",
+  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: GPT, Claude, DeepSeek, 大模型, Agent。",
   "items": [
     {
-      "title": "“AI毁了我的计算机学位”",
-      "link": "https://www.qbitai.com/2026/11/508706.html",
-      "description": "教授也用Claude糊弄…",
+      "title": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
+      "link": "https://www.qbitai.com/2026/11/508998.html",
+      "description": "让每一次任务，都成为下一次进步的起点",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 09 Nov 2026 08:57:20 +0000"
+      "pub_date": "Tue, 10 Nov 2026 07:56:29 +0000"
     },
     {
-      "title": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
-      "link": "https://www.qbitai.com/2026/11/507843.html",
-      "description": "",
+      "title": "达卯科技与浦东环保能源战略合作，黎明智算中心算电协同平台启动",
+      "link": "https://www.qbitai.com/2026/11/508985.html",
+      "description": "加速东部城市型智算中心向E-AIDC演进",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 09 Nov 2026 08:44:00 +0000"
+      "pub_date": "Tue, 10 Nov 2026 07:33:19 +0000"
     },
     {
-      "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
-      "link": "https://www.qbitai.com/2026/11/508694.html",
-      "description": "11月9日，千问办公发布2.0版本",
+      "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
+      "link": "https://www.qbitai.com/2026/11/508798.html",
+      "description": "办公AI结束单机模式",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 09 Nov 2026 08:34:03 +0000"
+      "pub_date": "Tue, 10 Nov 2026 01:27:09 +0000"
     },
     {
-      "title": "AI接管一家8万Star开源公司，写代码、派任务、查Bug全包了",
-      "link": "https://www.qbitai.com/2026/11/508607.html",
-      "description": "Worker不够了主管Agent还能自己招！",
+      "title": "中大本科生反AI逆向项目火了！让黑客Token账单原地暴涨300倍",
+      "link": "https://www.qbitai.com/2026/11/508787.html",
+      "description": "投毒 → 耗尽预算 → 诱导误判",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Mon, 09 Nov 2026 05:47:58 +0000"
+      "pub_date": "Mon, 09 Nov 2026 22:11:49 +0000"
     },
     {
-      "title": "基元律动发布NeoHorse-1.5-Flash Preview，Agent模型RSI进入第二轮迭代",
-      "link": "https://www.qbitai.com/2026/11/508603.html",
-      "description": "11月5日，基元律动（TokenRhythm）发布Agent原生模型NeoHorse-1.5-Flash Preview。",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 09 Nov 2026 05:09:23 +0000"
-    },
-    {
-      "title": "不想当管理者，就用不好 Coding Agent？Anthropic 工程师长文谈 Agent 管理实战",
-      "link": "https://www.infoq.cn/article/YPQyY6bqhzhtO8MN6XUb?utm_source=rss&utm_medium=article",
+      "title": "接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定",
+      "link": "https://www.infoq.cn/article/juu2R26yD8B6ABUEQuWB?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 09 Nov 2026 18:24:32 GMT"
+      "pub_date": "Tue, 10 Nov 2026 18:58:56 GMT"
     },
     {
-      "title": "千问“死磕”Personal Agent：为什么下限比上限更重要？",
-      "link": "https://www.infoq.cn/article/1g0PWSVhNkb0sgud4heO?utm_source=rss&utm_medium=article",
+      "title": "给 AI 腾内存？Discord 抛弃Electron，省70%内存还秒开：Windows应用该跟进了",
+      "link": "https://www.infoq.cn/article/MQTTu6dgGxHBZm1wOLPI?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 09 Nov 2026 17:02:39 GMT"
+      "pub_date": "Tue, 10 Nov 2026 16:04:53 GMT"
     },
     {
-      "title": "AI越来越聪明，企业却快管不住了：Gartner 2027年十大趋势，智能体治理成新战场",
-      "link": "https://www.infoq.cn/article/CUgMFMX7uRJNMec1pfYo?utm_source=rss&utm_medium=article",
+      "title": "面向 AI Native 的数据库技术演进 | 腾讯云数据库 DBTalk",
+      "link": "https://www.infoq.cn/video/W1VS3q3eMAosMwrHb1k4?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 09 Nov 2026 16:55:59 GMT"
+      "pub_date": "Tue, 10 Nov 2026 15:53:17 GMT"
     },
     {
-      "title": "不能把整个安全体系押在大模型上：AI 分诊 CVE，人工审查仍不能少",
-      "link": "https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article",
+      "title": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
+      "link": "https://www.infoq.cn/article/Ou4l4aD7zvUzXWXsWJfY?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 09 Nov 2026 16:00:00 GMT"
+      "pub_date": "Tue, 10 Nov 2026 15:22:09 GMT"
+    },
+    {
+      "title": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了",
+      "link": "https://www.infoq.cn/article/Y7lTO7Q1M8oN5JhxhirK?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 10 Nov 2026 15:20:56 GMT"
+    },
+    {
+      "title": "千问办公押注 Team Agent，企业 AI 的流水线时刻真的来了",
+      "link": "http://www.geekpark.net/news/373760",
+      "description": "作者｜Cynthia\n编辑｜郑玄\n传说，光明之神巴德尔梦见自己将死，于是，巴德尔的母亲弗丽嘉遍走世间，令万物立下了绝不伤害他的誓言。众神也因此放下心来，甚至还发明了一种新的消遣：轮番向巴德尔投掷武器和石块，看着他毫发无损，来确定他们已经战胜了预言。直到一小枝被遗漏的槲寄生投向巴德尔。光明之神轰然倒下，诸神的黄昏由此拉开序章。\n这是北欧神话中巴德尔之死的故事。危险早已被预见，人们也",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 10 Nov 2026 12:52:07 +0800"
     },
     {
       "title": "ChatGPT 占全球 AI 聊天流量超 81%；iOS 27.3 曝光 Siri「个人记忆系统」；传玛莎拉蒂+尊界合作新车曝光｜极客早知道",
@@ -110,14 +118,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 09 Nov 2026 10:18:55 +0800"
-    },
-    {
-      "title": "为什么「陪伴」，注定是 Personal AI 的核心",
-      "link": "http://www.geekpark.net/news/373653",
-      "description": "作者｜宇航猿\n编辑｜靖宇\n\n最近这一波 Personal AI 实在太火了，我也注册了一个 Muse 体验了一下。\n整个体验下来，我感觉 Muse 的能力实在一般，远没到让人惊叹的地步。但奇怪的是，它确实带来了一种真切的陪伴感。这种陪伴感，甚至直接改变了我的使用习惯，让我总是忍不住想找它聊聊，哪怕只是把最琐碎的需求丢给它。\n就在本周，Muse 又往前迈了一步，正式上线了实时语音",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 08 Nov 2026 17:52:45 +0800"
     }
   ]
 };
