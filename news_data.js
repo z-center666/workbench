@@ -1,9 +1,9 @@
-// 自动生成于 2026-11-09 15:00:21
+// 自动生成于 2026-11-10 01:07:18
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-09",
-  "time": "15:00",
-  "weekday": "周一",
+  "date": "2026-11-10",
+  "time": "01:07",
+  "weekday": "周二",
   "total": 14,
   "briefing": "今日共抓取 14 条 AI 相关新闻，来源: 量子位(5条), 极客公园(5条), InfoQ(4条)。 热点关键词: GPT, 大模型, 智能体, Agent, 多模态。",
   "items": [
@@ -80,6 +80,14 @@ var NEWS_DATA = {
       "pub_date": "Mon, 09 Nov 2026 16:00:00 GMT"
     },
     {
+      "title": "ChatGPT 占全球 AI 聊天流量超 81%；iOS 27.3 曝光 Siri「个人记忆系统」；传玛莎拉蒂+尊界合作新车曝光｜极客早知道",
+      "link": "http://www.geekpark.net/news/373736",
+      "description": "8 天从零搓出操作系统：Anthropic 最强 Claude Fable / Mythos 5.2 AI 模型登场，API 调用费下降 20%11 月 10 日消息，Anthropic 昨日（11 月 9 日）官宣推出 Claude Fable 5.2 和 Claude Mythos 5.2，两款模型基于同一底层模型，前者面向普通用户并内置网络安全与生物安全防护，后者则面向通过",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 10 Nov 2026 08:19:15 +0800"
+    },
+    {
       "title": "实测 HY4：腾讯最「夯」大模型，离一线还有多远？",
       "link": "http://www.geekpark.net/news/373644",
       "description": "&nbsp;\n头图来源：腾讯混元\n11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相。腾讯给它的定位是&mdash;&mdash;首次跻身最强开源模型之列。\n过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用。Hy4 真正要回答的，",
@@ -110,14 +118,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 08 Nov 2026 17:52:45 +0800"
-    },
-    {
-      "title": "创业者做 Personal Agent，有没有一线生机？",
-      "link": "http://www.geekpark.net/news/373650",
-      "description": "最近一阶段，Personal Agent 很热。有趣的是，这个概念迅速火爆又迅速有了一个共识，几波讨论下来大家的观点似乎是： Personal Agent 的机会是大厂的，创业者基本没戏。\n虽然一般情况下，「入口级机会归大厂」确实是大概率发生的事情，但 Personal Agent 真的是个「入口」的问题吗？真的意味着「这件事里没有创业者的位置」吗？\n这依旧值得认真聊一聊。\n&n",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 08 Nov 2026 10:40:20 +0800"
     }
   ]
 };
