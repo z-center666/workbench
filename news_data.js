@@ -1,11 +1,11 @@
-// 自动生成于 2026-11-10 22:45:50
+// 自动生成于 2026-11-11 04:26:21
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-10",
-  "time": "22:45",
-  "weekday": "周二",
+  "date": "2026-11-11",
+  "time": "04:26",
+  "weekday": "周三",
   "total": 14,
-  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: GPT, Claude, DeepSeek, 大模型, Agent。",
+  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: GPT, 大模型, Agent。",
   "items": [
     {
       "title": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
@@ -40,6 +40,30 @@ var NEWS_DATA = {
       "pub_date": "Mon, 09 Nov 2026 22:11:49 +0000"
     },
     {
+      "title": "Agent 从 Demo 到生产，究竟还差几步？4周实战课来了",
+      "link": "https://www.infoq.cn/article/gzNdPqAMp1Wh1JQ9d2JA?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 11 Nov 2026 12:02:05 GMT"
+    },
+    {
+      "title": "Cloudflare 推出面向 AI 应用程序的 Web Search API",
+      "link": "https://www.infoq.cn/article/SgXuVvzbHr8lKrihTAZW?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 11 Nov 2026 11:06:00 GMT"
+    },
+    {
+      "title": "基于 AgentKit 重塑研发协作：从编码提效到组织效能跃迁｜AICon北京",
+      "link": "https://www.infoq.cn/article/I49cXCJFBpOW3PcgPTW3?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 11 Nov 2026 10:00:00 GMT"
+    },
+    {
       "title": "接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定",
       "link": "https://www.infoq.cn/article/juu2R26yD8B6ABUEQuWB?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -56,28 +80,12 @@ var NEWS_DATA = {
       "pub_date": "Tue, 10 Nov 2026 16:04:53 GMT"
     },
     {
-      "title": "面向 AI Native 的数据库技术演进 | 腾讯云数据库 DBTalk",
-      "link": "https://www.infoq.cn/video/W1VS3q3eMAosMwrHb1k4?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 10 Nov 2026 15:53:17 GMT"
-    },
-    {
-      "title": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
-      "link": "https://www.infoq.cn/article/Ou4l4aD7zvUzXWXsWJfY?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 10 Nov 2026 15:22:09 GMT"
-    },
-    {
-      "title": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了",
-      "link": "https://www.infoq.cn/article/Y7lTO7Q1M8oN5JhxhirK?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 10 Nov 2026 15:20:56 GMT"
+      "title": "Anthropic 启动 IPO 路演，创始人将套现 17.5 亿美元；谷歌最强 AI 模型正式开放；任天堂招新：经典游戏保存员",
+      "link": "http://www.geekpark.net/news/373796",
+      "description": "英伟达董事会聘请前美国联邦检察官，调查 CEO 黄仁勋相关事件\n11 月 11 日消息，英伟达发布公告，宣布已聘请美国前联邦检察官金正贤（Joon H. Kim）及其所在的律师事务所 Wachtell, Lipton, Rosen &amp; Katz，负责开展一项全面、独立的调查。\n此前，英伟达董事会表示，鉴于近期有关公司创始人兼 CEO 黄仁勋可能成为外国情报机构目标的报道",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 11 Nov 2026 08:34:34 +0800"
     },
     {
       "title": "千问办公押注 Team Agent，企业 AI 的流水线时刻真的来了",
@@ -110,14 +118,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Mon, 09 Nov 2026 10:58:04 +0800"
-    },
-    {
-      "title": "具身智能，也到了 API 时刻？",
-      "link": "http://www.geekpark.net/news/373683",
-      "description": "具身智能的 API 时刻意味着部分具身模型已经开始具备跨本体迁移、在一定范围内适应新任务的能力。作者｜Li Yuan编辑｜郑玄具身智能，也到了 API 时刻？过去，想知道一个具身模型有多强，往往要看它在发布视频里完成了什么任务。不过，这条线正在松动。就在近期，一些公司开始把另一种检验方式交到开发者手里：接上你自己的机器人，试着把你的任务做出来。10 月，Physical Inte",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 09 Nov 2026 10:18:55 +0800"
     }
   ]
 };
