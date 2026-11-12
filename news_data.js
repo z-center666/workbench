@@ -1,43 +1,51 @@
-// 自动生成于 2026-11-12 06:43:40
+// 自动生成于 2026-11-12 19:28:25
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-12",
-  "time": "06:43",
+  "time": "19:28",
   "weekday": "周四",
-  "total": 14,
-  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: GPT, Gemini, 大模型, 智能体, Agent。",
+  "total": 15,
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Gemini, 大模型, 智能体, Agent, 多模态。",
   "items": [
     {
-      "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
-      "link": "https://www.qbitai.com/2026/11/509146.html",
-      "description": "价格、门槛全打穿",
+      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "link": "https://www.qbitai.com/2026/11/509440.html",
+      "description": "「CAD拆解」",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 11 Nov 2026 06:41:26 +0000"
+      "pub_date": "Thu, 12 Nov 2026 11:36:20 +0000"
     },
     {
-      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
-      "link": "https://www.qbitai.com/2026/11/509085.html",
-      "description": "大模型厂商智谱、MiniMax、千问办公、阿里云、Qoder都在天猫打5折。",
+      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
+      "link": "https://www.qbitai.com/2026/11/509404.html",
+      "description": "银河智学首席科学家邓澍军博士发表主题演讲",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 11 Nov 2026 06:18:09 +0000"
+      "pub_date": "Thu, 12 Nov 2026 10:45:33 +0000"
     },
     {
-      "title": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
-      "link": "https://www.qbitai.com/2026/11/508998.html",
-      "description": "让每一次任务，都成为下一次进步的起点",
+      "title": "让AI真正懂业务：璇玑如何成为企业AI的语义基础设施",
+      "link": "https://www.qbitai.com/2026/11/509349.html",
+      "description": "企业 AI 的难题，不只是模型够不够强",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 10 Nov 2026 07:56:29 +0000"
+      "pub_date": "Thu, 12 Nov 2026 09:34:06 +0000"
     },
     {
-      "title": "达卯科技与浦东环保能源战略合作，黎明智算中心算电协同平台启动",
-      "link": "https://www.qbitai.com/2026/11/508985.html",
-      "description": "加速东部城市型智算中心向E-AIDC演进",
+      "title": "“双十一”机器人在物流仓“埋头苦干”：昆腾动力开启具身智能规模化获客与交付阶段",
+      "link": "https://www.qbitai.com/2026/11/509281.html",
+      "description": "跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 10 Nov 2026 07:33:19 +0000"
+      "pub_date": "Thu, 12 Nov 2026 01:45:04 +0000"
+    },
+    {
+      "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+      "link": "https://www.qbitai.com/2026/11/509224.html",
+      "description": "模型即将开源",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 11 Nov 2026 12:43:54 +0000"
     },
     {
       "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
@@ -80,6 +88,14 @@ var NEWS_DATA = {
       "pub_date": "Wed, 11 Nov 2026 21:05:37 GMT"
     },
     {
+      "title": "接入多款第三方模型，豆包工作也模型自由了",
+      "link": "http://www.geekpark.net/news/373881",
+      "description": "&nbsp;\n头图来源：豆包工作官网\n豆包工作也模型自由了。\n11 月 12 日，豆包工作宣布接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，支持用户按需选型完成任务。同步在模型选择页面标注各模型额度消耗倍率，倍率越低消耗越少，便于用户结合任务需求与使用成本做决策。\n同时平台推出两项限时优惠：一是工作日及节假日的指定时段",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 12 Nov 2026 16:24:17 +0800"
+    },
+    {
       "title": "苹果突然永久关闭官方「支持社区」；字节即将推出个人 AI 助手；华为新品牌星芒 OSTA 曝光 | 极客早知道",
       "link": "http://www.geekpark.net/news/373839",
       "description": "苹果官方社区即将永久关闭\n11 月 11 日，苹果官网突然宣布，Apple 支持社区将于 2026 年 11 月 20 日永久关闭。即日起，社区将不再接受新帖子，并转为只读模式。用户仍可前往官方 Apple 支持网站，获取值得信赖的指导和帮助。\n苹果公告称，我们衷心感谢各位社区成员一直以来贡献宝贵的时间和专业知识，帮助其他用户解决 Apple 产品使用中遇到的问题。（来源：新浪",
@@ -110,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 10 Nov 2026 12:52:07 +0800"
-    },
-    {
-      "title": "ChatGPT 占全球 AI 聊天流量超 81%；iOS 27.3 曝光 Siri「个人记忆系统」；传玛莎拉蒂+尊界合作新车曝光｜极客早知道",
-      "link": "http://www.geekpark.net/news/373736",
-      "description": "8 天从零搓出操作系统：Anthropic 最强 Claude Fable / Mythos 5.2 AI 模型登场，API 调用费下降 20%11 月 10 日消息，Anthropic 昨日（11 月 9 日）官宣推出 Claude Fable 5.2 和 Claude Mythos 5.2，两款模型基于同一底层模型，前者面向普通用户并内置网络安全与生物安全防护，后者则面向通过",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 10 Nov 2026 08:19:15 +0800"
     }
   ]
 };
