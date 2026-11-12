@@ -1,11 +1,11 @@
-// 自动生成于 2026-11-11 23:58:54
+// 自动生成于 2026-11-12 06:43:40
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-11",
-  "time": "23:58",
-  "weekday": "周三",
+  "date": "2026-11-12",
+  "time": "06:43",
+  "weekday": "周四",
   "total": 14,
-  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: GPT, Claude, Gemini, 大模型, Agent。",
+  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: GPT, Gemini, 大模型, 智能体, Agent。",
   "items": [
     {
       "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
@@ -40,6 +40,38 @@ var NEWS_DATA = {
       "pub_date": "Tue, 10 Nov 2026 07:33:19 +0000"
     },
     {
+      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "link": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 12 Nov 2026 13:00:00 GMT"
+    },
+    {
+      "title": "谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
+      "link": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 12 Nov 2026 11:00:00 GMT"
+    },
+    {
+      "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
+      "link": "https://www.infoq.cn/article/7Pecd1CshYIMvCTeBhrm?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 12 Nov 2026 10:23:32 GMT"
+    },
+    {
+      "title": "从“搜到知识”到“理解约束”：差旅 Agent 的业务语义、偏好图谱与上下文工程实践｜AICon北京",
+      "link": "https://www.infoq.cn/article/V5Fwpg9gOBefx6xADcdd?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Thu, 12 Nov 2026 10:00:00 GMT"
+    },
+    {
       "title": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
       "link": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -48,36 +80,12 @@ var NEWS_DATA = {
       "pub_date": "Wed, 11 Nov 2026 21:05:37 GMT"
     },
     {
-      "title": "Anthropic 一夜逼疯微软？Claude 杀入办公软件腹地：能自己参会、做表格、生成PPT",
-      "link": "https://www.infoq.cn/article/1PdshF8SLevbGZbbZHoP?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 11 Nov 2026 20:52:45 GMT"
-    },
-    {
-      "title": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
-      "link": "https://www.infoq.cn/article/iaCUbU8Fwz6G6bDlQ9BV?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 11 Nov 2026 19:05:46 GMT"
-    },
-    {
-      "title": "从 AI 工具到业务落地：兰州安宁 OPC 大会将聚焦 FDE 实践与企业 AI 转型",
-      "link": "https://www.infoq.cn/article/P2UWjVdAmPzOBaxd0v4f?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 11 Nov 2026 18:36:17 GMT"
-    },
-    {
-      "title": "如何提升 AI 的环境可持续性",
-      "link": "https://www.infoq.cn/article/GUXzTTTFvwWY7yx6WMyS?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 11 Nov 2026 18:33:00 GMT"
+      "title": "苹果突然永久关闭官方「支持社区」；字节即将推出个人 AI 助手；华为新品牌星芒 OSTA 曝光 | 极客早知道",
+      "link": "http://www.geekpark.net/news/373839",
+      "description": "苹果官方社区即将永久关闭\n11 月 11 日，苹果官网突然宣布，Apple 支持社区将于 2026 年 11 月 20 日永久关闭。即日起，社区将不再接受新帖子，并转为只读模式。用户仍可前往官方 Apple 支持网站，获取值得信赖的指导和帮助。\n苹果公告称，我们衷心感谢各位社区成员一直以来贡献宝贵的时间和专业知识，帮助其他用户解决 Apple 产品使用中遇到的问题。（来源：新浪",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 12 Nov 2026 08:39:27 +0800"
     },
     {
       "title": "当美国无法建设数据中心，会对 AI 产生怎样的冲击",
@@ -110,14 +118,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 10 Nov 2026 08:19:15 +0800"
-    },
-    {
-      "title": "实测 HY4：腾讯最「夯」大模型，离一线还有多远？",
-      "link": "http://www.geekpark.net/news/373644",
-      "description": "&nbsp;\n头图来源：腾讯混元\n11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相。腾讯给它的定位是&mdash;&mdash;首次跻身最强开源模型之列。\n过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用。Hy4 真正要回答的，",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 09 Nov 2026 11:57:03 +0800"
     }
   ]
 };
