@@ -1,9 +1,9 @@
-// 自动生成于 2026-11-12 19:28:25
+// 自动生成于 2026-11-13 04:49:25
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-12",
-  "time": "19:28",
-  "weekday": "周四",
+  "date": "2026-11-13",
+  "time": "04:49",
+  "weekday": "周五",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Gemini, 大模型, 智能体, Agent, 多模态。",
   "items": [
@@ -48,6 +48,30 @@ var NEWS_DATA = {
       "pub_date": "Wed, 11 Nov 2026 12:43:54 +0000"
     },
     {
+      "title": "Docker 呼吁通过隔离与治理保障智能体安全",
+      "link": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 13 Nov 2026 11:00:00 GMT"
+    },
+    {
+      "title": "GFlow：面向游戏设计的多 Agent 协作与验证实践｜AICon北京",
+      "link": "https://www.infoq.cn/article/dkQAAL0SSdhIq1h61eKx?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 13 Nov 2026 10:00:00 GMT"
+    },
+    {
+      "title": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
+      "link": "https://www.infoq.cn/article/joYjCTbwWFSkbACK5lje?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 13 Nov 2026 09:17:00 GMT"
+    },
+    {
       "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
       "link": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -64,28 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Thu, 12 Nov 2026 11:00:00 GMT"
     },
     {
-      "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
-      "link": "https://www.infoq.cn/article/7Pecd1CshYIMvCTeBhrm?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 12 Nov 2026 10:23:32 GMT"
-    },
-    {
-      "title": "从“搜到知识”到“理解约束”：差旅 Agent 的业务语义、偏好图谱与上下文工程实践｜AICon北京",
-      "link": "https://www.infoq.cn/article/V5Fwpg9gOBefx6xADcdd?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 12 Nov 2026 10:00:00 GMT"
-    },
-    {
-      "title": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
-      "link": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Wed, 11 Nov 2026 21:05:37 GMT"
+      "title": "李彦宏定义 AI 下一个十年，智能组织是「新厂房」",
+      "link": "http://www.geekpark.net/news/373937",
+      "description": "&nbsp;\n智能组织就是 AI 时代的新厂房，是生产力真正发生的地方&mdash;&mdash;11 月 12 日，在百度世界 2026 上，百度创始人李彦宏抛出了贯穿本届大会的核心命题。\n他在演讲中直言，当前 AI 没有产生预期的经济效益，本质是很多企业只更换了电机，却还没有重新设计工厂。\n过去两年，大模型、智能体快速渗透到企业各个环节，从办公提效到业务辅助，AI 已从「尝鲜",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 13 Nov 2026 11:43:41 +0800"
     },
     {
       "title": "接入多款第三方模型，豆包工作也模型自由了",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 11 Nov 2026 08:34:34 +0800"
-    },
-    {
-      "title": "千问办公押注 Team Agent，企业 AI 的流水线时刻真的来了",
-      "link": "http://www.geekpark.net/news/373760",
-      "description": "作者｜Cynthia\n编辑｜郑玄\n传说，光明之神巴德尔梦见自己将死，于是，巴德尔的母亲弗丽嘉遍走世间，令万物立下了绝不伤害他的誓言。众神也因此放下心来，甚至还发明了一种新的消遣：轮番向巴德尔投掷武器和石块，看着他毫发无损，来确定他们已经战胜了预言。直到一小枝被遗漏的槲寄生投向巴德尔。光明之神轰然倒下，诸神的黄昏由此拉开序章。\n这是北欧神话中巴德尔之死的故事。危险早已被预见，人们也",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 10 Nov 2026 12:52:07 +0800"
     }
   ]
 };
