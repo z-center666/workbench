@@ -1,51 +1,67 @@
-// 自动生成于 2026-11-13 04:49:25
+// 自动生成于 2026-11-13 13:50:25
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-13",
-  "time": "04:49",
+  "time": "13:50",
   "weekday": "周五",
-  "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Gemini, 大模型, 智能体, Agent, 多模态。",
+  "total": 14,
+  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: GPT, 智能体, Agent。",
   "items": [
     {
-      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
-      "link": "https://www.qbitai.com/2026/11/509440.html",
-      "description": "「CAD拆解」",
+      "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
+      "link": "https://www.qbitai.com/2026/11/509827.html",
+      "description": "12.9 北京，来MEET2027现场",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 12 Nov 2026 11:36:20 +0000"
+      "pub_date": "Fri, 13 Nov 2026 07:51:08 +0000"
     },
     {
-      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
-      "link": "https://www.qbitai.com/2026/11/509404.html",
-      "description": "银河智学首席科学家邓澍军博士发表主题演讲",
+      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+      "link": "https://www.qbitai.com/2026/11/509796.html",
+      "description": "250名国内顶尖三甲医院医生联合评测",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 12 Nov 2026 10:45:33 +0000"
+      "pub_date": "Fri, 13 Nov 2026 07:43:03 +0000"
     },
     {
-      "title": "让AI真正懂业务：璇玑如何成为企业AI的语义基础设施",
-      "link": "https://www.qbitai.com/2026/11/509349.html",
-      "description": "企业 AI 的难题，不只是模型够不够强",
+      "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学",
+      "link": "https://www.qbitai.com/2026/11/509663.html",
+      "description": "数据不出域、本地可部署",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 12 Nov 2026 09:34:06 +0000"
+      "pub_date": "Fri, 13 Nov 2026 07:06:32 +0000"
     },
     {
-      "title": "“双十一”机器人在物流仓“埋头苦干”：昆腾动力开启具身智能规模化获客与交付阶段",
-      "link": "https://www.qbitai.com/2026/11/509281.html",
-      "description": "跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布",
+      "title": "openJiuwen发布RSI原生AgentOS，让Agent自由变身，持续迭代！",
+      "link": "https://www.qbitai.com/2026/11/509653.html",
+      "description": "想要什么功能，让Agent自己开发",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Thu, 12 Nov 2026 01:45:04 +0000"
+      "pub_date": "Fri, 13 Nov 2026 06:54:44 +0000"
     },
     {
-      "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
-      "link": "https://www.qbitai.com/2026/11/509224.html",
-      "description": "模型即将开源",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 11 Nov 2026 12:43:54 +0000"
+      "title": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
+      "link": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 13 Nov 2026 20:54:12 GMT"
+    },
+    {
+      "title": "智能互动 Agent 在快手商业场景的落地实践",
+      "link": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 13 Nov 2026 19:00:00 GMT"
+    },
+    {
+      "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
+      "link": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Fri, 13 Nov 2026 17:06:00 GMT"
     },
     {
       "title": "Docker 呼吁通过隔离与治理保障智能体安全",
@@ -64,28 +80,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 13 Nov 2026 10:00:00 GMT"
     },
     {
-      "title": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
-      "link": "https://www.infoq.cn/article/joYjCTbwWFSkbACK5lje?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 13 Nov 2026 09:17:00 GMT"
-    },
-    {
-      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
-      "link": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 12 Nov 2026 13:00:00 GMT"
-    },
-    {
-      "title": "谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
-      "link": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Thu, 12 Nov 2026 11:00:00 GMT"
+      "title": "AI 录音硬件卖的是时间差，窗口可能只剩半年",
+      "link": "http://www.geekpark.net/news/373946",
+      "description": "北京时间 11 月 4 日，苹果推送了 iOS 27.3 和 watchOS 27.3 的第一个开发者测试版，除了带来国行 Apple 智能，还给 Apple Watch 加入了两个全新的 AI 功能：一个是 Live Rewind，可以随时帮你回顾过去 15 秒内的对话；另一个则是 Siri Recap，手表会在一整天里记下你和别人的对话，再整理成摘要。不过这两个功能目前只有英",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 13 Nov 2026 12:57:38 +0800"
     },
     {
       "title": "李彦宏定义 AI 下一个十年，智能组织是「新厂房」",
@@ -118,14 +118,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 11 Nov 2026 13:23:24 +0800"
-    },
-    {
-      "title": "Anthropic 启动 IPO 路演，创始人将套现 17.5 亿美元；谷歌最强 AI 模型正式开放；任天堂招新：经典游戏保存员",
-      "link": "http://www.geekpark.net/news/373796",
-      "description": "英伟达董事会聘请前美国联邦检察官，调查 CEO 黄仁勋相关事件\n11 月 11 日消息，英伟达发布公告，宣布已聘请美国前联邦检察官金正贤（Joon H. Kim）及其所在的律师事务所 Wachtell, Lipton, Rosen &amp; Katz，负责开展一项全面、独立的调查。\n此前，英伟达董事会表示，鉴于近期有关公司创始人兼 CEO 黄仁勋可能成为外国情报机构目标的报道",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 11 Nov 2026 08:34:34 +0800"
     }
   ]
 };
