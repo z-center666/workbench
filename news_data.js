@@ -1,9 +1,9 @@
-// 自动生成于 2026-11-13 23:10:44
+// 自动生成于 2026-11-14 04:42:46
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-13",
-  "time": "23:10",
-  "weekday": "周五",
+  "date": "2026-11-14",
+  "time": "04:42",
+  "weekday": "周六",
   "total": 14,
   "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: GPT, 智能体, Agent。",
   "items": [
@@ -40,6 +40,22 @@ var NEWS_DATA = {
       "pub_date": "Fri, 13 Nov 2026 06:54:44 +0000"
     },
     {
+      "title": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
+      "link": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 14 Nov 2026 10:00:00 GMT"
+    },
+    {
+      "title": "从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
+      "link": "https://www.infoq.cn/article/eTz8pt2LoALMvzvxj4aa?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 14 Nov 2026 10:00:00 GMT"
+    },
+    {
       "title": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
       "link": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -62,22 +78,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Fri, 13 Nov 2026 17:06:00 GMT"
-    },
-    {
-      "title": "Docker 呼吁通过隔离与治理保障智能体安全",
-      "link": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 13 Nov 2026 11:00:00 GMT"
-    },
-    {
-      "title": "GFlow：面向游戏设计的多 Agent 协作与验证实践｜AICon北京",
-      "link": "https://www.infoq.cn/article/dkQAAL0SSdhIq1h61eKx?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 13 Nov 2026 10:00:00 GMT"
     },
     {
       "title": "AI 录音硬件卖的是时间差，窗口可能只剩半年",
