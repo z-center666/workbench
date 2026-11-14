@@ -1,12 +1,28 @@
-// 自动生成于 2026-11-14 04:42:46
+// 自动生成于 2026-11-14 12:53:49
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-14",
-  "time": "04:42",
+  "time": "12:53",
   "weekday": "周六",
   "total": 14,
-  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: GPT, 智能体, Agent。",
+  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: DeepSeek, 智能体, Agent。",
   "items": [
+    {
+      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "link": "https://www.qbitai.com/2026/11/510232.html",
+      "description": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 14 Nov 2026 09:58:22 +0000"
+    },
+    {
+      "title": "突发！DeepSeek开放全家桶API",
+      "link": "https://www.qbitai.com/2026/11/510003.html",
+      "description": "官方App功能均可自由组合调用",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 14 Nov 2026 02:39:56 +0000"
+    },
     {
       "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
       "link": "https://www.qbitai.com/2026/11/509827.html",
@@ -22,22 +38,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Fri, 13 Nov 2026 07:43:03 +0000"
-    },
-    {
-      "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学",
-      "link": "https://www.qbitai.com/2026/11/509663.html",
-      "description": "数据不出域、本地可部署",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 13 Nov 2026 07:06:32 +0000"
-    },
-    {
-      "title": "openJiuwen发布RSI原生AgentOS，让Agent自由变身，持续迭代！",
-      "link": "https://www.qbitai.com/2026/11/509653.html",
-      "description": "想要什么功能，让Agent自己开发",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 13 Nov 2026 06:54:44 +0000"
     },
     {
       "title": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
