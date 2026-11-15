@@ -1,9 +1,9 @@
-// 自动生成于 2026-11-14 21:55:37
+// 自动生成于 2026-11-15 04:33:40
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-14",
-  "time": "21:55",
-  "weekday": "周六",
+  "date": "2026-11-15",
+  "time": "04:33",
+  "weekday": "周日",
   "total": 14,
   "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: DeepSeek, 智能体, Agent。",
   "items": [
@@ -40,6 +40,22 @@ var NEWS_DATA = {
       "pub_date": "Fri, 13 Nov 2026 07:43:03 +0000"
     },
     {
+      "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
+      "link": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 15 Nov 2026 10:00:00 GMT"
+    },
+    {
+      "title": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
+      "link": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 15 Nov 2026 09:00:00 GMT"
+    },
+    {
       "title": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
       "link": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -62,22 +78,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Fri, 13 Nov 2026 20:54:12 GMT"
-    },
-    {
-      "title": "智能互动 Agent 在快手商业场景的落地实践",
-      "link": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 13 Nov 2026 19:00:00 GMT"
-    },
-    {
-      "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
-      "link": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 13 Nov 2026 17:06:00 GMT"
     },
     {
       "title": "AI 录音硬件卖的是时间差，窗口可能只剩半年",
