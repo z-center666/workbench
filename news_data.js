@@ -1,11 +1,11 @@
-// 自动生成于 2026-11-15 04:33:40
+// 自动生成于 2026-11-15 13:22:13
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-15",
-  "time": "04:33",
+  "time": "13:22",
   "weekday": "周日",
   "total": 14,
-  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: DeepSeek, 智能体, Agent。",
+  "briefing": "今日共抓取 14 条 AI 相关新闻，来源: InfoQ(5条), 极客公园(5条), 量子位(4条)。 热点关键词: DeepSeek, 智能体。",
   "items": [
     {
       "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
@@ -40,6 +40,14 @@ var NEWS_DATA = {
       "pub_date": "Fri, 13 Nov 2026 07:43:03 +0000"
     },
     {
+      "title": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+      "link": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 15 Nov 2026 15:00:00 GMT"
+    },
+    {
       "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
       "link": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -70,14 +78,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Sat, 14 Nov 2026 10:00:00 GMT"
-    },
-    {
-      "title": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
-      "link": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 13 Nov 2026 20:54:12 GMT"
     },
     {
       "title": "AI 录音硬件卖的是时间差，窗口可能只剩半年",
