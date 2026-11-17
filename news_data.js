@@ -1,11 +1,11 @@
-// 自动生成于 2026-11-17 01:29:13
+// 自动生成于 2026-11-17 15:25:45
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-17",
-  "time": "01:29",
+  "time": "15:25",
   "weekday": "周二",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, DeepSeek, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, 大模型, 智能体, Agent。",
   "items": [
     {
       "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
@@ -48,44 +48,76 @@ var NEWS_DATA = {
       "pub_date": "Mon, 16 Nov 2026 03:07:39 +0000"
     },
     {
-      "title": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
-      "link": "https://www.infoq.cn/article/LjVeWVAsBWwaiifdMRiu?utm_source=rss&utm_medium=article",
+      "title": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+      "link": "https://www.infoq.cn/article/X8xujm6xovp7z2YzWbpM?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 16 Nov 2026 16:42:41 GMT"
+      "pub_date": "Tue, 17 Nov 2026 18:53:07 GMT"
     },
     {
-      "title": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
-      "link": "https://www.infoq.cn/article/yV89L6iMCqSLDHeSoLxo?utm_source=rss&utm_medium=article",
+      "title": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
+      "link": "https://www.infoq.cn/article/m5arrx8021zHVI0ybFtI?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 16 Nov 2026 16:22:11 GMT"
+      "pub_date": "Tue, 17 Nov 2026 15:09:45 GMT"
     },
     {
-      "title": "AI 来了，团队究竟怎么变？",
-      "link": "https://www.infoq.cn/video/ODJ7iuw7swP8TlU4SiAB?utm_source=rss&utm_medium=article",
+      "title": "Agent演示惊艳，一进生产就不好用：SAP直指企业AI落地的最大幻觉",
+      "link": "https://www.infoq.cn/article/AsfcqUsutpSlPIBE1ok9?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 16 Nov 2026 15:56:35 GMT"
+      "pub_date": "Tue, 17 Nov 2026 15:00:05 GMT"
     },
     {
-      "title": "Codex、Claude Code 都卷完了，居然还能跑出黑马？整个产品，现在都可以是一个提示词",
-      "link": "https://www.infoq.cn/article/8TySw9wzqf0l90keJUNf?utm_source=rss&utm_medium=article",
+      "title": "Google Cloud API Gateway 推出面向实时 AI 应用的流式处理",
+      "link": "https://www.infoq.cn/article/X2WRCQI4NorJVEvpgX5B?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 16 Nov 2026 14:44:28 GMT"
+      "pub_date": "Tue, 17 Nov 2026 14:00:00 GMT"
     },
     {
-      "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
-      "link": "https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb?utm_source=rss&utm_medium=article",
+      "title": "Spring 近期资讯：Boot、Framework、Data、Security、Modulith 和 AI 的首个候选版本",
+      "link": "https://www.infoq.cn/article/uCmKjbkjjkW17olm7smj?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 16 Nov 2026 14:38:24 GMT"
+      "pub_date": "Tue, 17 Nov 2026 12:42:35 GMT"
+    },
+    {
+      "title": "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？",
+      "link": "http://www.geekpark.net/news/374103",
+      "description": "开发者围绕同一块基础模型进行实验，让模型直面成功的方法、失败的经验和真实世界的问题。作者｜Li Yuan编辑｜郑玄最大规模具身大模型挑战赛总决赛结果出炉，排名第三的队伍 SST 只额外采集了 13 条数据。他们没有大量补数据，而是让 DeepSeek 先理解任务，再用视觉分割模型标出目标物体，最后交给 LingBot-VLA 2.0 完成动作，并在真机评测中拿到 65.87 分。",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 17 Nov 2026 19:18:55 +0800"
+    },
+    {
+      "title": "AI，没有抛弃小城商家",
+      "link": "http://www.geekpark.net/news/374101",
+      "description": "作者｜李苏\n编辑｜郑玄\n\n理解本地商业，是 AI 走出实验室后的新课程。\n过去几年，AI 界擅长讲的故事变了。\n从最开始谈技术，讲参数有多大，算得有多快，跑分超过多少人，慢慢转变为讲落地，讲 AI 怎么一分钟生成商业计划书，怎么给被生活困扰的人们出情绪价值满满的建议。\n走出实验室，AI 下一站在哪里？这背后，是一段讲了一半的「AI 平权」故事。前面讲的这一半，是消费者：普通人用",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 17 Nov 2026 17:58:33 +0800"
+    },
+    {
+      "title": "腾讯 Hy4 flash 实测：快速、实惠、聪明，国模进入过日子时代",
+      "link": "http://www.geekpark.net/news/374083",
+      "description": "作者｜Cynthia\n编辑｜郑玄\n过日子的风，还是吹到了大模型行业。\n2026 年之前，一款模型能不能刷屏，往往取决于它又做到了什么。GPT-4o 的实时语音交互、Claude 的编程能力、DeepSeek R1 的推理表现，一度轮番成为讨论焦点。一款新模型发布，大家首先关心的是它超过了谁，又做到了什么过去做不到的事。\n但到了 2026 年，Agent 真正流行起来之后，风向开始",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 17 Nov 2026 15:12:48 +0800"
+    },
+    {
+      "title": "OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」",
+      "link": "http://www.geekpark.net/news/374075",
+      "description": "作者｜桦林舞王\n编辑｜靖宇\n\nAgent 能进门了，也能付钱了。\nAgent 替用户「消费」的时代，终于到来了。\n美国时间 2026 年 11 月 13 日，两家公司两场发布会同天发生。一边是企业级对话式智能体公司 Sierra 联合 Meta 正式发布个人代理协议 Poppy v1.0，解决助手怎么「进门」的问题；另一边是 OpenAI 推出面向个人助手 dots 的 Cha",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 17 Nov 2026 14:24:52 +0800"
     },
     {
       "title": "消息称黄仁勋回归尚未进入英伟达董事会议程；腾讯总办号召AI时代再创业；AI 演员虚假代言被罚",
@@ -94,38 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 17 Nov 2026 08:42:16 +0800"
-    },
-    {
-      "title": "曝黄仁勋考虑重返英伟达担任 CEO；苹果计划明年发布首款智能眼镜；OpenAI 撤销独立机器人研究团队",
-      "link": "http://www.geekpark.net/news/373994",
-      "description": "曝黄仁勋考虑重返英伟达担任 CEO，盟友正施压董事会\n据英国《金融时报》周日报道，黄仁勋正考虑重返英伟达担任首席执行官。如今他在硅谷的多位盟友正向英伟达董事会施压，要求公司重新任命他。\n报道称，黄仁勋已经和亲信讨论了重返公司的可能性。与此同时，英伟达董事会还在开展独立调查。\n一位黄仁勋的盟友表示，他们正在组建一个由硅谷高管构成的「作战室」，游说黄仁勋重返英伟达，并计划争取白宫方",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 16 Nov 2026 08:47:39 +0800"
-    },
-    {
-      "title": "AI 录音硬件卖的是时间差，窗口可能只剩半年",
-      "link": "http://www.geekpark.net/news/373946",
-      "description": "北京时间 11 月 4 日，苹果推送了 iOS 27.3 和 watchOS 27.3 的第一个开发者测试版，除了带来国行 Apple 智能，还给 Apple Watch 加入了两个全新的 AI 功能：一个是 Live Rewind，可以随时帮你回顾过去 15 秒内的对话；另一个则是 Siri Recap，手表会在一整天里记下你和别人的对话，再整理成摘要。不过这两个功能目前只有英",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 13 Nov 2026 12:57:38 +0800"
-    },
-    {
-      "title": "李彦宏定义 AI 下一个十年，智能组织是「新厂房」",
-      "link": "http://www.geekpark.net/news/373937",
-      "description": "&nbsp;\n智能组织就是 AI 时代的新厂房，是生产力真正发生的地方&mdash;&mdash;11 月 12 日，在百度世界 2026 上，百度创始人李彦宏抛出了贯穿本届大会的核心命题。\n他在演讲中直言，当前 AI 没有产生预期的经济效益，本质是很多企业只更换了电机，却还没有重新设计工厂。\n过去两年，大模型、智能体快速渗透到企业各个环节，从办公提效到业务辅助，AI 已从「尝鲜",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 13 Nov 2026 11:43:41 +0800"
-    },
-    {
-      "title": "接入多款第三方模型，豆包工作也模型自由了",
-      "link": "http://www.geekpark.net/news/373881",
-      "description": "&nbsp;\n头图来源：豆包工作官网\n豆包工作也模型自由了。\n11 月 12 日，豆包工作宣布接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，支持用户按需选型完成任务。同步在模型选择页面标注各模型额度消耗倍率，倍率越低消耗越少，便于用户结合任务需求与使用成本做决策。\n同时平台推出两项限时优惠：一是工作日及节假日的指定时段",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 12 Nov 2026 16:24:17 +0800"
     }
   ]
 };
