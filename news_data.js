@@ -1,12 +1,36 @@
-// 自动生成于 2026-11-17 15:25:45
+// 自动生成于 2026-11-18 00:26:24
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-17",
-  "time": "15:25",
-  "weekday": "周二",
+  "date": "2026-11-18",
+  "time": "00:26",
+  "weekday": "周三",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, 大模型, 智能体, Agent。",
   "items": [
+    {
+      "title": "李沐加盟的Aimotion，是一家什么AI公司？",
+      "link": "https://www.qbitai.com/2026/11/510688.html",
+      "description": "瞄准「产业级世界模型」",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 17 Nov 2026 11:40:37 +0000"
+    },
+    {
+      "title": "材料科学智能体MatOS正式开源！大幅提高材料研发任务成功率",
+      "link": "https://www.qbitai.com/2026/11/510652.html",
+      "description": "筛材料、找配方、开发新模型…拿下多项科研任务",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 17 Nov 2026 06:09:40 +0000"
+    },
+    {
+      "title": "物理AI的强化学习仿真环境来了，光轮智能推出RoboFinals RL Envs",
+      "link": "https://www.qbitai.com/2026/11/510561.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Tue, 17 Nov 2026 02:03:22 +0000"
+    },
     {
       "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
       "link": "https://www.qbitai.com/2026/11/510542.html",
@@ -24,28 +48,12 @@ var NEWS_DATA = {
       "pub_date": "Mon, 16 Nov 2026 08:45:17 +0000"
     },
     {
-      "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
-      "link": "https://www.qbitai.com/2026/11/510486.html",
-      "description": "11月16日，阿里巴巴发布全新一代基座大模型Qwen4-Max",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 16 Nov 2026 07:51:57 +0000"
-    },
-    {
-      "title": "今天截止！2026年度AI表彰，错过再等一年！",
-      "link": "https://www.qbitai.com/2026/11/510382.html",
-      "description": "量子位在寻找“能干”的答案",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 16 Nov 2026 03:19:53 +0000"
-    },
-    {
-      "title": "提速2.48倍且画质不掉线，AI视频“降本增效”有了新解法",
-      "link": "https://www.qbitai.com/2026/11/510369.html",
-      "description": "是石科技最新发布多模态模型服务",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Mon, 16 Nov 2026 03:07:39 +0000"
+      "title": "GitHub 让 AI 接管工作流，单次默认预算 10 美元：是不是太大方了？",
+      "link": "https://www.infoq.cn/article/lMs1bM1muspglUjMr1l3?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Wed, 18 Nov 2026 08:00:00 GMT"
     },
     {
       "title": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
@@ -78,14 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Tue, 17 Nov 2026 14:00:00 GMT"
-    },
-    {
-      "title": "Spring 近期资讯：Boot、Framework、Data、Security、Modulith 和 AI 的首个候选版本",
-      "link": "https://www.infoq.cn/article/uCmKjbkjjkW17olm7smj?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Tue, 17 Nov 2026 12:42:35 GMT"
     },
     {
       "title": "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？",
