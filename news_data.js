@@ -1,12 +1,28 @@
-// 自动生成于 2026-11-19 05:41:52
+// 自动生成于 2026-11-19 15:08:45
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-19",
-  "time": "05:41",
+  "time": "15:08",
   "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, DeepSeek, OpenAI。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
   "items": [
+    {
+      "title": "GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了",
+      "link": "https://www.qbitai.com/2026/11/511180.html",
+      "description": "媒体均分登顶历史第一，细节多到爆炸",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 19 Nov 2026 08:18:30 +0000"
+    },
+    {
+      "title": "好清晰！最新国产AI画的8K图，放这么大大大大也不糊！",
+      "link": "https://www.qbitai.com/2026/11/511092.html",
+      "description": "Kling Image 4.0",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Thu, 19 Nov 2026 07:01:05 +0000"
+    },
     {
       "title": "AI基建大潮方兴未艾，联想集团最佳财季诞生！",
       "link": "https://www.qbitai.com/2026/11/511088.html",
@@ -32,60 +48,52 @@ var NEWS_DATA = {
       "pub_date": "Thu, 19 Nov 2026 00:26:40 +0000"
     },
     {
-      "title": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
-      "link": "https://www.qbitai.com/2026/11/510922.html",
-      "description": "氖人寻味！",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 18 Nov 2026 09:41:55 +0000"
-    },
-    {
-      "title": "GPT-6.2难产！OpenAI怕了",
-      "link": "https://www.qbitai.com/2026/11/510914.html",
-      "description": "OpenAI也终于活成了2022年谷歌的样子",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 18 Nov 2026 07:53:29 +0000"
-    },
-    {
-      "title": "开源项目 pg_vectorsearch 为 PostgreSQL 带来了更具可扩展性的向量搜索功能",
-      "link": "https://www.infoq.cn/article/sbD3maMohpCIExV3UUH0?utm_source=rss&utm_medium=article",
+      "title": "模型刚接进业务，CEO又要换新：红帽如何接住企业AI落地难题？",
+      "link": "https://www.infoq.cn/article/6xqcZfMgJ99ZQiGFbjym?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 19 Nov 2026 13:00:00 GMT"
+      "pub_date": "Thu, 19 Nov 2026 18:05:40 GMT"
     },
     {
-      "title": "从业者正在对 Anthropic “没人需要 Claude Code 心理模型”的说法进行验证",
-      "link": "https://www.infoq.cn/article/R9BxSitBpwGcDwfS22ac?utm_source=rss&utm_medium=article",
+      "title": "杀入Agent主场之后：两年内部分替代自回归，扩散智能的底气从何而来？| 专访",
+      "link": "https://www.infoq.cn/article/rtBT5s1opGGazFgQi0YS?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 19 Nov 2026 12:00:00 GMT"
+      "pub_date": "Thu, 19 Nov 2026 16:32:33 GMT"
     },
     {
-      "title": "Bug0 发布 QA Agent，利用缓存的 Playwright 回放实现回归测试自动化",
-      "link": "https://www.infoq.cn/article/eO0w7sdaGClvppFqwt5j?utm_source=rss&utm_medium=article",
+      "title": "Agent 实干派：从人人可用到全栈工程进化 | InfoQ 小编探班",
+      "link": "https://www.infoq.cn/video/Cfrl4QYhD3dHMuhGt6hw?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 19 Nov 2026 11:00:00 GMT"
+      "pub_date": "Thu, 19 Nov 2026 16:16:29 GMT"
     },
     {
-      "title": "从可用到好用：Agent 的观测、评估与持续优化｜AICon北京",
-      "link": "https://www.infoq.cn/article/u8eHrtbbchlNRkP94ALh?utm_source=rss&utm_medium=article",
+      "title": "价值为先，金融智能体应用实践 | TF技术前线188期报名",
+      "link": "https://www.infoq.cn/article/NR0Wal4xOQ3b5flxE0Hi?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 19 Nov 2026 10:00:00 GMT"
+      "pub_date": "Thu, 19 Nov 2026 16:11:32 GMT"
     },
     {
-      "title": "Agent 驱动 MaaS 新范式，如何让模型能力随需而用？",
-      "link": "https://www.infoq.cn/video/xsEfht2OwBZQBvWVHSIb?utm_source=rss&utm_medium=article",
+      "title": "快与真：范式首批国产算力训练的Phai系列模型，究竟有什么不同",
+      "link": "https://www.infoq.cn/article/DQlimzDy7bqiZ3mc5Vvq?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 18 Nov 2026 18:50:07 GMT"
+      "pub_date": "Thu, 19 Nov 2026 16:08:30 GMT"
+    },
+    {
+      "title": "「北美大豆包」谷歌，终于杀回 AI 牌桌中央",
+      "link": "http://www.geekpark.net/news/374196",
+      "description": "作者｜Wildcard\n编辑｜靖宇\n\n谷歌，这次是真的回来了。\n11 月 18 日，Google DeepMind 点亮了Gemini 4 Neon的霓虹灯牌。\n这是 Gemini 4 系列在短短 7 周内甩出的第 4 款元素模型。如果看一眼官方放出的基准跑分长表和社区实测反馈，你会发现它精准卡在了一个极其舒服的「甜点」位上，既有接近、甚至局部反超旗舰的硬核智商，又把单任务成",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 19 Nov 2026 14:10:00 +0800"
     },
     {
       "title": "WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 18 Nov 2026 08:48:04 +0800"
-    },
-    {
-      "title": "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？",
-      "link": "http://www.geekpark.net/news/374103",
-      "description": "开发者围绕同一块基础模型进行实验，让模型直面成功的方法、失败的经验和真实世界的问题。作者｜Li Yuan编辑｜郑玄最大规模具身大模型挑战赛总决赛结果出炉，排名第三的队伍 SST 只额外采集了 13 条数据。他们没有大量补数据，而是让 DeepSeek 先理解任务，再用视觉分割模型标出目标物体，最后交给 LingBot-VLA 2.0 完成动作，并在真机评测中拿到 65.87 分。",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 17 Nov 2026 19:18:55 +0800"
     }
   ]
 };
