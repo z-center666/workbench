@@ -1,12 +1,20 @@
-// 自动生成于 2026-11-20 00:13:42
+// 自动生成于 2026-11-20 14:49:13
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-20",
-  "time": "00:13",
+  "time": "14:49",
   "weekday": "周五",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, DeepSeek, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Gemini, DeepSeek, OpenAI, 智能体。",
   "items": [
+    {
+      "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
+      "link": "https://www.qbitai.com/2026/11/511582.html",
+      "description": "已开源Agnes Harness",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 20 Nov 2026 05:24:11 +0000"
+    },
     {
       "title": "GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了",
       "link": "https://www.qbitai.com/2026/11/511180.html",
@@ -40,52 +48,60 @@ var NEWS_DATA = {
       "pub_date": "Thu, 19 Nov 2026 04:02:39 +0000"
     },
     {
-      "title": "初中毕业烘焙师，1 人搓出单集千万播放科幻剧，中国AI长片杀疯了！",
-      "link": "https://www.qbitai.com/2026/11/510947.html",
-      "description": "国产AI工具实现「一个人就是一个剧组」",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 19 Nov 2026 00:26:40 +0000"
-    },
-    {
-      "title": "模型刚接进业务，CEO又要换新：红帽如何接住企业AI落地难题？",
-      "link": "https://www.infoq.cn/article/6xqcZfMgJ99ZQiGFbjym?utm_source=rss&utm_medium=article",
+      "title": "AI 来了，团队究竟怎么变？",
+      "link": "https://www.infoq.cn/video/ODJ7iuw7swP8TlU4SiAB?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 19 Nov 2026 18:05:40 GMT"
+      "pub_date": "Fri, 20 Nov 2026 18:43:54 GMT"
     },
     {
-      "title": "杀入Agent主场之后：两年内部分替代自回归，扩散智能的底气从何而来？| 专访",
-      "link": "https://www.infoq.cn/article/rtBT5s1opGGazFgQi0YS?utm_source=rss&utm_medium=article",
+      "title": "Agent 上岗，你敢放手吗？",
+      "link": "https://www.infoq.cn/video/qafOtORWUX0eD0WfSlYi?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 19 Nov 2026 16:32:33 GMT"
+      "pub_date": "Fri, 20 Nov 2026 18:25:42 GMT"
     },
     {
-      "title": "Agent 实干派：从人人可用到全栈工程进化 | InfoQ 小编探班",
-      "link": "https://www.infoq.cn/video/Cfrl4QYhD3dHMuhGt6hw?utm_source=rss&utm_medium=article",
+      "title": "AI 漫剧不缺作品，缺什么？｜QLab直播",
+      "link": "https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 19 Nov 2026 16:16:29 GMT"
+      "pub_date": "Fri, 20 Nov 2026 17:14:29 GMT"
     },
     {
-      "title": "价值为先，金融智能体应用实践 | TF技术前线188期报名",
-      "link": "https://www.infoq.cn/article/NR0Wal4xOQ3b5flxE0Hi?utm_source=rss&utm_medium=article",
+      "title": "Grab 通过安全策略应对 AI 生成代码变更激增，提升移动端 App 稳定性",
+      "link": "https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 19 Nov 2026 16:11:32 GMT"
+      "pub_date": "Fri, 20 Nov 2026 14:00:00 GMT"
     },
     {
-      "title": "快与真：范式首批国产算力训练的Phai系列模型，究竟有什么不同",
-      "link": "https://www.infoq.cn/article/DQlimzDy7bqiZ3mc5Vvq?utm_source=rss&utm_medium=article",
+      "title": "谷歌发布用于机器人控制、仿真和策略优化的 Gemini 4 Argon",
+      "link": "https://www.infoq.cn/article/S4LH5Z9zcbLokm5uNSKR?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Thu, 19 Nov 2026 16:08:30 GMT"
+      "pub_date": "Fri, 20 Nov 2026 11:00:00 GMT"
+    },
+    {
+      "title": "估值 410 亿美元，贝佐斯打造「物理世界的 OpenAI」",
+      "link": "http://www.geekpark.net/news/374282",
+      "description": "作者｜宇航猿\n编辑｜靖宇\n\nAI 吞掉了软件，现在，它要吞掉工业了。\n卸任亚马逊 CEO 五年后，杰夫&middot;贝佐斯没忍住，又给自己找了个班上。\n当地时间 2026 年 11 月 17 日，加州门洛帕克的 Semafor「硅谷与世界」峰会现场，贝佐斯和物理学家维克&middot;巴贾杰（Vik Bajaj）罕见同台。他现在的最新头衔，是 AI 初创公司 Promethe",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 20 Nov 2026 16:24:30 +0800"
+    },
+    {
+      "title": "1.27 万亿美元，Anthropic 挂牌上市；吴泳铭：千问已在平头哥芯片训练下一代模型；苹果被曝自研 AI 智能体｜极客早知道",
+      "link": "http://www.geekpark.net/news/374235",
+      "description": "「史上最大 IPO」：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元\n11 月 20 日消息，AI 公司 Anthropic 于当地时间 11 月 19 日在美国纳斯达克上市，首日股价以 97.17 美元（现汇率约合 649.2 元人民币）收盘，较 83 美元（现汇率约合 554.5 元人民币）的发行价上涨 17.07%。\n该股开盘即报 111.5 美",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Fri, 20 Nov 2026 09:04:08 +0800"
     },
     {
       "title": "「北美大豆包」谷歌，终于杀回 AI 牌桌中央",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 18 Nov 2026 21:40:28 +0800"
-    },
-    {
-      "title": "影视飓风、Manus、影石、OPPO......极客公园创新大会 2027 嘉宾阵容更新！",
-      "link": "http://www.geekpark.net/news/374125",
-      "description": "首批嘉宾公布以来，IF 2027 收到了超出预期的关注， 短短几天早鸟票已经售罄。\n今年 IF 大会的主题是：「Revaluation 价值，另有答案」。\n过去一年，AI 正在以超出预期的速度改变世界。变化越来越快，但真正重要的问题并没有变得更简单：下一轮机会在哪里？哪些行业正在发生根本性的变化？当旧的经验和规则不再适用，我们又该如何做出新的判断？\n我们希望 IF 大会呈现的，",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 18 Nov 2026 12:12:11 +0800"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道",
-      "link": "http://www.geekpark.net/news/374109",
-      "description": "OpenAI 发布 GPT-6.2 Astra 和 Sol，强化编程、电脑操作与专业工作\nOpenAI 正式发布 GPT-6.2 Astra 和 GPT-6.2 Sol 两款模型，重点提升专业任务、Coding、电脑操作和执行效率，并降低部分使用成本。新模型将应用于 ChatGPT Work、Codex 和 API。\n其中，Astra 面向复杂编程和专业工作，Sol 则更强调日",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 18 Nov 2026 08:48:04 +0800"
     }
   ]
 };
