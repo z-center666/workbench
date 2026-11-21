@@ -1,11 +1,11 @@
-// 自动生成于 2026-11-20 23:37:29
+// 自动生成于 2026-11-21 05:23:55
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-20",
-  "time": "23:37",
-  "weekday": "周五",
+  "date": "2026-11-21",
+  "time": "05:23",
+  "weekday": "周六",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Gemini, DeepSeek, OpenAI, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 智能体, Agent。",
   "items": [
     {
       "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
@@ -48,6 +48,30 @@ var NEWS_DATA = {
       "pub_date": "Thu, 19 Nov 2026 04:02:39 +0000"
     },
     {
+      "title": "智能体 AI 架构：当前挑战与未来机遇",
+      "link": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 21 Nov 2026 11:00:00 GMT"
+    },
+    {
+      "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
+      "link": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 21 Nov 2026 10:00:00 GMT"
+    },
+    {
+      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
+      "link": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sat, 21 Nov 2026 10:00:00 GMT"
+    },
+    {
       "title": "AI 来了，团队究竟怎么变？",
       "link": "https://www.infoq.cn/video/ODJ7iuw7swP8TlU4SiAB?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -64,28 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Fri, 20 Nov 2026 18:25:42 GMT"
     },
     {
-      "title": "AI 漫剧不缺作品，缺什么？｜QLab直播",
-      "link": "https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 20 Nov 2026 17:14:29 GMT"
-    },
-    {
-      "title": "Grab 通过安全策略应对 AI 生成代码变更激增，提升移动端 App 稳定性",
-      "link": "https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 20 Nov 2026 14:00:00 GMT"
-    },
-    {
-      "title": "谷歌发布用于机器人控制、仿真和策略优化的 Gemini 4 Argon",
-      "link": "https://www.infoq.cn/article/S4LH5Z9zcbLokm5uNSKR?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 20 Nov 2026 11:00:00 GMT"
+      "title": "林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机",
+      "link": "http://www.geekpark.net/news/374299",
+      "description": "传林俊旸 AI 初创公司完成新融资，估值翻倍至 50 亿美元\n据彭博社报道，阿里巴巴集团前 AI 负责人林俊旸创办的语用科技 ( Pragmatik Labs)，已完成新一轮融资，估值达 50 亿美元，短短几个月内估值翻了一倍多。\n林俊旸曾是阿里的明星研究员，在离职后于今年夏季创立语用科技。据知情人士称，语用科技在最近结束的一轮融资中筹集了数千万美元资金。今年 8 月，该公司在",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sat, 21 Nov 2026 08:17:10 +0800"
     },
     {
       "title": "估值 410 亿美元，贝佐斯打造「物理世界的 OpenAI」",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Thu, 19 Nov 2026 09:03:37 +0800"
-    },
-    {
-      "title": "跑分狂飙，实测翻车，刚发的 GPT-6.2 暴露了 OpenAI 的软肋",
-      "link": "http://www.geekpark.net/news/374175",
-      "description": "作者｜Techno 之王\n编辑｜靖宇\n「基本不可用，不推荐」。\nOpenAI 新模型上线仅仅 8 分钟，硅谷知名创业者 Matt Shumer，就在社交平台上扔下一句毫不留情的评价。\n紧接着，拥有大批开发者拥趸的 Theo Browne，发了一篇长文《我为什么讨厌 GPT-6.2 Astra》。向来对前沿模型保持温和耐心的沃顿商学院教授 Ethan Mollick，测完后也给出",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 18 Nov 2026 21:40:28 +0800"
     }
   ]
 };
