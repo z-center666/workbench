@@ -1,8 +1,8 @@
-// 自动生成于 2026-11-21 14:05:55
+// 自动生成于 2026-11-21 22:43:07
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-21",
-  "time": "14:05",
+  "time": "22:43",
   "weekday": "周六",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 智能体。",
