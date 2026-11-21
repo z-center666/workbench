@@ -1,12 +1,44 @@
-// 自动生成于 2026-11-21 05:23:55
+// 自动生成于 2026-11-21 14:05:55
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-21",
-  "time": "05:23",
+  "time": "14:05",
   "weekday": "周六",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: DeepSeek, OpenAI, 智能体, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 智能体。",
   "items": [
+    {
+      "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+      "link": "https://www.qbitai.com/2026/11/511779.html",
+      "description": "还实现可变形物体操控全球首通",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 21 Nov 2026 06:35:59 +0000"
+    },
+    {
+      "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+      "link": "https://www.qbitai.com/2026/11/511570.html",
+      "description": "专为本地部署而生",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 21 Nov 2026 06:32:31 +0000"
+    },
+    {
+      "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+      "link": "https://www.qbitai.com/2026/11/511727.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 20 Nov 2026 16:07:39 +0000"
+    },
+    {
+      "title": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
+      "link": "https://www.qbitai.com/2026/11/511722.html",
+      "description": "美国AI音乐平台Suno宣布推出视觉创作工具Visuals",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Fri, 20 Nov 2026 12:18:01 +0000"
+    },
     {
       "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
       "link": "https://www.qbitai.com/2026/11/511582.html",
@@ -14,38 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Fri, 20 Nov 2026 05:24:11 +0000"
-    },
-    {
-      "title": "GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了",
-      "link": "https://www.qbitai.com/2026/11/511180.html",
-      "description": "媒体均分登顶历史第一，细节多到爆炸",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 19 Nov 2026 08:18:30 +0000"
-    },
-    {
-      "title": "好清晰！最新国产AI画的8K图，放这么大大大大也不糊！",
-      "link": "https://www.qbitai.com/2026/11/511092.html",
-      "description": "Kling Image 4.0",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 19 Nov 2026 07:01:05 +0000"
-    },
-    {
-      "title": "AI基建大潮方兴未艾，联想集团最佳财季诞生！",
-      "link": "https://www.qbitai.com/2026/11/511088.html",
-      "description": "全球AI生态链领先企业联想集团今日公布截至2026/27财年第二季度业绩",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 19 Nov 2026 04:51:31 +0000"
-    },
-    {
-      "title": "安谋科技深度解析Arm Cortex-M42，发布“星辰100e”AIoT原型平台，助力打造AI性能更强的嵌入式设计",
-      "link": "https://www.qbitai.com/2026/11/511079.html",
-      "description": "11月18日，安谋科技（中国）有限公司举办Arm® Cortex®-M CPU新品说明会",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Thu, 19 Nov 2026 04:02:39 +0000"
     },
     {
       "title": "智能体 AI 架构：当前挑战与未来机遇",
