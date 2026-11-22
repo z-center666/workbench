@@ -1,12 +1,44 @@
-// 自动生成于 2026-11-22 04:49:09
+// 自动生成于 2026-11-22 13:58:05
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-22",
-  "time": "04:49",
+  "time": "13:58",
   "weekday": "周日",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, 智能体。",
   "items": [
+    {
+      "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+      "link": "https://www.qbitai.com/2026/11/511870.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sun, 22 Nov 2026 06:03:54 +0000"
+    },
+    {
+      "title": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
+      "link": "https://www.qbitai.com/2026/11/511855.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 21 Nov 2026 14:14:09 +0000"
+    },
+    {
+      "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+      "link": "https://www.qbitai.com/2026/11/511841.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 21 Nov 2026 11:40:11 +0000"
+    },
+    {
+      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "link": "https://www.qbitai.com/2026/11/511791.html",
+      "description": "",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Sat, 21 Nov 2026 11:24:29 +0000"
+    },
     {
       "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
       "link": "https://www.qbitai.com/2026/11/511779.html",
@@ -16,36 +48,28 @@ var NEWS_DATA = {
       "pub_date": "Sat, 21 Nov 2026 06:35:59 +0000"
     },
     {
-      "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
-      "link": "https://www.qbitai.com/2026/11/511570.html",
-      "description": "专为本地部署而生",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Sat, 21 Nov 2026 06:32:31 +0000"
+      "title": "财务团队的 AI 蓝图",
+      "link": "https://www.infoq.cn/video/UUqekkOQ8haEXZ792UjU?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 22 Nov 2026 17:54:58 GMT"
     },
     {
-      "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
-      "link": "https://www.qbitai.com/2026/11/511727.html",
-      "description": "",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 20 Nov 2026 16:07:39 +0000"
+      "title": "打造 AI 优先的销售与营销运营体系",
+      "link": "https://www.infoq.cn/video/mihBFvImttvJlSFUqC49?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 22 Nov 2026 17:41:49 GMT"
     },
     {
-      "title": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
-      "link": "https://www.qbitai.com/2026/11/511722.html",
-      "description": "美国AI音乐平台Suno宣布推出视觉创作工具Visuals",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 20 Nov 2026 12:18:01 +0000"
-    },
-    {
-      "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
-      "link": "https://www.qbitai.com/2026/11/511582.html",
-      "description": "已开源Agnes Harness",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Fri, 20 Nov 2026 05:24:11 +0000"
+      "title": "智能体企业新前沿：驱动高效智能",
+      "link": "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 22 Nov 2026 17:38:28 GMT"
     },
     {
       "title": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
@@ -62,30 +86,6 @@ var NEWS_DATA = {
       "source": "InfoQ",
       "category": "技术",
       "pub_date": "Sun, 22 Nov 2026 10:00:00 GMT"
-    },
-    {
-      "title": "智能体 AI 架构：当前挑战与未来机遇",
-      "link": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 21 Nov 2026 11:00:00 GMT"
-    },
-    {
-      "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
-      "link": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 21 Nov 2026 10:00:00 GMT"
-    },
-    {
-      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
-      "link": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sat, 21 Nov 2026 10:00:00 GMT"
     },
     {
       "title": "重控制、轻渲染，达瓦科技的 AI 视频工业路线",
