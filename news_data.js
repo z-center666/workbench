@@ -1,9 +1,9 @@
-// 自动生成于 2026-11-21 22:43:07
+// 自动生成于 2026-11-22 04:49:09
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-21",
-  "time": "22:43",
-  "weekday": "周六",
+  "date": "2026-11-22",
+  "time": "04:49",
+  "weekday": "周日",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, DeepSeek, OpenAI, 智能体。",
   "items": [
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Fri, 20 Nov 2026 05:24:11 +0000"
     },
     {
+      "title": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
+      "link": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 22 Nov 2026 10:00:00 GMT"
+    },
+    {
+      "title": "亚马逊云科技推出 TorchNeuron，可以直接在 AWS Trainium 上运行 PyTorch 模型，无需任何修改",
+      "link": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Sun, 22 Nov 2026 10:00:00 GMT"
+    },
+    {
       "title": "智能体 AI 架构：当前挑战与未来机遇",
       "link": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -72,20 +88,28 @@ var NEWS_DATA = {
       "pub_date": "Sat, 21 Nov 2026 10:00:00 GMT"
     },
     {
-      "title": "AI 来了，团队究竟怎么变？",
-      "link": "https://www.infoq.cn/video/ODJ7iuw7swP8TlU4SiAB?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 20 Nov 2026 18:43:54 GMT"
+      "title": "重控制、轻渲染，达瓦科技的 AI 视频工业路线",
+      "link": "http://www.geekpark.net/news/374303",
+      "description": "&nbsp;\n头图来源：极客公园\n今年以来，视频生成模型的进步肉眼可见，AI 短剧、换脸、场景合成在各个平台越来越多，但一个现实问题始终存在：生成一条满意的视频，往往要反复「抽卡」，算力和时间成本都不低；而一旦进入专业影视管线，今天的模型能承担的工业级工作仍然有限。\n关于这个问题，行业有两种思路。一种堆参数、扩算力，相信通用大模型终会跨过工业门槛；另一种扎进真实片场，从具体需求自",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 22 Nov 2026 10:03:57 +0800"
     },
     {
-      "title": "Agent 上岗，你敢放手吗？",
-      "link": "https://www.infoq.cn/video/qafOtORWUX0eD0WfSlYi?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Fri, 20 Nov 2026 18:25:42 GMT"
+      "title": "资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段",
+      "link": "http://www.geekpark.net/news/374302",
+      "description": "&nbsp;\n头图来源：腾讯\n&nbsp;\n腾讯的 AI 故事，正在进入一个有些沉重的阶段。\n11 月 18 日，腾讯发布 2026 年第三季度财报。本季度营收 2073.4 亿元，同比增长 8%；Non-IFRS 经营利润 681 亿元，同比下降 6%；Non-IFRS 归母净利润 665 亿元，同比下降 6%。\n\n图片来源：腾讯财报\n本季度，腾讯资本开支达到 814 亿元，同",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 22 Nov 2026 09:58:48 +0800"
+    },
+    {
+      "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
+      "link": "http://www.geekpark.net/news/374301",
+      "description": "&nbsp;\n头图来源：ChatGPT 生成\n&nbsp;\n11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队的研究员现身 Reddit LocalLLaMA 社区，开启了混元团队史上第一场面向全球开发者的公开 AMA。\n\n图片来源：x\n两小时内，姚顺雨和混元团队解答了 300 余条开发者提问，从底层架构取舍到长期路线规划，从量化落地经验到开源生态适",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Sun, 22 Nov 2026 09:56:28 +0800"
     },
     {
       "title": "林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机",
@@ -102,30 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Fri, 20 Nov 2026 16:24:30 +0800"
-    },
-    {
-      "title": "1.27 万亿美元，Anthropic 挂牌上市；吴泳铭：千问已在平头哥芯片训练下一代模型；苹果被曝自研 AI 智能体｜极客早知道",
-      "link": "http://www.geekpark.net/news/374235",
-      "description": "「史上最大 IPO」：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元\n11 月 20 日消息，AI 公司 Anthropic 于当地时间 11 月 19 日在美国纳斯达克上市，首日股价以 97.17 美元（现汇率约合 649.2 元人民币）收盘，较 83 美元（现汇率约合 554.5 元人民币）的发行价上涨 17.07%。\n该股开盘即报 111.5 美",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 20 Nov 2026 09:04:08 +0800"
-    },
-    {
-      "title": "「北美大豆包」谷歌，终于杀回 AI 牌桌中央",
-      "link": "http://www.geekpark.net/news/374196",
-      "description": "作者｜Wildcard\n编辑｜靖宇\n\n谷歌，这次是真的回来了。\n11 月 18 日，Google DeepMind 点亮了Gemini 4 Neon的霓虹灯牌。\n这是 Gemini 4 系列在短短 7 周内甩出的第 4 款元素模型。如果看一眼官方放出的基准跑分长表和社区实测反馈，你会发现它精准卡在了一个极其舒服的「甜点」位上，既有接近、甚至局部反超旗舰的硬核智商，又把单任务成",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 19 Nov 2026 14:10:00 +0800"
-    },
-    {
-      "title": "WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道",
-      "link": "http://www.geekpark.net/news/374177",
-      "description": "黄仁勋辞职风波升级：英伟达遭两起证券欺诈诉讼，公司自身却未投保企业责任险\n\n11 月 18 日消息，据路透社报道，英伟达为公司高管和董事购买了责任保险，最高赔付额度达 9.5 亿美元，但公司自身没有购买通常用于覆盖证券诉讼辩护费用、和解金与判决赔偿的企业责任保险。\n这意味着，如果围绕黄仁勋突然辞去 CEO 职务引发的诉讼最终胜诉，涉及股价暴跌的赔偿需要由公司自行承担。英伟达目前",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Thu, 19 Nov 2026 09:03:37 +0800"
     }
   ]
 };
