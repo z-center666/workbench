@@ -1,91 +1,99 @@
-// 自动生成于 2026-11-23 05:28:08
+// 自动生成于 2026-11-23 17:13:56
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-23",
-  "time": "05:28",
+  "time": "17:13",
   "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, Agent。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, 大模型, 智能体, Agent。",
   "items": [
     {
-      "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
-      "link": "https://www.qbitai.com/2026/11/511870.html",
-      "description": "",
+      "title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了",
+      "link": "https://www.qbitai.com/2026/11/512195.html",
+      "description": "零Token成本，断网也能自由Vibe Coding",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sun, 22 Nov 2026 06:03:54 +0000"
+      "pub_date": "Mon, 23 Nov 2026 11:01:15 +0000"
     },
     {
-      "title": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
-      "link": "https://www.qbitai.com/2026/11/511855.html",
-      "description": "",
+      "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+      "link": "https://www.qbitai.com/2026/11/512017.html",
+      "description": "阿福大升级：让模型像医生一样思考",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 21 Nov 2026 14:14:09 +0000"
+      "pub_date": "Mon, 23 Nov 2026 07:42:01 +0000"
     },
     {
-      "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
-      "link": "https://www.qbitai.com/2026/11/511841.html",
-      "description": "",
+      "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了",
+      "link": "https://www.qbitai.com/2026/11/512004.html",
+      "description": "一个完全由AI组成的科学家社会，是什么样？",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 21 Nov 2026 11:40:11 +0000"
+      "pub_date": "Mon, 23 Nov 2026 06:59:38 +0000"
     },
     {
-      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
-      "link": "https://www.qbitai.com/2026/11/511791.html",
-      "description": "",
+      "title": "蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗 AI 能力",
+      "link": "https://www.qbitai.com/2026/11/511998.html",
+      "description": "阿福App宣布新一轮升级，解锁越来越多健康服务新本领",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 21 Nov 2026 11:24:29 +0000"
+      "pub_date": "Mon, 23 Nov 2026 03:56:34 +0000"
     },
     {
-      "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
-      "link": "https://www.qbitai.com/2026/11/511779.html",
-      "description": "还实现可变形物体操控全球首通",
+      "title": "算力周期更迭，数据复合增长：为何存储经济性对中国规模化 AI 至关重要",
+      "link": "https://www.qbitai.com/2026/11/511989.html",
+      "description": "AI 的未来将依赖能够在数据全生命周期中平衡性能、可靠性与经济性的存储架构。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Sat, 21 Nov 2026 06:35:59 +0000"
+      "pub_date": "Mon, 23 Nov 2026 03:47:46 +0000"
     },
     {
-      "title": "「AI 圈有局」第 01 期｜5 场活动、12 个社区找到你的同路人",
-      "link": "https://www.infoq.cn/article/uEfN9kdGsIMGkOgidVG7?utm_source=rss&utm_medium=article",
+      "title": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段",
+      "link": "https://www.infoq.cn/video/its3v5OfmRuikL5SeWUu?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 23 Nov 2026 11:42:34 GMT"
+      "pub_date": "Mon, 23 Nov 2026 19:52:07 GMT"
     },
     {
-      "title": "广告风控为何越审越强？轻量基座与审核 Agent 的协同进化实践｜AICon北京",
-      "link": "https://www.infoq.cn/article/8YT8bJElVYOuK0FvKG4o?utm_source=rss&utm_medium=article",
+      "title": "AI 时代的数据工程：如何打造 AI 原生团队",
+      "link": "https://www.infoq.cn/video/qWRo8T0IdKoI7RBuQwNd?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 23 Nov 2026 11:31:44 GMT"
+      "pub_date": "Mon, 23 Nov 2026 19:40:31 GMT"
     },
     {
-      "title": "具身智能进入大浪淘沙阶段，企业需要怎样的人才？",
-      "link": "https://www.infoq.cn/article/a22y9GDY1yHuAJkOIF8z?utm_source=rss&utm_medium=article",
+      "title": "重塑财务职能：引领 AI 时代的转型",
+      "link": "https://www.infoq.cn/video/zDX7VX1ZLsWM2BNMJLc1?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 23 Nov 2026 10:48:34 GMT"
+      "pub_date": "Mon, 23 Nov 2026 19:33:50 GMT"
     },
     {
-      "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
-      "link": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article",
+      "title": "当你的下一位客户是 AI Agent：企业营销与销售的 AI 发展前景",
+      "link": "https://www.infoq.cn/video/cw3OFxCPlVBE625COukc?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Mon, 23 Nov 2026 09:20:56 GMT"
+      "pub_date": "Mon, 23 Nov 2026 19:16:30 GMT"
     },
     {
-      "title": "财务团队的 AI 蓝图",
-      "link": "https://www.infoq.cn/video/UUqekkOQ8haEXZ792UjU?utm_source=rss&utm_medium=article",
+      "title": "构建主权 AI 技术栈：开放权重、前沿模型与企业控制平面",
+      "link": "https://www.infoq.cn/video/pZRYMTB7olLHTR3BuxaB?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Sun, 22 Nov 2026 17:54:58 GMT"
+      "pub_date": "Mon, 23 Nov 2026 19:08:40 GMT"
+    },
+    {
+      "title": "字节，该造手机了",
+      "link": "http://www.geekpark.net/news/374374",
+      "description": "&nbsp;\n&nbsp;\n11 月 19 日，财联社援引供应链人士的消息称，富士康旗下的富智康已经拿到 OpenAI 手机的组装订单，首款产品有望在 2027 年底或 2028 年面市。OpenAI 至今没有确认自己在做手机，但从今年 4 月起，围绕这台手机的供应链消息就没有断过。\n而在中国，一家 AI 公司的手机其实已经卖到了第二代，这就是豆包手机。只不过在这台手机上，让助",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 23 Nov 2026 23:47:18 +0800"
     },
     {
       "title": "OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 22 Nov 2026 09:56:28 +0800"
-    },
-    {
-      "title": "林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机",
-      "link": "http://www.geekpark.net/news/374299",
-      "description": "传林俊旸 AI 初创公司完成新融资，估值翻倍至 50 亿美元\n据彭博社报道，阿里巴巴集团前 AI 负责人林俊旸创办的语用科技 ( Pragmatik Labs)，已完成新一轮融资，估值达 50 亿美元，短短几个月内估值翻了一倍多。\n林俊旸曾是阿里的明星研究员，在离职后于今年夏季创立语用科技。据知情人士称，语用科技在最近结束的一轮融资中筹集了数千万美元资金。今年 8 月，该公司在",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sat, 21 Nov 2026 08:17:10 +0800"
     }
   ]
 };
