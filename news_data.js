@@ -1,11 +1,11 @@
-// 自动生成于 2026-11-22 23:09:21
+// 自动生成于 2026-11-23 05:28:08
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-22",
-  "time": "23:09",
-  "weekday": "周日",
+  "date": "2026-11-23",
+  "time": "05:28",
+  "weekday": "周一",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: GPT, Claude, Gemini, OpenAI, Agent。",
   "items": [
     {
       "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
@@ -48,6 +48,38 @@ var NEWS_DATA = {
       "pub_date": "Sat, 21 Nov 2026 06:35:59 +0000"
     },
     {
+      "title": "「AI 圈有局」第 01 期｜5 场活动、12 个社区找到你的同路人",
+      "link": "https://www.infoq.cn/article/uEfN9kdGsIMGkOgidVG7?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 23 Nov 2026 11:42:34 GMT"
+    },
+    {
+      "title": "广告风控为何越审越强？轻量基座与审核 Agent 的协同进化实践｜AICon北京",
+      "link": "https://www.infoq.cn/article/8YT8bJElVYOuK0FvKG4o?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 23 Nov 2026 11:31:44 GMT"
+    },
+    {
+      "title": "具身智能进入大浪淘沙阶段，企业需要怎样的人才？",
+      "link": "https://www.infoq.cn/article/a22y9GDY1yHuAJkOIF8z?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 23 Nov 2026 10:48:34 GMT"
+    },
+    {
+      "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
+      "link": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Mon, 23 Nov 2026 09:20:56 GMT"
+    },
+    {
       "title": "财务团队的 AI 蓝图",
       "link": "https://www.infoq.cn/video/UUqekkOQ8haEXZ792UjU?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -56,36 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Sun, 22 Nov 2026 17:54:58 GMT"
     },
     {
-      "title": "打造 AI 优先的销售与营销运营体系",
-      "link": "https://www.infoq.cn/video/mihBFvImttvJlSFUqC49?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 22 Nov 2026 17:41:49 GMT"
-    },
-    {
-      "title": "智能体企业新前沿：驱动高效智能",
-      "link": "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 22 Nov 2026 17:38:28 GMT"
-    },
-    {
-      "title": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
-      "link": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 22 Nov 2026 10:00:00 GMT"
-    },
-    {
-      "title": "亚马逊云科技推出 TorchNeuron，可以直接在 AWS Trainium 上运行 PyTorch 模型，无需任何修改",
-      "link": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Sun, 22 Nov 2026 10:00:00 GMT"
+      "title": "OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道",
+      "link": "http://www.geekpark.net/news/374304",
+      "description": "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限\n11 月 23 日消息，当地时间于 11 月 22 日，OpenAI 首席科学家雅库布 &middot; 帕霍茨基（Jakub Pachocki）发文，提议 AI 企业应建立行业统一标准，对先进 AI 模型的开发设置共同限制，在研究人员具备更可靠的模型行为理解和监控能力之前",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Mon, 23 Nov 2026 09:22:36 +0800"
     },
     {
       "title": "重控制、轻渲染，达瓦科技的 AI 视频工业路线",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sat, 21 Nov 2026 08:17:10 +0800"
-    },
-    {
-      "title": "估值 410 亿美元，贝佐斯打造「物理世界的 OpenAI」",
-      "link": "http://www.geekpark.net/news/374282",
-      "description": "作者｜宇航猿\n编辑｜靖宇\n\nAI 吞掉了软件，现在，它要吞掉工业了。\n卸任亚马逊 CEO 五年后，杰夫&middot;贝佐斯没忍住，又给自己找了个班上。\n当地时间 2026 年 11 月 17 日，加州门洛帕克的 Semafor「硅谷与世界」峰会现场，贝佐斯和物理学家维克&middot;巴贾杰（Vik Bajaj）罕见同台。他现在的最新头衔，是 AI 初创公司 Promethe",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Fri, 20 Nov 2026 16:24:30 +0800"
     }
   ]
 };
