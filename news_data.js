@@ -1,9 +1,9 @@
-// 自动生成于 2026-11-23 17:13:56
+// 自动生成于 2026-11-24 03:44:36
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-23",
-  "time": "17:13",
-  "weekday": "周一",
+  "date": "2026-11-24",
+  "time": "03:44",
+  "weekday": "周二",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: OpenAI, 大模型, 智能体, Agent。",
   "items": [
@@ -48,6 +48,22 @@ var NEWS_DATA = {
       "pub_date": "Mon, 23 Nov 2026 03:47:46 +0000"
     },
     {
+      "title": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
+      "link": "https://www.infoq.cn/article/vaEUVvWD9AIaFXZhzSMH?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 24 Nov 2026 11:00:00 GMT"
+    },
+    {
+      "title": "从批量生成到业务可用：电商 AI 剪辑的工程取舍与实践复盘｜AICon北京",
+      "link": "https://www.infoq.cn/article/YMYl4DVNr1pRKD8ITfaW?utm_source=rss&utm_medium=article",
+      "description": "点击查看原文>",
+      "source": "InfoQ",
+      "category": "技术",
+      "pub_date": "Tue, 24 Nov 2026 10:00:00 GMT"
+    },
+    {
       "title": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段",
       "link": "https://www.infoq.cn/video/its3v5OfmRuikL5SeWUu?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
@@ -72,20 +88,12 @@ var NEWS_DATA = {
       "pub_date": "Mon, 23 Nov 2026 19:33:50 GMT"
     },
     {
-      "title": "当你的下一位客户是 AI Agent：企业营销与销售的 AI 发展前景",
-      "link": "https://www.infoq.cn/video/cw3OFxCPlVBE625COukc?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 23 Nov 2026 19:16:30 GMT"
-    },
-    {
-      "title": "构建主权 AI 技术栈：开放权重、前沿模型与企业控制平面",
-      "link": "https://www.infoq.cn/video/pZRYMTB7olLHTR3BuxaB?utm_source=rss&utm_medium=article",
-      "description": "点击查看原文>",
-      "source": "InfoQ",
-      "category": "技术",
-      "pub_date": "Mon, 23 Nov 2026 19:08:40 GMT"
+      "title": "黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」",
+      "link": "http://www.geekpark.net/news/374375",
+      "description": "黄仁勋重返英伟达\n黄仁勋在美国当地时间 11 月 23 日重返英伟达总部，现场员工聚集在大厅高声欢呼，迎接这位创办人回归。黄仁勋在现场表示：「感谢大家给我第二次机会，接下来我一定会成为更优秀的 CEO」。\n「我很荣幸能重返英伟达，并在新一轮工业革命伊始领导这家全球最具影响力的科技公司之一，」黄仁勋表示。\n\n「我将以最大的谦逊和焕然一新的承诺肩负起这一重任。我要感谢英伟达董事会在",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Tue, 24 Nov 2026 08:28:30 +0800"
     },
     {
       "title": "字节，该造手机了",
@@ -118,14 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Sun, 22 Nov 2026 09:58:48 +0800"
-    },
-    {
-      "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
-      "link": "http://www.geekpark.net/news/374301",
-      "description": "&nbsp;\n头图来源：ChatGPT 生成\n&nbsp;\n11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队的研究员现身 Reddit LocalLLaMA 社区，开启了混元团队史上第一场面向全球开发者的公开 AMA。\n\n图片来源：x\n两小时内，姚顺雨和混元团队解答了 300 余条开发者提问，从底层架构取舍到长期路线规划，从量化落地经验到开源生态适",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Sun, 22 Nov 2026 09:56:28 +0800"
     }
   ]
 };
