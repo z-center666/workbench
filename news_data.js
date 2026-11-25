@@ -1,91 +1,115 @@
-// 自动生成于 2026-11-25 01:52:16
+// 自动生成于 2026-11-25 16:42:58
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-25",
-  "time": "01:52",
+  "time": "16:42",
   "weekday": "周三",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: 智能体, 多模态。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, OpenAI, 大模型, 智能体。",
   "items": [
     {
-      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
-      "link": "https://www.qbitai.com/2026/11/512362.html",
-      "description": "端侧老炮辛米尔，打通物理AI规模化落地之路",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Tue, 24 Nov 2026 06:35:06 +0000"
-    },
-    {
-      "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
-      "link": "https://www.qbitai.com/2026/11/512354.html",
+      "title": "丢个故事就行！直出15分钟AI短片，家里二舅也能上手",
+      "link": "https://www.qbitai.com/2026/11/512727.html",
       "description": "",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 24 Nov 2026 06:22:28 +0000"
+      "pub_date": "Wed, 25 Nov 2026 14:51:06 +0000"
     },
     {
-      "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
-      "link": "https://www.qbitai.com/2026/11/512329.html",
-      "description": "12.9 北京，来MEET2027现场",
+      "title": "零基础也能做开发，智元灵心平台一年孵化超3万个机器人智能体",
+      "link": "https://www.qbitai.com/2026/11/512715.html",
+      "description": "智元推出行业首个开放且完整的具身智能生态技术体系AIMA",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 24 Nov 2026 03:33:48 +0000"
+      "pub_date": "Wed, 25 Nov 2026 14:32:57 +0000"
     },
     {
-      "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
-      "link": "https://www.qbitai.com/2026/11/512330.html",
-      "description": "中国AI数据平台加速崛起",
+      "title": "算力唤醒真实世界：九章云极发布物理AI工厂与生态开放计划",
+      "link": "https://www.qbitai.com/2026/11/512582.html",
+      "description": "11月25日，以“算力唤醒真实世界”为主题的2026物理AI行业峰会暨九章云极智算生态大会在深圳举行。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 24 Nov 2026 03:30:46 +0000"
+      "pub_date": "Wed, 25 Nov 2026 14:21:20 +0000"
     },
     {
-      "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
-      "link": "https://www.qbitai.com/2026/11/512305.html",
-      "description": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
+      "title": "A社Tibo被曝加盟OpenAI！上市前离职三人组异地团圆",
+      "link": "https://www.qbitai.com/2026/11/512515.html",
+      "description": "OpenAI这下要有俩Tibo了",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Tue, 24 Nov 2026 03:21:12 +0000"
+      "pub_date": "Wed, 25 Nov 2026 07:46:52 +0000"
     },
     {
-      "title": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
-      "link": "https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article",
+      "title": "华人计算机视觉泰斗二次创业！离开苹果下场，专注下一代空间与物理AI",
+      "link": "https://www.qbitai.com/2026/11/512498.html",
+      "description": "复杂场景三维建模成本降至10美元以内",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 25 Nov 2026 06:49:27 +0000"
+    },
+    {
+      "title": "AMD 联合中科慧灵完成人形机器人端侧 AI 验证，探索“大小脑”双处理器架构",
+      "link": "https://www.infoq.cn/article/stLpgV1kNHuvr21qRH9x?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 24 Nov 2026 20:21:09 GMT"
+      "pub_date": "Wed, 25 Nov 2026 19:11:08 GMT"
     },
     {
-      "title": "当 AI 改变一切，下一步如何构建？",
-      "link": "https://www.infoq.cn/article/iRm9lBSQj0OCvDdgLQrO?utm_source=rss&utm_medium=article",
+      "title": "比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方",
+      "link": "https://www.infoq.cn/article/LwwdlrNGE3tbxPO1wIcT?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 24 Nov 2026 14:12:36 GMT"
+      "pub_date": "Wed, 25 Nov 2026 18:52:47 GMT"
     },
     {
-      "title": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
-      "link": "https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article",
+      "title": "“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用",
+      "link": "https://www.infoq.cn/article/6i2DoIJiaTcKyR0UyurQ?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 24 Nov 2026 13:00:00 GMT"
+      "pub_date": "Wed, 25 Nov 2026 18:45:29 GMT"
     },
     {
-      "title": "数据分析的下一站：智能体分析",
-      "link": "https://www.infoq.cn/video/Q0rXqh3OmSAhcePiDjh2?utm_source=rss&utm_medium=article",
+      "title": "阿福学会“望闻问切”背后，真实医疗需求正在重塑百灵大模型",
+      "link": "https://www.infoq.cn/article/V7VOeFvEPLrHAN2EFmUa?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 24 Nov 2026 12:40:02 GMT"
+      "pub_date": "Wed, 25 Nov 2026 18:22:30 GMT"
     },
     {
-      "title": "超越试点：销售管理者的 AI 转型行动指南",
-      "link": "https://www.infoq.cn/video/UU3P37LW5IE6Xg4O0cSN?utm_source=rss&utm_medium=article",
+      "title": "Pi创始人曝现代开发奇观：系统崩了，一屋子工程师都在问Claude怎么修",
+      "link": "https://www.infoq.cn/article/ExbJjrItIlc9KLfQ2UeT?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Tue, 24 Nov 2026 12:36:05 GMT"
+      "pub_date": "Wed, 25 Nov 2026 18:22:07 GMT"
+    },
+    {
+      "title": "Plaud、影石、小红书、Looki......我们发起了一场 AI 硬件圈的年度聚会",
+      "link": "http://www.geekpark.net/news/374487",
+      "description": "在模型飞速演进的 2026 年，硬件世界反而开始告别「爽文叙事」。\n前两年聊 AI 硬件，行业里经常讨论做出一个取代智能手机的「下一代超级入口」的终局命题。听着很过瘾，但真干起来才发现，做硬件这事儿，哪有那么多一步登天。\n今年，气氛明显不一样了。\n创业者们扎进一个个具体的生活场景里，一批新形态的产品，正在一些新场景里逐渐成为共识。\n所以，今年跑得最快的几个方向，都没有「下一代入口",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 25 Nov 2026 17:33:01 +0800"
+    },
+    {
+      "title": "从手腕到雪鞋，运动可穿戴探索下一个可能 | 对话 Heygo",
+      "link": "http://www.geekpark.net/news/374470",
+      "description": "随身可穿戴，是智能硬件领域里一个非常清晰且明确的产品方向。\n背后的逻辑，是把硬件「传感化」，用传感器在物理世界里拿到过去模型很难获得的上下文数据，再经过 AI 处理，最终兑现成高价值的个人服务。\n落在具体产品上，目前已经可以看到两个「超级共识」的形态：\n一类是以语音采集为抓手的个人效率工具，代表公司 Plaud 目前估值已经突破百亿；另一类是个人健康监测设备，这个赛道里既有超级巨",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 25 Nov 2026 14:45:34 +0800"
+    },
+    {
+      "title": "荣耀眼里的 AI 手机：前沿模型可以进来，但入口不能拿走",
+      "link": "http://www.geekpark.net/news/374462",
+      "description": "作者｜张勇毅\n编辑｜郑玄\n&nbsp;\n11 月 23 日下午，荣耀在武汉发布了荣耀 700 系列，包括 700S、700 和 700 Pro 三款机型，补贴后 2899 元起，11 月 27 日开售。发布会上，全系 2 亿像素主摄、9000mAh 电池和背面那块 1.72 英寸小屏占了不少篇幅。\n\nAI 手机助手 YOYO 豆包，这一代在荣耀 700 上有了专属的背屏显示载体｜",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Wed, 25 Nov 2026 13:02:43 +0800"
     },
     {
       "title": "豆包个人 AI 助理「小豆」开启公测；存储承压，小米三季度经调整净利润下滑近六成；红果短剧上线时间管理功能 | 极客早知道",
@@ -102,30 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Tue, 24 Nov 2026 15:47:16 +0800"
-    },
-    {
-      "title": "极客公园创新大会 2027 全议程公布！",
-      "link": "http://www.geekpark.net/news/374395",
-      "description": "17 年， IF，永远是创新者的主场。\n这一年，AI 的能力还在不断突破，工作、创作、商业，一件件被改写。\n你笃定了多年的经验，正在被重新定价；你以为早已看懂的赛道，换个角度，结论可能完全不同。\n这是一场价值的重估，也是今年的主题「Revaluation 价值，另有答案」想要回答的事。\n可是重估之后，新的坐标在哪里？它又指向何方？\n这从来不是一个人、一个角度能回答的问题。\n所以我",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 24 Nov 2026 12:37:47 +0800"
-    },
-    {
-      "title": "黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」",
-      "link": "http://www.geekpark.net/news/374375",
-      "description": "黄仁勋重返英伟达\n黄仁勋在美国当地时间 11 月 23 日重返英伟达总部，现场员工聚集在大厅高声欢呼，迎接这位创办人回归。黄仁勋在现场表示：「感谢大家给我第二次机会，接下来我一定会成为更优秀的 CEO」。\n「我很荣幸能重返英伟达，并在新一轮工业革命伊始领导这家全球最具影响力的科技公司之一，」黄仁勋表示。\n\n「我将以最大的谦逊和焕然一新的承诺肩负起这一重任。我要感谢英伟达董事会在",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 24 Nov 2026 08:28:30 +0800"
-    },
-    {
-      "title": "字节，该造手机了",
-      "link": "http://www.geekpark.net/news/374374",
-      "description": "&nbsp;\n&nbsp;\n11 月 19 日，财联社援引供应链人士的消息称，富士康旗下的富智康已经拿到 OpenAI 手机的组装订单，首款产品有望在 2027 年底或 2028 年面市。OpenAI 至今没有确认自己在做手机，但从今年 4 月起，围绕这台手机的供应链消息就没有断过。\n而在中国，一家 AI 公司的手机其实已经卖到了第二代，这就是豆包手机。只不过在这台手机上，让助",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Mon, 23 Nov 2026 23:47:18 +0800"
     }
   ]
 };
