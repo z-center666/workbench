@@ -1,12 +1,20 @@
-// 自动生成于 2026-11-25 16:42:58
+// 自动生成于 2026-11-26 01:28:59
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
-  "date": "2026-11-25",
-  "time": "16:42",
-  "weekday": "周三",
+  "date": "2026-11-26",
+  "time": "01:28",
+  "weekday": "周四",
   "total": 15,
   "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, OpenAI, 大模型, 智能体。",
   "items": [
+    {
+      "title": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
+      "link": "https://www.qbitai.com/2026/11/512748.html",
+      "description": "商汤SenseNova U1.6",
+      "source": "量子位",
+      "category": "AI",
+      "pub_date": "Wed, 25 Nov 2026 16:34:09 +0000"
+    },
     {
       "title": "丢个故事就行！直出15分钟AI短片，家里二舅也能上手",
       "link": "https://www.qbitai.com/2026/11/512727.html",
@@ -38,14 +46,6 @@ var NEWS_DATA = {
       "source": "量子位",
       "category": "AI",
       "pub_date": "Wed, 25 Nov 2026 07:46:52 +0000"
-    },
-    {
-      "title": "华人计算机视觉泰斗二次创业！离开苹果下场，专注下一代空间与物理AI",
-      "link": "https://www.qbitai.com/2026/11/512498.html",
-      "description": "复杂场景三维建模成本降至10美元以内",
-      "source": "量子位",
-      "category": "AI",
-      "pub_date": "Wed, 25 Nov 2026 06:49:27 +0000"
     },
     {
       "title": "AMD 联合中科慧灵完成人形机器人端侧 AI 验证，探索“大小脑”双处理器架构",
