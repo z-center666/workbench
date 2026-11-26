@@ -1,91 +1,107 @@
-// 自动生成于 2026-11-26 01:28:59
+// 自动生成于 2026-11-26 16:16:25
 // 由 fetch_news.py 生成，请勿手动编辑
 var NEWS_DATA = {
   "date": "2026-11-26",
-  "time": "01:28",
+  "time": "16:16",
   "weekday": "周四",
   "total": 15,
-  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, OpenAI, 大模型, 智能体。",
+  "briefing": "今日共抓取 15 条 AI 相关新闻，来源: 量子位(5条), InfoQ(5条), 极客公园(5条)。 热点关键词: Claude, OpenAI, 智能体, Agent。",
   "items": [
     {
-      "title": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
-      "link": "https://www.qbitai.com/2026/11/512748.html",
-      "description": "商汤SenseNova U1.6",
+      "title": "381个AI直播冲刺证明P=NP！把GitHub干崩了",
+      "link": "https://www.qbitai.com/2026/11/513021.html",
+      "description": "已跑了超过一万次会话，在Lean4里验证通过了2400多条引理",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 25 Nov 2026 16:34:09 +0000"
+      "pub_date": "Thu, 26 Nov 2026 13:56:01 +0000"
     },
     {
-      "title": "丢个故事就行！直出15分钟AI短片，家里二舅也能上手",
-      "link": "https://www.qbitai.com/2026/11/512727.html",
-      "description": "",
+      "title": "AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
+      "link": "https://www.qbitai.com/2026/11/512981.html",
+      "description": "还得是科班尖子生",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 25 Nov 2026 14:51:06 +0000"
+      "pub_date": "Thu, 26 Nov 2026 12:39:08 +0000"
     },
     {
-      "title": "零基础也能做开发，智元灵心平台一年孵化超3万个机器人智能体",
-      "link": "https://www.qbitai.com/2026/11/512715.html",
-      "description": "智元推出行业首个开放且完整的具身智能生态技术体系AIMA",
+      "title": "报名最后2天｜AI浪潮之中，来认识创造未来的人",
+      "link": "https://www.qbitai.com/2026/11/512942.html",
+      "description": "12月6日，WAIC将携手第六届“海聚英才”全球创新创业峰会，把这场关于“人”的讨论带回现场。",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 25 Nov 2026 14:32:57 +0000"
+      "pub_date": "Thu, 26 Nov 2026 07:36:04 +0000"
     },
     {
-      "title": "算力唤醒真实世界：九章云极发布物理AI工厂与生态开放计划",
-      "link": "https://www.qbitai.com/2026/11/512582.html",
-      "description": "11月25日，以“算力唤醒真实世界”为主题的2026物理AI行业峰会暨九章云极智算生态大会在深圳举行。",
+      "title": "顶尖商用级AI视频每秒只要5毛！中国开源新势力拿下全球第一",
+      "link": "https://www.qbitai.com/2026/11/512916.html",
+      "description": "30秒一镜到底，可自动编排镜头",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 25 Nov 2026 14:21:20 +0000"
+      "pub_date": "Thu, 26 Nov 2026 06:41:23 +0000"
     },
     {
-      "title": "A社Tibo被曝加盟OpenAI！上市前离职三人组异地团圆",
-      "link": "https://www.qbitai.com/2026/11/512515.html",
-      "description": "OpenAI这下要有俩Tibo了",
+      "title": "任少卿带着世界模型3.0来了！蔚来智驾训练提效5倍，座舱也用上强化学习",
+      "link": "https://www.qbitai.com/2026/11/512897.html",
+      "description": "李斌坦言：不做AI变革可能活不下去",
       "source": "量子位",
       "category": "AI",
-      "pub_date": "Wed, 25 Nov 2026 07:46:52 +0000"
+      "pub_date": "Thu, 26 Nov 2026 03:23:35 +0000"
     },
     {
-      "title": "AMD 联合中科慧灵完成人形机器人端侧 AI 验证，探索“大小脑”双处理器架构",
-      "link": "https://www.infoq.cn/article/stLpgV1kNHuvr21qRH9x?utm_source=rss&utm_medium=article",
+      "title": "破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？",
+      "link": "https://www.infoq.cn/article/z9IwzAY8hP15oDa2VKi6?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 25 Nov 2026 19:11:08 GMT"
+      "pub_date": "Thu, 26 Nov 2026 15:35:51 GMT"
     },
     {
-      "title": "比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方",
-      "link": "https://www.infoq.cn/article/LwwdlrNGE3tbxPO1wIcT?utm_source=rss&utm_medium=article",
+      "title": "Snowflake CoCo 再进化：让数据开发进入 Agent 自主执行时代 ｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/vfmBDlfQRRfHq4Jyi5b6?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 25 Nov 2026 18:52:47 GMT"
+      "pub_date": "Thu, 26 Nov 2026 14:56:46 GMT"
     },
     {
-      "title": "“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用",
-      "link": "https://www.infoq.cn/article/6i2DoIJiaTcKyR0UyurQ?utm_source=rss&utm_medium=article",
+      "title": "Uber 推出安全 AI 框架：对 AI 智能体进行全生命周期治理",
+      "link": "https://www.infoq.cn/article/xA3g2i0VtTZIOVePMedY?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 25 Nov 2026 18:45:29 GMT"
+      "pub_date": "Thu, 26 Nov 2026 14:00:00 GMT"
     },
     {
-      "title": "阿福学会“望闻问切”背后，真实医疗需求正在重塑百灵大模型",
-      "link": "https://www.infoq.cn/article/V7VOeFvEPLrHAN2EFmUa?utm_source=rss&utm_medium=article",
+      "title": "Siri AI 开发者预览版让 iOS、iPadOS 和 macOS 应用能够与 Siri 集成",
+      "link": "https://www.infoq.cn/article/j1aQzS6OrB9aDlChCwiQ?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 25 Nov 2026 18:22:30 GMT"
+      "pub_date": "Thu, 26 Nov 2026 12:00:00 GMT"
     },
     {
-      "title": "Pi创始人曝现代开发奇观：系统崩了，一屋子工程师都在问Claude怎么修",
-      "link": "https://www.infoq.cn/article/ExbJjrItIlc9KLfQ2UeT?utm_source=rss&utm_medium=article",
+      "title": "AI写代码，谁来交付？",
+      "link": "https://www.infoq.cn/video/zrq9NZI5eJVetI8kA5kW?utm_source=rss&utm_medium=article",
       "description": "点击查看原文>",
       "source": "InfoQ",
       "category": "技术",
-      "pub_date": "Wed, 25 Nov 2026 18:22:07 GMT"
+      "pub_date": "Thu, 26 Nov 2026 11:28:47 GMT"
+    },
+    {
+      "title": "好消息，AI 可以替你打客服电话了；坏消息，电话那头也是 AI",
+      "link": "http://www.geekpark.net/news/374536",
+      "description": "作者｜Lilyann\n编辑｜靖宇\n网上冲浪这么多年，你一定有过这样的经历：想取消一项自动续费，却怎么都找不到入口；明明是商家多扣了钱，申请退款却要层层转接；为了几十块钱，和客服解释半个小时，最后听到一句「非常抱歉，暂时无法为您处理」。\n钱不一定很多，但就是咽不下这口气。更憋屈的是，你明明有道理，却没时间跟它耗。企业有一整套客服系统，而你可能只有一个午休时间。\n现在，这种不对称的关",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 26 Nov 2026 17:04:47 +0800"
+    },
+    {
+      "title": "成本低九成、开源权重：MAGI-2 带动视频模型进入大掀桌时代",
+      "link": "http://www.geekpark.net/news/374532",
+      "description": "作者｜Cynthia\n编辑｜郑玄\n2026 年的视频大模型圈子，有一个心照不宣的保留节目：无论哪家推出新模型，最终的成绩页上，永远会留一行和 Seedance 2.5 的对标数据。\n这款上半年坐稳行业标杆的闭源模型，如今成了整条赛道公认的「基准线」&mdash;&mdash; 快手可灵 Kling 3.0 上线，要比镜头控制与生成时长；阿里 Wan 3.0 推出，主打同画质下的性",
+      "source": "极客公园",
+      "category": "科技",
+      "pub_date": "Thu, 26 Nov 2026 16:38:54 +0800"
     },
     {
       "title": "Plaud、影石、小红书、Looki......我们发起了一场 AI 硬件圈的年度聚会",
@@ -110,22 +126,6 @@ var NEWS_DATA = {
       "source": "极客公园",
       "category": "科技",
       "pub_date": "Wed, 25 Nov 2026 13:02:43 +0800"
-    },
-    {
-      "title": "豆包个人 AI 助理「小豆」开启公测；存储承压，小米三季度经调整净利润下滑近六成；红果短剧上线时间管理功能 | 极客早知道",
-      "link": "http://www.geekpark.net/news/374438",
-      "description": "豆包旗下 AI 个人助理「小豆」开启公测，能够帮你处理日常事务\n11 月 24 日消息，豆包官方今天宣布「小豆」正式开启公测，采用邀请制开放。用户凭邀请码即可开启体验，并获赠一定量免费额度。\n小豆是豆包旗下的 AI 个人助理产品，采用对话式交互方式，在用户明确指令与授权范围内，协助你高效处理日常事务。官方宣称它是「一个懂你，还能主动帮你办事的豆包」。未来，小豆上的能力与体验也将",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Wed, 25 Nov 2026 08:44:18 +0800"
-    },
-    {
-      "title": "华为星芒O1 Pro，如何把手机 AI 再往前努一小步",
-      "link": "http://www.geekpark.net/news/374417",
-      "description": "随着 iOS 27.2 的更新，中国大陆用户日盼夜盼的苹果智能，终于露出了一小手，但各种原因吧，仍然是犹抱琵琶半遮面。\n如果对消费电子看得比较多的同学，可能会感到现在手机 AI 比较割裂。既有大厂在一点点摸索，上了 AI，但是散落在键盘、录音、文字记录、笔记等等各个功能之中；然后也有来自字节、阶跃这样的挑战者，走的是 Rabbit R1 的路子，想用一个 AI 助手，一杆子捅到底",
-      "source": "极客公园",
-      "category": "科技",
-      "pub_date": "Tue, 24 Nov 2026 15:47:16 +0800"
     }
   ]
 };
